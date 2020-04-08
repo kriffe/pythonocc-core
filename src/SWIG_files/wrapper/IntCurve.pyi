@@ -157,3 +157,11 @@ class IntCurve_ProjectOnPConicTool:
 	@overload
 	@staticmethod
 	def FindParameter(self, C: IntCurve_PConic, Pnt: gp_Pnt2d, LowParameter: float, HighParameter: float, Tol: float) -> float: ...
+IntCurve_PConicTool_D1 = IntCurve_PConicTool.D1
+IntCurve_PConicTool_D2 = IntCurve_PConicTool.D2
+IntCurve_PConicTool_EpsX = IntCurve_PConicTool.EpsX
+IntCurve_PConicTool_NbSamples = IntCurve_PConicTool.NbSamples
+IntCurve_PConicTool_NbSamples = IntCurve_PConicTool.NbSamples
+IntCurve_PConicTool_Value = IntCurve_PConicTool.Value
+IntCurve_ProjectOnPConicTool_FindParameter = IntCurve_ProjectOnPConicTool.FindParameter
+IntCurve_ProjectOnPConicTool_FindParameter = IntCurve_ProjectOnPConicTool.FindParameter

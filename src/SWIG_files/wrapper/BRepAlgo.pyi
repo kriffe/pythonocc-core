@@ -171,3 +171,9 @@ class BRepAlgo_Section(BRepAlgo_BooleanOperation):
 	def Init2(self, Pl: gp_Pln) -> None: ...
 	@overload
 	def Init2(self, Sf: Geom_Surface) -> None: ...
+brepalgo_ConcatenateWire = brepalgo.ConcatenateWire
+brepalgo_ConcatenateWireC0 = brepalgo.ConcatenateWireC0
+brepalgo_IsTopologicallyValid = brepalgo.IsTopologicallyValid
+brepalgo_IsValid = brepalgo.IsValid
+brepalgo_IsValid = brepalgo.IsValid
+BRepAlgo_Tool_Deboucle3D = BRepAlgo_Tool.Deboucle3D

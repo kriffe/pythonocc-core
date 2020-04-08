@@ -31,3 +31,11 @@ class GeomProjLib:
 	def Project(self, C: Geom_Curve, S: Geom_Surface) -> Geom_Curve: ...
 	@staticmethod
 	def ProjectOnPlane(self, Curve: Geom_Curve, Plane: Geom_Plane, Dir: gp_Dir, KeepParametrization: bool) -> Geom_Curve: ...
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Curve2d = geomprojlib.Curve2d
+geomprojlib_Project = geomprojlib.Project
+geomprojlib_ProjectOnPlane = geomprojlib.ProjectOnPlane

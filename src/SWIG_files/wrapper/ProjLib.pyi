@@ -410,3 +410,21 @@ class ProjLib_Torus(ProjLib_Projector):
 	def Project(self, P: gp_Parab) -> None: ...
 	@overload
 	def Project(self, H: gp_Hypr) -> None: ...
+projlib_IsAnaSurf = projlib.IsAnaSurf
+projlib_MakePCurveOfType = projlib.MakePCurveOfType
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project
+projlib_Project = projlib.Project

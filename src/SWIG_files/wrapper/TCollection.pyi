@@ -400,3 +400,10 @@ class TCollection_SeqNode(Standard_Transient):
 	def __init__(self, n: TCollection_SeqNodePtr, p: TCollection_SeqNodePtr) -> None: ...
 	def Next(self) -> TCollection_SeqNodePtr: ...
 	def Previous(self) -> TCollection_SeqNodePtr: ...
+tcollection_NextPrimeForMap = tcollection.NextPrimeForMap
+TCollection_AsciiString_HashCode = TCollection_AsciiString.HashCode
+TCollection_AsciiString_IsEqual = TCollection_AsciiString.IsEqual
+TCollection_AsciiString_IsEqual = TCollection_AsciiString.IsEqual
+TCollection_AsciiString_IsSameString = TCollection_AsciiString.IsSameString
+TCollection_ExtendedString_HashCode = TCollection_ExtendedString.HashCode
+TCollection_ExtendedString_IsEqual = TCollection_ExtendedString.IsEqual

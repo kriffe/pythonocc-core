@@ -171,3 +171,11 @@ class StdSelect_ViewerSelector3d(SelectMgr_ViewerSelector):
 	def PixelTolerance(self) -> int: ...
 	def SetPixelTolerance(self, theTolerance: int) -> None: ...
 	def ToPixMap(self, theImage: Image_PixMap, theView: V3d_View, theType: StdSelect_TypeOfSelectionImage, thePickedIndex: Optional[int]) -> bool: ...
+stdselect_SetDrawerForBRepOwner = stdselect.SetDrawerForBRepOwner
+StdSelect_BRepSelectionTool_ComputeSensitive = StdSelect_BRepSelectionTool.ComputeSensitive
+StdSelect_BRepSelectionTool_GetEdgeSensitive = StdSelect_BRepSelectionTool.GetEdgeSensitive
+StdSelect_BRepSelectionTool_GetSensitiveForFace = StdSelect_BRepSelectionTool.GetSensitiveForFace
+StdSelect_BRepSelectionTool_GetStandardPriority = StdSelect_BRepSelectionTool.GetStandardPriority
+StdSelect_BRepSelectionTool_Load = StdSelect_BRepSelectionTool.Load
+StdSelect_BRepSelectionTool_Load = StdSelect_BRepSelectionTool.Load
+StdSelect_BRepSelectionTool_PreBuildBVH = StdSelect_BRepSelectionTool.PreBuildBVH

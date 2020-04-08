@@ -318,3 +318,13 @@ class BRepFeat_MakeRevolutionForm(BRepFeat_RibSlot):
 	def Init(self, Sbase: TopoDS_Shape, W: TopoDS_Wire, Plane: Geom_Plane, Axis: gp_Ax1, Height1: float, Height2: float, Fuse: int) -> bool: ...
 	def Perform(self) -> None: ...
 	def Propagate(self, L: TopTools_ListOfShape, F: TopoDS_Face, FPoint: gp_Pnt, LPoint: gp_Pnt) -> Tuple[bool, bool]: ...
+brepfeat_Barycenter = brepfeat.Barycenter
+brepfeat_FaceUntil = brepfeat.FaceUntil
+brepfeat_IsInside = brepfeat.IsInside
+brepfeat_ParametricBarycenter = brepfeat.ParametricBarycenter
+brepfeat_ParametricMinMax = brepfeat.ParametricMinMax
+brepfeat_Print = brepfeat.Print
+brepfeat_SampleEdges = brepfeat.SampleEdges
+brepfeat_Tool = brepfeat.Tool
+BRepFeat_RibSlot_ChoiceOfFaces = BRepFeat_RibSlot.ChoiceOfFaces
+BRepFeat_RibSlot_IntPar = BRepFeat_RibSlot.IntPar

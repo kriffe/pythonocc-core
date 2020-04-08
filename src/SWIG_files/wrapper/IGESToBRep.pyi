@@ -201,3 +201,14 @@ class IGESToBRep_TopoSurface(IGESToBRep_CurveAndSurface):
 	def ParamSurface(self, start: IGESData_IGESEntity, trans: gp_Trsf2d) -> Tuple[TopoDS_Shape, float]: ...
 	def TransferTopoBasicSurface(self, start: IGESData_IGESEntity) -> TopoDS_Shape: ...
 	def TransferTopoSurface(self, start: IGESData_IGESEntity) -> TopoDS_Shape: ...
+igestobrep_AlgoContainer = igestobrep.AlgoContainer
+igestobrep_IGESCurveToSequenceOfIGESCurve = igestobrep.IGESCurveToSequenceOfIGESCurve
+igestobrep_Init = igestobrep.Init
+igestobrep_IsBRepEntity = igestobrep.IsBRepEntity
+igestobrep_IsBasicCurve = igestobrep.IsBasicCurve
+igestobrep_IsBasicSurface = igestobrep.IsBasicSurface
+igestobrep_IsCurveAndSurface = igestobrep.IsCurveAndSurface
+igestobrep_IsTopoCurve = igestobrep.IsTopoCurve
+igestobrep_IsTopoSurface = igestobrep.IsTopoSurface
+igestobrep_SetAlgoContainer = igestobrep.SetAlgoContainer
+igestobrep_TransferPCurve = igestobrep.TransferPCurve

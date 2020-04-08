@@ -572,3 +572,7 @@ class Expr_UnaryMinus(Expr_UnaryExpression):
 #classnotwrapped
 class Expr_Sign:
 	pass
+expr_CopyShare = expr.CopyShare
+expr_NbOfFreeVariables = expr.NbOfFreeVariables
+expr_NbOfFreeVariables = expr.NbOfFreeVariables
+expr_Sign = expr.Sign

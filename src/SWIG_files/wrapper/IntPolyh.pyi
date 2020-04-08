@@ -209,3 +209,9 @@ class IntPolyh_Array:
 #classnotwrapped
 class IntPolyh_MaillageAffinage:
 	pass
+IntPolyh_CoupleMapHasher_HashCode = IntPolyh_CoupleMapHasher.HashCode
+IntPolyh_CoupleMapHasher_IsEqual = IntPolyh_CoupleMapHasher.IsEqual
+IntPolyh_Tools_ComputeDeflection = IntPolyh_Tools.ComputeDeflection
+IntPolyh_Tools_FillArrayOfPointNormal = IntPolyh_Tools.FillArrayOfPointNormal
+IntPolyh_Tools_IsEnlargePossible = IntPolyh_Tools.IsEnlargePossible
+IntPolyh_Tools_MakeSampling = IntPolyh_Tools.MakeSampling

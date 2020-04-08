@@ -92,3 +92,8 @@ class ShapeProcess_ShapeContext(ShapeProcess_Context):
 class ShapeProcess_UOperator(ShapeProcess_Operator):
 	def __init__(self, func: ShapeProcess_OperFunc) -> None: ...
 	def Perform(self, context: ShapeProcess_Context) -> bool: ...
+shapeprocess_FindOperator = shapeprocess.FindOperator
+shapeprocess_Perform = shapeprocess.Perform
+shapeprocess_RegisterOperator = shapeprocess.RegisterOperator
+ShapeProcess_OperLibrary_ApplyModifier = ShapeProcess_OperLibrary.ApplyModifier
+ShapeProcess_OperLibrary_Init = ShapeProcess_OperLibrary.Init

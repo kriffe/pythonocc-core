@@ -1944,3 +1944,21 @@ class gp_XYZ:
 	def X(self) -> float: ...
 	def Y(self) -> float: ...
 	def Z(self) -> float: ...
+gp_DX = gp.DX
+gp_DX2d = gp.DX2d
+gp_DY = gp.DY
+gp_DY2d = gp.DY2d
+gp_DZ = gp.DZ
+gp_OX = gp.OX
+gp_OX2d = gp.OX2d
+gp_OY = gp.OY
+gp_OY2d = gp.OY2d
+gp_OZ = gp.OZ
+gp_Origin = gp.Origin
+gp_Origin2d = gp.Origin2d
+gp_Resolution = gp.Resolution
+gp_XOY = gp.XOY
+gp_YOZ = gp.YOZ
+gp_ZOX = gp.ZOX
+gp_QuaternionNLerp_Interpolate = gp_QuaternionNLerp.Interpolate
+gp_QuaternionSLerp_Interpolate = gp_QuaternionSLerp.Interpolate

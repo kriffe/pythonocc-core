@@ -140,3 +140,5 @@ class MAT2d_SketchExplorer:
 #classnotwrapped
 class MAT2d_CutCurve:
 	pass
+MAT2d_MapBiIntHasher_HashCode = MAT2d_MapBiIntHasher.HashCode
+MAT2d_MapBiIntHasher_IsEqual = MAT2d_MapBiIntHasher.IsEqual

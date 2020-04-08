@@ -125,3 +125,40 @@ class BndLib_AddSurface:
 	@overload
 	@staticmethod
 	def AddOptimal(self, S: Adaptor3d_Surface, UMin: float, UMax: float, VMin: float, VMax: float, Tol: float, B: Bnd_Box) -> None: ...
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+bndlib_Add = bndlib.Add
+BndLib_Add2dCurve_Add = BndLib_Add2dCurve.Add
+BndLib_Add2dCurve_Add = BndLib_Add2dCurve.Add
+BndLib_Add2dCurve_Add = BndLib_Add2dCurve.Add
+BndLib_Add2dCurve_Add = BndLib_Add2dCurve.Add
+BndLib_Add2dCurve_AddOptimal = BndLib_Add2dCurve.AddOptimal
+BndLib_Add3dCurve_Add = BndLib_Add3dCurve.Add
+BndLib_Add3dCurve_Add = BndLib_Add3dCurve.Add
+BndLib_Add3dCurve_AddGenCurv = BndLib_Add3dCurve.AddGenCurv
+BndLib_Add3dCurve_AddOptimal = BndLib_Add3dCurve.AddOptimal
+BndLib_Add3dCurve_AddOptimal = BndLib_Add3dCurve.AddOptimal
+BndLib_AddSurface_Add = BndLib_AddSurface.Add
+BndLib_AddSurface_Add = BndLib_AddSurface.Add
+BndLib_AddSurface_AddGenSurf = BndLib_AddSurface.AddGenSurf
+BndLib_AddSurface_AddOptimal = BndLib_AddSurface.AddOptimal
+BndLib_AddSurface_AddOptimal = BndLib_AddSurface.AddOptimal

@@ -22,3 +22,7 @@ class IntImpParGen:
 #classnotwrapped
 class IntImpParGen_ImpTool:
 	pass
+intimppargen_DeterminePosition = intimppargen.DeterminePosition
+intimppargen_DetermineTransition = intimppargen.DetermineTransition
+intimppargen_DetermineTransition = intimppargen.DetermineTransition
+intimppargen_NormalizeOnDomain = intimppargen.NormalizeOnDomain

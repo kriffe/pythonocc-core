@@ -566,3 +566,19 @@ class Message_PrinterOStream(Message_Printer):
 	@overload
 	def Send(self, theString: TCollection_ExtendedString, theGravity: Message_Gravity, putEndl: Optional[bool]) -> None: ...
 	def SetUseUtf8(self, useUtf8: bool) -> None: ...
+message_DefaultMessenger = message.DefaultMessenger
+message_FillTime = message.FillTime
+Message_Algorithm_PrepareReport = Message_Algorithm.PrepareReport
+Message_Algorithm_PrepareReport = Message_Algorithm.PrepareReport
+Message_ExecStatus_LocalStatusIndex = Message_ExecStatus.LocalStatusIndex
+Message_ExecStatus_StatusByIndex = Message_ExecStatus.StatusByIndex
+Message_ExecStatus_StatusIndex = Message_ExecStatus.StatusIndex
+Message_ExecStatus_TypeOfStatus = Message_ExecStatus.TypeOfStatus
+Message_MsgFile_AddMsg = Message_MsgFile.AddMsg
+Message_MsgFile_HasMsg = Message_MsgFile.HasMsg
+Message_MsgFile_Load = Message_MsgFile.Load
+Message_MsgFile_LoadFile = Message_MsgFile.LoadFile
+Message_MsgFile_LoadFromEnv = Message_MsgFile.LoadFromEnv
+Message_MsgFile_LoadFromString = Message_MsgFile.LoadFromString
+Message_MsgFile_Msg = Message_MsgFile.Msg
+Message_MsgFile_Msg = Message_MsgFile.Msg

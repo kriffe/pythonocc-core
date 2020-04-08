@@ -445,3 +445,15 @@ class Geom2dGcc_FuncTCuCuCuOfMyC2d3Tan:
 #classnotwrapped
 class Geom2dGcc_FunctionTanCuCuCu:
 	pass
+geom2dgcc_Enclosed = geom2dgcc.Enclosed
+geom2dgcc_Enclosing = geom2dgcc.Enclosing
+geom2dgcc_Outside = geom2dgcc.Outside
+geom2dgcc_Unqualified = geom2dgcc.Unqualified
+Geom2dGcc_CurveTool_D1 = Geom2dGcc_CurveTool.D1
+Geom2dGcc_CurveTool_D2 = Geom2dGcc_CurveTool.D2
+Geom2dGcc_CurveTool_D3 = Geom2dGcc_CurveTool.D3
+Geom2dGcc_CurveTool_EpsX = Geom2dGcc_CurveTool.EpsX
+Geom2dGcc_CurveTool_FirstParameter = Geom2dGcc_CurveTool.FirstParameter
+Geom2dGcc_CurveTool_LastParameter = Geom2dGcc_CurveTool.LastParameter
+Geom2dGcc_CurveTool_NbSamples = Geom2dGcc_CurveTool.NbSamples
+Geom2dGcc_CurveTool_Value = Geom2dGcc_CurveTool.Value

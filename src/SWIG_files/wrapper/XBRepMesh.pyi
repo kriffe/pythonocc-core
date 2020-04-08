@@ -10,3 +10,4 @@ from OCC.Core.BRepMesh import *
 class XBRepMesh:
 	@staticmethod
 	def Discret(self, theShape: TopoDS_Shape, theDeflection: float, theAngle: float, theAlgo: BRepMesh_DiscretRoot) -> int: ...
+xbrepmesh_Discret = xbrepmesh.Discret

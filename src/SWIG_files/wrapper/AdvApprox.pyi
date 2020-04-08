@@ -76,3 +76,4 @@ class AdvApprox_PrefCutting(AdvApprox_Cutting):
 #classnotwrapped
 class AdvApprox_EvaluatorFunction:
 	pass
+AdvApprox_ApproxAFunction_Approximation = AdvApprox_ApproxAFunction.Approximation

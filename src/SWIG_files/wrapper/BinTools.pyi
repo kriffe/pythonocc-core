@@ -63,3 +63,21 @@ class BinTools_SurfaceSet:
 	def Clear(self) -> None: ...
 	def Index(self, S: Geom_Surface) -> int: ...
 	def Surface(self, I: int) -> Geom_Surface: ...
+bintools_GetBool = bintools.GetBool
+bintools_GetExtChar = bintools.GetExtChar
+bintools_GetInteger = bintools.GetInteger
+bintools_GetReal = bintools.GetReal
+bintools_PutBool = bintools.PutBool
+bintools_PutExtChar = bintools.PutExtChar
+bintools_PutInteger = bintools.PutInteger
+bintools_PutReal = bintools.PutReal
+bintools_Read = bintools.Read
+bintools_Read = bintools.Read
+bintools_Write = bintools.Write
+bintools_Write = bintools.Write
+BinTools_Curve2dSet_ReadCurve2d = BinTools_Curve2dSet.ReadCurve2d
+BinTools_Curve2dSet_WriteCurve2d = BinTools_Curve2dSet.WriteCurve2d
+BinTools_CurveSet_ReadCurve = BinTools_CurveSet.ReadCurve
+BinTools_CurveSet_WriteCurve = BinTools_CurveSet.WriteCurve
+BinTools_SurfaceSet_ReadSurface = BinTools_SurfaceSet.ReadSurface
+BinTools_SurfaceSet_WriteSurface = BinTools_SurfaceSet.WriteSurface

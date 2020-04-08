@@ -155,3 +155,39 @@ class PLib_JacobiPolynomial(PLib_Base):
 	def ToCoefficients(self, Dimension: int, Degree: int, JacCoeff: TColStd_Array1OfReal, Coefficients: TColStd_Array1OfReal) -> None: ...
 	def Weights(self, NbGaussPoints: int, TabWeights: TColStd_Array2OfReal) -> None: ...
 	def WorkDegree(self) -> int: ...
+plib_Bin = plib.Bin
+plib_CoefficientsPoles = plib.CoefficientsPoles
+plib_CoefficientsPoles = plib.CoefficientsPoles
+plib_CoefficientsPoles = plib.CoefficientsPoles
+plib_CoefficientsPoles = plib.CoefficientsPoles
+plib_CoefficientsPoles = plib.CoefficientsPoles
+plib_ConstraintOrder = plib.ConstraintOrder
+plib_EvalCubicHermite = plib.EvalCubicHermite
+plib_EvalLagrange = plib.EvalLagrange
+plib_EvalLength = plib.EvalLength
+plib_EvalLength = plib.EvalLength
+plib_EvalPoly2Var = plib.EvalPoly2Var
+plib_EvalPolynomial = plib.EvalPolynomial
+plib_GetPoles = plib.GetPoles
+plib_GetPoles = plib.GetPoles
+plib_GetPoles = plib.GetPoles
+plib_GetPoles = plib.GetPoles
+plib_HermiteCoefficients = plib.HermiteCoefficients
+plib_HermiteInterpolate = plib.HermiteInterpolate
+plib_JacobiParameters = plib.JacobiParameters
+plib_NivConstr = plib.NivConstr
+plib_NoDerivativeEvalPolynomial = plib.NoDerivativeEvalPolynomial
+plib_NoWeights = plib.NoWeights
+plib_NoWeights2 = plib.NoWeights2
+plib_RationalDerivative = plib.RationalDerivative
+plib_RationalDerivatives = plib.RationalDerivatives
+plib_SetPoles = plib.SetPoles
+plib_SetPoles = plib.SetPoles
+plib_SetPoles = plib.SetPoles
+plib_SetPoles = plib.SetPoles
+plib_Trimming = plib.Trimming
+plib_Trimming = plib.Trimming
+plib_Trimming = plib.Trimming
+plib_Trimming = plib.Trimming
+plib_UTrimming = plib.UTrimming
+plib_VTrimming = plib.VTrimming

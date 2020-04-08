@@ -110,3 +110,11 @@ class CPnts_UniformDeflection:
 	def Next(self) -> None: ...
 	def Point(self) -> gp_Pnt: ...
 	def Value(self) -> float: ...
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length
+CPnts_AbscissaPoint_Length = CPnts_AbscissaPoint.Length

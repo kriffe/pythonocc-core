@@ -957,3 +957,12 @@ class GeomFill_NSections:
 #classnotwrapped
 class GeomFill_SweepSectionGenerator:
 	pass
+geomfill_GetCircle = geomfill.GetCircle
+geomfill_GetCircle = geomfill.GetCircle
+geomfill_GetCircle = geomfill.GetCircle
+geomfill_GetMinimalWeights = geomfill.GetMinimalWeights
+geomfill_GetShape = geomfill.GetShape
+geomfill_GetTolerance = geomfill.GetTolerance
+geomfill_Knots = geomfill.Knots
+geomfill_Mults = geomfill.Mults
+geomfill_Surface = geomfill.Surface

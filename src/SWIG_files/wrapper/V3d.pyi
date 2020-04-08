@@ -607,3 +607,10 @@ class V3d_SpotLight(V3d_PositionLight):
 	@overload
 	def __init__(self, theViewer: V3d_Viewer, theXt: float, theYt: float, theZt: float, theXp: float, theYp: float, theZp: float, theColor: Optional[Quantity_Color], theConstAttenuation: Optional[float], theLinearAttenuation: Optional[float], theConcentration: Optional[float], theAngle: Optional[float]) -> None: ...
 	def SetDirection(self, theOrientation: V3d_TypeOfOrientation) -> None: ...
+v3d_ArrowOfRadius = v3d.ArrowOfRadius
+v3d_CircleInPlane = v3d.CircleInPlane
+v3d_GetProjAxis = v3d.GetProjAxis
+v3d_SwitchViewsinWindow = v3d.SwitchViewsinWindow
+v3d_TypeOfOrientationFromString = v3d.TypeOfOrientationFromString
+v3d_TypeOfOrientationFromString = v3d.TypeOfOrientationFromString
+v3d_TypeOfOrientationToString = v3d.TypeOfOrientationToString

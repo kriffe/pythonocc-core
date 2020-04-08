@@ -553,3 +553,19 @@ class AppDef_LinearCriteria(AppDef_SmoothCriterion):
 	def SetWeight(self, QuadraticWeight: float, QualityWeight: float, percentJ1: float, percentJ2: float, percentJ3: float) -> None: ...
 	@overload
 	def SetWeight(self, Weight: TColStd_Array1OfReal) -> None: ...
+AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
+AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
+AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
+AppDef_MyLineTool_FirstPoint = AppDef_MyLineTool.FirstPoint
+AppDef_MyLineTool_LastPoint = AppDef_MyLineTool.LastPoint
+AppDef_MyLineTool_MakeMLBetween = AppDef_MyLineTool.MakeMLBetween
+AppDef_MyLineTool_MakeMLOneMorePoint = AppDef_MyLineTool.MakeMLOneMorePoint
+AppDef_MyLineTool_NbP2d = AppDef_MyLineTool.NbP2d
+AppDef_MyLineTool_NbP3d = AppDef_MyLineTool.NbP3d
+AppDef_MyLineTool_Tangency = AppDef_MyLineTool.Tangency
+AppDef_MyLineTool_Tangency = AppDef_MyLineTool.Tangency
+AppDef_MyLineTool_Tangency = AppDef_MyLineTool.Tangency
+AppDef_MyLineTool_Value = AppDef_MyLineTool.Value
+AppDef_MyLineTool_Value = AppDef_MyLineTool.Value
+AppDef_MyLineTool_Value = AppDef_MyLineTool.Value
+AppDef_MyLineTool_WhatStatus = AppDef_MyLineTool.WhatStatus

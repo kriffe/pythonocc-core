@@ -328,3 +328,11 @@ class HLRAlgo_PolyInternalSegment:
 #classnotwrapped
 class HLRAlgo_PolyHidingData:
 	pass
+hlralgo_AddMinMax = hlralgo.AddMinMax
+hlralgo_CopyMinMax = hlralgo.CopyMinMax
+hlralgo_DecodeMinMax = hlralgo.DecodeMinMax
+hlralgo_EncodeMinMax = hlralgo.EncodeMinMax
+hlralgo_EnlargeMinMax = hlralgo.EnlargeMinMax
+hlralgo_InitMinMax = hlralgo.InitMinMax
+hlralgo_SizeBox = hlralgo.SizeBox
+hlralgo_UpdateMinMax = hlralgo.UpdateMinMax

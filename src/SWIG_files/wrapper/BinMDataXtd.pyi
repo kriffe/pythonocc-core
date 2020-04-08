@@ -104,3 +104,6 @@ class BinMDataXtd_TriangulationDriver(BinMDF_ADriver):
 	def Paste(self, Source: BinObjMgt_Persistent, Target: TDF_Attribute, RelocTable: BinObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, Source: TDF_Attribute, Target: BinObjMgt_Persistent, RelocTable: BinObjMgt_SRelocationTable) -> None: ...
+binmdataxtd_AddDrivers = binmdataxtd.AddDrivers
+binmdataxtd_DocumentVersion = binmdataxtd.DocumentVersion
+binmdataxtd_SetDocumentVersion = binmdataxtd.SetDocumentVersion

@@ -22,3 +22,6 @@ class ShapeAlgo_ToolContainer(Standard_Transient):
 #classnotwrapped
 class ShapeAlgo_AlgoContainer:
 	pass
+shapealgo_AlgoContainer = shapealgo.AlgoContainer
+shapealgo_Init = shapealgo.Init
+shapealgo_SetAlgoContainer = shapealgo.SetAlgoContainer

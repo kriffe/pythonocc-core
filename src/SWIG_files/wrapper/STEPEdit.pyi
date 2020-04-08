@@ -38,3 +38,9 @@ class STEPEdit_EditSDR(IFSelect_Editor):
 	def Load(self, form: IFSelect_EditForm, ent: Standard_Transient, model: Interface_InterfaceModel) -> bool: ...
 	def Recognize(self, form: IFSelect_EditForm) -> bool: ...
 	def StringValue(self, form: IFSelect_EditForm, num: int) -> TCollection_HAsciiString: ...
+stepedit_NewModel = stepedit.NewModel
+stepedit_NewSelectPlacedItem = stepedit.NewSelectPlacedItem
+stepedit_NewSelectSDR = stepedit.NewSelectSDR
+stepedit_NewSelectShapeRepr = stepedit.NewSelectShapeRepr
+stepedit_Protocol = stepedit.Protocol
+stepedit_SignType = stepedit.SignType

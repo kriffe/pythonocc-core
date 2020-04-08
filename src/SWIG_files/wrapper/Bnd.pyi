@@ -400,3 +400,5 @@ class Bnd_Tools:
 	@overload
 	@staticmethod
 	def Bnd2BVH(self, theBox: Bnd_Box) -> False: ...
+Bnd_Tools_Bnd2BVH = Bnd_Tools.Bnd2BVH
+Bnd_Tools_Bnd2BVH = Bnd_Tools.Bnd2BVH

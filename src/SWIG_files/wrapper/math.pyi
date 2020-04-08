@@ -678,3 +678,10 @@ class math_TrigonometricEquationFunction(math_FunctionWithDerivative):
 #classnotwrapped
 class math_SingleTab:
 	pass
+math_GaussPoints = math.GaussPoints
+math_GaussPointsMax = math.GaussPointsMax
+math_GaussWeights = math.GaussWeights
+math_KronrodPointsAndWeights = math.KronrodPointsAndWeights
+math_KronrodPointsMax = math.KronrodPointsMax
+math_OrderedGaussPointsAndWeights = math.OrderedGaussPointsAndWeights
+math_KronrodSingleIntegration_GKRule = math_KronrodSingleIntegration.GKRule

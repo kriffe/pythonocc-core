@@ -587,3 +587,8 @@ class StepData_FreeFormEntity:
 #classnotwrapped
 class StepData_UndefinedEntity:
 	pass
+stepdata_AddHeaderProtocol = stepdata.AddHeaderProtocol
+stepdata_HeaderProtocol = stepdata.HeaderProtocol
+stepdata_Init = stepdata.Init
+stepdata_Protocol = stepdata.Protocol
+StepData_WriterLib_SetGlobal = StepData_WriterLib.SetGlobal

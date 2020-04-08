@@ -232,3 +232,36 @@ class BRepTools_TrsfModification(BRepTools_Modification):
 	def NewPoint(self, V: TopoDS_Vertex, P: gp_Pnt) -> Tuple[bool, float]: ...
 	def NewSurface(self, F: TopoDS_Face, S: Geom_Surface, L: TopLoc_Location) -> Tuple[bool, float, bool, bool]: ...
 	def Trsf(self) -> gp_Trsf: ...
+breptools_AddUVBounds = breptools.AddUVBounds
+breptools_AddUVBounds = breptools.AddUVBounds
+breptools_AddUVBounds = breptools.AddUVBounds
+breptools_Clean = breptools.Clean
+breptools_CleanGeometry = breptools.CleanGeometry
+breptools_Compare = breptools.Compare
+breptools_Compare = breptools.Compare
+breptools_DetectClosedness = breptools.DetectClosedness
+breptools_Dump = breptools.Dump
+breptools_EvalAndUpdateTol = breptools.EvalAndUpdateTol
+breptools_IsReallyClosed = breptools.IsReallyClosed
+breptools_Map3DEdges = breptools.Map3DEdges
+breptools_OuterWire = breptools.OuterWire
+breptools_Read = breptools.Read
+breptools_Read = breptools.Read
+breptools_RemoveUnusedPCurves = breptools.RemoveUnusedPCurves
+breptools_Triangulation = breptools.Triangulation
+breptools_UVBounds = breptools.UVBounds
+breptools_UVBounds = breptools.UVBounds
+breptools_UVBounds = breptools.UVBounds
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_Update = breptools.Update
+breptools_UpdateFaceUVPoints = breptools.UpdateFaceUVPoints
+breptools_Write = breptools.Write
+breptools_Write = breptools.Write
+BRepTools_History_IsSupportedType = BRepTools_History.IsSupportedType

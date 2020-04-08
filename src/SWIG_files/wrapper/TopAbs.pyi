@@ -68,3 +68,15 @@ class TopAbs:
 	def ShapeTypeFromString(self, theTypeString: str, theType: TopAbs_ShapeEnum) -> bool: ...
 	@staticmethod
 	def ShapeTypeToString(self, theType: TopAbs_ShapeEnum) -> str: ...
+topabs_Complement = topabs.Complement
+topabs_Compose = topabs.Compose
+topabs_Print = topabs.Print
+topabs_Print = topabs.Print
+topabs_Print = topabs.Print
+topabs_Reverse = topabs.Reverse
+topabs_ShapeOrientationFromString = topabs.ShapeOrientationFromString
+topabs_ShapeOrientationFromString = topabs.ShapeOrientationFromString
+topabs_ShapeOrientationToString = topabs.ShapeOrientationToString
+topabs_ShapeTypeFromString = topabs.ShapeTypeFromString
+topabs_ShapeTypeFromString = topabs.ShapeTypeFromString
+topabs_ShapeTypeToString = topabs.ShapeTypeToString

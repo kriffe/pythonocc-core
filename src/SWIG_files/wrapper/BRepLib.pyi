@@ -527,3 +527,35 @@ class BRepLib_MakeWire(BRepLib_MakeShape):
 	def Error(self) -> BRepLib_WireError: ...
 	def Vertex(self) -> TopoDS_Vertex: ...
 	def Wire(self) -> TopoDS_Wire: ...
+breplib_BoundingVertex = breplib.BoundingVertex
+breplib_BuildCurve3d = breplib.BuildCurve3d
+breplib_BuildCurves3d = breplib.BuildCurves3d
+breplib_BuildCurves3d = breplib.BuildCurves3d
+breplib_BuildPCurveForEdgeOnPlane = breplib.BuildPCurveForEdgeOnPlane
+breplib_BuildPCurveForEdgeOnPlane = breplib.BuildPCurveForEdgeOnPlane
+breplib_CheckSameRange = breplib.CheckSameRange
+breplib_EncodeRegularity = breplib.EncodeRegularity
+breplib_EncodeRegularity = breplib.EncodeRegularity
+breplib_EncodeRegularity = breplib.EncodeRegularity
+breplib_EnsureNormalConsistency = breplib.EnsureNormalConsistency
+breplib_ExtendFace = breplib.ExtendFace
+breplib_FindValidRange = breplib.FindValidRange
+breplib_FindValidRange = breplib.FindValidRange
+breplib_OrientClosedSolid = breplib.OrientClosedSolid
+breplib_Plane = breplib.Plane
+breplib_Plane = breplib.Plane
+breplib_Precision = breplib.Precision
+breplib_Precision = breplib.Precision
+breplib_ReverseSortFaces = breplib.ReverseSortFaces
+breplib_SameParameter = breplib.SameParameter
+breplib_SameParameter = breplib.SameParameter
+breplib_SameParameter = breplib.SameParameter
+breplib_SameParameter = breplib.SameParameter
+breplib_SameRange = breplib.SameRange
+breplib_SortFaces = breplib.SortFaces
+breplib_UpdateEdgeTol = breplib.UpdateEdgeTol
+breplib_UpdateEdgeTolerance = breplib.UpdateEdgeTolerance
+breplib_UpdateInnerTolerances = breplib.UpdateInnerTolerances
+breplib_UpdateTolerances = breplib.UpdateTolerances
+breplib_UpdateTolerances = breplib.UpdateTolerances
+BRepLib_MakeFace_IsDegenerated = BRepLib_MakeFace.IsDegenerated

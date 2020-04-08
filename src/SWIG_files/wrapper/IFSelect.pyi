@@ -1128,3 +1128,23 @@ class IFSelect_SelectType(IFSelect_SelectAnyType):
 	def ExtractLabel(self) -> TCollection_AsciiString: ...
 	def SetType(self, atype: Standard_Type) -> None: ...
 	def TypeForMatch(self) -> Standard_Type: ...
+ifselect_RestoreSession = ifselect.RestoreSession
+ifselect_SaveSession = ifselect.SaveSession
+IFSelect_Activator_Adding = IFSelect_Activator.Adding
+IFSelect_Activator_Commands = IFSelect_Activator.Commands
+IFSelect_Activator_Mode = IFSelect_Activator.Mode
+IFSelect_Activator_Remove = IFSelect_Activator.Remove
+IFSelect_Activator_Select = IFSelect_Activator.Select
+IFSelect_Functions_GiveDispatch = IFSelect_Functions.GiveDispatch
+IFSelect_Functions_GiveEntity = IFSelect_Functions.GiveEntity
+IFSelect_Functions_GiveEntityNumber = IFSelect_Functions.GiveEntityNumber
+IFSelect_Functions_GiveList = IFSelect_Functions.GiveList
+IFSelect_Functions_Init = IFSelect_Functions.Init
+IFSelect_SessionDumper_First = IFSelect_SessionDumper.First
+IFSelect_Signature_IntValue = IFSelect_Signature.IntValue
+IFSelect_Signature_MatchValue = IFSelect_Signature.MatchValue
+IFSelect_Act_AddFSet = IFSelect_Act.AddFSet
+IFSelect_Act_AddFunc = IFSelect_Act.AddFunc
+IFSelect_Act_SetGroup = IFSelect_Act.SetGroup
+IFSelect_ParamEditor_StaticEditor = IFSelect_ParamEditor.StaticEditor
+IFSelect_SignValidity_CVal = IFSelect_SignValidity.CVal

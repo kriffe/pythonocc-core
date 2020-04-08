@@ -236,3 +236,19 @@ class TopoDS_Vertex(TopoDS_Shape):
 
 class TopoDS_Wire(TopoDS_Shape):
 	def __init__(self) -> None: ...
+topods_CompSolid = topods.CompSolid
+topods_CompSolid = topods.CompSolid
+topods_Compound = topods.Compound
+topods_Compound = topods.Compound
+topods_Edge = topods.Edge
+topods_Edge = topods.Edge
+topods_Face = topods.Face
+topods_Face = topods.Face
+topods_Shell = topods.Shell
+topods_Shell = topods.Shell
+topods_Solid = topods.Solid
+topods_Solid = topods.Solid
+topods_Vertex = topods.Vertex
+topods_Vertex = topods.Vertex
+topods_Wire = topods.Wire
+topods_Wire = topods.Wire

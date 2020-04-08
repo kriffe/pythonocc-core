@@ -158,3 +158,7 @@ class ChFi3d_FilBuilder(ChFi3d_Builder):
 	def UnSet(self, IC: int, E: TopoDS_Edge) -> None: ...
 	@overload
 	def UnSet(self, IC: int, V: TopoDS_Vertex) -> None: ...
+chfi3d_ConcaveSide = chfi3d.ConcaveSide
+chfi3d_NextSide = chfi3d.NextSide
+chfi3d_NextSide = chfi3d.NextSide
+chfi3d_SameSide = chfi3d.SameSide

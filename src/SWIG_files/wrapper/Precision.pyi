@@ -50,3 +50,21 @@ class Precision:
 	def SquareConfusion(self) -> float: ...
 	@staticmethod
 	def SquarePConfusion(self) -> float: ...
+precision_Angular = precision.Angular
+precision_Approximation = precision.Approximation
+precision_Confusion = precision.Confusion
+precision_Infinite = precision.Infinite
+precision_Intersection = precision.Intersection
+precision_IsInfinite = precision.IsInfinite
+precision_IsNegativeInfinite = precision.IsNegativeInfinite
+precision_IsPositiveInfinite = precision.IsPositiveInfinite
+precision_PApproximation = precision.PApproximation
+precision_PApproximation = precision.PApproximation
+precision_PConfusion = precision.PConfusion
+precision_PConfusion = precision.PConfusion
+precision_PIntersection = precision.PIntersection
+precision_PIntersection = precision.PIntersection
+precision_Parametric = precision.Parametric
+precision_Parametric = precision.Parametric
+precision_SquareConfusion = precision.SquareConfusion
+precision_SquarePConfusion = precision.SquarePConfusion

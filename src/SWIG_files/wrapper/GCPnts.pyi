@@ -230,3 +230,12 @@ class GCPnts_DistFunction:
 #classnotwrapped
 class GCPnts_DistFunction2d:
 	pass
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
+GCPnts_TangentialDeflection_ArcAngularStep = GCPnts_TangentialDeflection.ArcAngularStep

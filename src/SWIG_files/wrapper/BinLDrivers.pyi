@@ -51,3 +51,8 @@ class BinLDrivers_DocumentStorageDriver(PCDM_StorageDriver):
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> BinMDF_ADriverTable: ...
 	@overload
 	def Write(self, theDocument: CDM_Document, theFileName: TCollection_ExtendedString) -> None: ...
+binldrivers_AttributeDrivers = binldrivers.AttributeDrivers
+binldrivers_DefineFormat = binldrivers.DefineFormat
+binldrivers_Factory = binldrivers.Factory
+binldrivers_StorageVersion = binldrivers.StorageVersion
+BinLDrivers_DocumentSection_ReadTOC = BinLDrivers_DocumentSection.ReadTOC

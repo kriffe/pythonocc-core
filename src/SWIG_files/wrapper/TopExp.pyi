@@ -50,3 +50,13 @@ class TopExp_Explorer:
 	def Next(self) -> None: ...
 	def ReInit(self) -> None: ...
 	def Value(self) -> TopoDS_Shape: ...
+topexp_CommonVertex = topexp.CommonVertex
+topexp_FirstVertex = topexp.FirstVertex
+topexp_LastVertex = topexp.LastVertex
+topexp_MapShapes = topexp.MapShapes
+topexp_MapShapes = topexp.MapShapes
+topexp_MapShapes = topexp.MapShapes
+topexp_MapShapesAndAncestors = topexp.MapShapesAndAncestors
+topexp_MapShapesAndUniqueAncestors = topexp.MapShapesAndUniqueAncestors
+topexp_Vertices = topexp.Vertices
+topexp_Vertices = topexp.Vertices

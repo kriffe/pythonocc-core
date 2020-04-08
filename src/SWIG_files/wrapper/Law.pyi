@@ -203,3 +203,10 @@ class Law_S(Law_BSpFunc):
 	def Set(self, Pdeb: float, Valdeb: float, Pfin: float, Valfin: float) -> None: ...
 	@overload
 	def Set(self, Pdeb: float, Valdeb: float, Ddeb: float, Pfin: float, Valfin: float, Dfin: float) -> None: ...
+law_MixBnd = law.MixBnd
+law_MixBnd = law.MixBnd
+law_MixTgt = law.MixTgt
+law_Reparametrize = law.Reparametrize
+law_Scale = law.Scale
+law_ScaleCub = law.ScaleCub
+Law_BSpline_MaxDegree = Law_BSpline.MaxDegree

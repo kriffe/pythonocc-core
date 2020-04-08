@@ -76,3 +76,11 @@ class ShapeConstruct_ProjectCurveOnSurface(Standard_Transient):
 	@overload
 	def SetSurface(self, surf: ShapeAnalysis_Surface) -> None: ...
 	def Status(self, theStatus: ShapeExtend_Status) -> bool: ...
+shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline
+shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline
+shapeconstruct_ConvertSurfaceToBSpline = shapeconstruct.ConvertSurfaceToBSpline
+shapeconstruct_JoinCurves = shapeconstruct.JoinCurves
+shapeconstruct_JoinCurves = shapeconstruct.JoinCurves
+shapeconstruct_JoinPCurves = shapeconstruct.JoinPCurves
+ShapeConstruct_Curve_FixKnots = ShapeConstruct_Curve.FixKnots
+ShapeConstruct_Curve_FixKnots = ShapeConstruct_Curve.FixKnots

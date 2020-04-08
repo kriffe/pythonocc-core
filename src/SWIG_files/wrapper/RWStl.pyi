@@ -27,3 +27,9 @@ class RWStl:
 #classnotwrapped
 class RWStl_Reader:
 	pass
+rwstl_ReadAscii = rwstl.ReadAscii
+rwstl_ReadBinary = rwstl.ReadBinary
+rwstl_ReadFile = rwstl.ReadFile
+rwstl_ReadFile = rwstl.ReadFile
+rwstl_WriteAscii = rwstl.WriteAscii
+rwstl_WriteBinary = rwstl.WriteBinary

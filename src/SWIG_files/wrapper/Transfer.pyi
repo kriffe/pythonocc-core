@@ -427,3 +427,8 @@ class Transfer_BinderOfTransientInteger(Transfer_SimpleBinderOfTransient):
 #classnotwrapped
 class Transfer_ProcessForFinder:
 	pass
+Transfer_DataInfo_Type = Transfer_DataInfo.Type
+Transfer_DataInfo_TypeName = Transfer_DataInfo.TypeName
+Transfer_FindHasher_HashCode = Transfer_FindHasher.HashCode
+Transfer_FindHasher_IsEqual = Transfer_FindHasher.IsEqual
+Transfer_SimpleBinderOfTransient_GetTypedResult = Transfer_SimpleBinderOfTransient.GetTypedResult

@@ -698,3 +698,17 @@ class IGESData_FreeFormatEntity(IGESData_UndefinedEntity):
 	def SetFormNumber(self, formnum: int) -> None: ...
 	def SetTypeNumber(self, typenum: int) -> None: ...
 	def WriteOwnParams(self, IW: IGESData_IGESWriter) -> None: ...
+igesdata_Init = igesdata.Init
+igesdata_Protocol = igesdata.Protocol
+IGESData_BasicEditor_DraftingMax = IGESData_BasicEditor.DraftingMax
+IGESData_BasicEditor_DraftingName = IGESData_BasicEditor.DraftingName
+IGESData_BasicEditor_IGESVersionMax = IGESData_BasicEditor.IGESVersionMax
+IGESData_BasicEditor_IGESVersionName = IGESData_BasicEditor.IGESVersionName
+IGESData_BasicEditor_UnitFlagName = IGESData_BasicEditor.UnitFlagName
+IGESData_BasicEditor_UnitFlagValue = IGESData_BasicEditor.UnitFlagValue
+IGESData_BasicEditor_UnitNameFlag = IGESData_BasicEditor.UnitNameFlag
+IGESData_GlobalSection_NewDateString = IGESData_GlobalSection.NewDateString
+IGESData_GlobalSection_NewDateString = IGESData_GlobalSection.NewDateString
+IGESData_SpecificLib_SetGlobal = IGESData_SpecificLib.SetGlobal
+IGESData_ToolLocation_ConvertLocation = IGESData_ToolLocation.ConvertLocation
+IGESData_WriterLib_SetGlobal = IGESData_WriterLib.SetGlobal

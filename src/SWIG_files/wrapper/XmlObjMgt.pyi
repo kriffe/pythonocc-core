@@ -100,3 +100,22 @@ class XmlObjMgt_SRelocationTable(TColStd_IndexedMapOfTransient):
 	def Clear(self, doReleaseMemory: Optional[bool]) -> None: ...
 	def GetHeaderData(self) -> Storage_HeaderData: ...
 	def SetHeaderData(self, theHeaderData: Storage_HeaderData) -> None: ...
+xmlobjmgt_FindChildByName = xmlobjmgt.FindChildByName
+xmlobjmgt_FindChildByRef = xmlobjmgt.FindChildByRef
+xmlobjmgt_FindChildElement = xmlobjmgt.FindChildElement
+xmlobjmgt_GetExtendedString = xmlobjmgt.GetExtendedString
+xmlobjmgt_GetInteger = xmlobjmgt.GetInteger
+xmlobjmgt_GetReal = xmlobjmgt.GetReal
+xmlobjmgt_GetReal = xmlobjmgt.GetReal
+xmlobjmgt_GetStringValue = xmlobjmgt.GetStringValue
+xmlobjmgt_GetTagEntryString = xmlobjmgt.GetTagEntryString
+xmlobjmgt_IdString = xmlobjmgt.IdString
+xmlobjmgt_SetExtendedString = xmlobjmgt.SetExtendedString
+xmlobjmgt_SetStringValue = xmlobjmgt.SetStringValue
+xmlobjmgt_SetTagEntryString = xmlobjmgt.SetTagEntryString
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate
+XmlObjMgt_GP_Translate = XmlObjMgt_GP.Translate

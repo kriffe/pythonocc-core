@@ -205,3 +205,11 @@ class TopoDSToStep_WireframeBuilder(TopoDSToStep_Root):
 	def GetTrimmedCurveFromShape(self, S: TopoDS_Shape, M: MoniTool_DataMapOfShapeTransient, L: TColStd_HSequenceOfTransient) -> bool: ...
 	def Init(self, S: TopoDS_Shape, T: TopoDSToStep_Tool, FP: Transfer_FinderProcess) -> None: ...
 	def Value(self) -> TColStd_HSequenceOfTransient: ...
+topodstostep_AddResult = topodstostep.AddResult
+topodstostep_AddResult = topodstostep.AddResult
+topodstostep_DecodeBuilderError = topodstostep.DecodeBuilderError
+topodstostep_DecodeEdgeError = topodstostep.DecodeEdgeError
+topodstostep_DecodeFaceError = topodstostep.DecodeFaceError
+topodstostep_DecodeVertexError = topodstostep.DecodeVertexError
+topodstostep_DecodeWireError = topodstostep.DecodeWireError
+TopoDSToStep_FacetedTool_CheckTopoDSShape = TopoDSToStep_FacetedTool.CheckTopoDSShape

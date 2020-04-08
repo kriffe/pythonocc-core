@@ -26,3 +26,7 @@ class ChFiKPart_ComputeData:
 	@overload
 	@staticmethod
 	def ComputeCorner(self, DStr: TopOpeBRepDS_DataStructure, Data: ChFiDS_SurfData, S: Adaptor3d_HSurface, S1: Adaptor3d_HSurface, S2: Adaptor3d_HSurface, OfS: TopAbs_Orientation, OS: TopAbs_Orientation, OS1: TopAbs_Orientation, OS2: TopAbs_Orientation, Radius: float) -> bool: ...
+ChFiKPart_ComputeData_Compute = ChFiKPart_ComputeData.Compute
+ChFiKPart_ComputeData_ComputeCorner = ChFiKPart_ComputeData.ComputeCorner
+ChFiKPart_ComputeData_ComputeCorner = ChFiKPart_ComputeData.ComputeCorner
+ChFiKPart_ComputeData_ComputeCorner = ChFiKPart_ComputeData.ComputeCorner

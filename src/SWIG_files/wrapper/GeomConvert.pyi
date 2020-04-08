@@ -135,3 +135,17 @@ class GeomConvert_CompCurveToBSplineCurve:
 	def __init__(self, BasisCurve: Geom_BoundedCurve, Parameterisation: Optional[Convert_ParameterisationType]) -> None: ...
 	def Add(self, NewCurve: Geom_BoundedCurve, Tolerance: float, After: Optional[bool], WithRatio: Optional[bool], MinM: Optional[int]) -> bool: ...
 	def BSplineCurve(self) -> Geom_BSplineCurve: ...
+geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve
+geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve
+geomconvert_C0BSplineToC1BSplineCurve = geomconvert.C0BSplineToC1BSplineCurve
+geomconvert_ConcatC1 = geomconvert.ConcatC1
+geomconvert_ConcatC1 = geomconvert.ConcatC1
+geomconvert_ConcatG1 = geomconvert.ConcatG1
+geomconvert_CurveToBSplineCurve = geomconvert.CurveToBSplineCurve
+geomconvert_SplitBSplineCurve = geomconvert.SplitBSplineCurve
+geomconvert_SplitBSplineCurve = geomconvert.SplitBSplineCurve
+geomconvert_SplitBSplineSurface = geomconvert.SplitBSplineSurface
+geomconvert_SplitBSplineSurface = geomconvert.SplitBSplineSurface
+geomconvert_SplitBSplineSurface = geomconvert.SplitBSplineSurface
+geomconvert_SplitBSplineSurface = geomconvert.SplitBSplineSurface
+geomconvert_SurfaceToBSplineSurface = geomconvert.SurfaceToBSplineSurface

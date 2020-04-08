@@ -615,3 +615,24 @@ class Prs3d_WFShape:
 #classnotwrapped
 class Prs3d_Point:
 	pass
+prs3d_AddPrimitivesGroup = prs3d.AddPrimitivesGroup
+prs3d_GetDeflection = prs3d.GetDeflection
+prs3d_MatchSegment = prs3d.MatchSegment
+prs3d_PrimitivesFromPolylines = prs3d.PrimitivesFromPolylines
+Prs3d_Root_CurrentGroup = Prs3d_Root.CurrentGroup
+Prs3d_Root_NewGroup = Prs3d_Root.NewGroup
+Prs3d_ShapeTool_IsPlanarFace = Prs3d_ShapeTool.IsPlanarFace
+Prs3d_ToolQuadric_TrianglesNb = Prs3d_ToolQuadric.TrianglesNb
+Prs3d_Arrow_Draw = Prs3d_Arrow.Draw
+Prs3d_Arrow_Draw = Prs3d_Arrow.Draw
+Prs3d_Arrow_DrawSegments = Prs3d_Arrow.DrawSegments
+Prs3d_Arrow_DrawShaded = Prs3d_Arrow.DrawShaded
+Prs3d_Text_Draw = Prs3d_Text.Draw
+Prs3d_Text_Draw = Prs3d_Text.Draw
+Prs3d_Text_Draw = Prs3d_Text.Draw
+Prs3d_Text_Draw = Prs3d_Text.Draw
+Prs3d_Text_Draw = Prs3d_Text.Draw
+Prs3d_ToolCylinder_Create = Prs3d_ToolCylinder.Create
+Prs3d_ToolDisk_Create = Prs3d_ToolDisk.Create
+Prs3d_ToolSector_Create = Prs3d_ToolSector.Create
+Prs3d_ToolSphere_Create = Prs3d_ToolSphere.Create

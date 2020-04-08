@@ -194,3 +194,12 @@ class Poly_MakeLoops3D:
 #classnotwrapped
 class Poly_MakeLoops2D:
 	pass
+poly_Catenate = poly.Catenate
+poly_ComputeNormals = poly.ComputeNormals
+poly_Dump = poly.Dump
+poly_Dump = poly.Dump
+poly_Dump = poly.Dump
+poly_PointOnTriangle = poly.PointOnTriangle
+poly_Write = poly.Write
+poly_Write = poly.Write
+poly_Write = poly.Write

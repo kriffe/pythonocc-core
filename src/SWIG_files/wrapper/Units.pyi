@@ -268,3 +268,17 @@ class Units_Quantity:
 #classnotwrapped
 class Units_Dimensions:
 	pass
+units_Convert = units.Convert
+units_DictionaryOfUnits = units.DictionaryOfUnits
+units_Dimensions = units.Dimensions
+units_FirstQuantity = units.FirstQuantity
+units_FromSI = units.FromSI
+units_FromSI = units.FromSI
+units_LexiconFile = units.LexiconFile
+units_LexiconFormula = units.LexiconFormula
+units_LexiconUnits = units.LexiconUnits
+units_NullDimensions = units.NullDimensions
+units_Quantity = units.Quantity
+units_ToSI = units.ToSI
+units_ToSI = units.ToSI
+units_UnitsFile = units.UnitsFile

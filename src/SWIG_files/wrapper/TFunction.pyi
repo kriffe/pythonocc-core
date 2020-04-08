@@ -192,3 +192,16 @@ class TFunction_Scope(TDF_Attribute):
 	@staticmethod
 	def Set(self, Access: TDF_Label) -> TFunction_Scope: ...
 	def SetFreeID(self, ID: int) -> None: ...
+TFunction_DriverTable_Get = TFunction_DriverTable.Get
+TFunction_Function_GetID = TFunction_Function.GetID
+TFunction_Function_Set = TFunction_Function.Set
+TFunction_Function_Set = TFunction_Function.Set
+TFunction_GraphNode_GetID = TFunction_GraphNode.GetID
+TFunction_GraphNode_Set = TFunction_GraphNode.Set
+TFunction_IFunction_DeleteFunction = TFunction_IFunction.DeleteFunction
+TFunction_IFunction_NewFunction = TFunction_IFunction.NewFunction
+TFunction_IFunction_UpdateDependencies = TFunction_IFunction.UpdateDependencies
+TFunction_Logbook_GetID = TFunction_Logbook.GetID
+TFunction_Logbook_Set = TFunction_Logbook.Set
+TFunction_Scope_GetID = TFunction_Scope.GetID
+TFunction_Scope_Set = TFunction_Scope.Set

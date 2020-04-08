@@ -122,3 +122,7 @@ class AppParCurves_MultiBSpCurve(AppParCurves_MultiCurve):
 	def Value(self, CuIndex: int, U: float, Pt: gp_Pnt) -> None: ...
 	@overload
 	def Value(self, CuIndex: int, U: float, Pt: gp_Pnt2d) -> None: ...
+appparcurves_Bernstein = appparcurves.Bernstein
+appparcurves_BernsteinMatrix = appparcurves.BernsteinMatrix
+appparcurves_SecondDerivativeBernstein = appparcurves.SecondDerivativeBernstein
+appparcurves_SplineFunction = appparcurves.SplineFunction

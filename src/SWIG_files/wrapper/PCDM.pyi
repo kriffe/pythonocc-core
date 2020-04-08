@@ -175,3 +175,13 @@ class PCDM_DOMHeaderParser:
 #classnotwrapped
 class PCDM_Document:
 	pass
+pcdm_FileDriverType = pcdm.FileDriverType
+pcdm_FileDriverType = pcdm.FileDriverType
+PCDM_ReadWriter_FileFormat = PCDM_ReadWriter.FileFormat
+PCDM_ReadWriter_FileFormat = PCDM_ReadWriter.FileFormat
+PCDM_ReadWriter_Open = PCDM_ReadWriter.Open
+PCDM_ReadWriter_Reader = PCDM_ReadWriter.Reader
+PCDM_ReadWriter_WriteFileFormat = PCDM_ReadWriter.WriteFileFormat
+PCDM_ReadWriter_Writer = PCDM_ReadWriter.Writer
+PCDM_RetrievalDriver_DocumentVersion = PCDM_RetrievalDriver.DocumentVersion
+PCDM_RetrievalDriver_ReferenceCounter = PCDM_RetrievalDriver.ReferenceCounter

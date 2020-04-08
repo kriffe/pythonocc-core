@@ -67,3 +67,6 @@ class XmlTObjDrivers_XYZDriver(XmlMDF_ADriver):
 	def Paste(self, Source: XmlObjMgt_Persistent, Target: TDF_Attribute, RelocTable: XmlObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, Source: TDF_Attribute, Target: XmlObjMgt_Persistent, RelocTable: XmlObjMgt_SRelocationTable) -> None: ...
+xmltobjdrivers_AddDrivers = xmltobjdrivers.AddDrivers
+xmltobjdrivers_DefineFormat = xmltobjdrivers.DefineFormat
+xmltobjdrivers_Factory = xmltobjdrivers.Factory

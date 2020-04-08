@@ -16,3 +16,6 @@ class Hermit:
 	def Solution(self, BS: Geom2d_BSplineCurve, TolPoles: Optional[float], TolKnots: Optional[float]) -> Geom2d_BSplineCurve: ...
 	@staticmethod
 	def Solutionbis(self, BS: Geom_BSplineCurve, TolPoles: Optional[float], TolKnots: Optional[float]) -> Tuple[float, float]: ...
+hermit_Solution = hermit.Solution
+hermit_Solution = hermit.Solution
+hermit_Solutionbis = hermit.Solutionbis

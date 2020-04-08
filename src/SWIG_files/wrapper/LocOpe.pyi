@@ -329,3 +329,7 @@ class LocOpe_Revol:
 #classnotwrapped
 class LocOpe_RevolutionForm:
 	pass
+locope_Closed = locope.Closed
+locope_Closed = locope.Closed
+locope_SampleEdges = locope.SampleEdges
+locope_TgtFaces = locope.TgtFaces

@@ -89,3 +89,13 @@ class XCAFPrs_Style:
 	def SetVisibility(self, theVisibility: bool) -> None: ...
 	def UnSetColorCurv(self) -> None: ...
 	def UnSetColorSurf(self) -> None: ...
+xcafprs_CollectStyleSettings = xcafprs.CollectStyleSettings
+xcafprs_GetViewNameMode = xcafprs.GetViewNameMode
+xcafprs_SetViewNameMode = xcafprs.SetViewNameMode
+XCAFPrs_DocumentExplorer_DefineChildId = XCAFPrs_DocumentExplorer.DefineChildId
+XCAFPrs_DocumentExplorer_FindLabelFromPathId = XCAFPrs_DocumentExplorer.FindLabelFromPathId
+XCAFPrs_DocumentExplorer_FindLabelFromPathId = XCAFPrs_DocumentExplorer.FindLabelFromPathId
+XCAFPrs_DocumentExplorer_FindShapeFromPathId = XCAFPrs_DocumentExplorer.FindShapeFromPathId
+XCAFPrs_Driver_GetID = XCAFPrs_Driver.GetID
+XCAFPrs_Style_HashCode = XCAFPrs_Style.HashCode
+XCAFPrs_Style_IsEqual = XCAFPrs_Style.IsEqual

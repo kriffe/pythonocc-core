@@ -61,3 +61,9 @@ class TopTools_ShapeSet:
 	def SetFormatNb(self, theFormatNb: int) -> None: ...
 	def SetProgress(self, PR: Message_ProgressIndicator) -> None: ...
 	def Shape(self, I: int) -> TopoDS_Shape: ...
+toptools_Dummy = toptools.Dummy
+toptools_Dump = toptools.Dump
+TopTools_OrientedShapeMapHasher_HashCode = TopTools_OrientedShapeMapHasher.HashCode
+TopTools_OrientedShapeMapHasher_IsEqual = TopTools_OrientedShapeMapHasher.IsEqual
+TopTools_ShapeMapHasher_HashCode = TopTools_ShapeMapHasher.HashCode
+TopTools_ShapeMapHasher_IsEqual = TopTools_ShapeMapHasher.IsEqual

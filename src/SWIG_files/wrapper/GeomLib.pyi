@@ -151,3 +151,27 @@ class GeomLib_Tool:
 	def Parameter(self, Curve: Geom2d_Curve, Point: gp_Pnt2d, MaxDist: float) -> Tuple[bool, float]: ...
 	@staticmethod
 	def Parameters(self, Surface: Geom_Surface, Point: gp_Pnt, MaxDist: float) -> Tuple[bool, float, float]: ...
+geomlib_AdjustExtremity = geomlib.AdjustExtremity
+geomlib_AxeOfInertia = geomlib.AxeOfInertia
+geomlib_BuildCurve3d = geomlib.BuildCurve3d
+geomlib_CancelDenominatorDerivative = geomlib.CancelDenominatorDerivative
+geomlib_DensifyArray1OfReal = geomlib.DensifyArray1OfReal
+geomlib_EvalMaxDistanceAlongParameter = geomlib.EvalMaxDistanceAlongParameter
+geomlib_EvalMaxParametricDistance = geomlib.EvalMaxParametricDistance
+geomlib_ExtendCurveToPoint = geomlib.ExtendCurveToPoint
+geomlib_ExtendSurfByLength = geomlib.ExtendSurfByLength
+geomlib_FuseIntervals = geomlib.FuseIntervals
+geomlib_GTransform = geomlib.GTransform
+geomlib_Inertia = geomlib.Inertia
+geomlib_IsBSplUClosed = geomlib.IsBSplUClosed
+geomlib_IsBSplVClosed = geomlib.IsBSplVClosed
+geomlib_IsBzUClosed = geomlib.IsBzUClosed
+geomlib_IsBzVClosed = geomlib.IsBzVClosed
+geomlib_IsClosed = geomlib.IsClosed
+geomlib_NormEstim = geomlib.NormEstim
+geomlib_RemovePointsFromArray = geomlib.RemovePointsFromArray
+geomlib_SameRange = geomlib.SameRange
+geomlib_To3d = geomlib.To3d
+GeomLib_Tool_Parameter = GeomLib_Tool.Parameter
+GeomLib_Tool_Parameter = GeomLib_Tool.Parameter
+GeomLib_Tool_Parameters = GeomLib_Tool.Parameters
