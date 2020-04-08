@@ -17,6 +17,8 @@ from OCC.Core.gp import *
 from OCC.Core.TColgp import *
 from OCC.Core.Image import *
 
+#the following typedef cannot be wrapped as is
+StdSelect_IndexedDataMapOfOwnerPrs = NewType('StdSelect_IndexedDataMapOfOwnerPrs', Any)
 
 class StdSelect_TypeOfResult(IntEnum):
 	StdSelect_TOR_SIMPLE: int = ...

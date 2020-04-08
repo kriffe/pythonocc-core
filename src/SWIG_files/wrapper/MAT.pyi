@@ -4,6 +4,26 @@ from typing import overload, NewType, Optional, Tuple
 from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 
+#the following typedef cannot be wrapped as is
+MAT_DataMapIteratorOfDataMapOfIntegerArc = NewType('MAT_DataMapIteratorOfDataMapOfIntegerArc', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapIteratorOfDataMapOfIntegerBasicElt = NewType('MAT_DataMapIteratorOfDataMapOfIntegerBasicElt', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapIteratorOfDataMapOfIntegerBisector = NewType('MAT_DataMapIteratorOfDataMapOfIntegerBisector', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapIteratorOfDataMapOfIntegerNode = NewType('MAT_DataMapIteratorOfDataMapOfIntegerNode', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapOfIntegerArc = NewType('MAT_DataMapOfIntegerArc', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapOfIntegerBasicElt = NewType('MAT_DataMapOfIntegerBasicElt', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapOfIntegerBisector = NewType('MAT_DataMapOfIntegerBisector', Any)
+#the following typedef cannot be wrapped as is
+MAT_DataMapOfIntegerNode = NewType('MAT_DataMapOfIntegerNode', Any)
+#the following typedef cannot be wrapped as is
+MAT_SequenceOfArc = NewType('MAT_SequenceOfArc', Any)
+#the following typedef cannot be wrapped as is
+MAT_SequenceOfBasicElt = NewType('MAT_SequenceOfBasicElt', Any)
 
 class MAT_Side(IntEnum):
 	MAT_Left: int = ...

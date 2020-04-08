@@ -6,7 +6,75 @@ from OCC.Core.NCollection import *
 from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+TDF_AttributeArray1 = NewType('TDF_AttributeArray1', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeDataMap = NewType('TDF_AttributeDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeDeltaList = NewType('TDF_AttributeDeltaList', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeDoubleMap = NewType('TDF_AttributeDoubleMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeIndexedMap = NewType('TDF_AttributeIndexedMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeList = NewType('TDF_AttributeList', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeMap = NewType('TDF_AttributeMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_AttributeSequence = NewType('TDF_AttributeSequence', Any)
+#the following typedef cannot be wrapped as is
+TDF_DataMapIteratorOfAttributeDataMap = NewType('TDF_DataMapIteratorOfAttributeDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_DataMapIteratorOfLabelDataMap = NewType('TDF_DataMapIteratorOfLabelDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_DataMapIteratorOfLabelIntegerMap = NewType('TDF_DataMapIteratorOfLabelIntegerMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_DeltaList = NewType('TDF_DeltaList', Any)
+#the following typedef cannot be wrapped as is
+TDF_DoubleMapIteratorOfAttributeDoubleMap = NewType('TDF_DoubleMapIteratorOfAttributeDoubleMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_DoubleMapIteratorOfGUIDProgIDMap = NewType('TDF_DoubleMapIteratorOfGUIDProgIDMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_DoubleMapIteratorOfLabelDoubleMap = NewType('TDF_DoubleMapIteratorOfLabelDoubleMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_GUIDProgIDMap = NewType('TDF_GUIDProgIDMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_HAllocator = NewType('TDF_HAllocator', Any)
+#the following typedef cannot be wrapped as is
+TDF_IDList = NewType('TDF_IDList', Any)
+#the following typedef cannot be wrapped as is
+TDF_IDMap = NewType('TDF_IDMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelDataMap = NewType('TDF_LabelDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelDoubleMap = NewType('TDF_LabelDoubleMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelIndexedMap = NewType('TDF_LabelIndexedMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelIntegerMap = NewType('TDF_LabelIntegerMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelList = NewType('TDF_LabelList', Any)
+#the following typedef cannot be wrapped as is
+TDF_LabelMap = NewType('TDF_LabelMap', Any)
 TDF_LabelNodePtr = NewType('TDF_LabelNodePtr', TDF_LabelNode)
+#the following typedef cannot be wrapped as is
+TDF_LabelSequence = NewType('TDF_LabelSequence', Any)
+#the following typedef cannot be wrapped as is
+TDF_ListIteratorOfAttributeDeltaList = NewType('TDF_ListIteratorOfAttributeDeltaList', Any)
+#the following typedef cannot be wrapped as is
+TDF_ListIteratorOfAttributeList = NewType('TDF_ListIteratorOfAttributeList', Any)
+#the following typedef cannot be wrapped as is
+TDF_ListIteratorOfDeltaList = NewType('TDF_ListIteratorOfDeltaList', Any)
+#the following typedef cannot be wrapped as is
+TDF_ListIteratorOfIDList = NewType('TDF_ListIteratorOfIDList', Any)
+#the following typedef cannot be wrapped as is
+TDF_ListIteratorOfLabelList = NewType('TDF_ListIteratorOfLabelList', Any)
+#the following typedef cannot be wrapped as is
+TDF_MapIteratorOfAttributeMap = NewType('TDF_MapIteratorOfAttributeMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_MapIteratorOfIDMap = NewType('TDF_MapIteratorOfIDMap', Any)
+#the following typedef cannot be wrapped as is
+TDF_MapIteratorOfLabelMap = NewType('TDF_MapIteratorOfLabelMap', Any)
 
 class TDF:
 	@staticmethod

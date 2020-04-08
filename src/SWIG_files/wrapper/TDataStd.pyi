@@ -7,6 +7,36 @@ from OCC.Core.TColStd import *
 from OCC.Core.TDF import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapIteratorOfDataMapOfStringByte = NewType('TDataStd_DataMapIteratorOfDataMapOfStringByte', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger = NewType('TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal = NewType('TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapIteratorOfDataMapOfStringReal = NewType('TDataStd_DataMapIteratorOfDataMapOfStringReal', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapIteratorOfDataMapOfStringString = NewType('TDataStd_DataMapIteratorOfDataMapOfStringString', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapOfStringByte = NewType('TDataStd_DataMapOfStringByte', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapOfStringHArray1OfInteger = NewType('TDataStd_DataMapOfStringHArray1OfInteger', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapOfStringHArray1OfReal = NewType('TDataStd_DataMapOfStringHArray1OfReal', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapOfStringReal = NewType('TDataStd_DataMapOfStringReal', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_DataMapOfStringString = NewType('TDataStd_DataMapOfStringString', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_LabelArray1 = NewType('TDataStd_LabelArray1', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_ListIteratorOfListOfByte = NewType('TDataStd_ListIteratorOfListOfByte', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_ListIteratorOfListOfExtendedString = NewType('TDataStd_ListIteratorOfListOfExtendedString', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_ListOfByte = NewType('TDataStd_ListOfByte', Any)
+#the following typedef cannot be wrapped as is
+TDataStd_ListOfExtendedString = NewType('TDataStd_ListOfExtendedString', Any)
 TDataStd_PtrTreeNode = NewType('TDataStd_PtrTreeNode', TDataStd_TreeNode)
 
 class TDataStd_RealEnum(IntEnum):

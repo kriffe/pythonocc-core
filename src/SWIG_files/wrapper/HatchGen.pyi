@@ -6,6 +6,12 @@ from OCC.Core.NCollection import *
 from OCC.Core.TopAbs import *
 from OCC.Core.IntRes2d import *
 
+#the following typedef cannot be wrapped as is
+HatchGen_Domains = NewType('HatchGen_Domains', Any)
+#the following typedef cannot be wrapped as is
+HatchGen_PointsOnElement = NewType('HatchGen_PointsOnElement', Any)
+#the following typedef cannot be wrapped as is
+HatchGen_PointsOnHatching = NewType('HatchGen_PointsOnHatching', Any)
 
 class HatchGen_ErrorStatus(IntEnum):
 	HatchGen_NoProblem: int = ...

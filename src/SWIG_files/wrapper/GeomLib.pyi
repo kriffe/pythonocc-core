@@ -13,6 +13,8 @@ from OCC.Core.Geom2d import *
 from OCC.Core.math import *
 from OCC.Core.AdvApprox import *
 
+#the following typedef cannot be wrapped as is
+GeomLib_Array1OfMat = NewType('GeomLib_Array1OfMat', Any)
 GeomLib_DenominatorMultiplierPtr = NewType('GeomLib_DenominatorMultiplierPtr', GeomLib_DenominatorMultiplier)
 
 class GeomLib_InterpolationErrors(IntEnum):

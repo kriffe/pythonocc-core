@@ -7,6 +7,12 @@ from OCC.Core.gp import *
 from OCC.Core.Plate import *
 from OCC.Core.Geom import *
 
+#the following typedef cannot be wrapped as is
+NLPlate_ListIteratorOfStackOfPlate = NewType('NLPlate_ListIteratorOfStackOfPlate', Any)
+#the following typedef cannot be wrapped as is
+NLPlate_SequenceOfHGPPConstraint = NewType('NLPlate_SequenceOfHGPPConstraint', Any)
+#the following typedef cannot be wrapped as is
+NLPlate_StackOfPlate = NewType('NLPlate_StackOfPlate', Any)
 
 class NLPlate_HGPPConstraint(Standard_Transient):
 	def ActiveOrder(self) -> int: ...

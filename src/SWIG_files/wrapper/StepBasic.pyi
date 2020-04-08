@@ -8,6 +8,26 @@ from OCC.Core.StepData import *
 from OCC.Core.TColStd import *
 from OCC.Core.Interface import *
 
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfApproval = NewType('StepBasic_Array1OfApproval', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfDerivedUnitElement = NewType('StepBasic_Array1OfDerivedUnitElement', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfDocument = NewType('StepBasic_Array1OfDocument', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfNamedUnit = NewType('StepBasic_Array1OfNamedUnit', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfOrganization = NewType('StepBasic_Array1OfOrganization', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfPerson = NewType('StepBasic_Array1OfPerson', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfProduct = NewType('StepBasic_Array1OfProduct', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfProductContext = NewType('StepBasic_Array1OfProductContext', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfProductDefinition = NewType('StepBasic_Array1OfProductDefinition', Any)
+#the following typedef cannot be wrapped as is
+StepBasic_Array1OfUncertaintyMeasureWithUnit = NewType('StepBasic_Array1OfUncertaintyMeasureWithUnit', Any)
 
 class StepBasic_Source(IntEnum):
 	StepBasic_sMade: int = ...

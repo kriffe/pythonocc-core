@@ -9,7 +9,15 @@ from OCC.Core.TDF import *
 from OCC.Core.BinObjMgt import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+BinMDF_DataMapIteratorOfTypeADriverMap = NewType('BinMDF_DataMapIteratorOfTypeADriverMap', Any)
+#the following typedef cannot be wrapped as is
+BinMDF_DoubleMapIteratorOfTypeIdMap = NewType('BinMDF_DoubleMapIteratorOfTypeIdMap', Any)
 BinMDF_StringIdMap = NewType('BinMDF_StringIdMap', TColStd_DataMapOfAsciiStringInteger)
+#the following typedef cannot be wrapped as is
+BinMDF_TypeADriverMap = NewType('BinMDF_TypeADriverMap', Any)
+#the following typedef cannot be wrapped as is
+BinMDF_TypeIdMap = NewType('BinMDF_TypeIdMap', Any)
 
 class BinMDF:
 	@staticmethod

@@ -10,6 +10,10 @@ from OCC.Core.TColStd import *
 from OCC.Core.CDM import *
 
 PCDM_BaseDriverPointer = NewType('PCDM_BaseDriverPointer', Storage_BaseDriver)
+#the following typedef cannot be wrapped as is
+PCDM_SequenceOfDocument = NewType('PCDM_SequenceOfDocument', Any)
+#the following typedef cannot be wrapped as is
+PCDM_SequenceOfReference = NewType('PCDM_SequenceOfReference', Any)
 
 class PCDM_StoreStatus(IntEnum):
 	PCDM_SS_OK: int = ...

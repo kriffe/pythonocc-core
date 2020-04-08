@@ -9,6 +9,16 @@ from OCC.Core.TCollection import *
 from OCC.Core.Message import *
 from OCC.Core.MoniTool import *
 
+#the following typedef cannot be wrapped as is
+IFSelect_SequenceOfAppliedModifiers = NewType('IFSelect_SequenceOfAppliedModifiers', Any)
+#the following typedef cannot be wrapped as is
+IFSelect_SequenceOfGeneralModifier = NewType('IFSelect_SequenceOfGeneralModifier', Any)
+#the following typedef cannot be wrapped as is
+IFSelect_SequenceOfInterfaceModel = NewType('IFSelect_SequenceOfInterfaceModel', Any)
+#the following typedef cannot be wrapped as is
+IFSelect_TSeqOfDispatch = NewType('IFSelect_TSeqOfDispatch', Any)
+#the following typedef cannot be wrapped as is
+IFSelect_TSeqOfSelection = NewType('IFSelect_TSeqOfSelection', Any)
 
 class IFSelect_PrintFail(IntEnum):
 	IFSelect_FailOnly: int = ...

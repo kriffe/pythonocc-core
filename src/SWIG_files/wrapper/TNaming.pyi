@@ -11,6 +11,40 @@ from OCC.Core.gp import *
 from OCC.Core.TColStd import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+TNaming_DataMapIteratorOfDataMapOfShapeMapOfShape = NewType('TNaming_DataMapIteratorOfDataMapOfShapeMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape = NewType('TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_DataMapIteratorOfDataMapOfShapeShapesSet = NewType('TNaming_DataMapIteratorOfDataMapOfShapeShapesSet', Any)
+#the following typedef cannot be wrapped as is
+TNaming_DataMapOfShapeMapOfShape = NewType('TNaming_DataMapOfShapeMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_DataMapOfShapePtrRefShape = NewType('TNaming_DataMapOfShapePtrRefShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_DataMapOfShapeShapesSet = NewType('TNaming_DataMapOfShapeShapesSet', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape = NewType('TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListIteratorOfListOfMapOfShape = NewType('TNaming_ListIteratorOfListOfMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListIteratorOfListOfNamedShape = NewType('TNaming_ListIteratorOfListOfNamedShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListOfIndexedDataMapOfShapeListOfShape = NewType('TNaming_ListOfIndexedDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListOfMapOfShape = NewType('TNaming_ListOfMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_ListOfNamedShape = NewType('TNaming_ListOfNamedShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_MapIteratorOfMapOfNamedShape = NewType('TNaming_MapIteratorOfMapOfNamedShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_MapIteratorOfMapOfShape = NewType('TNaming_MapIteratorOfMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_MapOfNamedShape = NewType('TNaming_MapOfNamedShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_MapOfShape = NewType('TNaming_MapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TNaming_NamedShapeHasher = NewType('TNaming_NamedShapeHasher', Any)
 TNaming_PtrAttribute = NewType('TNaming_PtrAttribute', TNaming_NamedShape)
 TNaming_PtrNode = NewType('TNaming_PtrNode', TNaming_Node)
 TNaming_PtrRefShape = NewType('TNaming_PtrRefShape', TNaming_RefShape)

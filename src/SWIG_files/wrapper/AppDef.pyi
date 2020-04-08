@@ -12,6 +12,8 @@ from OCC.Core.gp import *
 from OCC.Core.FEmTool import *
 from OCC.Core.GeomAbs import *
 
+#the following typedef cannot be wrapped as is
+AppDef_Array1OfMultiPointConstraint = NewType('AppDef_Array1OfMultiPointConstraint', Any)
 
 class AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute(math_BFGS):
 	def __init__(self, F: math_MultipleVarFunctionWithGradient, StartingPoint: math_Vector, Tolerance3d: float, Tolerance2d: float, Eps: float, NbIterations: Optional[int]) -> None: ...

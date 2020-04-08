@@ -13,7 +13,67 @@ from OCC.Core.TopTools import *
 from OCC.Core.gp import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference = NewType('TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceShape = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeListOfShapeOn1State = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeListOfShapeOn1State', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeState = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeState', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfMapOfCurve = NewType('TopOpeBRepDS_DataMapIteratorOfMapOfCurve', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfMapOfIntegerShapeData = NewType('TopOpeBRepDS_DataMapIteratorOfMapOfIntegerShapeData', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfMapOfPoint = NewType('TopOpeBRepDS_DataMapIteratorOfMapOfPoint', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfMapOfSurface = NewType('TopOpeBRepDS_DataMapIteratorOfMapOfSurface', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapIteratorOfShapeSurface = NewType('TopOpeBRepDS_DataMapIteratorOfShapeSurface', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfCheckStatus = NewType('TopOpeBRepDS_DataMapOfCheckStatus', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfIntegerListOfInterference = NewType('TopOpeBRepDS_DataMapOfIntegerListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfInterferenceListOfInterference = NewType('TopOpeBRepDS_DataMapOfInterferenceListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfInterferenceShape = NewType('TopOpeBRepDS_DataMapOfInterferenceShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State = NewType('TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DataMapOfShapeState = NewType('TopOpeBRepDS_DataMapOfShapeState', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape = NewType('TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_DoubleMapOfIntegerShape = NewType('TopOpeBRepDS_DoubleMapOfIntegerShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_IndexedDataMapOfShapeWithState = NewType('TopOpeBRepDS_IndexedDataMapOfShapeWithState', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_IndexedDataMapOfVertexPoint = NewType('TopOpeBRepDS_IndexedDataMapOfVertexPoint', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_ListIteratorOfListOfInterference = NewType('TopOpeBRepDS_ListIteratorOfListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_ListOfInterference = NewType('TopOpeBRepDS_ListOfInterference', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_MapOfCurve = NewType('TopOpeBRepDS_MapOfCurve', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_MapOfIntegerShapeData = NewType('TopOpeBRepDS_MapOfIntegerShapeData', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_MapOfPoint = NewType('TopOpeBRepDS_MapOfPoint', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_MapOfShapeData = NewType('TopOpeBRepDS_MapOfShapeData', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_MapOfSurface = NewType('TopOpeBRepDS_MapOfSurface', Any)
 TopOpeBRepDS_PDataStructure = NewType('TopOpeBRepDS_PDataStructure', TopOpeBRepDS_DataStructure)
+#the following typedef cannot be wrapped as is
+TopOpeBRepDS_ShapeSurface = NewType('TopOpeBRepDS_ShapeSurface', Any)
 
 class TopOpeBRepDS_Config(IntEnum):
 	TopOpeBRepDS_UNSHGEOMETRY: int = ...

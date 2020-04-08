@@ -13,6 +13,10 @@ Quantity_Admittance = NewType('Quantity_Admittance', Standard_Real)
 Quantity_AmountOfSubstance = NewType('Quantity_AmountOfSubstance', Standard_Real)
 Quantity_AngularVelocity = NewType('Quantity_AngularVelocity', Standard_Real)
 Quantity_Area = NewType('Quantity_Area', Standard_Real)
+#the following typedef cannot be wrapped as is
+Quantity_Array1OfColor = NewType('Quantity_Array1OfColor', Any)
+#the following typedef cannot be wrapped as is
+Quantity_Array2OfColor = NewType('Quantity_Array2OfColor', Any)
 Quantity_Capacitance = NewType('Quantity_Capacitance', Standard_Real)
 Quantity_Coefficient = NewType('Quantity_Coefficient', Standard_Real)
 Quantity_CoefficientOfExpansion = NewType('Quantity_CoefficientOfExpansion', Standard_Real)

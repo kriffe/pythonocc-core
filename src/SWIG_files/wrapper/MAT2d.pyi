@@ -10,6 +10,42 @@ from OCC.Core.gp import *
 from OCC.Core.MAT import *
 from OCC.Core.Bisector import *
 
+#the following typedef cannot be wrapped as is
+MAT2d_Array2OfConnexion = NewType('MAT2d_Array2OfConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfBiIntInteger = NewType('MAT2d_DataMapIteratorOfDataMapOfBiIntInteger', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger = NewType('MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfIntegerBisec = NewType('MAT2d_DataMapIteratorOfDataMapOfIntegerBisec', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion = NewType('MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfIntegerPnt2d = NewType('MAT2d_DataMapIteratorOfDataMapOfIntegerPnt2d', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfIntegerSequenceOfConnexion = NewType('MAT2d_DataMapIteratorOfDataMapOfIntegerSequenceOfConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d = NewType('MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfBiIntInteger = NewType('MAT2d_DataMapOfBiIntInteger', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfBiIntSequenceOfInteger = NewType('MAT2d_DataMapOfBiIntSequenceOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfIntegerBisec = NewType('MAT2d_DataMapOfIntegerBisec', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfIntegerConnexion = NewType('MAT2d_DataMapOfIntegerConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfIntegerPnt2d = NewType('MAT2d_DataMapOfIntegerPnt2d', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfIntegerSequenceOfConnexion = NewType('MAT2d_DataMapOfIntegerSequenceOfConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_DataMapOfIntegerVec2d = NewType('MAT2d_DataMapOfIntegerVec2d', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_SequenceOfConnexion = NewType('MAT2d_SequenceOfConnexion', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_SequenceOfSequenceOfCurve = NewType('MAT2d_SequenceOfSequenceOfCurve', Any)
+#the following typedef cannot be wrapped as is
+MAT2d_SequenceOfSequenceOfGeometry = NewType('MAT2d_SequenceOfSequenceOfGeometry', Any)
 
 class MAT2d_BiInt:
 	def __init__(self, I1: int, I2: int) -> None: ...

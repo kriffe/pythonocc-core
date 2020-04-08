@@ -8,6 +8,16 @@ from OCC.Core.TColgp import *
 from OCC.Core.TColStd import *
 from OCC.Core.TShort import *
 
+#the following typedef cannot be wrapped as is
+Poly_Array1OfTriangle = NewType('Poly_Array1OfTriangle', Any)
+#the following typedef cannot be wrapped as is
+Poly_BaseIteratorOfCoherentLink = NewType('Poly_BaseIteratorOfCoherentLink', Any)
+#the following typedef cannot be wrapped as is
+Poly_BaseIteratorOfCoherentNode = NewType('Poly_BaseIteratorOfCoherentNode', Any)
+#the following typedef cannot be wrapped as is
+Poly_BaseIteratorOfCoherentTriangle = NewType('Poly_BaseIteratorOfCoherentTriangle', Any)
+#the following typedef cannot be wrapped as is
+Poly_ListOfTriangulation = NewType('Poly_ListOfTriangulation', Any)
 
 class Poly:
 	@staticmethod

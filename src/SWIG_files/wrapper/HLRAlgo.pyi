@@ -8,6 +8,20 @@ from OCC.Core.TColStd import *
 from OCC.Core.TColgp import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+HLRAlgo_Array1OfPINod = NewType('HLRAlgo_Array1OfPINod', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_Array1OfPISeg = NewType('HLRAlgo_Array1OfPISeg', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_Array1OfTData = NewType('HLRAlgo_Array1OfTData', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_InterferenceList = NewType('HLRAlgo_InterferenceList', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_ListIteratorOfInterferenceList = NewType('HLRAlgo_ListIteratorOfInterferenceList', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_ListIteratorOfListOfBPoint = NewType('HLRAlgo_ListIteratorOfListOfBPoint', Any)
+#the following typedef cannot be wrapped as is
+HLRAlgo_ListOfBPoint = NewType('HLRAlgo_ListOfBPoint', Any)
 
 class HLRAlgo_PolyMask(IntEnum):
 	HLRAlgo_PolyMask_EMskOutLin1: int = ...

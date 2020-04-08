@@ -4,6 +4,22 @@ from typing import overload, NewType, Optional, Tuple
 from OCC.Core.Standard import *
 
 NCollection_String = NewType('NCollection_String', NCollection_Utf8String)
+#the following typedef cannot be wrapped as is
+NCollection_Utf16Iter = NewType('NCollection_Utf16Iter', Any)
+#the following typedef cannot be wrapped as is
+NCollection_Utf16String = NewType('NCollection_Utf16String', Any)
+#the following typedef cannot be wrapped as is
+NCollection_Utf32Iter = NewType('NCollection_Utf32Iter', Any)
+#the following typedef cannot be wrapped as is
+NCollection_Utf32String = NewType('NCollection_Utf32String', Any)
+#the following typedef cannot be wrapped as is
+NCollection_Utf8Iter = NewType('NCollection_Utf8Iter', Any)
+#the following typedef cannot be wrapped as is
+NCollection_Utf8String = NewType('NCollection_Utf8String', Any)
+#the following typedef cannot be wrapped as is
+NCollection_UtfWideIter = NewType('NCollection_UtfWideIter', Any)
+#the following typedef cannot be wrapped as is
+NCollection_UtfWideString = NewType('NCollection_UtfWideString', Any)
 Standard_Size = NewType('Standard_Size', int)
 
 class NCollection_StdAllocator:

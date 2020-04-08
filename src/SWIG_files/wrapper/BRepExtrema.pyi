@@ -9,6 +9,12 @@ from OCC.Core.gp import *
 from OCC.Core.Bnd import *
 from OCC.Core.BVH import *
 
+#the following typedef cannot be wrapped as is
+BRepExtrema_MapOfIntegerPackedMapOfInteger = NewType('BRepExtrema_MapOfIntegerPackedMapOfInteger', Any)
+#the following typedef cannot be wrapped as is
+BRepExtrema_SeqOfSolution = NewType('BRepExtrema_SeqOfSolution', Any)
+#the following typedef cannot be wrapped as is
+BRepExtrema_ShapeList = NewType('BRepExtrema_ShapeList', Any)
 
 class BRepExtrema_SupportType(IntEnum):
 	BRepExtrema_IsVertex: int = ...

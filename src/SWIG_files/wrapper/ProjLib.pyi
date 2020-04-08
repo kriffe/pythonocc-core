@@ -15,6 +15,8 @@ from OCC.Core.math import *
 from OCC.Core.Geom import *
 from OCC.Core.GeomAdaptor import *
 
+#the following typedef cannot be wrapped as is
+ProjLib_SequenceOfHSequenceOfPnt = NewType('ProjLib_SequenceOfHSequenceOfPnt', Any)
 
 class ProjLib:
 	@staticmethod

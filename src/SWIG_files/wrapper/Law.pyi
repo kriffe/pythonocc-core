@@ -8,6 +8,10 @@ from OCC.Core.Adaptor3d import *
 from OCC.Core.GeomAbs import *
 from OCC.Core.TColgp import *
 
+#the following typedef cannot be wrapped as is
+Law_Laws = NewType('Law_Laws', Any)
+#the following typedef cannot be wrapped as is
+Law_ListIteratorOfLaws = NewType('Law_ListIteratorOfLaws', Any)
 
 class Law:
 	@overload

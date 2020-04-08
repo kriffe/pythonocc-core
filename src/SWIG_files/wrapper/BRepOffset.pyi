@@ -15,6 +15,22 @@ from OCC.Core.TopLoc import *
 from OCC.Core.Geom2d import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval = NewType('BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape = NewType('BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapIteratorOfDataMapOfShapeOffset = NewType('BRepOffset_DataMapIteratorOfDataMapOfShapeOffset', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapOfShapeListOfInterval = NewType('BRepOffset_DataMapOfShapeListOfInterval', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapOfShapeMapOfShape = NewType('BRepOffset_DataMapOfShapeMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_DataMapOfShapeOffset = NewType('BRepOffset_DataMapOfShapeOffset', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_ListIteratorOfListOfInterval = NewType('BRepOffset_ListIteratorOfListOfInterval', Any)
+#the following typedef cannot be wrapped as is
+BRepOffset_ListOfInterval = NewType('BRepOffset_ListOfInterval', Any)
 
 class BRepOffset_Error(IntEnum):
 	BRepOffset_NoError: int = ...

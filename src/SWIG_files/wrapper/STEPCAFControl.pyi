@@ -20,6 +20,30 @@ from OCC.Core.STEPConstruct import *
 from OCC.Core.TDocStd import *
 from OCC.Core.Resource import *
 
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfShapePD = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfShapePD', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR = NewType('STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfLabelExternFile = NewType('STEPCAFControl_DataMapOfLabelExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfLabelShape = NewType('STEPCAFControl_DataMapOfLabelShape', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfPDExternFile = NewType('STEPCAFControl_DataMapOfPDExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfSDRExternFile = NewType('STEPCAFControl_DataMapOfSDRExternFile', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfShapePD = NewType('STEPCAFControl_DataMapOfShapePD', Any)
+#the following typedef cannot be wrapped as is
+STEPCAFControl_DataMapOfShapeSDR = NewType('STEPCAFControl_DataMapOfShapeSDR', Any)
 
 class STEPCAFControl_ActorWrite(STEPControl_ActorWrite):
 	def __init__(self) -> None: ...

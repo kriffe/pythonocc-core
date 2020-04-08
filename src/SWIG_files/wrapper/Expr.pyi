@@ -6,6 +6,18 @@ from OCC.Core.NCollection import *
 from OCC.Core.TColStd import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+Expr_Array1OfGeneralExpression = NewType('Expr_Array1OfGeneralExpression', Any)
+#the following typedef cannot be wrapped as is
+Expr_Array1OfNamedUnknown = NewType('Expr_Array1OfNamedUnknown', Any)
+#the following typedef cannot be wrapped as is
+Expr_Array1OfSingleRelation = NewType('Expr_Array1OfSingleRelation', Any)
+#the following typedef cannot be wrapped as is
+Expr_MapOfNamedUnknown = NewType('Expr_MapOfNamedUnknown', Any)
+#the following typedef cannot be wrapped as is
+Expr_SequenceOfGeneralExpression = NewType('Expr_SequenceOfGeneralExpression', Any)
+#the following typedef cannot be wrapped as is
+Expr_SequenceOfGeneralRelation = NewType('Expr_SequenceOfGeneralRelation', Any)
 
 class Expr:
 	@staticmethod

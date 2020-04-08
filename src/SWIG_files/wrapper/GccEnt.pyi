@@ -5,6 +5,8 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+GccEnt_Array1OfPosition = NewType('GccEnt_Array1OfPosition', Any)
 
 class GccEnt_Position(IntEnum):
 	GccEnt_unqualified: int = ...

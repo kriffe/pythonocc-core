@@ -11,6 +11,10 @@ from OCC.Core.IFSelect import *
 from OCC.Core.TCollection import *
 from OCC.Core.XSControl import *
 
+#the following typedef cannot be wrapped as is
+STEPSelections_SequenceOfAssemblyComponent = NewType('STEPSelections_SequenceOfAssemblyComponent', Any)
+#the following typedef cannot be wrapped as is
+STEPSelections_SequenceOfAssemblyLink = NewType('STEPSelections_SequenceOfAssemblyLink', Any)
 
 class STEPSelections_AssemblyComponent(Standard_Transient):
 	@overload

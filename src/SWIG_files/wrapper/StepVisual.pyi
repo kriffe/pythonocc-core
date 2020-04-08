@@ -12,6 +12,40 @@ from OCC.Core.TCollection import *
 from OCC.Core.StepBasic import *
 from OCC.Core.TColgp import *
 
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfAnnotationPlaneElement = NewType('StepVisual_Array1OfAnnotationPlaneElement', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfBoxCharacteristicSelect = NewType('StepVisual_Array1OfBoxCharacteristicSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect = NewType('StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect = NewType('StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfCurveStyleFontPattern = NewType('StepVisual_Array1OfCurveStyleFontPattern', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfDirectionCountSelect = NewType('StepVisual_Array1OfDirectionCountSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfDraughtingCalloutElement = NewType('StepVisual_Array1OfDraughtingCalloutElement', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfFillStyleSelect = NewType('StepVisual_Array1OfFillStyleSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfInvisibleItem = NewType('StepVisual_Array1OfInvisibleItem', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfLayeredItem = NewType('StepVisual_Array1OfLayeredItem', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfPresentationStyleAssignment = NewType('StepVisual_Array1OfPresentationStyleAssignment', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfPresentationStyleSelect = NewType('StepVisual_Array1OfPresentationStyleSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfStyleContextSelect = NewType('StepVisual_Array1OfStyleContextSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfSurfaceStyleElementSelect = NewType('StepVisual_Array1OfSurfaceStyleElementSelect', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfTessellatedItem = NewType('StepVisual_Array1OfTessellatedItem', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_Array1OfTextOrCharacter = NewType('StepVisual_Array1OfTextOrCharacter', Any)
+#the following typedef cannot be wrapped as is
+StepVisual_VectorOfHSequenceOfInteger = NewType('StepVisual_VectorOfHSequenceOfInteger', Any)
 
 class StepVisual_NullStyle(IntEnum):
 	StepVisual_Null: int = ...

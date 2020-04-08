@@ -11,6 +11,26 @@ from OCC.Core.StepBasic import *
 from OCC.Core.StepRepr import *
 from OCC.Core.StepGeom import *
 
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfCurveElementEndOffset = NewType('StepFEA_Array1OfCurveElementEndOffset', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfCurveElementEndRelease = NewType('StepFEA_Array1OfCurveElementEndRelease', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfCurveElementInterval = NewType('StepFEA_Array1OfCurveElementInterval', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfDegreeOfFreedom = NewType('StepFEA_Array1OfDegreeOfFreedom', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfElementRepresentation = NewType('StepFEA_Array1OfElementRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_Array1OfNodeRepresentation = NewType('StepFEA_Array1OfNodeRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_SequenceOfCurve3dElementProperty = NewType('StepFEA_SequenceOfCurve3dElementProperty', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_SequenceOfElementGeometricRelationship = NewType('StepFEA_SequenceOfElementGeometricRelationship', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_SequenceOfElementRepresentation = NewType('StepFEA_SequenceOfElementRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepFEA_SequenceOfNodeRepresentation = NewType('StepFEA_SequenceOfNodeRepresentation', Any)
 
 class StepFEA_ElementVolume(IntEnum):
 	StepFEA_Volume: int = ...

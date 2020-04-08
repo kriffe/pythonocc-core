@@ -26,6 +26,20 @@ from OCC.Core.Adaptor3d import *
 from OCC.Core.Intf import *
 from OCC.Core.IntSurf import *
 
+#the following typedef cannot be wrapped as is
+HLRBRep_Array1OfEData = NewType('HLRBRep_Array1OfEData', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_Array1OfFData = NewType('HLRBRep_Array1OfFData', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_ListIteratorOfListOfBPnt2D = NewType('HLRBRep_ListIteratorOfListOfBPnt2D', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_ListIteratorOfListOfBPoint = NewType('HLRBRep_ListIteratorOfListOfBPoint', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_ListOfBPnt2D = NewType('HLRBRep_ListOfBPnt2D', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_ListOfBPoint = NewType('HLRBRep_ListOfBPoint', Any)
+#the following typedef cannot be wrapped as is
+HLRBRep_SeqOfShapeBounds = NewType('HLRBRep_SeqOfShapeBounds', Any)
 
 class HLRBRep_TypeOfResultingEdge(IntEnum):
 	HLRBRep_Undefined: int = ...

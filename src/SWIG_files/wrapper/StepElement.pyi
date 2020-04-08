@@ -8,6 +8,36 @@ from OCC.Core.StepRepr import *
 from OCC.Core.StepData import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfCurveElementEndReleasePacket = NewType('StepElement_Array1OfCurveElementEndReleasePacket', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfCurveElementSectionDefinition = NewType('StepElement_Array1OfCurveElementSectionDefinition', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfHSequenceOfCurveElementPurposeMember = NewType('StepElement_Array1OfHSequenceOfCurveElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfHSequenceOfSurfaceElementPurposeMember = NewType('StepElement_Array1OfHSequenceOfSurfaceElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfMeasureOrUnspecifiedValue = NewType('StepElement_Array1OfMeasureOrUnspecifiedValue', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfSurfaceSection = NewType('StepElement_Array1OfSurfaceSection', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfVolumeElementPurpose = NewType('StepElement_Array1OfVolumeElementPurpose', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array1OfVolumeElementPurposeMember = NewType('StepElement_Array1OfVolumeElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array2OfCurveElementPurposeMember = NewType('StepElement_Array2OfCurveElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array2OfSurfaceElementPurpose = NewType('StepElement_Array2OfSurfaceElementPurpose', Any)
+#the following typedef cannot be wrapped as is
+StepElement_Array2OfSurfaceElementPurposeMember = NewType('StepElement_Array2OfSurfaceElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_SequenceOfCurveElementPurposeMember = NewType('StepElement_SequenceOfCurveElementPurposeMember', Any)
+#the following typedef cannot be wrapped as is
+StepElement_SequenceOfCurveElementSectionDefinition = NewType('StepElement_SequenceOfCurveElementSectionDefinition', Any)
+#the following typedef cannot be wrapped as is
+StepElement_SequenceOfElementMaterial = NewType('StepElement_SequenceOfElementMaterial', Any)
+#the following typedef cannot be wrapped as is
+StepElement_SequenceOfSurfaceElementPurposeMember = NewType('StepElement_SequenceOfSurfaceElementPurposeMember', Any)
 
 class StepElement_ElementVolume(IntEnum):
 	StepElement_Volume: int = ...

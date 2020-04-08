@@ -8,6 +8,14 @@ from OCC.Core.TDF import *
 from OCC.Core.XmlObjMgt import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+XmlMDF_DataMapIteratorOfMapOfDriver = NewType('XmlMDF_DataMapIteratorOfMapOfDriver', Any)
+#the following typedef cannot be wrapped as is
+XmlMDF_DataMapIteratorOfTypeADriverMap = NewType('XmlMDF_DataMapIteratorOfTypeADriverMap', Any)
+#the following typedef cannot be wrapped as is
+XmlMDF_MapOfDriver = NewType('XmlMDF_MapOfDriver', Any)
+#the following typedef cannot be wrapped as is
+XmlMDF_TypeADriverMap = NewType('XmlMDF_TypeADriverMap', Any)
 
 class XmlMDF:
 	@staticmethod

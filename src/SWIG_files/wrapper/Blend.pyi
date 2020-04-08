@@ -10,6 +10,8 @@ from OCC.Core.gp import *
 from OCC.Core.TColgp import *
 from OCC.Core.Adaptor2d import *
 
+#the following typedef cannot be wrapped as is
+Blend_SequenceOfPoint = NewType('Blend_SequenceOfPoint', Any)
 
 class Blend_Status(IntEnum):
 	Blend_StepTooLarge: int = ...

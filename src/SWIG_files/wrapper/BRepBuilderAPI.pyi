@@ -13,6 +13,12 @@ from OCC.Core.TColStd import *
 from OCC.Core.Bnd import *
 from OCC.Core.Geom2d import *
 
+#the following typedef cannot be wrapped as is
+BRepBuilderAPI_BndBoxTree = NewType('BRepBuilderAPI_BndBoxTree', Any)
+#the following typedef cannot be wrapped as is
+BRepBuilderAPI_CellFilter = NewType('BRepBuilderAPI_CellFilter', Any)
+#the following typedef cannot be wrapped as is
+VectorOfPoint = NewType('VectorOfPoint', Any)
 
 class BRepBuilderAPI_ShapeModification(IntEnum):
 	BRepBuilderAPI_Preserved: int = ...

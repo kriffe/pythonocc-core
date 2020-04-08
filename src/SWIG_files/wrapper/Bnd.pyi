@@ -8,6 +8,14 @@ from OCC.Core.TColStd import *
 from OCC.Core.TColgp import *
 from OCC.Core.BVH import *
 
+#the following typedef cannot be wrapped as is
+Bnd_Array1OfBox = NewType('Bnd_Array1OfBox', Any)
+#the following typedef cannot be wrapped as is
+Bnd_Array1OfBox2d = NewType('Bnd_Array1OfBox2d', Any)
+#the following typedef cannot be wrapped as is
+Bnd_Array1OfSphere = NewType('Bnd_Array1OfSphere', Any)
+#the following typedef cannot be wrapped as is
+Bnd_SeqOfBox = NewType('Bnd_SeqOfBox', Any)
 
 class Bnd_B2d:
 	@overload

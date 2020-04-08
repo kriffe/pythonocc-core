@@ -9,6 +9,24 @@ from OCC.Core.TCollection import *
 from OCC.Core.StepBasic import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfBoundaryCurve = NewType('StepGeom_Array1OfBoundaryCurve', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfCartesianPoint = NewType('StepGeom_Array1OfCartesianPoint', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfCompositeCurveSegment = NewType('StepGeom_Array1OfCompositeCurveSegment', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfCurve = NewType('StepGeom_Array1OfCurve', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfPcurveOrSurface = NewType('StepGeom_Array1OfPcurveOrSurface', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfSurfaceBoundary = NewType('StepGeom_Array1OfSurfaceBoundary', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array1OfTrimmingSelect = NewType('StepGeom_Array1OfTrimmingSelect', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array2OfCartesianPoint = NewType('StepGeom_Array2OfCartesianPoint', Any)
+#the following typedef cannot be wrapped as is
+StepGeom_Array2OfSurfacePatch = NewType('StepGeom_Array2OfSurfacePatch', Any)
 
 class StepGeom_KnotType(IntEnum):
 	StepGeom_ktUniformKnots: int = ...

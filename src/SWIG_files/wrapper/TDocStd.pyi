@@ -12,6 +12,14 @@ from OCC.Core.TColStd import *
 from OCC.Core.Resource import *
 from OCC.Core.CDM import *
 
+#the following typedef cannot be wrapped as is
+TDocStd_DataMapIteratorOfLabelIDMapDataMap = NewType('TDocStd_DataMapIteratorOfLabelIDMapDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDocStd_LabelIDMapDataMap = NewType('TDocStd_LabelIDMapDataMap', Any)
+#the following typedef cannot be wrapped as is
+TDocStd_SequenceOfApplicationDelta = NewType('TDocStd_SequenceOfApplicationDelta', Any)
+#the following typedef cannot be wrapped as is
+TDocStd_SequenceOfDocument = NewType('TDocStd_SequenceOfDocument', Any)
 TDocStd_XLinkPtr = NewType('TDocStd_XLinkPtr', TDocStd_XLink)
 
 class TDocStd:

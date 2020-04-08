@@ -20,6 +20,18 @@ from OCC.Core.TopTools import *
 from OCC.Core.Geom2d import *
 from OCC.Core.Geom import *
 
+#the following typedef cannot be wrapped as is
+TopOpeBRep_Array1OfLineInter = NewType('TopOpeBRep_Array1OfLineInter', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_Array1OfVPointInter = NewType('TopOpeBRep_Array1OfVPointInter', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool = NewType('TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_DataMapOfTopolTool = NewType('TopOpeBRep_DataMapOfTopolTool', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_ListIteratorOfListOfBipoint = NewType('TopOpeBRep_ListIteratorOfListOfBipoint', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_ListOfBipoint = NewType('TopOpeBRep_ListOfBipoint', Any)
 TopOpeBRep_PEdgesIntersector = NewType('TopOpeBRep_PEdgesIntersector', TopOpeBRep_EdgesIntersector)
 TopOpeBRep_PFacesFiller = NewType('TopOpeBRep_PFacesFiller', TopOpeBRep_FacesFiller)
 TopOpeBRep_PFacesIntersector = NewType('TopOpeBRep_PFacesIntersector', TopOpeBRep_FacesIntersector)
@@ -27,6 +39,8 @@ TopOpeBRep_PIntRes2d_IntersectionPoint = NewType('TopOpeBRep_PIntRes2d_Intersect
 TopOpeBRep_PLineInter = NewType('TopOpeBRep_PLineInter', TopOpeBRep_LineInter)
 TopOpeBRep_PPntOn2S = NewType('TopOpeBRep_PPntOn2S', IntSurf_PntOn2S)
 TopOpeBRep_PThePointOfIntersection = NewType('TopOpeBRep_PThePointOfIntersection', IntPatch_Point)
+#the following typedef cannot be wrapped as is
+TopOpeBRep_SequenceOfPoint2d = NewType('TopOpeBRep_SequenceOfPoint2d', Any)
 
 class TopOpeBRep_P2Dstatus(IntEnum):
 	TopOpeBRep_P2DUNK: int = ...

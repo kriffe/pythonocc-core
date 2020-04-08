@@ -4,7 +4,23 @@ from typing import overload, NewType, Optional, Tuple
 from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 
+#the following typedef cannot be wrapped as is
+Storage_ArrayOfCallBack = NewType('Storage_ArrayOfCallBack', Any)
+#the following typedef cannot be wrapped as is
+Storage_ArrayOfSchema = NewType('Storage_ArrayOfSchema', Any)
+#the following typedef cannot be wrapped as is
+Storage_DataMapIteratorOfMapOfCallBack = NewType('Storage_DataMapIteratorOfMapOfCallBack', Any)
+#the following typedef cannot be wrapped as is
+Storage_DataMapIteratorOfMapOfPers = NewType('Storage_DataMapIteratorOfMapOfPers', Any)
+#the following typedef cannot be wrapped as is
+Storage_MapOfCallBack = NewType('Storage_MapOfCallBack', Any)
+#the following typedef cannot be wrapped as is
+Storage_MapOfPers = NewType('Storage_MapOfPers', Any)
+#the following typedef cannot be wrapped as is
+Storage_PType = NewType('Storage_PType', Any)
 Storage_Position = NewType('Storage_Position', long)
+#the following typedef cannot be wrapped as is
+Storage_SeqOfRoot = NewType('Storage_SeqOfRoot', Any)
 
 class Storage_SolveMode(IntEnum):
 	Storage_AddSolve: int = ...

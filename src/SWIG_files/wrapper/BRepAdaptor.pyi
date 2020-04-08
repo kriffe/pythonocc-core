@@ -13,6 +13,8 @@ from OCC.Core.GeomAdaptor import *
 from OCC.Core.Geom2dAdaptor import *
 from OCC.Core.Adaptor2d import *
 
+#the following typedef cannot be wrapped as is
+BRepAdaptor_Array1OfCurve = NewType('BRepAdaptor_Array1OfCurve', Any)
 
 class BRepAdaptor_CompCurve(Adaptor3d_Curve):
 	@overload

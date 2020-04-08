@@ -4,6 +4,8 @@ from typing import overload, NewType, Optional, Tuple
 from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 
+#the following typedef cannot be wrapped as is
+Intrv_SequenceOfInterval = NewType('Intrv_SequenceOfInterval', Any)
 
 class Intrv_Position(IntEnum):
 	Intrv_Before: int = ...

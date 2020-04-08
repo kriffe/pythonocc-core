@@ -7,6 +7,18 @@ from OCC.Core.TCollection import *
 from OCC.Core.StepData import *
 from OCC.Core.StepBasic import *
 
+#the following typedef cannot be wrapped as is
+StepRepr_Array1OfMaterialPropertyRepresentation = NewType('StepRepr_Array1OfMaterialPropertyRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepRepr_Array1OfPropertyDefinitionRepresentation = NewType('StepRepr_Array1OfPropertyDefinitionRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepRepr_Array1OfRepresentationItem = NewType('StepRepr_Array1OfRepresentationItem', Any)
+#the following typedef cannot be wrapped as is
+StepRepr_Array1OfShapeAspect = NewType('StepRepr_Array1OfShapeAspect', Any)
+#the following typedef cannot be wrapped as is
+StepRepr_SequenceOfMaterialPropertyRepresentation = NewType('StepRepr_SequenceOfMaterialPropertyRepresentation', Any)
+#the following typedef cannot be wrapped as is
+StepRepr_SequenceOfRepresentationItem = NewType('StepRepr_SequenceOfRepresentationItem', Any)
 
 class StepRepr_AssemblyComponentUsageSubstitute(Standard_Transient):
 	def __init__(self) -> None: ...

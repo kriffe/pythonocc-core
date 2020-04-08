@@ -16,8 +16,16 @@ from OCC.Core.V3d import *
 Handle_PrsMgr_Presentation3d = NewType('Handle_PrsMgr_Presentation3d', Handle_PrsMgr_Presentation)
 Handle_PrsMgr_PresentationManager3d = NewType('Handle_PrsMgr_PresentationManager3d', Handle_PrsMgr_PresentationManager)
 Prs3d_Presentation = NewType('Prs3d_Presentation', Graphic3d_Structure)
+#the following typedef cannot be wrapped as is
+PrsMgr_ListOfPresentableObjects = NewType('PrsMgr_ListOfPresentableObjects', Any)
+#the following typedef cannot be wrapped as is
+PrsMgr_ListOfPresentableObjectsIter = NewType('PrsMgr_ListOfPresentableObjectsIter', Any)
+#the following typedef cannot be wrapped as is
+PrsMgr_ListOfPresentations = NewType('PrsMgr_ListOfPresentations', Any)
 PrsMgr_Presentation3d = NewType('PrsMgr_Presentation3d', PrsMgr_Presentation)
 PrsMgr_PresentationManager3d = NewType('PrsMgr_PresentationManager3d', PrsMgr_PresentationManager)
+#the following typedef cannot be wrapped as is
+PrsMgr_Presentations = NewType('PrsMgr_Presentations', Any)
 
 class PrsMgr_TypeOfPresentation3d(IntEnum):
 	PrsMgr_TOP_AllView: int = ...

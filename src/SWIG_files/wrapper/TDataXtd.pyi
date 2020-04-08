@@ -12,6 +12,8 @@ from OCC.Core.TopoDS import *
 from OCC.Core.Poly import *
 from OCC.Core.TShort import *
 
+#the following typedef cannot be wrapped as is
+TDataXtd_Array1OfTrsf = NewType('TDataXtd_Array1OfTrsf', Any)
 
 class TDataXtd_ConstraintEnum(IntEnum):
 	TDataXtd_RADIUS: int = ...

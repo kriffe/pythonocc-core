@@ -5,6 +5,14 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString = NewType('Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString', Any)
+#the following typedef cannot be wrapped as is
+Resource_DataMapIteratorOfDataMapOfAsciiStringExtendedString = NewType('Resource_DataMapIteratorOfDataMapOfAsciiStringExtendedString', Any)
+#the following typedef cannot be wrapped as is
+Resource_DataMapOfAsciiStringAsciiString = NewType('Resource_DataMapOfAsciiStringAsciiString', Any)
+#the following typedef cannot be wrapped as is
+Resource_DataMapOfAsciiStringExtendedString = NewType('Resource_DataMapOfAsciiStringExtendedString', Any)
 
 class Resource_FormatType(IntEnum):
 	Resource_FormatType_SJIS: int = ...

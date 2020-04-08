@@ -6,6 +6,14 @@ from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 from OCC.Core.Bnd import *
 
+#the following typedef cannot be wrapped as is
+Intf_Array1OfLin = NewType('Intf_Array1OfLin', Any)
+#the following typedef cannot be wrapped as is
+Intf_SeqOfSectionLine = NewType('Intf_SeqOfSectionLine', Any)
+#the following typedef cannot be wrapped as is
+Intf_SeqOfSectionPoint = NewType('Intf_SeqOfSectionPoint', Any)
+#the following typedef cannot be wrapped as is
+Intf_SeqOfTangentZone = NewType('Intf_SeqOfTangentZone', Any)
 
 class Intf_PIType(IntEnum):
 	Intf_EXTERNAL: int = ...

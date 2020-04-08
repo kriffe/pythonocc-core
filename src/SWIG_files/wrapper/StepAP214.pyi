@@ -12,6 +12,40 @@ from OCC.Core.StepShape import *
 from OCC.Core.StepGeom import *
 from OCC.Core.Interface import *
 
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfApprovalItem = NewType('StepAP214_Array1OfApprovalItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignDateAndPersonItem = NewType('StepAP214_Array1OfAutoDesignDateAndPersonItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignDateAndTimeItem = NewType('StepAP214_Array1OfAutoDesignDateAndTimeItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignDatedItem = NewType('StepAP214_Array1OfAutoDesignDatedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignGeneralOrgItem = NewType('StepAP214_Array1OfAutoDesignGeneralOrgItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignGroupedItem = NewType('StepAP214_Array1OfAutoDesignGroupedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignPresentedItemSelect = NewType('StepAP214_Array1OfAutoDesignPresentedItemSelect', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfAutoDesignReferencingItem = NewType('StepAP214_Array1OfAutoDesignReferencingItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfDateAndTimeItem = NewType('StepAP214_Array1OfDateAndTimeItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfDateItem = NewType('StepAP214_Array1OfDateItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfDocumentReferenceItem = NewType('StepAP214_Array1OfDocumentReferenceItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfExternalIdentificationItem = NewType('StepAP214_Array1OfExternalIdentificationItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfGroupItem = NewType('StepAP214_Array1OfGroupItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfOrganizationItem = NewType('StepAP214_Array1OfOrganizationItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfPersonAndOrganizationItem = NewType('StepAP214_Array1OfPersonAndOrganizationItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfPresentedItemSelect = NewType('StepAP214_Array1OfPresentedItemSelect', Any)
+#the following typedef cannot be wrapped as is
+StepAP214_Array1OfSecurityClassificationItem = NewType('StepAP214_Array1OfSecurityClassificationItem', Any)
 
 class StepAP214:
 	@staticmethod

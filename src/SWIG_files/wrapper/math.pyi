@@ -7,6 +7,8 @@ from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+math_Array1OfValueAndWeight = NewType('math_Array1OfValueAndWeight', Any)
 
 class math_Status(IntEnum):
 	math_OK: int = ...

@@ -27,6 +27,34 @@ from OCC.Core.Poly import *
 from OCC.Core.Image import *
 
 AIS_AnimationTimer = NewType('AIS_AnimationTimer', Media_Timer)
+#the following typedef cannot be wrapped as is
+AIS_DataMapIteratorOfDataMapOfIOStatus = NewType('AIS_DataMapIteratorOfDataMapOfIOStatus', Any)
+#the following typedef cannot be wrapped as is
+AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive = NewType('AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_DataMapOfIOStatus = NewType('AIS_DataMapOfIOStatus', Any)
+#the following typedef cannot be wrapped as is
+AIS_DataMapOfShapeDrawer = NewType('AIS_DataMapOfShapeDrawer', Any)
+#the following typedef cannot be wrapped as is
+AIS_DataMapofIntegerListOfinteractive = NewType('AIS_DataMapofIntegerListOfinteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_IndexedDataMapOfOwnerPrs = NewType('AIS_IndexedDataMapOfOwnerPrs', Any)
+#the following typedef cannot be wrapped as is
+AIS_ListIteratorOfListOfInteractive = NewType('AIS_ListIteratorOfListOfInteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_ListOfInteractive = NewType('AIS_ListOfInteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_MapIteratorOfMapOfInteractive = NewType('AIS_MapIteratorOfMapOfInteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_MapOfInteractive = NewType('AIS_MapOfInteractive', Any)
+#the following typedef cannot be wrapped as is
+AIS_MouseGestureMap = NewType('AIS_MouseGestureMap', Any)
+#the following typedef cannot be wrapped as is
+AIS_NListOfEntityOwner = NewType('AIS_NListOfEntityOwner', Any)
+#the following typedef cannot be wrapped as is
+AIS_SequenceOfDimension = NewType('AIS_SequenceOfDimension', Any)
+#the following typedef cannot be wrapped as is
+AIS_SequenceOfInteractive = NewType('AIS_SequenceOfInteractive', Any)
 
 class AIS_TrihedronSelectionMode(IntEnum):
 	AIS_TrihedronSelectionMode_EntireObject: int = ...

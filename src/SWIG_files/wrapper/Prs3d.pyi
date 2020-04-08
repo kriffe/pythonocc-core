@@ -19,6 +19,10 @@ from OCC.Core.Quantity import *
 from OCC.Core.TColStd import *
 
 Graphic3d_HighlightStyle = NewType('Graphic3d_HighlightStyle', Prs3d_Drawer)
+#the following typedef cannot be wrapped as is
+Prs3d_NListIteratorOfListOfSequenceOfPnt = NewType('Prs3d_NListIteratorOfListOfSequenceOfPnt', Any)
+#the following typedef cannot be wrapped as is
+Prs3d_NListOfSequenceOfPnt = NewType('Prs3d_NListOfSequenceOfPnt', Any)
 Prs3d_Presentation = NewType('Prs3d_Presentation', Graphic3d_Structure)
 
 class Prs3d_DimensionTextVerticalPosition(IntEnum):

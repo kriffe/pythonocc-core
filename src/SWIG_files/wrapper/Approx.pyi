@@ -14,6 +14,12 @@ from OCC.Core.AppParCurves import *
 from OCC.Core.TColgp import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+Approx_Array1OfAdHSurface = NewType('Approx_Array1OfAdHSurface', Any)
+#the following typedef cannot be wrapped as is
+Approx_Array1OfGTrsf2d = NewType('Approx_Array1OfGTrsf2d', Any)
+#the following typedef cannot be wrapped as is
+Approx_SequenceOfHArray1OfReal = NewType('Approx_SequenceOfHArray1OfReal', Any)
 
 class Approx_Status(IntEnum):
 	Approx_PointsAdded: int = ...

@@ -11,6 +11,10 @@ from OCC.Core.Adaptor3d import *
 from OCC.Core.BRepAdaptor import *
 from OCC.Core.Adaptor2d import *
 
+#the following typedef cannot be wrapped as is
+BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool = NewType('BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool', Any)
+#the following typedef cannot be wrapped as is
+BRepTopAdaptor_MapOfShapeTool = NewType('BRepTopAdaptor_MapOfShapeTool', Any)
 BRepTopAdaptor_SeqOfPtr = NewType('BRepTopAdaptor_SeqOfPtr', TColStd_SequenceOfAddress)
 
 class BRepTopAdaptor_FClass2d:

@@ -11,6 +11,8 @@ from OCC.Core.Transfer import *
 from OCC.Core.TopoDS import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+TransferBRep_SequenceOfTransferResultInfo = NewType('TransferBRep_SequenceOfTransferResultInfo', Any)
 
 class TransferBRep:
 	@staticmethod

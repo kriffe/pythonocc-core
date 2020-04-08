@@ -9,6 +9,20 @@ from OCC.Core.Message import *
 from OCC.Core.TDF import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+TObj_DataMapOfNameLabel = NewType('TObj_DataMapOfNameLabel', Any)
+#the following typedef cannot be wrapped as is
+TObj_DataMapOfObjectHSequenceOcafObjects = NewType('TObj_DataMapOfObjectHSequenceOcafObjects', Any)
+#the following typedef cannot be wrapped as is
+TObj_DataMapOfStringPointer = NewType('TObj_DataMapOfStringPointer', Any)
+#the following typedef cannot be wrapped as is
+TObj_SequenceOfIterator = NewType('TObj_SequenceOfIterator', Any)
+#the following typedef cannot be wrapped as is
+TObj_SequenceOfObject = NewType('TObj_SequenceOfObject', Any)
+#the following typedef cannot be wrapped as is
+TObj_TIntSparseArray_MapOfData = NewType('TObj_TIntSparseArray_MapOfData', Any)
+#the following typedef cannot be wrapped as is
+TObj_TIntSparseArray_VecOfData = NewType('TObj_TIntSparseArray_VecOfData', Any)
 
 class TObj_DeletingMode(IntEnum):
 	TObj_FreeOnly: int = ...

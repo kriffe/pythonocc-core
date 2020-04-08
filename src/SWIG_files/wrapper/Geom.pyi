@@ -8,6 +8,8 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.TColgp import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+Geom_SequenceOfBSplineSurface = NewType('Geom_SequenceOfBSplineSurface', Any)
 
 class Geom_Geometry(Standard_Transient):
 	def Copy(self) -> Geom_Geometry: ...

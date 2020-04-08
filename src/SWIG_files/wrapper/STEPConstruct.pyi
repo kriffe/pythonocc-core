@@ -20,6 +20,14 @@ from OCC.Core.XSControl import *
 from OCC.Core.StepVisual import *
 from OCC.Core.Quantity import *
 
+#the following typedef cannot be wrapped as is
+STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient = NewType('STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient', Any)
+#the following typedef cannot be wrapped as is
+STEPConstruct_DataMapIteratorOfDataMapOfPointTransient = NewType('STEPConstruct_DataMapIteratorOfDataMapOfPointTransient', Any)
+#the following typedef cannot be wrapped as is
+STEPConstruct_DataMapOfAsciiStringTransient = NewType('STEPConstruct_DataMapOfAsciiStringTransient', Any)
+#the following typedef cannot be wrapped as is
+STEPConstruct_DataMapOfPointTransient = NewType('STEPConstruct_DataMapOfPointTransient', Any)
 
 class STEPConstruct:
 	@staticmethod

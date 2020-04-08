@@ -11,6 +11,14 @@ from OCC.Core.Geom2d import *
 from OCC.Core.HatchGen import *
 from OCC.Core.Geom2dInt import *
 
+#the following typedef cannot be wrapped as is
+Geom2dHatch_DataMapIteratorOfHatchings = NewType('Geom2dHatch_DataMapIteratorOfHatchings', Any)
+#the following typedef cannot be wrapped as is
+Geom2dHatch_DataMapIteratorOfMapOfElements = NewType('Geom2dHatch_DataMapIteratorOfMapOfElements', Any)
+#the following typedef cannot be wrapped as is
+Geom2dHatch_Hatchings = NewType('Geom2dHatch_Hatchings', Any)
+#the following typedef cannot be wrapped as is
+Geom2dHatch_MapOfElements = NewType('Geom2dHatch_MapOfElements', Any)
 
 class Geom2dHatch_Classifier:
 	@overload

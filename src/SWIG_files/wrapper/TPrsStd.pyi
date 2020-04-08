@@ -8,6 +8,10 @@ from OCC.Core.AIS import *
 from OCC.Core.TCollection import *
 from OCC.Core.TDF import *
 
+#the following typedef cannot be wrapped as is
+TPrsStd_DataMapIteratorOfDataMapOfGUIDDriver = NewType('TPrsStd_DataMapIteratorOfDataMapOfGUIDDriver', Any)
+#the following typedef cannot be wrapped as is
+TPrsStd_DataMapOfGUIDDriver = NewType('TPrsStd_DataMapOfGUIDDriver', Any)
 
 class TPrsStd_ConstraintTools:
 	@staticmethod

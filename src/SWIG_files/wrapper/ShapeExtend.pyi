@@ -13,6 +13,14 @@ from OCC.Core.TColStd import *
 from OCC.Core.TopTools import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg = NewType('ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg', Any)
+#the following typedef cannot be wrapped as is
+ShapeExtend_DataMapIteratorOfDataMapOfTransientListOfMsg = NewType('ShapeExtend_DataMapIteratorOfDataMapOfTransientListOfMsg', Any)
+#the following typedef cannot be wrapped as is
+ShapeExtend_DataMapOfShapeListOfMsg = NewType('ShapeExtend_DataMapOfShapeListOfMsg', Any)
+#the following typedef cannot be wrapped as is
+ShapeExtend_DataMapOfTransientListOfMsg = NewType('ShapeExtend_DataMapOfTransientListOfMsg', Any)
 
 class ShapeExtend_Status(IntEnum):
 	ShapeExtend_OK: int = ...

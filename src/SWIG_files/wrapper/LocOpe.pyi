@@ -11,6 +11,16 @@ from OCC.Core.TColGeom import *
 from OCC.Core.gp import *
 from OCC.Core.Geom import *
 
+#the following typedef cannot be wrapped as is
+LocOpe_DataMapIteratorOfDataMapOfShapePnt = NewType('LocOpe_DataMapIteratorOfDataMapOfShapePnt', Any)
+#the following typedef cannot be wrapped as is
+LocOpe_DataMapOfShapePnt = NewType('LocOpe_DataMapOfShapePnt', Any)
+#the following typedef cannot be wrapped as is
+LocOpe_SequenceOfCirc = NewType('LocOpe_SequenceOfCirc', Any)
+#the following typedef cannot be wrapped as is
+LocOpe_SequenceOfLin = NewType('LocOpe_SequenceOfLin', Any)
+#the following typedef cannot be wrapped as is
+LocOpe_SequenceOfPntFace = NewType('LocOpe_SequenceOfPntFace', Any)
 
 class LocOpe_Operation(IntEnum):
 	LocOpe_FUSE: int = ...

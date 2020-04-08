@@ -15,6 +15,12 @@ from OCC.Core.Geom2d import *
 from OCC.Core.TopAbs import *
 from OCC.Core.TopTools import *
 
+#the following typedef cannot be wrapped as is
+ShapeFix_DataMapIteratorOfDataMapOfShapeBox2d = NewType('ShapeFix_DataMapIteratorOfDataMapOfShapeBox2d', Any)
+#the following typedef cannot be wrapped as is
+ShapeFix_DataMapOfShapeBox2d = NewType('ShapeFix_DataMapOfShapeBox2d', Any)
+#the following typedef cannot be wrapped as is
+ShapeFix_SequenceOfWireSegment = NewType('ShapeFix_SequenceOfWireSegment', Any)
 
 class ShapeFix:
 	@staticmethod

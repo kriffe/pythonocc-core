@@ -18,6 +18,16 @@ from OCC.Core.AdvApp2Var import *
 from OCC.Core.GeomAbs import *
 from OCC.Core.Plate import *
 
+#the following typedef cannot be wrapped as is
+GeomPlate_Array1OfHCurve = NewType('GeomPlate_Array1OfHCurve', Any)
+#the following typedef cannot be wrapped as is
+GeomPlate_Array1OfSequenceOfReal = NewType('GeomPlate_Array1OfSequenceOfReal', Any)
+#the following typedef cannot be wrapped as is
+GeomPlate_SequenceOfAij = NewType('GeomPlate_SequenceOfAij', Any)
+#the following typedef cannot be wrapped as is
+GeomPlate_SequenceOfCurveConstraint = NewType('GeomPlate_SequenceOfCurveConstraint', Any)
+#the following typedef cannot be wrapped as is
+GeomPlate_SequenceOfPointConstraint = NewType('GeomPlate_SequenceOfPointConstraint', Any)
 
 class GeomPlate_Aij:
 	@overload

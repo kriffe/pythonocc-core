@@ -12,6 +12,14 @@ from OCC.Core.TopoDS import *
 from OCC.Core.TColGeom2d import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape = NewType('BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape', Any)
+#the following typedef cannot be wrapped as is
+BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt = NewType('BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt', Any)
+#the following typedef cannot be wrapped as is
+BRepMAT2d_DataMapOfBasicEltShape = NewType('BRepMAT2d_DataMapOfBasicEltShape', Any)
+#the following typedef cannot be wrapped as is
+BRepMAT2d_DataMapOfShapeSequenceOfBasicElt = NewType('BRepMAT2d_DataMapOfShapeSequenceOfBasicElt', Any)
 
 class BRepMAT2d_BisectingLocus:
 	def __init__(self) -> None: ...

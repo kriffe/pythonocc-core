@@ -8,6 +8,20 @@ from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 from OCC.Core.MoniTool import *
 
+#the following typedef cannot be wrapped as is
+Interface_Array1OfFileParameter = NewType('Interface_Array1OfFileParameter', Any)
+#the following typedef cannot be wrapped as is
+Interface_Array1OfHAsciiString = NewType('Interface_Array1OfHAsciiString', Any)
+#the following typedef cannot be wrapped as is
+Interface_DataMapIteratorOfDataMapOfTransientInteger = NewType('Interface_DataMapIteratorOfDataMapOfTransientInteger', Any)
+#the following typedef cannot be wrapped as is
+Interface_DataMapOfTransientInteger = NewType('Interface_DataMapOfTransientInteger', Any)
+#the following typedef cannot be wrapped as is
+Interface_IndexedMapOfAsciiString = NewType('Interface_IndexedMapOfAsciiString', Any)
+#the following typedef cannot be wrapped as is
+Interface_SequenceOfCheck = NewType('Interface_SequenceOfCheck', Any)
+#the following typedef cannot be wrapped as is
+Interface_VectorOfFileParameter = NewType('Interface_VectorOfFileParameter', Any)
 
 class Interface_ParamType(IntEnum):
 	Interface_ParamMisc: int = ...

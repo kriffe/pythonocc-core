@@ -8,6 +8,14 @@ from OCC.Core.math import *
 from OCC.Core.PLib import *
 from OCC.Core.GeomAbs import *
 
+#the following typedef cannot be wrapped as is
+FEmTool_AssemblyTable = NewType('FEmTool_AssemblyTable', Any)
+#the following typedef cannot be wrapped as is
+FEmTool_ListIteratorOfListOfVectors = NewType('FEmTool_ListIteratorOfListOfVectors', Any)
+#the following typedef cannot be wrapped as is
+FEmTool_ListOfVectors = NewType('FEmTool_ListOfVectors', Any)
+#the following typedef cannot be wrapped as is
+FEmTool_SeqOfLinConstr = NewType('FEmTool_SeqOfLinConstr', Any)
 
 class FEmTool_Assembly:
 	def __init__(self, Dependence: TColStd_Array2OfInteger, Table: FEmTool_HAssemblyTable) -> None: ...

@@ -16,6 +16,16 @@ from OCC.Core.Bnd import *
 from OCC.Core.IntAna import *
 
 IntPatch_SearchPnt = NewType('IntPatch_SearchPnt', Intf_InterferencePolygon2d)
+#the following typedef cannot be wrapped as is
+IntPatch_SequenceOfIWLineOfTheIWalking = NewType('IntPatch_SequenceOfIWLineOfTheIWalking', Any)
+#the following typedef cannot be wrapped as is
+IntPatch_SequenceOfLine = NewType('IntPatch_SequenceOfLine', Any)
+#the following typedef cannot be wrapped as is
+IntPatch_SequenceOfPathPointOfTheSOnBounds = NewType('IntPatch_SequenceOfPathPointOfTheSOnBounds', Any)
+#the following typedef cannot be wrapped as is
+IntPatch_SequenceOfPoint = NewType('IntPatch_SequenceOfPoint', Any)
+#the following typedef cannot be wrapped as is
+IntPatch_SequenceOfSegmentOfTheSOnBounds = NewType('IntPatch_SequenceOfSegmentOfTheSOnBounds', Any)
 
 class IntPatch_SpecPntType(IntEnum):
 	IntPatch_SPntNone: int = ...

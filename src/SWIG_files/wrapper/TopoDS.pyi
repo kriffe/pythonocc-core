@@ -7,6 +7,10 @@ from OCC.Core.Message import *
 from OCC.Core.TopAbs import *
 from OCC.Core.TopLoc import *
 
+#the following typedef cannot be wrapped as is
+TopoDS_ListIteratorOfListOfShape = NewType('TopoDS_ListIteratorOfListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopoDS_ListOfShape = NewType('TopoDS_ListOfShape', Any)
 
 class TopoDS:
 	@overload

@@ -6,6 +6,20 @@ from OCC.Core.NCollection import *
 from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+Message_ArrayOfMsg = NewType('Message_ArrayOfMsg', Any)
+#the following typedef cannot be wrapped as is
+Message_HArrayOfMsg = NewType('Message_HArrayOfMsg', Any)
+#the following typedef cannot be wrapped as is
+Message_ListIteratorOfListOfMsg = NewType('Message_ListIteratorOfListOfMsg', Any)
+#the following typedef cannot be wrapped as is
+Message_ListOfAlert = NewType('Message_ListOfAlert', Any)
+#the following typedef cannot be wrapped as is
+Message_ListOfMsg = NewType('Message_ListOfMsg', Any)
+#the following typedef cannot be wrapped as is
+Message_SequenceOfPrinters = NewType('Message_SequenceOfPrinters', Any)
+#the following typedef cannot be wrapped as is
+Message_SequenceOfProgressScale = NewType('Message_SequenceOfProgressScale', Any)
 
 class Message_Status(IntEnum):
 	Message_None: int = ...

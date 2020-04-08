@@ -11,6 +11,18 @@ from OCC.Core.Geom2d import *
 from OCC.Core.gp import *
 from OCC.Core.HLRAlgo import *
 
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData = NewType('HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData', Any)
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData = NewType('HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData', Any)
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_DataMapOfShapeFaceData = NewType('HLRTopoBRep_DataMapOfShapeFaceData', Any)
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_ListIteratorOfListOfVData = NewType('HLRTopoBRep_ListIteratorOfListOfVData', Any)
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_ListOfVData = NewType('HLRTopoBRep_ListOfVData', Any)
+#the following typedef cannot be wrapped as is
+HLRTopoBRep_MapOfShapeListOfVData = NewType('HLRTopoBRep_MapOfShapeListOfVData', Any)
 
 class HLRTopoBRep_DSFiller:
 	@staticmethod

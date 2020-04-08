@@ -13,6 +13,26 @@ from OCC.Core.gp import *
 from OCC.Core.Transfer import *
 from OCC.Core.Geom2d import *
 
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapIteratorOfDataMapOfRI = NewType('StepToTopoDS_DataMapIteratorOfDataMapOfRI', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapIteratorOfDataMapOfRINames = NewType('StepToTopoDS_DataMapIteratorOfDataMapOfRINames', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapIteratorOfDataMapOfTRI = NewType('StepToTopoDS_DataMapIteratorOfDataMapOfTRI', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapIteratorOfPointEdgeMap = NewType('StepToTopoDS_DataMapIteratorOfPointEdgeMap', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapIteratorOfPointVertexMap = NewType('StepToTopoDS_DataMapIteratorOfPointVertexMap', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapOfRI = NewType('StepToTopoDS_DataMapOfRI', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapOfRINames = NewType('StepToTopoDS_DataMapOfRINames', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_DataMapOfTRI = NewType('StepToTopoDS_DataMapOfTRI', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_PointEdgeMap = NewType('StepToTopoDS_PointEdgeMap', Any)
+#the following typedef cannot be wrapped as is
+StepToTopoDS_PointVertexMap = NewType('StepToTopoDS_PointVertexMap', Any)
 
 class StepToTopoDS_GeometricToolError(IntEnum):
 	StepToTopoDS_GeometricToolDone: int = ...

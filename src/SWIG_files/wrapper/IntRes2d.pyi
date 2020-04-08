@@ -5,6 +5,10 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+IntRes2d_SequenceOfIntersectionPoint = NewType('IntRes2d_SequenceOfIntersectionPoint', Any)
+#the following typedef cannot be wrapped as is
+IntRes2d_SequenceOfIntersectionSegment = NewType('IntRes2d_SequenceOfIntersectionSegment', Any)
 
 class IntRes2d_Position(IntEnum):
 	IntRes2d_Head: int = ...

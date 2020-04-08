@@ -17,6 +17,10 @@ from OCC.Core.GeomFill import *
 from OCC.Core.Law import *
 from OCC.Core.Approx import *
 
+#the following typedef cannot be wrapped as is
+BRepOffsetAPI_SequenceOfSequenceOfReal = NewType('BRepOffsetAPI_SequenceOfSequenceOfReal', Any)
+#the following typedef cannot be wrapped as is
+BRepOffsetAPI_SequenceOfSequenceOfShape = NewType('BRepOffsetAPI_SequenceOfSequenceOfShape', Any)
 BRepOffsetAPI_Sewing = NewType('BRepOffsetAPI_Sewing', BRepBuilderAPI_Sewing)
 
 class BRepOffsetAPI_DraftAngle(BRepBuilderAPI_ModifyShape):

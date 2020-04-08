@@ -6,6 +6,10 @@ from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+IntAna_ListIteratorOfListOfCurve = NewType('IntAna_ListIteratorOfListOfCurve', Any)
+#the following typedef cannot be wrapped as is
+IntAna_ListOfCurve = NewType('IntAna_ListOfCurve', Any)
 
 class IntAna_ResultType(IntEnum):
 	IntAna_Point: int = ...

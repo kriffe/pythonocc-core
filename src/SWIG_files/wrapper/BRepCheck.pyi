@@ -7,6 +7,18 @@ from OCC.Core.Adaptor3d import *
 from OCC.Core.TopoDS import *
 from OCC.Core.TopTools import *
 
+#the following typedef cannot be wrapped as is
+BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus = NewType('BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus', Any)
+#the following typedef cannot be wrapped as is
+BRepCheck_DataMapIteratorOfDataMapOfShapeResult = NewType('BRepCheck_DataMapIteratorOfDataMapOfShapeResult', Any)
+#the following typedef cannot be wrapped as is
+BRepCheck_DataMapOfShapeListOfStatus = NewType('BRepCheck_DataMapOfShapeListOfStatus', Any)
+#the following typedef cannot be wrapped as is
+BRepCheck_DataMapOfShapeResult = NewType('BRepCheck_DataMapOfShapeResult', Any)
+#the following typedef cannot be wrapped as is
+BRepCheck_ListIteratorOfListOfStatus = NewType('BRepCheck_ListIteratorOfListOfStatus', Any)
+#the following typedef cannot be wrapped as is
+BRepCheck_ListOfStatus = NewType('BRepCheck_ListOfStatus', Any)
 
 class BRepCheck_Status(IntEnum):
 	BRepCheck_NoError: int = ...

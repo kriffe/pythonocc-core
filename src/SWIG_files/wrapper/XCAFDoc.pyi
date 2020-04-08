@@ -18,6 +18,12 @@ from OCC.Core.TopTools import *
 from OCC.Core.TDataStd import *
 from OCC.Core.XCAFView import *
 
+#the following typedef cannot be wrapped as is
+XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel = NewType('XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel', Any)
+#the following typedef cannot be wrapped as is
+XCAFDoc_DataMapOfShapeLabel = NewType('XCAFDoc_DataMapOfShapeLabel', Any)
+#the following typedef cannot be wrapped as is
+XCAFDoc_GraphNodeSequence = NewType('XCAFDoc_GraphNodeSequence', Any)
 XCAFDoc_PartId = NewType('XCAFDoc_PartId', TCollection_AsciiString)
 
 class XCAFDoc_ColorType(IntEnum):

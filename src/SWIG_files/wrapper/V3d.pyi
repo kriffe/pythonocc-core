@@ -15,6 +15,14 @@ from OCC.Core.Image import *
 Handle_V3d_Light = NewType('Handle_V3d_Light', Handle_Graphic3d_CLight)
 V3d_Coordinate = NewType('V3d_Coordinate', Standard_Real)
 V3d_Light = NewType('V3d_Light', Graphic3d_CLight)
+#the following typedef cannot be wrapped as is
+V3d_ListOfLight = NewType('V3d_ListOfLight', Any)
+#the following typedef cannot be wrapped as is
+V3d_ListOfLightIterator = NewType('V3d_ListOfLightIterator', Any)
+#the following typedef cannot be wrapped as is
+V3d_ListOfView = NewType('V3d_ListOfView', Any)
+#the following typedef cannot be wrapped as is
+V3d_ListOfViewIterator = NewType('V3d_ListOfViewIterator', Any)
 V3d_Parameter = NewType('V3d_Parameter', Standard_Real)
 V3d_TypeOfLight = NewType('V3d_TypeOfLight', Graphic3d_TypeOfLightSource)
 V3d_TypeOfShadingModel = NewType('V3d_TypeOfShadingModel', Graphic3d_TypeOfShadingModel)

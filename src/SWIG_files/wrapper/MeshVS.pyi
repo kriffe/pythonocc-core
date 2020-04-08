@@ -18,10 +18,72 @@ from OCC.Core.PrsMgr import *
 from OCC.Core.Prs3d import *
 from OCC.Core.Aspect import *
 
+#the following typedef cannot be wrapped as is
+MeshVS_Array1OfSequenceOfInteger = NewType('MeshVS_Array1OfSequenceOfInteger', Any)
 MeshVS_BuilderPriority = NewType('MeshVS_BuilderPriority', Standard_Integer)
 MeshVS_ColorHasher = NewType('MeshVS_ColorHasher', Quantity_ColorHasher)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger = NewType('MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger = NewType('MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerColor = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerColor', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerMeshEntityOwner = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerMeshEntityOwner', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerOwner = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerOwner', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfIntegerVector = NewType('MeshVS_DataMapIteratorOfDataMapOfIntegerVector', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger = NewType('MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfColorMapOfInteger = NewType('MeshVS_DataMapOfColorMapOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfHArray1OfSequenceOfInteger = NewType('MeshVS_DataMapOfHArray1OfSequenceOfInteger', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerAsciiString = NewType('MeshVS_DataMapOfIntegerAsciiString', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerBoolean = NewType('MeshVS_DataMapOfIntegerBoolean', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerColor = NewType('MeshVS_DataMapOfIntegerColor', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerMaterial = NewType('MeshVS_DataMapOfIntegerMaterial', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerMeshEntityOwner = NewType('MeshVS_DataMapOfIntegerMeshEntityOwner', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerOwner = NewType('MeshVS_DataMapOfIntegerOwner', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerTwoColors = NewType('MeshVS_DataMapOfIntegerTwoColors', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfIntegerVector = NewType('MeshVS_DataMapOfIntegerVector', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_DataMapOfTwoColorsMapOfInteger = NewType('MeshVS_DataMapOfTwoColorsMapOfInteger', Any)
 MeshVS_DisplayModeFlags = NewType('MeshVS_DisplayModeFlags', Standard_Integer)
+#the following typedef cannot be wrapped as is
+MeshVS_MapIteratorOfMapOfTwoNodes = NewType('MeshVS_MapIteratorOfMapOfTwoNodes', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_MapOfTwoNodes = NewType('MeshVS_MapOfTwoNodes', Any)
 MeshVS_MeshPtr = NewType('MeshVS_MeshPtr', MeshVS_Mesh)
+#the following typedef cannot be wrapped as is
+MeshVS_NodePair = NewType('MeshVS_NodePair', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_PolyhedronVerts = NewType('MeshVS_PolyhedronVerts', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_PolyhedronVertsIter = NewType('MeshVS_PolyhedronVertsIter', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_SequenceOfPrsBuilder = NewType('MeshVS_SequenceOfPrsBuilder', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_TwoColorsHasher = NewType('MeshVS_TwoColorsHasher', Any)
+#the following typedef cannot be wrapped as is
+MeshVS_TwoNodesHasher = NewType('MeshVS_TwoNodesHasher', Any)
 
 class MeshVS_EntityType(IntEnum):
 	MeshVS_ET_NONE: int = ...

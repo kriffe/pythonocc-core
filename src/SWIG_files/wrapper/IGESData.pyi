@@ -9,6 +9,10 @@ from OCC.Core.gp import *
 from OCC.Core.Message import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+IGESData_Array1OfDirPart = NewType('IGESData_Array1OfDirPart', Any)
+#the following typedef cannot be wrapped as is
+IGESData_Array1OfIGESEntity = NewType('IGESData_Array1OfIGESEntity', Any)
 
 class IGESData_ReadStage(IntEnum):
 	IGESData_ReadDir: int = ...

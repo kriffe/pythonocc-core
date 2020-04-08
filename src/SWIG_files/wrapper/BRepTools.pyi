@@ -16,6 +16,10 @@ from OCC.Core.gp import *
 from OCC.Core.Poly import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+BRepTools_DataMapIteratorOfMapOfVertexPnt2d = NewType('BRepTools_DataMapIteratorOfMapOfVertexPnt2d', Any)
+#the following typedef cannot be wrapped as is
+BRepTools_MapOfVertexPnt2d = NewType('BRepTools_MapOfVertexPnt2d', Any)
 
 class BRepTools:
 	@overload

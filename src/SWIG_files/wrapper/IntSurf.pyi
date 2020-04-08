@@ -7,6 +7,20 @@ from OCC.Core.gp import *
 from OCC.Core.Adaptor3d import *
 from OCC.Core.GeomAbs import *
 
+#the following typedef cannot be wrapped as is
+IntSurf_Allocator = NewType('IntSurf_Allocator', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_ListIteratorOfListOfPntOn2S = NewType('IntSurf_ListIteratorOfListOfPntOn2S', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_ListOfPntOn2S = NewType('IntSurf_ListOfPntOn2S', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_SequenceOfCouple = NewType('IntSurf_SequenceOfCouple', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_SequenceOfInteriorPoint = NewType('IntSurf_SequenceOfInteriorPoint', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_SequenceOfPathPoint = NewType('IntSurf_SequenceOfPathPoint', Any)
+#the following typedef cannot be wrapped as is
+IntSurf_SequenceOfPntOn2S = NewType('IntSurf_SequenceOfPntOn2S', Any)
 
 class IntSurf_Situation(IntEnum):
 	IntSurf_Inside: int = ...

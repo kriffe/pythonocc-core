@@ -8,6 +8,8 @@ from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 
+#the following typedef cannot be wrapped as is
+StepData_Array1OfField = NewType('StepData_Array1OfField', Any)
 
 class StepData_Logical(IntEnum):
 	StepData_LFalse: int = ...

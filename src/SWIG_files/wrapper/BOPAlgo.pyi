@@ -12,6 +12,10 @@ from OCC.Core.BRepTools import *
 from OCC.Core.BOPTools import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+BOPAlgo_ListIteratorOfListOfCheckResult = NewType('BOPAlgo_ListIteratorOfListOfCheckResult', Any)
+#the following typedef cannot be wrapped as is
+BOPAlgo_ListOfCheckResult = NewType('BOPAlgo_ListOfCheckResult', Any)
 BOPAlgo_PArgumentAnalyzer = NewType('BOPAlgo_PArgumentAnalyzer', BOPAlgo_ArgumentAnalyzer)
 BOPAlgo_PBOP = NewType('BOPAlgo_PBOP', BOPAlgo_BOP)
 BOPAlgo_PBuilder = NewType('BOPAlgo_PBuilder', BOPAlgo_Builder)

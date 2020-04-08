@@ -9,6 +9,20 @@ from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 from OCC.Core.TDocStd import *
 
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_DataMapOfToleranceDatum = NewType('XCAFDimTolObjects_DataMapOfToleranceDatum', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_DatumModifiersSequence = NewType('XCAFDimTolObjects_DatumModifiersSequence', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_DatumObjectSequence = NewType('XCAFDimTolObjects_DatumObjectSequence', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_DimensionModifiersSequence = NewType('XCAFDimTolObjects_DimensionModifiersSequence', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_DimensionObjectSequence = NewType('XCAFDimTolObjects_DimensionObjectSequence', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_GeomToleranceModifiersSequence = NewType('XCAFDimTolObjects_GeomToleranceModifiersSequence', Any)
+#the following typedef cannot be wrapped as is
+XCAFDimTolObjects_GeomToleranceObjectSequence = NewType('XCAFDimTolObjects_GeomToleranceObjectSequence', Any)
 
 class XCAFDimTolObjects_GeomToleranceType(IntEnum):
 	XCAFDimTolObjects_GeomToleranceType_None: int = ...

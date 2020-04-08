@@ -12,6 +12,16 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.Geom2d import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+Contap_SequenceOfIWLineOfTheIWalking = NewType('Contap_SequenceOfIWLineOfTheIWalking', Any)
+#the following typedef cannot be wrapped as is
+Contap_SequenceOfPathPointOfTheSearch = NewType('Contap_SequenceOfPathPointOfTheSearch', Any)
+#the following typedef cannot be wrapped as is
+Contap_SequenceOfSegmentOfTheSearch = NewType('Contap_SequenceOfSegmentOfTheSearch', Any)
+#the following typedef cannot be wrapped as is
+Contap_TheSequenceOfLine = NewType('Contap_TheSequenceOfLine', Any)
+#the following typedef cannot be wrapped as is
+Contap_TheSequenceOfPoint = NewType('Contap_TheSequenceOfPoint', Any)
 
 class Contap_IType(IntEnum):
 	Contap_Lin: int = ...

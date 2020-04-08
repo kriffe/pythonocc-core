@@ -6,6 +6,22 @@ from OCC.Core.NCollection import *
 from OCC.Core.Expr import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+ExprIntrp_ListIteratorOfStackOfGeneralExpression = NewType('ExprIntrp_ListIteratorOfStackOfGeneralExpression', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_ListIteratorOfStackOfGeneralFunction = NewType('ExprIntrp_ListIteratorOfStackOfGeneralFunction', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_ListIteratorOfStackOfGeneralRelation = NewType('ExprIntrp_ListIteratorOfStackOfGeneralRelation', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_SequenceOfNamedExpression = NewType('ExprIntrp_SequenceOfNamedExpression', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_SequenceOfNamedFunction = NewType('ExprIntrp_SequenceOfNamedFunction', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_StackOfGeneralExpression = NewType('ExprIntrp_StackOfGeneralExpression', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_StackOfGeneralFunction = NewType('ExprIntrp_StackOfGeneralFunction', Any)
+#the following typedef cannot be wrapped as is
+ExprIntrp_StackOfGeneralRelation = NewType('ExprIntrp_StackOfGeneralRelation', Any)
 
 class ExprIntrp:
 	pass

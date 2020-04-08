@@ -9,6 +9,28 @@ from OCC.Core.StepRepr import *
 from OCC.Core.StepData import *
 from OCC.Core.StepBasic import *
 
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfConnectedEdgeSet = NewType('StepShape_Array1OfConnectedEdgeSet', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfConnectedFaceSet = NewType('StepShape_Array1OfConnectedFaceSet', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfEdge = NewType('StepShape_Array1OfEdge', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfFace = NewType('StepShape_Array1OfFace', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfFaceBound = NewType('StepShape_Array1OfFaceBound', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfGeometricSetSelect = NewType('StepShape_Array1OfGeometricSetSelect', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfOrientedClosedShell = NewType('StepShape_Array1OfOrientedClosedShell', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfOrientedEdge = NewType('StepShape_Array1OfOrientedEdge', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfShapeDimensionRepresentationItem = NewType('StepShape_Array1OfShapeDimensionRepresentationItem', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfShell = NewType('StepShape_Array1OfShell', Any)
+#the following typedef cannot be wrapped as is
+StepShape_Array1OfValueQualifier = NewType('StepShape_Array1OfValueQualifier', Any)
 
 class StepShape_AngleRelator(IntEnum):
 	StepShape_Equal: int = ...

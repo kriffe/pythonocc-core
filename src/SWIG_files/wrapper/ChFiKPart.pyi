@@ -13,6 +13,10 @@ from OCC.Core.Geom import *
 from OCC.Core.Geom2d import *
 from OCC.Core.GeomAdaptor import *
 
+#the following typedef cannot be wrapped as is
+ChFiKPart_DataMapIteratorOfRstMap = NewType('ChFiKPart_DataMapIteratorOfRstMap', Any)
+#the following typedef cannot be wrapped as is
+ChFiKPart_RstMap = NewType('ChFiKPart_RstMap', Any)
 
 class ChFiKPart_ComputeData:
 	@staticmethod

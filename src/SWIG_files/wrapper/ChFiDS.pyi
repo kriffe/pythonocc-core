@@ -15,6 +15,28 @@ from OCC.Core.TopTools import *
 from OCC.Core.BRepAdaptor import *
 from OCC.Core.Law import *
 
+#the following typedef cannot be wrapped as is
+ChFiDS_IndexedDataMapOfVertexListOfStripe = NewType('ChFiDS_IndexedDataMapOfVertexListOfStripe', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_ListIteratorOfListOfHElSpine = NewType('ChFiDS_ListIteratorOfListOfHElSpine', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_ListIteratorOfListOfStripe = NewType('ChFiDS_ListIteratorOfListOfStripe', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_ListIteratorOfRegularities = NewType('ChFiDS_ListIteratorOfRegularities', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_ListOfHElSpine = NewType('ChFiDS_ListOfHElSpine', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_ListOfStripe = NewType('ChFiDS_ListOfStripe', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_Regularities = NewType('ChFiDS_Regularities', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_SecArray1 = NewType('ChFiDS_SecArray1', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_SequenceOfSpine = NewType('ChFiDS_SequenceOfSpine', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_SequenceOfSurfData = NewType('ChFiDS_SequenceOfSurfData', Any)
+#the following typedef cannot be wrapped as is
+ChFiDS_StripeArray1 = NewType('ChFiDS_StripeArray1', Any)
 
 class ChFiDS_State(IntEnum):
 	ChFiDS_OnSame: int = ...

@@ -6,6 +6,12 @@ from OCC.Core.NCollection import *
 from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+Units_QtsSequence = NewType('Units_QtsSequence', Any)
+#the following typedef cannot be wrapped as is
+Units_TksSequence = NewType('Units_TksSequence', Any)
+#the following typedef cannot be wrapped as is
+Units_UtsSequence = NewType('Units_UtsSequence', Any)
 
 class Units:
 	@staticmethod

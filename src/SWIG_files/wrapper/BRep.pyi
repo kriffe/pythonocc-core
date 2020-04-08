@@ -12,6 +12,14 @@ from OCC.Core.gp import *
 from OCC.Core.Geom2d import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+BRep_ListIteratorOfListOfCurveRepresentation = NewType('BRep_ListIteratorOfListOfCurveRepresentation', Any)
+#the following typedef cannot be wrapped as is
+BRep_ListIteratorOfListOfPointRepresentation = NewType('BRep_ListIteratorOfListOfPointRepresentation', Any)
+#the following typedef cannot be wrapped as is
+BRep_ListOfCurveRepresentation = NewType('BRep_ListOfCurveRepresentation', Any)
+#the following typedef cannot be wrapped as is
+BRep_ListOfPointRepresentation = NewType('BRep_ListOfPointRepresentation', Any)
 
 class BRep_Builder(TopoDS_Builder):
 	@overload

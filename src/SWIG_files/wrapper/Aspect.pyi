@@ -11,9 +11,15 @@ Aspect_Drawable = NewType('Aspect_Drawable', int)
 Aspect_FBConfig = NewType('Aspect_FBConfig', None)
 Aspect_Handle = NewType('Aspect_Handle', int)
 Aspect_RenderingContext = NewType('Aspect_RenderingContext', None)
+#the following typedef cannot be wrapped as is
+Aspect_SequenceOfColor = NewType('Aspect_SequenceOfColor', Any)
+#the following typedef cannot be wrapped as is
+Aspect_TouchMap = NewType('Aspect_TouchMap', Any)
 Aspect_VKey = NewType('Aspect_VKey', int)
 Aspect_VKeyFlags = NewType('Aspect_VKeyFlags', int)
 Aspect_VKeyMouse = NewType('Aspect_VKeyMouse', int)
+#the following typedef cannot be wrapped as is
+GLXFBConfig = NewType('GLXFBConfig', Any)
 HANDLE = NewType('HANDLE', None)
 
 class Aspect_VKeyBasic(IntEnum):

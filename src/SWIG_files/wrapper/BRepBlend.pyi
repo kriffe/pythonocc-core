@@ -35,6 +35,10 @@ BRepBlend_EvolRad = NewType('BRepBlend_EvolRad', BlendFunc_EvolRad)
 BRepBlend_EvolRadInv = NewType('BRepBlend_EvolRadInv', BlendFunc_EvolRadInv)
 BRepBlend_Ruled = NewType('BRepBlend_Ruled', BlendFunc_Ruled)
 BRepBlend_RuledInv = NewType('BRepBlend_RuledInv', BlendFunc_RuledInv)
+#the following typedef cannot be wrapped as is
+BRepBlend_SequenceOfLine = NewType('BRepBlend_SequenceOfLine', Any)
+#the following typedef cannot be wrapped as is
+BRepBlend_SequenceOfPointOnRst = NewType('BRepBlend_SequenceOfPointOnRst', Any)
 
 class BRepBlend_AppFuncRoot(Approx_SweepFunction):
 	def BarycentreOfSurf(self) -> gp_Pnt: ...

@@ -13,6 +13,32 @@ from OCC.Core.TColStd import *
 from OCC.Core.Geom import *
 from OCC.Core.GeomAdaptor import *
 
+#the following typedef cannot be wrapped as is
+Extrema_Array1OfPOnCurv = NewType('Extrema_Array1OfPOnCurv', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array1OfPOnCurv2d = NewType('Extrema_Array1OfPOnCurv2d', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array1OfPOnSurf = NewType('Extrema_Array1OfPOnSurf', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array2OfPOnCurv = NewType('Extrema_Array2OfPOnCurv', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array2OfPOnCurv2d = NewType('Extrema_Array2OfPOnCurv2d', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array2OfPOnSurf = NewType('Extrema_Array2OfPOnSurf', Any)
+#the following typedef cannot be wrapped as is
+Extrema_Array2OfPOnSurfParams = NewType('Extrema_Array2OfPOnSurfParams', Any)
+#the following typedef cannot be wrapped as is
+Extrema_HUBTreeOfSphere = NewType('Extrema_HUBTreeOfSphere', Any)
+#the following typedef cannot be wrapped as is
+Extrema_SequenceOfPOnCurv = NewType('Extrema_SequenceOfPOnCurv', Any)
+#the following typedef cannot be wrapped as is
+Extrema_SequenceOfPOnCurv2d = NewType('Extrema_SequenceOfPOnCurv2d', Any)
+#the following typedef cannot be wrapped as is
+Extrema_SequenceOfPOnSurf = NewType('Extrema_SequenceOfPOnSurf', Any)
+#the following typedef cannot be wrapped as is
+Extrema_UBTreeFillerOfSphere = NewType('Extrema_UBTreeFillerOfSphere', Any)
+#the following typedef cannot be wrapped as is
+Extrema_UBTreeOfSphere = NewType('Extrema_UBTreeOfSphere', Any)
 
 class Extrema_ExtAlgo(IntEnum):
 	Extrema_ExtAlgo_Grad: int = ...

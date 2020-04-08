@@ -10,6 +10,12 @@ from OCC.Core.TDocStd import *
 from OCC.Core.Bnd import *
 from OCC.Core.Quantity import *
 
+#the following typedef cannot be wrapped as is
+VrmlData_DataMapOfShapeAppearance = NewType('VrmlData_DataMapOfShapeAppearance', Any)
+#the following typedef cannot be wrapped as is
+VrmlData_ListOfNode = NewType('VrmlData_ListOfNode', Any)
+#the following typedef cannot be wrapped as is
+VrmlData_MapOfNode = NewType('VrmlData_MapOfNode', Any)
 
 class VrmlData_ErrorStatus(IntEnum):
 	VrmlData_StatusOK: int = ...

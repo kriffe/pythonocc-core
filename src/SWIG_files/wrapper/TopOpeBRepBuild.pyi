@@ -12,6 +12,28 @@ from OCC.Core.gp import *
 from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_DataMapIteratorOfDataMapOfShapeListOfShapeListOfShape = NewType('TopOpeBRepBuild_DataMapIteratorOfDataMapOfShapeListOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape = NewType('TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo = NewType('TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListIteratorOfListOfListOfLoop = NewType('TopOpeBRepBuild_ListIteratorOfListOfListOfLoop', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListIteratorOfListOfLoop = NewType('TopOpeBRepBuild_ListIteratorOfListOfLoop', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListIteratorOfListOfPave = NewType('TopOpeBRepBuild_ListIteratorOfListOfPave', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape = NewType('TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListOfListOfLoop = NewType('TopOpeBRepBuild_ListOfListOfLoop', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListOfLoop = NewType('TopOpeBRepBuild_ListOfLoop', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListOfPave = NewType('TopOpeBRepBuild_ListOfPave', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepBuild_ListOfShapeListOfShape = NewType('TopOpeBRepBuild_ListOfShapeListOfShape', Any)
 TopOpeBRepBuild_PBuilder = NewType('TopOpeBRepBuild_PBuilder', TopOpeBRepBuild_Builder)
 TopOpeBRepBuild_PGTopo = NewType('TopOpeBRepBuild_PGTopo', TopOpeBRepBuild_GTopo)
 TopOpeBRepBuild_PWireEdgeSet = NewType('TopOpeBRepBuild_PWireEdgeSet', TopOpeBRepBuild_WireEdgeSet)

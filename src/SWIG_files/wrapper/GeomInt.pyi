@@ -20,6 +20,10 @@ from OCC.Core.ApproxInt import *
 from OCC.Core.IntSurf import *
 from OCC.Core.TColgp import *
 
+#the following typedef cannot be wrapped as is
+GeomInt_SequenceOfParameterAndOrientation = NewType('GeomInt_SequenceOfParameterAndOrientation', Any)
+#the following typedef cannot be wrapped as is
+GeomInt_VectorOfReal = NewType('GeomInt_VectorOfReal', Any)
 
 class GeomInt:
 	@staticmethod

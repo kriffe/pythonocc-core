@@ -21,6 +21,46 @@ from OCC.Core.Law import *
 from OCC.Core.Bisector import *
 from OCC.Core.TColgp import *
 
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape = NewType('BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfNodeShape = NewType('BRepFill_DataMapIteratorOfDataMapOfNodeShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape = NewType('BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape = NewType('BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfShapeHArray2OfShape = NewType('BRepFill_DataMapIteratorOfDataMapOfShapeHArray2OfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfPnt = NewType('BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfPnt', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal = NewType('BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfNodeDataMapOfShapeShape = NewType('BRepFill_DataMapOfNodeDataMapOfShapeShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfNodeShape = NewType('BRepFill_DataMapOfNodeShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfOrientedShapeListOfShape = NewType('BRepFill_DataMapOfOrientedShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfShapeDataMapOfShapeListOfShape = NewType('BRepFill_DataMapOfShapeDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfShapeHArray2OfShape = NewType('BRepFill_DataMapOfShapeHArray2OfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfShapeSequenceOfPnt = NewType('BRepFill_DataMapOfShapeSequenceOfPnt', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_DataMapOfShapeSequenceOfReal = NewType('BRepFill_DataMapOfShapeSequenceOfReal', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_IndexedDataMapOfOrientedShapeListOfShape = NewType('BRepFill_IndexedDataMapOfOrientedShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_ListIteratorOfListOfOffsetWire = NewType('BRepFill_ListIteratorOfListOfOffsetWire', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_ListOfOffsetWire = NewType('BRepFill_ListOfOffsetWire', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_SequenceOfEdgeFaceAndOrder = NewType('BRepFill_SequenceOfEdgeFaceAndOrder', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_SequenceOfFaceAndOrder = NewType('BRepFill_SequenceOfFaceAndOrder', Any)
+#the following typedef cannot be wrapped as is
+BRepFill_SequenceOfSection = NewType('BRepFill_SequenceOfSection', Any)
 
 class BRepFill_TypeOfContact(IntEnum):
 	BRepFill_NoContact: int = ...

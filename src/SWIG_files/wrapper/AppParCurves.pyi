@@ -8,6 +8,18 @@ from OCC.Core.TColgp import *
 from OCC.Core.gp import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+AppParCurves_Array1OfConstraintCouple = NewType('AppParCurves_Array1OfConstraintCouple', Any)
+#the following typedef cannot be wrapped as is
+AppParCurves_Array1OfMultiBSpCurve = NewType('AppParCurves_Array1OfMultiBSpCurve', Any)
+#the following typedef cannot be wrapped as is
+AppParCurves_Array1OfMultiCurve = NewType('AppParCurves_Array1OfMultiCurve', Any)
+#the following typedef cannot be wrapped as is
+AppParCurves_Array1OfMultiPoint = NewType('AppParCurves_Array1OfMultiPoint', Any)
+#the following typedef cannot be wrapped as is
+AppParCurves_SequenceOfMultiBSpCurve = NewType('AppParCurves_SequenceOfMultiBSpCurve', Any)
+#the following typedef cannot be wrapped as is
+AppParCurves_SequenceOfMultiCurve = NewType('AppParCurves_SequenceOfMultiCurve', Any)
 
 class AppParCurves_Constraint(IntEnum):
 	AppParCurves_NoConstraint: int = ...

@@ -10,6 +10,14 @@ from OCC.Core.Geom import *
 from OCC.Core.gp import *
 from OCC.Core.TColgp import *
 
+#the following typedef cannot be wrapped as is
+AdvApp2Var_SequenceOfNode = NewType('AdvApp2Var_SequenceOfNode', Any)
+#the following typedef cannot be wrapped as is
+AdvApp2Var_SequenceOfPatch = NewType('AdvApp2Var_SequenceOfPatch', Any)
+#the following typedef cannot be wrapped as is
+AdvApp2Var_SequenceOfStrip = NewType('AdvApp2Var_SequenceOfStrip', Any)
+#the following typedef cannot be wrapped as is
+AdvApp2Var_Strip = NewType('AdvApp2Var_Strip', Any)
 
 class AdvApp2Var_CriterionRepartition(IntEnum):
 	AdvApp2Var_Regular: int = ...

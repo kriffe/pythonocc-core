@@ -21,6 +21,48 @@ from OCC.Core.IntPatch import *
 from OCC.Core.GeomAdaptor import *
 from OCC.Core.GeomInt import *
 
+#the following typedef cannot be wrapped as is
+IntTools_Array1OfRange = NewType('IntTools_Array1OfRange', Any)
+#the following typedef cannot be wrapped as is
+IntTools_Array1OfRoots = NewType('IntTools_Array1OfRoots', Any)
+#the following typedef cannot be wrapped as is
+IntTools_DataMapIteratorOfDataMapOfCurveSampleBox = NewType('IntTools_DataMapIteratorOfDataMapOfCurveSampleBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox = NewType('IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_DataMapOfCurveSampleBox = NewType('IntTools_DataMapOfCurveSampleBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_DataMapOfSurfaceSampleBox = NewType('IntTools_DataMapOfSurfaceSampleBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListIteratorOfListOfBox = NewType('IntTools_ListIteratorOfListOfBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListIteratorOfListOfCurveRangeSample = NewType('IntTools_ListIteratorOfListOfCurveRangeSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListIteratorOfListOfSurfaceRangeSample = NewType('IntTools_ListIteratorOfListOfSurfaceRangeSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListOfBox = NewType('IntTools_ListOfBox', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListOfCurveRangeSample = NewType('IntTools_ListOfCurveRangeSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_ListOfSurfaceRangeSample = NewType('IntTools_ListOfSurfaceRangeSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_MapIteratorOfMapOfCurveSample = NewType('IntTools_MapIteratorOfMapOfCurveSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_MapIteratorOfMapOfSurfaceSample = NewType('IntTools_MapIteratorOfMapOfSurfaceSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_MapOfCurveSample = NewType('IntTools_MapOfCurveSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_MapOfSurfaceSample = NewType('IntTools_MapOfSurfaceSample', Any)
+#the following typedef cannot be wrapped as is
+IntTools_SequenceOfCommonPrts = NewType('IntTools_SequenceOfCommonPrts', Any)
+#the following typedef cannot be wrapped as is
+IntTools_SequenceOfCurves = NewType('IntTools_SequenceOfCurves', Any)
+#the following typedef cannot be wrapped as is
+IntTools_SequenceOfPntOn2Faces = NewType('IntTools_SequenceOfPntOn2Faces', Any)
+#the following typedef cannot be wrapped as is
+IntTools_SequenceOfRanges = NewType('IntTools_SequenceOfRanges', Any)
+#the following typedef cannot be wrapped as is
+IntTools_SequenceOfRoots = NewType('IntTools_SequenceOfRoots', Any)
 
 class IntTools:
 	@staticmethod

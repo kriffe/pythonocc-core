@@ -17,6 +17,14 @@ from OCC.Core.math import *
 from OCC.Core.Geom2d import *
 from OCC.Core.TColGeom import *
 
+#the following typedef cannot be wrapped as is
+GeomFill_Array1OfLocationLaw = NewType('GeomFill_Array1OfLocationLaw', Any)
+#the following typedef cannot be wrapped as is
+GeomFill_Array1OfSectionLaw = NewType('GeomFill_Array1OfSectionLaw', Any)
+#the following typedef cannot be wrapped as is
+GeomFill_SequenceOfAx2 = NewType('GeomFill_SequenceOfAx2', Any)
+#the following typedef cannot be wrapped as is
+GeomFill_SequenceOfTrsf = NewType('GeomFill_SequenceOfTrsf', Any)
 
 class GeomFill_ApproxStyle(IntEnum):
 	GeomFill_Section: int = ...

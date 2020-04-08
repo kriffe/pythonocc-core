@@ -13,6 +13,10 @@ from OCC.Core.Intf import *
 from OCC.Core.Bnd import *
 from OCC.Core.IntSurf import *
 
+#the following typedef cannot be wrapped as is
+IntCurveSurface_SequenceOfPnt = NewType('IntCurveSurface_SequenceOfPnt', Any)
+#the following typedef cannot be wrapped as is
+IntCurveSurface_SequenceOfSeg = NewType('IntCurveSurface_SequenceOfSeg', Any)
 
 class IntCurveSurface_TransitionOnCurve(IntEnum):
 	IntCurveSurface_Tangent: int = ...

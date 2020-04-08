@@ -20,6 +20,28 @@ from OCC.Core.TCollection import *
 from OCC.Core.GeomAbs import *
 from OCC.Core.Extrema import *
 
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF = NewType('TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeListOfC2DF = NewType('TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeListOfC2DF', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface = NewType('TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapOfOrientedShapeC2DF = NewType('TopOpeBRepTool_DataMapOfOrientedShapeC2DF', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapOfShapeListOfC2DF = NewType('TopOpeBRepTool_DataMapOfShapeListOfC2DF', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_DataMapOfShapeface = NewType('TopOpeBRepTool_DataMapOfShapeface', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_IndexedDataMapOfShapeBox = NewType('TopOpeBRepTool_IndexedDataMapOfShapeBox', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_IndexedDataMapOfShapeBox2d = NewType('TopOpeBRepTool_IndexedDataMapOfShapeBox2d', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_IndexedDataMapOfShapeconnexity = NewType('TopOpeBRepTool_IndexedDataMapOfShapeconnexity', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_ListIteratorOfListOfC2DF = NewType('TopOpeBRepTool_ListIteratorOfListOfC2DF', Any)
+#the following typedef cannot be wrapped as is
+TopOpeBRepTool_ListOfC2DF = NewType('TopOpeBRepTool_ListOfC2DF', Any)
 TopOpeBRepTool_PShapeClassifier = NewType('TopOpeBRepTool_PShapeClassifier', TopOpeBRepTool_ShapeClassifier)
 TopOpeBRepTool_PSoClassif = NewType('TopOpeBRepTool_PSoClassif', BRepClass3d_SolidClassifier)
 TopOpeBRepTool_Plos = NewType('TopOpeBRepTool_Plos', TopTools_ListOfShape)

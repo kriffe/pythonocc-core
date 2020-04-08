@@ -11,6 +11,8 @@ from OCC.Core.PCDM import *
 from OCC.Core.CDM import *
 from OCC.Core.Storage import *
 
+#the following typedef cannot be wrapped as is
+XmlLDrivers_SequenceOfNamespaceDef = NewType('XmlLDrivers_SequenceOfNamespaceDef', Any)
 
 class XmlLDrivers:
 	@staticmethod

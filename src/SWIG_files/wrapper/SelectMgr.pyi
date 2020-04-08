@@ -18,7 +18,33 @@ from OCC.Core.Select3D import *
 from OCC.Core.Bnd import *
 
 SelectBasics_EntityOwner = NewType('SelectBasics_EntityOwner', SelectMgr_EntityOwner)
+#the following typedef cannot be wrapped as is
+SelectMgr_FrustumCache = NewType('SelectMgr_FrustumCache', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_IndexedDataMapOfOwnerCriterion = NewType('SelectMgr_IndexedDataMapOfOwnerCriterion', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_IndexedMapOfHSensitive = NewType('SelectMgr_IndexedMapOfHSensitive', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_IndexedMapOfOwner = NewType('SelectMgr_IndexedMapOfOwner', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_ListIteratorOfListOfFilter = NewType('SelectMgr_ListIteratorOfListOfFilter', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_ListOfFilter = NewType('SelectMgr_ListOfFilter', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_MapOfObjectSensitivesIterator = NewType('SelectMgr_MapOfObjectSensitivesIterator', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_Mat4 = NewType('SelectMgr_Mat4', Any)
 SelectMgr_SOPtr = NewType('SelectMgr_SOPtr', SelectMgr_SelectableObject)
+#the following typedef cannot be wrapped as is
+SelectMgr_SequenceOfFilter = NewType('SelectMgr_SequenceOfFilter', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_SequenceOfOwner = NewType('SelectMgr_SequenceOfOwner', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_SequenceOfSelection = NewType('SelectMgr_SequenceOfSelection', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_Vec3 = NewType('SelectMgr_Vec3', Any)
+#the following typedef cannot be wrapped as is
+SelectMgr_Vec4 = NewType('SelectMgr_Vec4', Any)
 
 class SelectMgr_TypeOfUpdate(IntEnum):
 	SelectMgr_TOU_Full: int = ...

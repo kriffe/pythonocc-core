@@ -8,6 +8,14 @@ from OCC.Core.TColgp import *
 from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 
+#the following typedef cannot be wrapped as is
+Plate_Array1OfPinpointConstraint = NewType('Plate_Array1OfPinpointConstraint', Any)
+#the following typedef cannot be wrapped as is
+Plate_SequenceOfLinearScalarConstraint = NewType('Plate_SequenceOfLinearScalarConstraint', Any)
+#the following typedef cannot be wrapped as is
+Plate_SequenceOfLinearXYZConstraint = NewType('Plate_SequenceOfLinearXYZConstraint', Any)
+#the following typedef cannot be wrapped as is
+Plate_SequenceOfPinpointConstraint = NewType('Plate_SequenceOfPinpointConstraint', Any)
 
 class Plate_D1:
 	@overload

@@ -9,7 +9,87 @@ from OCC.Core.Message import *
 from OCC.Core.TopAbs import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+TopTools_Array1OfListOfShape = NewType('TopTools_Array1OfListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_Array1OfShape = NewType('TopTools_Array1OfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_Array2OfShape = NewType('TopTools_Array2OfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape = NewType('TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfIntegerShape = NewType('TopTools_DataMapIteratorOfDataMapOfIntegerShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger = NewType('TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape = NewType('TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeBox = NewType('TopTools_DataMapIteratorOfDataMapOfShapeBox', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeInteger = NewType('TopTools_DataMapIteratorOfDataMapOfShapeInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger = NewType('TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeListOfShape = NewType('TopTools_DataMapIteratorOfDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeReal = NewType('TopTools_DataMapIteratorOfDataMapOfShapeReal', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeSequenceOfShape = NewType('TopTools_DataMapIteratorOfDataMapOfShapeSequenceOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapIteratorOfDataMapOfShapeShape = NewType('TopTools_DataMapIteratorOfDataMapOfShapeShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfIntegerListOfShape = NewType('TopTools_DataMapOfIntegerListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfIntegerShape = NewType('TopTools_DataMapOfIntegerShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfOrientedShapeInteger = NewType('TopTools_DataMapOfOrientedShapeInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfOrientedShapeShape = NewType('TopTools_DataMapOfOrientedShapeShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeBox = NewType('TopTools_DataMapOfShapeBox', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeInteger = NewType('TopTools_DataMapOfShapeInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeListOfInteger = NewType('TopTools_DataMapOfShapeListOfInteger', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeListOfShape = NewType('TopTools_DataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeReal = NewType('TopTools_DataMapOfShapeReal', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeSequenceOfShape = NewType('TopTools_DataMapOfShapeSequenceOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_DataMapOfShapeShape = NewType('TopTools_DataMapOfShapeShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedDataMapOfShapeAddress = NewType('TopTools_IndexedDataMapOfShapeAddress', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedDataMapOfShapeListOfShape = NewType('TopTools_IndexedDataMapOfShapeListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedDataMapOfShapeReal = NewType('TopTools_IndexedDataMapOfShapeReal', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedDataMapOfShapeShape = NewType('TopTools_IndexedDataMapOfShapeShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedMapOfOrientedShape = NewType('TopTools_IndexedMapOfOrientedShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_IndexedMapOfShape = NewType('TopTools_IndexedMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_ListIteratorOfListOfListOfShape = NewType('TopTools_ListIteratorOfListOfListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_ListIteratorOfListOfShape = NewType('TopTools_ListIteratorOfListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_ListOfListOfShape = NewType('TopTools_ListOfListOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_ListOfShape = NewType('TopTools_ListOfShape', Any)
 TopTools_LocationSetPtr = NewType('TopTools_LocationSetPtr', TopTools_LocationSet)
+#the following typedef cannot be wrapped as is
+TopTools_MapIteratorOfMapOfOrientedShape = NewType('TopTools_MapIteratorOfMapOfOrientedShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_MapIteratorOfMapOfShape = NewType('TopTools_MapIteratorOfMapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_MapOfOrientedShape = NewType('TopTools_MapOfOrientedShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_MapOfShape = NewType('TopTools_MapOfShape', Any)
+#the following typedef cannot be wrapped as is
+TopTools_SequenceOfShape = NewType('TopTools_SequenceOfShape', Any)
 
 class TopTools:
 	@staticmethod

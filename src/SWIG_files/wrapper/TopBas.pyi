@@ -5,6 +5,10 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.TopAbs import *
 
+#the following typedef cannot be wrapped as is
+TopBas_ListIteratorOfListOfTestInterference = NewType('TopBas_ListIteratorOfListOfTestInterference', Any)
+#the following typedef cannot be wrapped as is
+TopBas_ListOfTestInterference = NewType('TopBas_ListOfTestInterference', Any)
 
 class TopBas_TestInterference:
 	@overload

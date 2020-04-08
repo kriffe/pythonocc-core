@@ -5,6 +5,10 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 
+#the following typedef cannot be wrapped as is
+Hatch_SequenceOfLine = NewType('Hatch_SequenceOfLine', Any)
+#the following typedef cannot be wrapped as is
+Hatch_SequenceOfParameter = NewType('Hatch_SequenceOfParameter', Any)
 
 class Hatch_LineForm(IntEnum):
 	Hatch_XLINE: int = ...

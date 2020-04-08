@@ -10,6 +10,18 @@ from OCC.Core.Message import *
 from OCC.Core.OSD import *
 from OCC.Core.TColStd import *
 
+#the following typedef cannot be wrapped as is
+MoniTool_DataMapIteratorOfDataMapOfShapeTransient = NewType('MoniTool_DataMapIteratorOfDataMapOfShapeTransient', Any)
+#the following typedef cannot be wrapped as is
+MoniTool_DataMapIteratorOfDataMapOfTimer = NewType('MoniTool_DataMapIteratorOfDataMapOfTimer', Any)
+#the following typedef cannot be wrapped as is
+MoniTool_DataMapOfShapeTransient = NewType('MoniTool_DataMapOfShapeTransient', Any)
+#the following typedef cannot be wrapped as is
+MoniTool_DataMapOfTimer = NewType('MoniTool_DataMapOfTimer', Any)
+#the following typedef cannot be wrapped as is
+MoniTool_IndexedDataMapOfShapeTransient = NewType('MoniTool_IndexedDataMapOfShapeTransient', Any)
+#the following typedef cannot be wrapped as is
+MoniTool_SequenceOfElement = NewType('MoniTool_SequenceOfElement', Any)
 
 class MoniTool_ValueType(IntEnum):
 	MoniTool_ValueMisc: int = ...

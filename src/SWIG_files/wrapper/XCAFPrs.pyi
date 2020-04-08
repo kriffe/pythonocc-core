@@ -13,7 +13,19 @@ from OCC.Core.TCollection import *
 from OCC.Core.TopoDS import *
 from OCC.Core.TPrsStd import *
 
+#the following typedef cannot be wrapped as is
+XCAFPrs_DataMapIteratorOfDataMapOfStyleShape = NewType('XCAFPrs_DataMapIteratorOfDataMapOfStyleShape', Any)
+#the following typedef cannot be wrapped as is
+XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient = NewType('XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient', Any)
+#the following typedef cannot be wrapped as is
+XCAFPrs_DataMapIteratorOfIndexedDataMapOfShapeStyle = NewType('XCAFPrs_DataMapIteratorOfIndexedDataMapOfShapeStyle', Any)
+#the following typedef cannot be wrapped as is
+XCAFPrs_DataMapOfStyleShape = NewType('XCAFPrs_DataMapOfStyleShape', Any)
+#the following typedef cannot be wrapped as is
+XCAFPrs_DataMapOfStyleTransient = NewType('XCAFPrs_DataMapOfStyleTransient', Any)
 XCAFPrs_DocumentExplorerFlags = NewType('XCAFPrs_DocumentExplorerFlags', Standard_Integer)
+#the following typedef cannot be wrapped as is
+XCAFPrs_IndexedDataMapOfShapeStyle = NewType('XCAFPrs_IndexedDataMapOfShapeStyle', Any)
 
 class XCAFPrs:
 	@staticmethod

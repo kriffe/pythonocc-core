@@ -8,6 +8,26 @@ from OCC.Core.StepBasic import *
 from OCC.Core.StepRepr import *
 from OCC.Core.TCollection import *
 
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfApprovedItem = NewType('StepAP203_Array1OfApprovedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfCertifiedItem = NewType('StepAP203_Array1OfCertifiedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfChangeRequestItem = NewType('StepAP203_Array1OfChangeRequestItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfClassifiedItem = NewType('StepAP203_Array1OfClassifiedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfContractedItem = NewType('StepAP203_Array1OfContractedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfDateTimeItem = NewType('StepAP203_Array1OfDateTimeItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfPersonOrganizationItem = NewType('StepAP203_Array1OfPersonOrganizationItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfSpecifiedItem = NewType('StepAP203_Array1OfSpecifiedItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfStartRequestItem = NewType('StepAP203_Array1OfStartRequestItem', Any)
+#the following typedef cannot be wrapped as is
+StepAP203_Array1OfWorkItem = NewType('StepAP203_Array1OfWorkItem', Any)
 
 class StepAP203_ApprovedItem(StepData_SelectType):
 	def __init__(self) -> None: ...

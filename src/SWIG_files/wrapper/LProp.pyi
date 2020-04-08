@@ -5,6 +5,8 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 from OCC.Core.GeomAbs import *
 
+#the following typedef cannot be wrapped as is
+LProp_SequenceOfCIType = NewType('LProp_SequenceOfCIType', Any)
 
 class LProp_Status(IntEnum):
 	LProp_Undecided: int = ...

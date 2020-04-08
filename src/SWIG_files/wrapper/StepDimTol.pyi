@@ -9,6 +9,20 @@ from OCC.Core.StepData import *
 from OCC.Core.StepBasic import *
 from OCC.Core.StepShape import *
 
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfDatumReference = NewType('StepDimTol_Array1OfDatumReference', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfDatumReferenceCompartment = NewType('StepDimTol_Array1OfDatumReferenceCompartment', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfDatumReferenceElement = NewType('StepDimTol_Array1OfDatumReferenceElement', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfDatumReferenceModifier = NewType('StepDimTol_Array1OfDatumReferenceModifier', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfDatumSystemOrReference = NewType('StepDimTol_Array1OfDatumSystemOrReference', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfGeometricToleranceModifier = NewType('StepDimTol_Array1OfGeometricToleranceModifier', Any)
+#the following typedef cannot be wrapped as is
+StepDimTol_Array1OfToleranceZoneTarget = NewType('StepDimTol_Array1OfToleranceZoneTarget', Any)
 
 class StepDimTol_LimitCondition(IntEnum):
 	StepDimTol_MaximumMaterialCondition: int = ...
