@@ -9,8 +9,10 @@ from OCC.Core.gp import *
 
 
 class GeomLProp:
+	@overload
 	@staticmethod
 	def Continuity(self, C1: Geom_Curve, C2: Geom_Curve, u1: float, u2: float, r1: bool, r2: bool, tl: float, ta: float) -> GeomAbs_Shape: ...
+	@overload
 	@staticmethod
 	def Continuity(self, C1: Geom_Curve, C2: Geom_Curve, u1: float, u2: float, r1: bool, r2: bool) -> GeomAbs_Shape: ...
 

@@ -8,8 +8,10 @@ from OCC.Core.Geom2d import *
 
 
 class Hermit:
+	@overload
 	@staticmethod
 	def Solution(self, BS: Geom_BSplineCurve, TolPoles: Optional[float], TolKnots: Optional[float]) -> Geom2d_BSplineCurve: ...
+	@overload
 	@staticmethod
 	def Solution(self, BS: Geom2d_BSplineCurve, TolPoles: Optional[float], TolKnots: Optional[float]) -> Geom2d_BSplineCurve: ...
 	@staticmethod

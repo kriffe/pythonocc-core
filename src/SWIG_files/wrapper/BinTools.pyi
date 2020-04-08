@@ -12,8 +12,10 @@ from OCC.Core.TopAbs import *
 BinTools_LocationSetPtr = NewType('BinTools_LocationSetPtr', BinTools_LocationSet)
 
 class BinTools:
+	@overload
 	@staticmethod
 	def Read(self, theShape: TopoDS_Shape, theFile: str) -> bool: ...
+	@overload
 	@staticmethod
 	def Write(self, theShape: TopoDS_Shape, theFile: str) -> bool: ...
 
