@@ -4435,26 +4435,26 @@ class Transfer_ProcessForFinder:
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class Transfer_HSequenceOfBinder : public  Transfer_SequenceOfBinder, public Standard_Transient {
+class Transfer_HSequenceOfBinder : public Transfer_SequenceOfBinder, public Standard_Transient {
   public:
     Transfer_HSequenceOfBinder();
-    Transfer_HSequenceOfBinder(const  Transfer_SequenceOfBinder& theOther);
-    const  Transfer_SequenceOfBinder& Sequence();
-    void Append (const  Transfer_SequenceOfBinder::value_type& theItem);
-    void Append ( Transfer_SequenceOfBinder& theSequence);
-     Transfer_SequenceOfBinder& ChangeSequence();
+    Transfer_HSequenceOfBinder(const Transfer_SequenceOfBinder& theOther);
+    const Transfer_SequenceOfBinder& Sequence();
+    void Append (const Transfer_SequenceOfBinder::value_type& theItem);
+    void Append (Transfer_SequenceOfBinder& theSequence);
+    Transfer_SequenceOfBinder& ChangeSequence();
 };
 %make_alias(Transfer_HSequenceOfBinder)
 
 
-class Transfer_HSequenceOfFinder : public  Transfer_SequenceOfFinder, public Standard_Transient {
+class Transfer_HSequenceOfFinder : public Transfer_SequenceOfFinder, public Standard_Transient {
   public:
     Transfer_HSequenceOfFinder();
-    Transfer_HSequenceOfFinder(const  Transfer_SequenceOfFinder& theOther);
-    const  Transfer_SequenceOfFinder& Sequence();
-    void Append (const  Transfer_SequenceOfFinder::value_type& theItem);
-    void Append ( Transfer_SequenceOfFinder& theSequence);
-     Transfer_SequenceOfFinder& ChangeSequence();
+    Transfer_HSequenceOfFinder(const Transfer_SequenceOfFinder& theOther);
+    const Transfer_SequenceOfFinder& Sequence();
+    void Append (const Transfer_SequenceOfFinder::value_type& theItem);
+    void Append (Transfer_SequenceOfFinder& theSequence);
+    Transfer_SequenceOfFinder& ChangeSequence();
 };
 %make_alias(Transfer_HSequenceOfFinder)
 

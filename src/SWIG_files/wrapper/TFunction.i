@@ -1804,16 +1804,16 @@ None
 };
 
 /* harray1 classes */
-class TFunction_HArray1OfDataMapOfGUIDDriver : public  TFunction_Array1OfDataMapOfGUIDDriver, public Standard_Transient {
+
+class TFunction_HArray1OfDataMapOfGUIDDriver : public TFunction_Array1OfDataMapOfGUIDDriver, public Standard_Transient {
   public:
     TFunction_HArray1OfDataMapOfGUIDDriver(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TFunction_HArray1OfDataMapOfGUIDDriver(const Standard_Integer theLower, const Standard_Integer theUpper, const  TFunction_Array1OfDataMapOfGUIDDriver::value_type& theValue);
-    TFunction_HArray1OfDataMapOfGUIDDriver(const  TFunction_Array1OfDataMapOfGUIDDriver& theOther);
-    const  TFunction_Array1OfDataMapOfGUIDDriver& Array1();
-     TFunction_Array1OfDataMapOfGUIDDriver& ChangeArray1();
+    TFunction_HArray1OfDataMapOfGUIDDriver(const Standard_Integer theLower, const Standard_Integer theUpper, const TFunction_Array1OfDataMapOfGUIDDriver::value_type& theValue);
+    TFunction_HArray1OfDataMapOfGUIDDriver(const TFunction_Array1OfDataMapOfGUIDDriver& theOther);
+    const TFunction_Array1OfDataMapOfGUIDDriver& Array1();
+    TFunction_Array1OfDataMapOfGUIDDriver& ChangeArray1();
 };
 %make_alias(TFunction_HArray1OfDataMapOfGUIDDriver)
-
 
 /* harray2 classes */
 /* hsequence classes */

@@ -7628,16 +7628,16 @@ class TopOpeBRepDS_HDataStructure:
 }
 /* end python proxy for excluded classes */
 /* harray1 classes */
-class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference : public  TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference, public Standard_Transient {
+
+class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference : public TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference, public Standard_Transient {
   public:
     TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(const Standard_Integer theLower, const Standard_Integer theUpper, const  TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference::value_type& theValue);
-    TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(const  TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& theOther);
-    const  TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& Array1();
-     TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& ChangeArray1();
+    TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(const Standard_Integer theLower, const Standard_Integer theUpper, const TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference::value_type& theValue);
+    TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(const TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& theOther);
+    const TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& Array1();
+    TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference& ChangeArray1();
 };
 %make_alias(TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference)
-
 
 /* harray2 classes */
 /* hsequence classes */

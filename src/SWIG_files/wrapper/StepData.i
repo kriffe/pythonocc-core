@@ -6591,16 +6591,16 @@ class StepData_UndefinedEntity:
 }
 /* end python proxy for excluded classes */
 /* harray1 classes */
-class StepData_HArray1OfField : public  StepData_Array1OfField, public Standard_Transient {
+
+class StepData_HArray1OfField : public StepData_Array1OfField, public Standard_Transient {
   public:
     StepData_HArray1OfField(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepData_HArray1OfField(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepData_Array1OfField::value_type& theValue);
-    StepData_HArray1OfField(const  StepData_Array1OfField& theOther);
-    const  StepData_Array1OfField& Array1();
-     StepData_Array1OfField& ChangeArray1();
+    StepData_HArray1OfField(const Standard_Integer theLower, const Standard_Integer theUpper, const StepData_Array1OfField::value_type& theValue);
+    StepData_HArray1OfField(const StepData_Array1OfField& theOther);
+    const StepData_Array1OfField& Array1();
+    StepData_Array1OfField& ChangeArray1();
 };
 %make_alias(StepData_HArray1OfField)
-
 
 /* harray2 classes */
 /* hsequence classes */

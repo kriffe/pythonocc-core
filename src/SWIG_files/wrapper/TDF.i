@@ -3899,16 +3899,16 @@ class TDF_LabelNode:
 }
 /* end python proxy for excluded classes */
 /* harray1 classes */
-class TDF_HAttributeArray1 : public  TDF_AttributeArray1, public Standard_Transient {
+
+class TDF_HAttributeArray1 : public TDF_AttributeArray1, public Standard_Transient {
   public:
     TDF_HAttributeArray1(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TDF_HAttributeArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const  TDF_AttributeArray1::value_type& theValue);
-    TDF_HAttributeArray1(const  TDF_AttributeArray1& theOther);
-    const  TDF_AttributeArray1& Array1();
-     TDF_AttributeArray1& ChangeArray1();
+    TDF_HAttributeArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const TDF_AttributeArray1::value_type& theValue);
+    TDF_HAttributeArray1(const TDF_AttributeArray1& theOther);
+    const TDF_AttributeArray1& Array1();
+    TDF_AttributeArray1& ChangeArray1();
 };
 %make_alias(TDF_HAttributeArray1)
-
 
 /* harray2 classes */
 /* hsequence classes */

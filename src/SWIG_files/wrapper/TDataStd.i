@@ -7793,16 +7793,16 @@ TCollection_AsciiString
 };
 
 /* harray1 classes */
-class TDataStd_HLabelArray1 : public  TDataStd_LabelArray1, public Standard_Transient {
+
+class TDataStd_HLabelArray1 : public TDataStd_LabelArray1, public Standard_Transient {
   public:
     TDataStd_HLabelArray1(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TDataStd_HLabelArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const  TDataStd_LabelArray1::value_type& theValue);
-    TDataStd_HLabelArray1(const  TDataStd_LabelArray1& theOther);
-    const  TDataStd_LabelArray1& Array1();
-     TDataStd_LabelArray1& ChangeArray1();
+    TDataStd_HLabelArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const TDataStd_LabelArray1::value_type& theValue);
+    TDataStd_HLabelArray1(const TDataStd_LabelArray1& theOther);
+    const TDataStd_LabelArray1& Array1();
+    TDataStd_LabelArray1& ChangeArray1();
 };
 %make_alias(TDataStd_HLabelArray1)
-
 
 /* harray2 classes */
 /* hsequence classes */

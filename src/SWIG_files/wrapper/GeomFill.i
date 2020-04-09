@@ -10558,38 +10558,38 @@ class GeomFill_SweepSectionGenerator:
 }
 /* end python proxy for excluded classes */
 /* harray1 classes */
-class GeomFill_HArray1OfLocationLaw : public  GeomFill_Array1OfLocationLaw, public Standard_Transient {
+
+class GeomFill_HArray1OfLocationLaw : public GeomFill_Array1OfLocationLaw, public Standard_Transient {
   public:
     GeomFill_HArray1OfLocationLaw(const Standard_Integer theLower, const Standard_Integer theUpper);
-    GeomFill_HArray1OfLocationLaw(const Standard_Integer theLower, const Standard_Integer theUpper, const  GeomFill_Array1OfLocationLaw::value_type& theValue);
-    GeomFill_HArray1OfLocationLaw(const  GeomFill_Array1OfLocationLaw& theOther);
-    const  GeomFill_Array1OfLocationLaw& Array1();
-     GeomFill_Array1OfLocationLaw& ChangeArray1();
+    GeomFill_HArray1OfLocationLaw(const Standard_Integer theLower, const Standard_Integer theUpper, const GeomFill_Array1OfLocationLaw::value_type& theValue);
+    GeomFill_HArray1OfLocationLaw(const GeomFill_Array1OfLocationLaw& theOther);
+    const GeomFill_Array1OfLocationLaw& Array1();
+    GeomFill_Array1OfLocationLaw& ChangeArray1();
 };
 %make_alias(GeomFill_HArray1OfLocationLaw)
 
 
-class GeomFill_HArray1OfSectionLaw : public  GeomFill_Array1OfSectionLaw, public Standard_Transient {
+class GeomFill_HArray1OfSectionLaw : public GeomFill_Array1OfSectionLaw, public Standard_Transient {
   public:
     GeomFill_HArray1OfSectionLaw(const Standard_Integer theLower, const Standard_Integer theUpper);
-    GeomFill_HArray1OfSectionLaw(const Standard_Integer theLower, const Standard_Integer theUpper, const  GeomFill_Array1OfSectionLaw::value_type& theValue);
-    GeomFill_HArray1OfSectionLaw(const  GeomFill_Array1OfSectionLaw& theOther);
-    const  GeomFill_Array1OfSectionLaw& Array1();
-     GeomFill_Array1OfSectionLaw& ChangeArray1();
+    GeomFill_HArray1OfSectionLaw(const Standard_Integer theLower, const Standard_Integer theUpper, const GeomFill_Array1OfSectionLaw::value_type& theValue);
+    GeomFill_HArray1OfSectionLaw(const GeomFill_Array1OfSectionLaw& theOther);
+    const GeomFill_Array1OfSectionLaw& Array1();
+    GeomFill_Array1OfSectionLaw& ChangeArray1();
 };
 %make_alias(GeomFill_HArray1OfSectionLaw)
 
-
 /* harray2 classes */
 /* hsequence classes */
-class GeomFill_HSequenceOfAx2 : public  GeomFill_SequenceOfAx2, public Standard_Transient {
+class GeomFill_HSequenceOfAx2 : public GeomFill_SequenceOfAx2, public Standard_Transient {
   public:
     GeomFill_HSequenceOfAx2();
-    GeomFill_HSequenceOfAx2(const  GeomFill_SequenceOfAx2& theOther);
-    const  GeomFill_SequenceOfAx2& Sequence();
-    void Append (const  GeomFill_SequenceOfAx2::value_type& theItem);
-    void Append ( GeomFill_SequenceOfAx2& theSequence);
-     GeomFill_SequenceOfAx2& ChangeSequence();
+    GeomFill_HSequenceOfAx2(const GeomFill_SequenceOfAx2& theOther);
+    const GeomFill_SequenceOfAx2& Sequence();
+    void Append (const GeomFill_SequenceOfAx2::value_type& theItem);
+    void Append (GeomFill_SequenceOfAx2& theSequence);
+    GeomFill_SequenceOfAx2& ChangeSequence();
 };
 %make_alias(GeomFill_HSequenceOfAx2)
 

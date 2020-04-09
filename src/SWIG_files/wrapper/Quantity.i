@@ -3440,16 +3440,16 @@ Quantity_Period
 };
 
 /* harray1 classes */
-class Quantity_HArray1OfColor : public  Quantity_Array1OfColor, public Standard_Transient {
+
+class Quantity_HArray1OfColor : public Quantity_Array1OfColor, public Standard_Transient {
   public:
     Quantity_HArray1OfColor(const Standard_Integer theLower, const Standard_Integer theUpper);
-    Quantity_HArray1OfColor(const Standard_Integer theLower, const Standard_Integer theUpper, const  Quantity_Array1OfColor::value_type& theValue);
-    Quantity_HArray1OfColor(const  Quantity_Array1OfColor& theOther);
-    const  Quantity_Array1OfColor& Array1();
-     Quantity_Array1OfColor& ChangeArray1();
+    Quantity_HArray1OfColor(const Standard_Integer theLower, const Standard_Integer theUpper, const Quantity_Array1OfColor::value_type& theValue);
+    Quantity_HArray1OfColor(const Quantity_Array1OfColor& theOther);
+    const Quantity_Array1OfColor& Array1();
+    Quantity_Array1OfColor& ChangeArray1();
 };
 %make_alias(Quantity_HArray1OfColor)
-
 
 /* harray2 classes */
 /* hsequence classes */

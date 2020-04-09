@@ -4306,16 +4306,16 @@ float
 };
 
 /* harray1 classes */
-class MeshVS_HArray1OfSequenceOfInteger : public  MeshVS_Array1OfSequenceOfInteger, public Standard_Transient {
+
+class MeshVS_HArray1OfSequenceOfInteger : public MeshVS_Array1OfSequenceOfInteger, public Standard_Transient {
   public:
     MeshVS_HArray1OfSequenceOfInteger(const Standard_Integer theLower, const Standard_Integer theUpper);
-    MeshVS_HArray1OfSequenceOfInteger(const Standard_Integer theLower, const Standard_Integer theUpper, const  MeshVS_Array1OfSequenceOfInteger::value_type& theValue);
-    MeshVS_HArray1OfSequenceOfInteger(const  MeshVS_Array1OfSequenceOfInteger& theOther);
-    const  MeshVS_Array1OfSequenceOfInteger& Array1();
-     MeshVS_Array1OfSequenceOfInteger& ChangeArray1();
+    MeshVS_HArray1OfSequenceOfInteger(const Standard_Integer theLower, const Standard_Integer theUpper, const MeshVS_Array1OfSequenceOfInteger::value_type& theValue);
+    MeshVS_HArray1OfSequenceOfInteger(const MeshVS_Array1OfSequenceOfInteger& theOther);
+    const MeshVS_Array1OfSequenceOfInteger& Array1();
+    MeshVS_Array1OfSequenceOfInteger& ChangeArray1();
 };
 %make_alias(MeshVS_HArray1OfSequenceOfInteger)
-
 
 /* harray2 classes */
 /* hsequence classes */

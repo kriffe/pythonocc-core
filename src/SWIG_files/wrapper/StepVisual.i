@@ -7873,170 +7873,170 @@ None
 };
 
 /* harray1 classes */
-class StepVisual_HArray1OfAnnotationPlaneElement : public  StepVisual_Array1OfAnnotationPlaneElement, public Standard_Transient {
+
+class StepVisual_HArray1OfAnnotationPlaneElement : public StepVisual_Array1OfAnnotationPlaneElement, public Standard_Transient {
   public:
     StepVisual_HArray1OfAnnotationPlaneElement(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfAnnotationPlaneElement(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfAnnotationPlaneElement::value_type& theValue);
-    StepVisual_HArray1OfAnnotationPlaneElement(const  StepVisual_Array1OfAnnotationPlaneElement& theOther);
-    const  StepVisual_Array1OfAnnotationPlaneElement& Array1();
-     StepVisual_Array1OfAnnotationPlaneElement& ChangeArray1();
+    StepVisual_HArray1OfAnnotationPlaneElement(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfAnnotationPlaneElement::value_type& theValue);
+    StepVisual_HArray1OfAnnotationPlaneElement(const StepVisual_Array1OfAnnotationPlaneElement& theOther);
+    const StepVisual_Array1OfAnnotationPlaneElement& Array1();
+    StepVisual_Array1OfAnnotationPlaneElement& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfAnnotationPlaneElement)
 
 
-class StepVisual_HArray1OfDraughtingCalloutElement : public  StepVisual_Array1OfDraughtingCalloutElement, public Standard_Transient {
+class StepVisual_HArray1OfDraughtingCalloutElement : public StepVisual_Array1OfDraughtingCalloutElement, public Standard_Transient {
   public:
     StepVisual_HArray1OfDraughtingCalloutElement(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfDraughtingCalloutElement(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfDraughtingCalloutElement::value_type& theValue);
-    StepVisual_HArray1OfDraughtingCalloutElement(const  StepVisual_Array1OfDraughtingCalloutElement& theOther);
-    const  StepVisual_Array1OfDraughtingCalloutElement& Array1();
-     StepVisual_Array1OfDraughtingCalloutElement& ChangeArray1();
+    StepVisual_HArray1OfDraughtingCalloutElement(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfDraughtingCalloutElement::value_type& theValue);
+    StepVisual_HArray1OfDraughtingCalloutElement(const StepVisual_Array1OfDraughtingCalloutElement& theOther);
+    const StepVisual_Array1OfDraughtingCalloutElement& Array1();
+    StepVisual_Array1OfDraughtingCalloutElement& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfDraughtingCalloutElement)
 
 
-class StepVisual_HArray1OfDirectionCountSelect : public  StepVisual_Array1OfDirectionCountSelect, public Standard_Transient {
+class StepVisual_HArray1OfDirectionCountSelect : public StepVisual_Array1OfDirectionCountSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfDirectionCountSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfDirectionCountSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfDirectionCountSelect::value_type& theValue);
-    StepVisual_HArray1OfDirectionCountSelect(const  StepVisual_Array1OfDirectionCountSelect& theOther);
-    const  StepVisual_Array1OfDirectionCountSelect& Array1();
-     StepVisual_Array1OfDirectionCountSelect& ChangeArray1();
+    StepVisual_HArray1OfDirectionCountSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfDirectionCountSelect::value_type& theValue);
+    StepVisual_HArray1OfDirectionCountSelect(const StepVisual_Array1OfDirectionCountSelect& theOther);
+    const StepVisual_Array1OfDirectionCountSelect& Array1();
+    StepVisual_Array1OfDirectionCountSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfDirectionCountSelect)
 
 
-class StepVisual_HArray1OfStyleContextSelect : public  StepVisual_Array1OfStyleContextSelect, public Standard_Transient {
+class StepVisual_HArray1OfStyleContextSelect : public StepVisual_Array1OfStyleContextSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfStyleContextSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfStyleContextSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfStyleContextSelect::value_type& theValue);
-    StepVisual_HArray1OfStyleContextSelect(const  StepVisual_Array1OfStyleContextSelect& theOther);
-    const  StepVisual_Array1OfStyleContextSelect& Array1();
-     StepVisual_Array1OfStyleContextSelect& ChangeArray1();
+    StepVisual_HArray1OfStyleContextSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfStyleContextSelect::value_type& theValue);
+    StepVisual_HArray1OfStyleContextSelect(const StepVisual_Array1OfStyleContextSelect& theOther);
+    const StepVisual_Array1OfStyleContextSelect& Array1();
+    StepVisual_Array1OfStyleContextSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfStyleContextSelect)
 
 
-class StepVisual_HArray1OfPresentationStyleSelect : public  StepVisual_Array1OfPresentationStyleSelect, public Standard_Transient {
+class StepVisual_HArray1OfPresentationStyleSelect : public StepVisual_Array1OfPresentationStyleSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfPresentationStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfPresentationStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfPresentationStyleSelect::value_type& theValue);
-    StepVisual_HArray1OfPresentationStyleSelect(const  StepVisual_Array1OfPresentationStyleSelect& theOther);
-    const  StepVisual_Array1OfPresentationStyleSelect& Array1();
-     StepVisual_Array1OfPresentationStyleSelect& ChangeArray1();
+    StepVisual_HArray1OfPresentationStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfPresentationStyleSelect::value_type& theValue);
+    StepVisual_HArray1OfPresentationStyleSelect(const StepVisual_Array1OfPresentationStyleSelect& theOther);
+    const StepVisual_Array1OfPresentationStyleSelect& Array1();
+    StepVisual_Array1OfPresentationStyleSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfPresentationStyleSelect)
 
 
-class StepVisual_HArray1OfCurveStyleFontPattern : public  StepVisual_Array1OfCurveStyleFontPattern, public Standard_Transient {
+class StepVisual_HArray1OfCurveStyleFontPattern : public StepVisual_Array1OfCurveStyleFontPattern, public Standard_Transient {
   public:
     StepVisual_HArray1OfCurveStyleFontPattern(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfCurveStyleFontPattern(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfCurveStyleFontPattern::value_type& theValue);
-    StepVisual_HArray1OfCurveStyleFontPattern(const  StepVisual_Array1OfCurveStyleFontPattern& theOther);
-    const  StepVisual_Array1OfCurveStyleFontPattern& Array1();
-     StepVisual_Array1OfCurveStyleFontPattern& ChangeArray1();
+    StepVisual_HArray1OfCurveStyleFontPattern(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfCurveStyleFontPattern::value_type& theValue);
+    StepVisual_HArray1OfCurveStyleFontPattern(const StepVisual_Array1OfCurveStyleFontPattern& theOther);
+    const StepVisual_Array1OfCurveStyleFontPattern& Array1();
+    StepVisual_Array1OfCurveStyleFontPattern& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfCurveStyleFontPattern)
 
 
-class StepVisual_HArray1OfBoxCharacteristicSelect : public  StepVisual_Array1OfBoxCharacteristicSelect, public Standard_Transient {
+class StepVisual_HArray1OfBoxCharacteristicSelect : public StepVisual_Array1OfBoxCharacteristicSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfBoxCharacteristicSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfBoxCharacteristicSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfBoxCharacteristicSelect::value_type& theValue);
-    StepVisual_HArray1OfBoxCharacteristicSelect(const  StepVisual_Array1OfBoxCharacteristicSelect& theOther);
-    const  StepVisual_Array1OfBoxCharacteristicSelect& Array1();
-     StepVisual_Array1OfBoxCharacteristicSelect& ChangeArray1();
+    StepVisual_HArray1OfBoxCharacteristicSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfBoxCharacteristicSelect::value_type& theValue);
+    StepVisual_HArray1OfBoxCharacteristicSelect(const StepVisual_Array1OfBoxCharacteristicSelect& theOther);
+    const StepVisual_Array1OfBoxCharacteristicSelect& Array1();
+    StepVisual_Array1OfBoxCharacteristicSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfBoxCharacteristicSelect)
 
 
-class StepVisual_HArray1OfPresentationStyleAssignment : public  StepVisual_Array1OfPresentationStyleAssignment, public Standard_Transient {
+class StepVisual_HArray1OfPresentationStyleAssignment : public StepVisual_Array1OfPresentationStyleAssignment, public Standard_Transient {
   public:
     StepVisual_HArray1OfPresentationStyleAssignment(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfPresentationStyleAssignment(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfPresentationStyleAssignment::value_type& theValue);
-    StepVisual_HArray1OfPresentationStyleAssignment(const  StepVisual_Array1OfPresentationStyleAssignment& theOther);
-    const  StepVisual_Array1OfPresentationStyleAssignment& Array1();
-     StepVisual_Array1OfPresentationStyleAssignment& ChangeArray1();
+    StepVisual_HArray1OfPresentationStyleAssignment(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfPresentationStyleAssignment::value_type& theValue);
+    StepVisual_HArray1OfPresentationStyleAssignment(const StepVisual_Array1OfPresentationStyleAssignment& theOther);
+    const StepVisual_Array1OfPresentationStyleAssignment& Array1();
+    StepVisual_Array1OfPresentationStyleAssignment& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfPresentationStyleAssignment)
 
 
-class StepVisual_HArray1OfFillStyleSelect : public  StepVisual_Array1OfFillStyleSelect, public Standard_Transient {
+class StepVisual_HArray1OfFillStyleSelect : public StepVisual_Array1OfFillStyleSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfFillStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfFillStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfFillStyleSelect::value_type& theValue);
-    StepVisual_HArray1OfFillStyleSelect(const  StepVisual_Array1OfFillStyleSelect& theOther);
-    const  StepVisual_Array1OfFillStyleSelect& Array1();
-     StepVisual_Array1OfFillStyleSelect& ChangeArray1();
+    StepVisual_HArray1OfFillStyleSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfFillStyleSelect::value_type& theValue);
+    StepVisual_HArray1OfFillStyleSelect(const StepVisual_Array1OfFillStyleSelect& theOther);
+    const StepVisual_Array1OfFillStyleSelect& Array1();
+    StepVisual_Array1OfFillStyleSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfFillStyleSelect)
 
 
-class StepVisual_HArray1OfTextOrCharacter : public  StepVisual_Array1OfTextOrCharacter, public Standard_Transient {
+class StepVisual_HArray1OfTextOrCharacter : public StepVisual_Array1OfTextOrCharacter, public Standard_Transient {
   public:
     StepVisual_HArray1OfTextOrCharacter(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfTextOrCharacter(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfTextOrCharacter::value_type& theValue);
-    StepVisual_HArray1OfTextOrCharacter(const  StepVisual_Array1OfTextOrCharacter& theOther);
-    const  StepVisual_Array1OfTextOrCharacter& Array1();
-     StepVisual_Array1OfTextOrCharacter& ChangeArray1();
+    StepVisual_HArray1OfTextOrCharacter(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfTextOrCharacter::value_type& theValue);
+    StepVisual_HArray1OfTextOrCharacter(const StepVisual_Array1OfTextOrCharacter& theOther);
+    const StepVisual_Array1OfTextOrCharacter& Array1();
+    StepVisual_Array1OfTextOrCharacter& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfTextOrCharacter)
 
 
-class StepVisual_HArray1OfSurfaceStyleElementSelect : public  StepVisual_Array1OfSurfaceStyleElementSelect, public Standard_Transient {
+class StepVisual_HArray1OfSurfaceStyleElementSelect : public StepVisual_Array1OfSurfaceStyleElementSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfSurfaceStyleElementSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfSurfaceStyleElementSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfSurfaceStyleElementSelect::value_type& theValue);
-    StepVisual_HArray1OfSurfaceStyleElementSelect(const  StepVisual_Array1OfSurfaceStyleElementSelect& theOther);
-    const  StepVisual_Array1OfSurfaceStyleElementSelect& Array1();
-     StepVisual_Array1OfSurfaceStyleElementSelect& ChangeArray1();
+    StepVisual_HArray1OfSurfaceStyleElementSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfSurfaceStyleElementSelect::value_type& theValue);
+    StepVisual_HArray1OfSurfaceStyleElementSelect(const StepVisual_Array1OfSurfaceStyleElementSelect& theOther);
+    const StepVisual_Array1OfSurfaceStyleElementSelect& Array1();
+    StepVisual_Array1OfSurfaceStyleElementSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfSurfaceStyleElementSelect)
 
 
-class StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect : public  StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect, public Standard_Transient {
+class StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect : public StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect::value_type& theValue);
-    StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect(const  StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& theOther);
-    const  StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& Array1();
-     StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& ChangeArray1();
+    StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect::value_type& theValue);
+    StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect(const StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& theOther);
+    const StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& Array1();
+    StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect)
 
 
-class StepVisual_HArray1OfLayeredItem : public  StepVisual_Array1OfLayeredItem, public Standard_Transient {
+class StepVisual_HArray1OfLayeredItem : public StepVisual_Array1OfLayeredItem, public Standard_Transient {
   public:
     StepVisual_HArray1OfLayeredItem(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfLayeredItem(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfLayeredItem::value_type& theValue);
-    StepVisual_HArray1OfLayeredItem(const  StepVisual_Array1OfLayeredItem& theOther);
-    const  StepVisual_Array1OfLayeredItem& Array1();
-     StepVisual_Array1OfLayeredItem& ChangeArray1();
+    StepVisual_HArray1OfLayeredItem(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfLayeredItem::value_type& theValue);
+    StepVisual_HArray1OfLayeredItem(const StepVisual_Array1OfLayeredItem& theOther);
+    const StepVisual_Array1OfLayeredItem& Array1();
+    StepVisual_Array1OfLayeredItem& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfLayeredItem)
 
 
-class StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect : public  StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect, public Standard_Transient {
+class StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect : public StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect, public Standard_Transient {
   public:
     StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect::value_type& theValue);
-    StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(const  StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& theOther);
-    const  StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& Array1();
-     StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& ChangeArray1();
+    StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect::value_type& theValue);
+    StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(const StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& theOther);
+    const StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& Array1();
+    StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect)
 
 
-class StepVisual_HArray1OfInvisibleItem : public  StepVisual_Array1OfInvisibleItem, public Standard_Transient {
+class StepVisual_HArray1OfInvisibleItem : public StepVisual_Array1OfInvisibleItem, public Standard_Transient {
   public:
     StepVisual_HArray1OfInvisibleItem(const Standard_Integer theLower, const Standard_Integer theUpper);
-    StepVisual_HArray1OfInvisibleItem(const Standard_Integer theLower, const Standard_Integer theUpper, const  StepVisual_Array1OfInvisibleItem::value_type& theValue);
-    StepVisual_HArray1OfInvisibleItem(const  StepVisual_Array1OfInvisibleItem& theOther);
-    const  StepVisual_Array1OfInvisibleItem& Array1();
-     StepVisual_Array1OfInvisibleItem& ChangeArray1();
+    StepVisual_HArray1OfInvisibleItem(const Standard_Integer theLower, const Standard_Integer theUpper, const StepVisual_Array1OfInvisibleItem::value_type& theValue);
+    StepVisual_HArray1OfInvisibleItem(const StepVisual_Array1OfInvisibleItem& theOther);
+    const StepVisual_Array1OfInvisibleItem& Array1();
+    StepVisual_Array1OfInvisibleItem& ChangeArray1();
 };
 %make_alias(StepVisual_HArray1OfInvisibleItem)
-
 
 /* harray2 classes */
 /* hsequence classes */

@@ -1215,15 +1215,15 @@ None
 
 /* harray1 classes */
 /* harray2 classes */
-class FEmTool_HAssemblyTable : public  FEmTool_AssemblyTable, public Standard_Transient {
+class FEmTool_HAssemblyTable : public FEmTool_AssemblyTable, public Standard_Transient {
   public:
     FEmTool_HAssemblyTable(const Standard_Integer theRowLow, const Standard_Integer theRowUpp, const Standard_Integer theColLow,
                 const Standard_Integer theColUpp);
     FEmTool_HAssemblyTable(const Standard_Integer theRowLow, const Standard_Integer theRowUpp, const Standard_Integer theColLow,
-               const Standard_Integer theColUpp, const  FEmTool_AssemblyTable::value_type& theValue);
-    FEmTool_HAssemblyTable(const  FEmTool_AssemblyTable& theOther);
-    const  FEmTool_AssemblyTable& Array2 ();
-     FEmTool_AssemblyTable& ChangeArray2 (); 
+               const Standard_Integer theColUpp, const FEmTool_AssemblyTable::value_type& theValue);
+    FEmTool_HAssemblyTable(const FEmTool_AssemblyTable& theOther);
+    const FEmTool_AssemblyTable& Array2 ();
+    FEmTool_AssemblyTable& ChangeArray2 (); 
 };
 %make_alias(FEmTool_HAssemblyTable)
 

@@ -12646,14 +12646,14 @@ opencascade::handle<Standard_Type>
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class IFSelect_HSeqOfSelection : public  IFSelect_TSeqOfSelection, public Standard_Transient {
+class IFSelect_HSeqOfSelection : public IFSelect_TSeqOfSelection, public Standard_Transient {
   public:
     IFSelect_HSeqOfSelection();
-    IFSelect_HSeqOfSelection(const  IFSelect_TSeqOfSelection& theOther);
-    const  IFSelect_TSeqOfSelection& Sequence();
-    void Append (const  IFSelect_TSeqOfSelection::value_type& theItem);
-    void Append ( IFSelect_TSeqOfSelection& theSequence);
-     IFSelect_TSeqOfSelection& ChangeSequence();
+    IFSelect_HSeqOfSelection(const IFSelect_TSeqOfSelection& theOther);
+    const IFSelect_TSeqOfSelection& Sequence();
+    void Append (const IFSelect_TSeqOfSelection::value_type& theItem);
+    void Append (IFSelect_TSeqOfSelection& theSequence);
+    IFSelect_TSeqOfSelection& ChangeSequence();
 };
 %make_alias(IFSelect_HSeqOfSelection)
 

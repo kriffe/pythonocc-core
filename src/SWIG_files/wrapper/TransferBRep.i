@@ -1587,14 +1587,14 @@ TopoDS_Wire
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class TransferBRep_HSequenceOfTransferResultInfo : public  TransferBRep_SequenceOfTransferResultInfo, public Standard_Transient {
+class TransferBRep_HSequenceOfTransferResultInfo : public TransferBRep_SequenceOfTransferResultInfo, public Standard_Transient {
   public:
     TransferBRep_HSequenceOfTransferResultInfo();
-    TransferBRep_HSequenceOfTransferResultInfo(const  TransferBRep_SequenceOfTransferResultInfo& theOther);
-    const  TransferBRep_SequenceOfTransferResultInfo& Sequence();
-    void Append (const  TransferBRep_SequenceOfTransferResultInfo::value_type& theItem);
-    void Append ( TransferBRep_SequenceOfTransferResultInfo& theSequence);
-     TransferBRep_SequenceOfTransferResultInfo& ChangeSequence();
+    TransferBRep_HSequenceOfTransferResultInfo(const TransferBRep_SequenceOfTransferResultInfo& theOther);
+    const TransferBRep_SequenceOfTransferResultInfo& Sequence();
+    void Append (const TransferBRep_SequenceOfTransferResultInfo::value_type& theItem);
+    void Append (TransferBRep_SequenceOfTransferResultInfo& theSequence);
+    TransferBRep_SequenceOfTransferResultInfo& ChangeSequence();
 };
 %make_alias(TransferBRep_HSequenceOfTransferResultInfo)
 

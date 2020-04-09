@@ -9591,27 +9591,27 @@ opencascade::handle<Interface_Static>
 };
 
 /* harray1 classes */
-class Interface_HArray1OfHAsciiString : public  Interface_Array1OfHAsciiString, public Standard_Transient {
+
+class Interface_HArray1OfHAsciiString : public Interface_Array1OfHAsciiString, public Standard_Transient {
   public:
     Interface_HArray1OfHAsciiString(const Standard_Integer theLower, const Standard_Integer theUpper);
-    Interface_HArray1OfHAsciiString(const Standard_Integer theLower, const Standard_Integer theUpper, const  Interface_Array1OfHAsciiString::value_type& theValue);
-    Interface_HArray1OfHAsciiString(const  Interface_Array1OfHAsciiString& theOther);
-    const  Interface_Array1OfHAsciiString& Array1();
-     Interface_Array1OfHAsciiString& ChangeArray1();
+    Interface_HArray1OfHAsciiString(const Standard_Integer theLower, const Standard_Integer theUpper, const Interface_Array1OfHAsciiString::value_type& theValue);
+    Interface_HArray1OfHAsciiString(const Interface_Array1OfHAsciiString& theOther);
+    const Interface_Array1OfHAsciiString& Array1();
+    Interface_Array1OfHAsciiString& ChangeArray1();
 };
 %make_alias(Interface_HArray1OfHAsciiString)
 
-
 /* harray2 classes */
 /* hsequence classes */
-class Interface_HSequenceOfCheck : public  Interface_SequenceOfCheck, public Standard_Transient {
+class Interface_HSequenceOfCheck : public Interface_SequenceOfCheck, public Standard_Transient {
   public:
     Interface_HSequenceOfCheck();
-    Interface_HSequenceOfCheck(const  Interface_SequenceOfCheck& theOther);
-    const  Interface_SequenceOfCheck& Sequence();
-    void Append (const  Interface_SequenceOfCheck::value_type& theItem);
-    void Append ( Interface_SequenceOfCheck& theSequence);
-     Interface_SequenceOfCheck& ChangeSequence();
+    Interface_HSequenceOfCheck(const Interface_SequenceOfCheck& theOther);
+    const Interface_SequenceOfCheck& Sequence();
+    void Append (const Interface_SequenceOfCheck::value_type& theItem);
+    void Append (Interface_SequenceOfCheck& theSequence);
+    Interface_SequenceOfCheck& ChangeSequence();
 };
 %make_alias(Interface_HSequenceOfCheck)
 

@@ -3227,14 +3227,14 @@ None
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class TObj_HSequenceOfObject : public  TObj_SequenceOfObject, public Standard_Transient {
+class TObj_HSequenceOfObject : public TObj_SequenceOfObject, public Standard_Transient {
   public:
     TObj_HSequenceOfObject();
-    TObj_HSequenceOfObject(const  TObj_SequenceOfObject& theOther);
-    const  TObj_SequenceOfObject& Sequence();
-    void Append (const  TObj_SequenceOfObject::value_type& theItem);
-    void Append ( TObj_SequenceOfObject& theSequence);
-     TObj_SequenceOfObject& ChangeSequence();
+    TObj_HSequenceOfObject(const TObj_SequenceOfObject& theOther);
+    const TObj_SequenceOfObject& Sequence();
+    void Append (const TObj_SequenceOfObject::value_type& theItem);
+    void Append (TObj_SequenceOfObject& theSequence);
+    TObj_SequenceOfObject& ChangeSequence();
 };
 %make_alias(TObj_HSequenceOfObject)
 

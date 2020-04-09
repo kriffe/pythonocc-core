@@ -3133,16 +3133,16 @@ opencascade::handle<TDataStd_Real>
 };
 
 /* harray1 classes */
-class TDataXtd_HArray1OfTrsf : public  TDataXtd_Array1OfTrsf, public Standard_Transient {
+
+class TDataXtd_HArray1OfTrsf : public TDataXtd_Array1OfTrsf, public Standard_Transient {
   public:
     TDataXtd_HArray1OfTrsf(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TDataXtd_HArray1OfTrsf(const Standard_Integer theLower, const Standard_Integer theUpper, const  TDataXtd_Array1OfTrsf::value_type& theValue);
-    TDataXtd_HArray1OfTrsf(const  TDataXtd_Array1OfTrsf& theOther);
-    const  TDataXtd_Array1OfTrsf& Array1();
-     TDataXtd_Array1OfTrsf& ChangeArray1();
+    TDataXtd_HArray1OfTrsf(const Standard_Integer theLower, const Standard_Integer theUpper, const TDataXtd_Array1OfTrsf::value_type& theValue);
+    TDataXtd_HArray1OfTrsf(const TDataXtd_Array1OfTrsf& theOther);
+    const TDataXtd_Array1OfTrsf& Array1();
+    TDataXtd_Array1OfTrsf& ChangeArray1();
 };
 %make_alias(TDataXtd_HArray1OfTrsf)
-
 
 /* harray2 classes */
 /* hsequence classes */

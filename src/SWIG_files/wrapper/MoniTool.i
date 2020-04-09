@@ -2778,14 +2778,14 @@ char *
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class MoniTool_HSequenceOfElement : public  MoniTool_SequenceOfElement, public Standard_Transient {
+class MoniTool_HSequenceOfElement : public MoniTool_SequenceOfElement, public Standard_Transient {
   public:
     MoniTool_HSequenceOfElement();
-    MoniTool_HSequenceOfElement(const  MoniTool_SequenceOfElement& theOther);
-    const  MoniTool_SequenceOfElement& Sequence();
-    void Append (const  MoniTool_SequenceOfElement::value_type& theItem);
-    void Append ( MoniTool_SequenceOfElement& theSequence);
-     MoniTool_SequenceOfElement& ChangeSequence();
+    MoniTool_HSequenceOfElement(const MoniTool_SequenceOfElement& theOther);
+    const MoniTool_SequenceOfElement& Sequence();
+    void Append (const MoniTool_SequenceOfElement::value_type& theItem);
+    void Append (MoniTool_SequenceOfElement& theSequence);
+    MoniTool_SequenceOfElement& ChangeSequence();
 };
 %make_alias(MoniTool_HSequenceOfElement)
 

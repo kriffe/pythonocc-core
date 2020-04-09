@@ -4349,27 +4349,27 @@ None
 };
 
 /* harray1 classes */
-class ChFiDS_SecHArray1 : public  ChFiDS_SecArray1, public Standard_Transient {
+
+class ChFiDS_SecHArray1 : public ChFiDS_SecArray1, public Standard_Transient {
   public:
     ChFiDS_SecHArray1(const Standard_Integer theLower, const Standard_Integer theUpper);
-    ChFiDS_SecHArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const  ChFiDS_SecArray1::value_type& theValue);
-    ChFiDS_SecHArray1(const  ChFiDS_SecArray1& theOther);
-    const  ChFiDS_SecArray1& Array1();
-     ChFiDS_SecArray1& ChangeArray1();
+    ChFiDS_SecHArray1(const Standard_Integer theLower, const Standard_Integer theUpper, const ChFiDS_SecArray1::value_type& theValue);
+    ChFiDS_SecHArray1(const ChFiDS_SecArray1& theOther);
+    const ChFiDS_SecArray1& Array1();
+    ChFiDS_SecArray1& ChangeArray1();
 };
 %make_alias(ChFiDS_SecHArray1)
 
-
 /* harray2 classes */
 /* hsequence classes */
-class ChFiDS_HData : public  ChFiDS_SequenceOfSurfData, public Standard_Transient {
+class ChFiDS_HData : public ChFiDS_SequenceOfSurfData, public Standard_Transient {
   public:
     ChFiDS_HData();
-    ChFiDS_HData(const  ChFiDS_SequenceOfSurfData& theOther);
-    const  ChFiDS_SequenceOfSurfData& Sequence();
-    void Append (const  ChFiDS_SequenceOfSurfData::value_type& theItem);
-    void Append ( ChFiDS_SequenceOfSurfData& theSequence);
-     ChFiDS_SequenceOfSurfData& ChangeSequence();
+    ChFiDS_HData(const ChFiDS_SequenceOfSurfData& theOther);
+    const ChFiDS_SequenceOfSurfData& Sequence();
+    void Append (const ChFiDS_SequenceOfSurfData::value_type& theItem);
+    void Append (ChFiDS_SequenceOfSurfData& theSequence);
+    ChFiDS_SequenceOfSurfData& ChangeSequence();
 };
 %make_alias(ChFiDS_HData)
 

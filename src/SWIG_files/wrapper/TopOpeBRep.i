@@ -5486,27 +5486,27 @@ class TopOpeBRep_traceSIFF:
 }
 /* end python proxy for excluded classes */
 /* harray1 classes */
-class TopOpeBRep_HArray1OfVPointInter : public  TopOpeBRep_Array1OfVPointInter, public Standard_Transient {
+
+class TopOpeBRep_HArray1OfVPointInter : public TopOpeBRep_Array1OfVPointInter, public Standard_Transient {
   public:
     TopOpeBRep_HArray1OfVPointInter(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TopOpeBRep_HArray1OfVPointInter(const Standard_Integer theLower, const Standard_Integer theUpper, const  TopOpeBRep_Array1OfVPointInter::value_type& theValue);
-    TopOpeBRep_HArray1OfVPointInter(const  TopOpeBRep_Array1OfVPointInter& theOther);
-    const  TopOpeBRep_Array1OfVPointInter& Array1();
-     TopOpeBRep_Array1OfVPointInter& ChangeArray1();
+    TopOpeBRep_HArray1OfVPointInter(const Standard_Integer theLower, const Standard_Integer theUpper, const TopOpeBRep_Array1OfVPointInter::value_type& theValue);
+    TopOpeBRep_HArray1OfVPointInter(const TopOpeBRep_Array1OfVPointInter& theOther);
+    const TopOpeBRep_Array1OfVPointInter& Array1();
+    TopOpeBRep_Array1OfVPointInter& ChangeArray1();
 };
 %make_alias(TopOpeBRep_HArray1OfVPointInter)
 
 
-class TopOpeBRep_HArray1OfLineInter : public  TopOpeBRep_Array1OfLineInter, public Standard_Transient {
+class TopOpeBRep_HArray1OfLineInter : public TopOpeBRep_Array1OfLineInter, public Standard_Transient {
   public:
     TopOpeBRep_HArray1OfLineInter(const Standard_Integer theLower, const Standard_Integer theUpper);
-    TopOpeBRep_HArray1OfLineInter(const Standard_Integer theLower, const Standard_Integer theUpper, const  TopOpeBRep_Array1OfLineInter::value_type& theValue);
-    TopOpeBRep_HArray1OfLineInter(const  TopOpeBRep_Array1OfLineInter& theOther);
-    const  TopOpeBRep_Array1OfLineInter& Array1();
-     TopOpeBRep_Array1OfLineInter& ChangeArray1();
+    TopOpeBRep_HArray1OfLineInter(const Standard_Integer theLower, const Standard_Integer theUpper, const TopOpeBRep_Array1OfLineInter::value_type& theValue);
+    TopOpeBRep_HArray1OfLineInter(const TopOpeBRep_Array1OfLineInter& theOther);
+    const TopOpeBRep_Array1OfLineInter& Array1();
+    TopOpeBRep_Array1OfLineInter& ChangeArray1();
 };
 %make_alias(TopOpeBRep_HArray1OfLineInter)
-
 
 /* harray2 classes */
 /* hsequence classes */

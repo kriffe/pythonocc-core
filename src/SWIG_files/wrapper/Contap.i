@@ -3358,14 +3358,14 @@ None
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class Contap_TheHSequenceOfPoint : public  Contap_TheSequenceOfPoint, public Standard_Transient {
+class Contap_TheHSequenceOfPoint : public Contap_TheSequenceOfPoint, public Standard_Transient {
   public:
     Contap_TheHSequenceOfPoint();
-    Contap_TheHSequenceOfPoint(const  Contap_TheSequenceOfPoint& theOther);
-    const  Contap_TheSequenceOfPoint& Sequence();
-    void Append (const  Contap_TheSequenceOfPoint::value_type& theItem);
-    void Append ( Contap_TheSequenceOfPoint& theSequence);
-     Contap_TheSequenceOfPoint& ChangeSequence();
+    Contap_TheHSequenceOfPoint(const Contap_TheSequenceOfPoint& theOther);
+    const Contap_TheSequenceOfPoint& Sequence();
+    void Append (const Contap_TheSequenceOfPoint::value_type& theItem);
+    void Append (Contap_TheSequenceOfPoint& theSequence);
+    Contap_TheSequenceOfPoint& ChangeSequence();
 };
 %make_alias(Contap_TheHSequenceOfPoint)
 

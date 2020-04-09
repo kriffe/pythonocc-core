@@ -2177,27 +2177,27 @@ None
 };
 
 /* harray1 classes */
-class Approx_HArray1OfGTrsf2d : public  Approx_Array1OfGTrsf2d, public Standard_Transient {
+
+class Approx_HArray1OfGTrsf2d : public Approx_Array1OfGTrsf2d, public Standard_Transient {
   public:
     Approx_HArray1OfGTrsf2d(const Standard_Integer theLower, const Standard_Integer theUpper);
-    Approx_HArray1OfGTrsf2d(const Standard_Integer theLower, const Standard_Integer theUpper, const  Approx_Array1OfGTrsf2d::value_type& theValue);
-    Approx_HArray1OfGTrsf2d(const  Approx_Array1OfGTrsf2d& theOther);
-    const  Approx_Array1OfGTrsf2d& Array1();
-     Approx_Array1OfGTrsf2d& ChangeArray1();
+    Approx_HArray1OfGTrsf2d(const Standard_Integer theLower, const Standard_Integer theUpper, const Approx_Array1OfGTrsf2d::value_type& theValue);
+    Approx_HArray1OfGTrsf2d(const Approx_Array1OfGTrsf2d& theOther);
+    const Approx_Array1OfGTrsf2d& Array1();
+    Approx_Array1OfGTrsf2d& ChangeArray1();
 };
 %make_alias(Approx_HArray1OfGTrsf2d)
 
 
-class Approx_HArray1OfAdHSurface : public  Approx_Array1OfAdHSurface, public Standard_Transient {
+class Approx_HArray1OfAdHSurface : public Approx_Array1OfAdHSurface, public Standard_Transient {
   public:
     Approx_HArray1OfAdHSurface(const Standard_Integer theLower, const Standard_Integer theUpper);
-    Approx_HArray1OfAdHSurface(const Standard_Integer theLower, const Standard_Integer theUpper, const  Approx_Array1OfAdHSurface::value_type& theValue);
-    Approx_HArray1OfAdHSurface(const  Approx_Array1OfAdHSurface& theOther);
-    const  Approx_Array1OfAdHSurface& Array1();
-     Approx_Array1OfAdHSurface& ChangeArray1();
+    Approx_HArray1OfAdHSurface(const Standard_Integer theLower, const Standard_Integer theUpper, const Approx_Array1OfAdHSurface::value_type& theValue);
+    Approx_HArray1OfAdHSurface(const Approx_Array1OfAdHSurface& theOther);
+    const Approx_Array1OfAdHSurface& Array1();
+    Approx_Array1OfAdHSurface& ChangeArray1();
 };
 %make_alias(Approx_HArray1OfAdHSurface)
-
 
 /* harray2 classes */
 /* hsequence classes */

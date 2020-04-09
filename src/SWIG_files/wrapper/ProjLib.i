@@ -3588,14 +3588,14 @@ None
 /* harray1 classes */
 /* harray2 classes */
 /* hsequence classes */
-class ProjLib_HSequenceOfHSequenceOfPnt : public  ProjLib_SequenceOfHSequenceOfPnt, public Standard_Transient {
+class ProjLib_HSequenceOfHSequenceOfPnt : public ProjLib_SequenceOfHSequenceOfPnt, public Standard_Transient {
   public:
     ProjLib_HSequenceOfHSequenceOfPnt();
-    ProjLib_HSequenceOfHSequenceOfPnt(const  ProjLib_SequenceOfHSequenceOfPnt& theOther);
-    const  ProjLib_SequenceOfHSequenceOfPnt& Sequence();
-    void Append (const  ProjLib_SequenceOfHSequenceOfPnt::value_type& theItem);
-    void Append ( ProjLib_SequenceOfHSequenceOfPnt& theSequence);
-     ProjLib_SequenceOfHSequenceOfPnt& ChangeSequence();
+    ProjLib_HSequenceOfHSequenceOfPnt(const ProjLib_SequenceOfHSequenceOfPnt& theOther);
+    const ProjLib_SequenceOfHSequenceOfPnt& Sequence();
+    void Append (const ProjLib_SequenceOfHSequenceOfPnt::value_type& theItem);
+    void Append (ProjLib_SequenceOfHSequenceOfPnt& theSequence);
+    ProjLib_SequenceOfHSequenceOfPnt& ChangeSequence();
 };
 %make_alias(ProjLib_HSequenceOfHSequenceOfPnt)
 

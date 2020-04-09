@@ -7226,16 +7226,16 @@ None
 };
 
 /* harray1 classes */
-class IGESData_HArray1OfIGESEntity : public  IGESData_Array1OfIGESEntity, public Standard_Transient {
+
+class IGESData_HArray1OfIGESEntity : public IGESData_Array1OfIGESEntity, public Standard_Transient {
   public:
     IGESData_HArray1OfIGESEntity(const Standard_Integer theLower, const Standard_Integer theUpper);
-    IGESData_HArray1OfIGESEntity(const Standard_Integer theLower, const Standard_Integer theUpper, const  IGESData_Array1OfIGESEntity::value_type& theValue);
-    IGESData_HArray1OfIGESEntity(const  IGESData_Array1OfIGESEntity& theOther);
-    const  IGESData_Array1OfIGESEntity& Array1();
-     IGESData_Array1OfIGESEntity& ChangeArray1();
+    IGESData_HArray1OfIGESEntity(const Standard_Integer theLower, const Standard_Integer theUpper, const IGESData_Array1OfIGESEntity::value_type& theValue);
+    IGESData_HArray1OfIGESEntity(const IGESData_Array1OfIGESEntity& theOther);
+    const IGESData_Array1OfIGESEntity& Array1();
+    IGESData_Array1OfIGESEntity& ChangeArray1();
 };
 %make_alias(IGESData_HArray1OfIGESEntity)
-
 
 /* harray2 classes */
 /* hsequence classes */
