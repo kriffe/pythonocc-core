@@ -43,6 +43,11 @@ class GeomTools_SurfaceSet:
 
 class GeomTools_UndefinedTypeHandler(Standard_Transient):
 	def __init__(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomtools_Dump = geomtools.Dump
 geomtools_Dump = geomtools.Dump
 geomtools_Dump = geomtools.Dump

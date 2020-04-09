@@ -571,6 +571,14 @@ class ShapeAnalysis_BoxBndTreeSelector:
 #classnotwrapped
 class ShapeCustom_ConvertToRevolution:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class ShapeAnalysis_HSequenceOfFreeBounds(ShapeAnalysis_SequenceOfFreeBounds, Standard_Transient): ...
+
+
 shapeanalysis_AdjustByPeriod = shapeanalysis.AdjustByPeriod
 shapeanalysis_AdjustToPeriod = shapeanalysis.AdjustToPeriod
 shapeanalysis_ContourArea = shapeanalysis.ContourArea

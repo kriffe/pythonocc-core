@@ -63,4 +63,9 @@ class ShapeBuild_Vertex:
 	def CombineVertex(self, V1: TopoDS_Vertex, V2: TopoDS_Vertex, tolFactor: Optional[float]) -> TopoDS_Vertex: ...
 	@overload
 	def CombineVertex(self, pnt1: gp_Pnt, pnt2: gp_Pnt, tol1: float, tol2: float, tolFactor: Optional[float]) -> TopoDS_Vertex: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapebuild_PlaneXOY = shapebuild.PlaneXOY

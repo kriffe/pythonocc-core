@@ -702,6 +702,13 @@ class IGESData_FreeFormatEntity(IGESData_UndefinedEntity):
 	def SetFormNumber(self, formnum: int) -> None: ...
 	def SetTypeNumber(self, typenum: int) -> None: ...
 	def WriteOwnParams(self, IW: IGESData_IGESWriter) -> None: ...
+
+# harray1 classes
+class IGESData_HArray1OfIGESEntity(IGESData_Array1OfIGESEntity, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 igesdata_Init = igesdata.Init
 igesdata_Protocol = igesdata.Protocol
 IGESData_BasicEditor_DraftingMax = IGESData_BasicEditor.DraftingMax

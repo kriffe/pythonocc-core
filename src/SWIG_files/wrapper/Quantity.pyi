@@ -1401,6 +1401,13 @@ class Quantity_Period:
 	def Values(self) -> Tuple[int, int, int, int, int, int]: ...
 	@overload
 	def Values(self) -> Tuple[int, int]: ...
+
+# harray1 classes
+class Quantity_HArray1OfColor(Quantity_Array1OfColor, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 Quantity_Color_Argb2color = Quantity_Color.Argb2color
 Quantity_Color_Color2argb = Quantity_Color.Color2argb
 Quantity_Color_ColorFromHex = Quantity_Color.ColorFromHex

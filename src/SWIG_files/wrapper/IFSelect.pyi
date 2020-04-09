@@ -1138,6 +1138,14 @@ class IFSelect_SelectType(IFSelect_SelectAnyType):
 	def ExtractLabel(self) -> TCollection_AsciiString: ...
 	def SetType(self, atype: Standard_Type) -> None: ...
 	def TypeForMatch(self) -> Standard_Type: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class IFSelect_HSeqOfSelection(IFSelect_TSeqOfSelection, Standard_Transient): ...
+
+
 ifselect_RestoreSession = ifselect.RestoreSession
 ifselect_SaveSession = ifselect.SaveSession
 IFSelect_Activator_Adding = IFSelect_Activator.Adding

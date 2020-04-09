@@ -103,3 +103,8 @@ class Geom2dAPI_ProjectPointOnCurve:
 	@overload
 	def Parameter(self, Index: int) -> float: ...
 	def Point(self, Index: int) -> gp_Pnt2d: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

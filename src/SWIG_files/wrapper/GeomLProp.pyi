@@ -93,6 +93,11 @@ class GeomLProp_SurfaceTool:
 	def DN(self, S: Geom_Surface, U: float, V: float, IU: int, IV: int) -> gp_Vec: ...
 	@staticmethod
 	def Value(self, S: Geom_Surface, U: float, V: float, P: gp_Pnt) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomlprop_Continuity = geomlprop.Continuity
 geomlprop_Continuity = geomlprop.Continuity
 GeomLProp_CurveTool_Continuity = GeomLProp_CurveTool.Continuity

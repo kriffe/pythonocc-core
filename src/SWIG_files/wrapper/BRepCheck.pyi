@@ -200,6 +200,11 @@ class BRepCheck_Wire(BRepCheck_Result):
 	def Orientation(self, F: TopoDS_Face, Update: Optional[bool]) -> BRepCheck_Status: ...
 	def SelfIntersect(self, F: TopoDS_Face, E1: TopoDS_Edge, E2: TopoDS_Edge, Update: Optional[bool]) -> BRepCheck_Status: ...
 	def SetStatus(self, theStatus: BRepCheck_Status) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepcheck_Add = brepcheck.Add
 brepcheck_PrecCurve = brepcheck.PrecCurve
 brepcheck_PrecSurface = brepcheck.PrecSurface

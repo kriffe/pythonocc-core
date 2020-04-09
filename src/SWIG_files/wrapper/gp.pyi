@@ -1944,6 +1944,11 @@ class gp_XYZ:
 	def X(self) -> float: ...
 	def Y(self) -> float: ...
 	def Z(self) -> float: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 gp_DX = gp.DX
 gp_DX2d = gp.DX2d
 gp_DY = gp.DY

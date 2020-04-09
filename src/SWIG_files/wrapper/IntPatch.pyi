@@ -755,6 +755,11 @@ class IntPatch_WLine(IntPatch_PointLine):
 #classnotwrapped
 class IntPatch_Polyhedron:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 IntPatch_HCurve2dTool_BSpline = IntPatch_HCurve2dTool.BSpline
 IntPatch_HCurve2dTool_Bezier = IntPatch_HCurve2dTool.Bezier
 IntPatch_HCurve2dTool_Circle = IntPatch_HCurve2dTool.Circle

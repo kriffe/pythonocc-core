@@ -9,3 +9,8 @@ from OCC.Core.TopAbs import *
 
 class IntStart_SITopolTool(Standard_Transient):
 	def Classify(self, P: gp_Pnt2d, Tol: float) -> TopAbs_State: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

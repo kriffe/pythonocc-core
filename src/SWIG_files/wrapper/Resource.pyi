@@ -101,6 +101,11 @@ class Resource_Unicode:
 	def ReadFormat(self) -> None: ...
 	@staticmethod
 	def SetFormat(self, typecode: Resource_FormatType) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Resource_Manager_GetResourcePath = Resource_Manager.GetResourcePath
 Resource_Unicode_ConvertANSIToUnicode = Resource_Unicode.ConvertANSIToUnicode
 Resource_Unicode_ConvertBig5ToUnicode = Resource_Unicode.ConvertBig5ToUnicode

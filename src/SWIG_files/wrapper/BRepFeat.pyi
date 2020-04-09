@@ -318,6 +318,11 @@ class BRepFeat_MakeRevolutionForm(BRepFeat_RibSlot):
 	def Init(self, Sbase: TopoDS_Shape, W: TopoDS_Wire, Plane: Geom_Plane, Axis: gp_Ax1, Height1: float, Height2: float, Fuse: int) -> bool: ...
 	def Perform(self) -> None: ...
 	def Propagate(self, L: TopTools_ListOfShape, F: TopoDS_Face, FPoint: gp_Pnt, LPoint: gp_Pnt) -> Tuple[bool, bool]: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepfeat_Barycenter = brepfeat.Barycenter
 brepfeat_FaceUntil = brepfeat.FaceUntil
 brepfeat_IsInside = brepfeat.IsInside

@@ -190,4 +190,9 @@ class RWStepAP214_ReadWriteModule(StepData_ReadWriteModule):
 	def ReadStep(self, CN: int, data: StepData_StepReaderData, num: int, ach: Interface_Check, ent: Standard_Transient) -> None: ...
 	def StepType(self, CN: int) -> TCollection_AsciiString: ...
 	def WriteStep(self, CN: int, SW: StepData_StepWriter, ent: Standard_Transient) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 rwstepap214_Init = rwstepap214.Init

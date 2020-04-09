@@ -241,3 +241,8 @@ class IntAna_Quadric:
 	@overload
 	def SetQuadric(self, Cyl: gp_Cylinder) -> None: ...
 	def SpecialPoints(self) -> False: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

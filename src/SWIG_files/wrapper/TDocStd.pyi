@@ -265,6 +265,11 @@ class TDocStd_XLinkTool:
 	def IsDone(self) -> bool: ...
 	def RelocationTable(self) -> TDF_RelocationTable: ...
 	def UpdateLink(self, L: TDF_Label) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 tdocstd_IDList = tdocstd.IDList
 TDocStd_Document_Get = TDocStd_Document.Get
 TDocStd_Modified_Add = TDocStd_Modified.Add

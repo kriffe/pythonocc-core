@@ -475,6 +475,11 @@ class BRepFill_ShapeLaw(BRepFill_SectionLaw):
 class BRepFill_DraftLaw(BRepFill_Edge3DLaw):
 	def __init__(self, Path: TopoDS_Wire, Law: GeomFill_LocationDraft) -> None: ...
 	def CleanLaw(self, TolAngular: float) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepfill_Axe = brepfill.Axe
 brepfill_ComputeACR = brepfill.ComputeACR
 brepfill_Face = brepfill.Face

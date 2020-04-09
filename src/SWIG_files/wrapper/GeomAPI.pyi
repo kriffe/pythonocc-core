@@ -232,5 +232,10 @@ class GeomAPI_ProjectPointOnSurf:
 	def Point(self, Index: int) -> gp_Pnt: ...
 	def SetExtremaAlgo(self, theAlgo: Extrema_ExtAlgo) -> None: ...
 	def SetExtremaFlag(self, theExtFlag: Extrema_ExtFlag) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomapi_To2d = geomapi.To2d
 geomapi_To3d = geomapi.To3d

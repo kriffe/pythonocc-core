@@ -63,3 +63,8 @@ class Hatch_Parameter:
 	def __init__(self) -> None: ...
 	@overload
 	def __init__(self, Par1: float, Start: bool, Index: Optional[int], Par2: Optional[float]) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

@@ -27,3 +27,8 @@ class FSD_CmpFile:
 #classnotwrapped
 class FSD_FileHeader:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

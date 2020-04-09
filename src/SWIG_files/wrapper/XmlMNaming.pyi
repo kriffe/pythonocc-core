@@ -50,4 +50,9 @@ class XmlMNaming_Shape1:
 	def SetShape(self, ID: int, LocID: int, Orient: TopAbs_Orientation) -> None: ...
 	def SetVertex(self, theVertex: TopoDS_Shape) -> None: ...
 	def TShapeId(self) -> int: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlmnaming_AddDrivers = xmlmnaming.AddDrivers

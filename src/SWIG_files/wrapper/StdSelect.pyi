@@ -173,6 +173,11 @@ class StdSelect_ViewerSelector3d(SelectMgr_ViewerSelector):
 	def PixelTolerance(self) -> int: ...
 	def SetPixelTolerance(self, theTolerance: int) -> None: ...
 	def ToPixMap(self, theImage: Image_PixMap, theView: V3d_View, theType: StdSelect_TypeOfSelectionImage, thePickedIndex: Optional[int]) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 stdselect_SetDrawerForBRepOwner = stdselect.SetDrawerForBRepOwner
 StdSelect_BRepSelectionTool_ComputeSensitive = StdSelect_BRepSelectionTool.ComputeSensitive
 StdSelect_BRepSelectionTool_GetEdgeSensitive = StdSelect_BRepSelectionTool.GetEdgeSensitive

@@ -2341,6 +2341,11 @@ class Graphic3d_CubeMapPacked:
 #classnotwrapped
 class Graphic3d_BvhCStructureSetTrsfPers:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Graphic3d_ArrayOfPrimitives_CreateArray = Graphic3d_ArrayOfPrimitives.CreateArray
 Graphic3d_ArrayOfPrimitives_CreateArray = Graphic3d_ArrayOfPrimitives.CreateArray
 Graphic3d_Attribute_Stride = Graphic3d_Attribute.Stride

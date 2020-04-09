@@ -47,3 +47,8 @@ class RWObj_TriangulationReader:
 #classnotwrapped
 class RWObj_Reader:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

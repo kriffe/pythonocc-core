@@ -220,3 +220,8 @@ class GeomToStep_MakeVector(GeomToStep_Root):
 	@overload
 	def __init__(self, V: Geom2d_Vector) -> None: ...
 	def Value(self) -> StepGeom_Vector: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

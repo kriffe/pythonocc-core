@@ -27,6 +27,11 @@ class RWStl:
 #classnotwrapped
 class RWStl_Reader:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 rwstl_ReadAscii = rwstl.ReadAscii
 rwstl_ReadBinary = rwstl.ReadBinary
 rwstl_ReadFile = rwstl.ReadFile

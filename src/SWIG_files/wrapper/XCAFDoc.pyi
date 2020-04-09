@@ -945,6 +945,11 @@ class XCAFDoc_DimTolTool:
 #classnotwrapped
 class XCAFDoc_GeomTolerance:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xcafdoc_AssemblyGUID = xcafdoc.AssemblyGUID
 xcafdoc_ColorByLayerGUID = xcafdoc.ColorByLayerGUID
 xcafdoc_ColorRefGUID = xcafdoc.ColorRefGUID

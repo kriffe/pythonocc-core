@@ -438,6 +438,11 @@ class BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox(math_FunctionSetWith
 	def Tolerance(self) -> float: ...
 	def Value(self, X: math_Vector, F: math_Vector) -> bool: ...
 	def Values(self, X: math_Vector, F: math_Vector, D: math_Matrix) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BRepApprox_TheMultiLineToolOfApprox_Curvature = BRepApprox_TheMultiLineToolOfApprox.Curvature
 BRepApprox_TheMultiLineToolOfApprox_Curvature = BRepApprox_TheMultiLineToolOfApprox.Curvature
 BRepApprox_TheMultiLineToolOfApprox_Curvature = BRepApprox_TheMultiLineToolOfApprox.Curvature

@@ -134,6 +134,19 @@ class AppParCurves_MultiBSpCurve(AppParCurves_MultiCurve):
 	def Value(self, CuIndex: int, U: float, Pt: gp_Pnt) -> None: ...
 	@overload
 	def Value(self, CuIndex: int, U: float, Pt: gp_Pnt2d) -> None: ...
+
+# harray1 classes
+class AppParCurves_HArray1OfMultiCurve(AppParCurves_Array1OfMultiCurve, Standard_Transient): ...
+
+class AppParCurves_HArray1OfConstraintCouple(AppParCurves_Array1OfConstraintCouple, Standard_Transient): ...
+
+class AppParCurves_HArray1OfMultiPoint(AppParCurves_Array1OfMultiPoint, Standard_Transient): ...
+
+class AppParCurves_HArray1OfMultiBSpCurve(AppParCurves_Array1OfMultiBSpCurve, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 appparcurves_Bernstein = appparcurves.Bernstein
 appparcurves_BernsteinMatrix = appparcurves.BernsteinMatrix
 appparcurves_SecondDerivativeBernstein = appparcurves.SecondDerivativeBernstein

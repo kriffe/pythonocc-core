@@ -265,6 +265,11 @@ class IntCurveSurface_HInter(IntCurveSurface_Intersection):
 #classnotwrapped
 class IntCurveSurface_ThePolyhedronOfHInter:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 IntCurveSurface_TheHCurveTool_BSpline = IntCurveSurface_TheHCurveTool.BSpline
 IntCurveSurface_TheHCurveTool_Bezier = IntCurveSurface_TheHCurveTool.Bezier
 IntCurveSurface_TheHCurveTool_Circle = IntCurveSurface_TheHCurveTool.Circle

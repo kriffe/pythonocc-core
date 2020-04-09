@@ -365,6 +365,11 @@ class ElCLib:
 	@overload
 	@staticmethod
 	def Value(self, U: float, Prb: gp_Parab2d) -> gp_Pnt2d: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 elclib_AdjustPeriodic = elclib.AdjustPeriodic
 elclib_CircleD1 = elclib.CircleD1
 elclib_CircleD1 = elclib.CircleD1

@@ -508,6 +508,11 @@ class BlendFunc_ConstThroatWithPenetrationInv(BlendFunc_ConstThroatInv):
 	def Derivatives(self, X: math_Vector, D: math_Matrix) -> bool: ...
 	def IsSolution(self, Sol: math_Vector, Tol: float) -> bool: ...
 	def Value(self, X: math_Vector, F: math_Vector) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 blendfunc_ComputeDNormal = blendfunc.ComputeDNormal
 blendfunc_ComputeNormal = blendfunc.ComputeNormal
 blendfunc_GetMinimalWeights = blendfunc.GetMinimalWeights

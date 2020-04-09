@@ -206,6 +206,13 @@ class TFunction_Scope(TDF_Attribute):
 	@staticmethod
 	def Set(self, Access: TDF_Label) -> TFunction_Scope: ...
 	def SetFreeID(self, ID: int) -> None: ...
+
+# harray1 classes
+class TFunction_HArray1OfDataMapOfGUIDDriver(TFunction_Array1OfDataMapOfGUIDDriver, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 TFunction_DriverTable_Get = TFunction_DriverTable.Get
 TFunction_Function_GetID = TFunction_Function.GetID
 TFunction_Function_Set = TFunction_Function.Set

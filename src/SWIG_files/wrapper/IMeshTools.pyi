@@ -70,4 +70,9 @@ class IMeshTools_ShapeVisitor(Standard_Transient):
 	def Visit(self, theFace: TopoDS_Face) -> None: ...
 	@overload
 	def Visit(self, theEdge: TopoDS_Edge) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 IMeshTools_Parameters_RelMinSize = IMeshTools_Parameters.RelMinSize

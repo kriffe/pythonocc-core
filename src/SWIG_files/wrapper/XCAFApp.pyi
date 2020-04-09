@@ -11,4 +11,9 @@ class XCAFApp_Application(TDocStd_Application):
 	def GetApplication(self) -> XCAFApp_Application: ...
 	def InitDocument(self, aDoc: TDocStd_Document) -> None: ...
 	def ResourcesName(self) -> str: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 XCAFApp_Application_GetApplication = XCAFApp_Application.GetApplication

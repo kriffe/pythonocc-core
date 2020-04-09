@@ -339,6 +339,14 @@ class TObj_OcafObjectIterator(TObj_LabelIterator):
 
 class TObj_ReferenceIterator(TObj_LabelIterator):
 	def __init__(self, theLabel: TDF_Label, theType: Optional[Standard_Type], theRecursive: Optional[bool]) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class TObj_HSequenceOfObject(TObj_SequenceOfObject, Standard_Transient): ...
+
+
 TObj_Application_GetInstance = TObj_Application.GetInstance
 TObj_Assistant_BindModel = TObj_Assistant.BindModel
 TObj_Assistant_BindType = TObj_Assistant.BindType

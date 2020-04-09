@@ -36,4 +36,9 @@ class BinMFunction_ScopeDriver(BinMDF_ADriver):
 	def Paste(self, Source: BinObjMgt_Persistent, Target: TDF_Attribute, RelocTable: BinObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, Source: TDF_Attribute, Target: BinObjMgt_Persistent, RelocTable: BinObjMgt_SRelocationTable) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 binmfunction_AddDrivers = binmfunction.AddDrivers

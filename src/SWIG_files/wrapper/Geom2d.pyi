@@ -560,5 +560,10 @@ class Geom2d_TrimmedCurve(Geom2d_BoundedCurve):
 	def StartPoint(self) -> gp_Pnt2d: ...
 	def Transform(self, T: gp_Trsf2d) -> None: ...
 	def TransformedParameter(self, U: float, T: gp_Trsf2d) -> float: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Geom2d_BSplineCurve_MaxDegree = Geom2d_BSplineCurve.MaxDegree
 Geom2d_BezierCurve_MaxDegree = Geom2d_BezierCurve.MaxDegree

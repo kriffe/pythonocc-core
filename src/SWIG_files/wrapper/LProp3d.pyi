@@ -84,6 +84,11 @@ class LProp3d_SurfaceTool:
 	def DN(self, S: Adaptor3d_HSurface, U: float, V: float, IU: int, IV: int) -> gp_Vec: ...
 	@staticmethod
 	def Value(self, S: Adaptor3d_HSurface, U: float, V: float, P: gp_Pnt) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 LProp3d_CurveTool_Continuity = LProp3d_CurveTool.Continuity
 LProp3d_CurveTool_D1 = LProp3d_CurveTool.D1
 LProp3d_CurveTool_D2 = LProp3d_CurveTool.D2

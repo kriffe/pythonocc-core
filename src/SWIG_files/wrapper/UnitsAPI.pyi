@@ -85,6 +85,11 @@ class UnitsAPI:
 	def SetCurrentUnit(self, aQuantity: str, aUnit: str) -> None: ...
 	@staticmethod
 	def SetLocalSystem(self, aSystemUnit: Optional[UnitsAPI_SystemUnits]) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 unitsapi_AnyFromLS = unitsapi.AnyFromLS
 unitsapi_AnyFromSI = unitsapi.AnyFromSI
 unitsapi_AnyToAny = unitsapi.AnyToAny

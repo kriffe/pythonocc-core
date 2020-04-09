@@ -173,6 +173,11 @@ class GProp_VelGProps(GProp_GProps):
 	@overload
 	def Perform(self, S: gp_Torus, Teta1: float, Teta2: float, Alpha1: float, Alpha2: float) -> None: ...
 	def SetLocation(self, VLocation: gp_Pnt) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 gprop_HOperator = gprop.HOperator
 GProp_PGProps_Barycentre = GProp_PGProps.Barycentre
 GProp_PGProps_Barycentre = GProp_PGProps.Barycentre

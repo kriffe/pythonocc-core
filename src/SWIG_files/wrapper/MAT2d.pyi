@@ -176,5 +176,10 @@ class MAT2d_SketchExplorer:
 #classnotwrapped
 class MAT2d_CutCurve:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 MAT2d_MapBiIntHasher_HashCode = MAT2d_MapBiIntHasher.HashCode
 MAT2d_MapBiIntHasher_IsEqual = MAT2d_MapBiIntHasher.IsEqual

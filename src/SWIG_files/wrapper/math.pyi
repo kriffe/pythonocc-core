@@ -680,6 +680,11 @@ class math_TrigonometricEquationFunction(math_FunctionWithDerivative):
 #classnotwrapped
 class math_SingleTab:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 math_GaussPoints = math.GaussPoints
 math_GaussPointsMax = math.GaussPointsMax
 math_GaussWeights = math.GaussWeights

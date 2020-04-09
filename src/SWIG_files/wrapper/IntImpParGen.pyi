@@ -22,6 +22,11 @@ class IntImpParGen:
 #classnotwrapped
 class IntImpParGen_ImpTool:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 intimppargen_DeterminePosition = intimppargen.DeterminePosition
 intimppargen_DetermineTransition = intimppargen.DetermineTransition
 intimppargen_DetermineTransition = intimppargen.DetermineTransition

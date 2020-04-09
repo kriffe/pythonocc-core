@@ -207,6 +207,11 @@ class Law_S(Law_BSpFunc):
 	def Set(self, Pdeb: float, Valdeb: float, Pfin: float, Valfin: float) -> None: ...
 	@overload
 	def Set(self, Pdeb: float, Valdeb: float, Ddeb: float, Pfin: float, Valfin: float, Dfin: float) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 law_MixBnd = law.MixBnd
 law_MixBnd = law.MixBnd
 law_MixTgt = law.MixTgt

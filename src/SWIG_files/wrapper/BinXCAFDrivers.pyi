@@ -24,6 +24,11 @@ class BinXCAFDrivers_DocumentRetrievalDriver(BinDrivers_DocumentRetrievalDriver)
 class BinXCAFDrivers_DocumentStorageDriver(BinDrivers_DocumentStorageDriver):
 	def __init__(self) -> None: ...
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> BinMDF_ADriverTable: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 binxcafdrivers_AttributeDrivers = binxcafdrivers.AttributeDrivers
 binxcafdrivers_DefineFormat = binxcafdrivers.DefineFormat
 binxcafdrivers_Factory = binxcafdrivers.Factory

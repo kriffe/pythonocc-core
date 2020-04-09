@@ -220,6 +220,11 @@ class IntSurf_Transition:
 	def SetValue(self) -> None: ...
 	def Situation(self) -> IntSurf_Situation: ...
 	def TransitionType(self) -> IntSurf_TypeTrans: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 intsurf_MakeTransition = intsurf.MakeTransition
 intsurf_SetPeriod = intsurf.SetPeriod
 IntSurf_InteriorPointTool_Direction2d = IntSurf_InteriorPointTool.Direction2d

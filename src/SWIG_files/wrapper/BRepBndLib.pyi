@@ -16,6 +16,11 @@ class BRepBndLib:
 	def AddOBB(self, theS: TopoDS_Shape, theOBB: Bnd_OBB, theIsTriangulationUsed: Optional[bool], theIsOptimal: Optional[bool], theIsShapeToleranceUsed: Optional[bool]) -> None: ...
 	@staticmethod
 	def AddOptimal(self, S: TopoDS_Shape, B: Bnd_Box, useTriangulation: Optional[bool], useShapeTolerance: Optional[bool]) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepbndlib_Add = brepbndlib.Add
 brepbndlib_AddClose = brepbndlib.AddClose
 brepbndlib_AddOBB = brepbndlib.AddOBB

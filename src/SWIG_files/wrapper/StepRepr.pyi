@@ -508,3 +508,22 @@ class StepRepr_ShapeRepresentationRelationshipWithTransformation(StepRepr_Repres
 #classnotwrapped
 class StepRepr_ReprItemAndMeasureWithUnitAndQRI:
 	pass
+
+# harray1 classes
+class StepRepr_HArray1OfMaterialPropertyRepresentation(StepRepr_Array1OfMaterialPropertyRepresentation, Standard_Transient): ...
+
+class StepRepr_HArray1OfRepresentationItem(StepRepr_Array1OfRepresentationItem, Standard_Transient): ...
+
+class StepRepr_HArray1OfPropertyDefinitionRepresentation(StepRepr_Array1OfPropertyDefinitionRepresentation, Standard_Transient): ...
+
+class StepRepr_HArray1OfShapeAspect(StepRepr_Array1OfShapeAspect, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
+class StepRepr_HSequenceOfRepresentationItem(StepRepr_SequenceOfRepresentationItem, Standard_Transient): ...
+
+
+class StepRepr_HSequenceOfMaterialPropertyRepresentation(StepRepr_SequenceOfMaterialPropertyRepresentation, Standard_Transient): ...
+
+

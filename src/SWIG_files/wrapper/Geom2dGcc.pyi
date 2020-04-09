@@ -445,6 +445,11 @@ class Geom2dGcc_FuncTCuCuCuOfMyC2d3Tan:
 #classnotwrapped
 class Geom2dGcc_FunctionTanCuCuCu:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geom2dgcc_Enclosed = geom2dgcc.Enclosed
 geom2dgcc_Enclosing = geom2dgcc.Enclosing
 geom2dgcc_Outside = geom2dgcc.Outside

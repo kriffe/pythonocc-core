@@ -159,3 +159,8 @@ class GCE2d_MakeSegment(GCE2d_Root):
 	@overload
 	def __init__(self, Line: gp_Lin2d, P1: gp_Pnt2d, P2: gp_Pnt2d) -> None: ...
 	def Value(self) -> Geom2d_TrimmedCurve: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

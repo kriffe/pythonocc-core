@@ -97,6 +97,11 @@ class TPrsStd_PlaneDriver(TPrsStd_Driver):
 class TPrsStd_PointDriver(TPrsStd_Driver):
 	def __init__(self) -> None: ...
 	def Update(self, aLabel: TDF_Label, anAISObject: AIS_InteractiveObject) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 TPrsStd_ConstraintTools_ComputeAngle = TPrsStd_ConstraintTools.ComputeAngle
 TPrsStd_ConstraintTools_ComputeAngleForOneFace = TPrsStd_ConstraintTools.ComputeAngleForOneFace
 TPrsStd_ConstraintTools_ComputeCoincident = TPrsStd_ConstraintTools.ComputeCoincident

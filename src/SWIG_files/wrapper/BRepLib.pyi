@@ -527,6 +527,11 @@ class BRepLib_MakeWire(BRepLib_MakeShape):
 	def Error(self) -> BRepLib_WireError: ...
 	def Vertex(self) -> TopoDS_Vertex: ...
 	def Wire(self) -> TopoDS_Wire: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 breplib_BoundingVertex = breplib.BoundingVertex
 breplib_BuildCurve3d = breplib.BuildCurve3d
 breplib_BuildCurves3d = breplib.BuildCurves3d

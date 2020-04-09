@@ -80,3 +80,8 @@ class IntAna2d_IntPoint:
 	@overload
 	def SetValue(self, X: float, Y: float, U1: float) -> None: ...
 	def Value(self) -> gp_Pnt2d: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

@@ -37,6 +37,11 @@ class BinDrivers_DocumentStorageDriver(BinLDrivers_DocumentStorageDriver):
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> BinMDF_ADriverTable: ...
 	def IsWithTriangles(self) -> bool: ...
 	def SetWithTriangles(self, theMessageDriver: Message_Messenger, theWithTriangulation: bool) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bindrivers_AttributeDrivers = bindrivers.AttributeDrivers
 bindrivers_DefineFormat = bindrivers.DefineFormat
 bindrivers_Factory = bindrivers.Factory

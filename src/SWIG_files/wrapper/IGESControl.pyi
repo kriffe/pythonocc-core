@@ -67,4 +67,9 @@ class IGESControl_Writer:
 	def TransferProcess(self) -> Transfer_FinderProcess: ...
 	@overload
 	def Write(self, file: str, fnes: Optional[bool]) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 IGESControl_Controller_Init = IGESControl_Controller.Init

@@ -16,3 +16,8 @@ class TopCnx_EdgeFaceTransition:
 	@overload
 	def Reset(self, Tgt: gp_Dir) -> None: ...
 	def Transition(self) -> TopAbs_Orientation: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

@@ -23,5 +23,10 @@ class XmlXCAFDrivers_DocumentRetrievalDriver(XmlDrivers_DocumentRetrievalDriver)
 class XmlXCAFDrivers_DocumentStorageDriver(XmlDrivers_DocumentStorageDriver):
 	def __init__(self, theCopyright: TCollection_ExtendedString) -> None: ...
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> XmlMDF_ADriverTable: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlxcafdrivers_DefineFormat = xmlxcafdrivers.DefineFormat
 xmlxcafdrivers_Factory = xmlxcafdrivers.Factory

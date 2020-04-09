@@ -45,4 +45,9 @@ class VrmlAPI_Writer:
 	def SetTransparencyToMaterial(self, aMaterial: Vrml_Material, aTransparency: float) -> None: ...
 	def Write(self, aShape: TopoDS_Shape, aFile: str, aVersion: Optional[int]) -> bool: ...
 	def WriteDoc(self, theDoc: TDocStd_Document, theFile: str, theScale: float) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 vrmlapi_Write = vrmlapi.Write

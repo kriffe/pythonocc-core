@@ -75,6 +75,11 @@ class Geom2dLProp_NumericCurInf2d:
 	def PerformInf(self, C: Geom2d_Curve, Result: LProp_CurAndInf) -> None: ...
 	@overload
 	def PerformInf(self, C: Geom2d_Curve, UMin: float, UMax: float, Result: LProp_CurAndInf) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Geom2dLProp_Curve2dTool_Continuity = Geom2dLProp_Curve2dTool.Continuity
 Geom2dLProp_Curve2dTool_D1 = Geom2dLProp_Curve2dTool.D1
 Geom2dLProp_Curve2dTool_D2 = Geom2dLProp_Curve2dTool.D2

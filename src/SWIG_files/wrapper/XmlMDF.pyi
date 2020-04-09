@@ -58,6 +58,11 @@ class XmlMDF_TagSourceDriver(XmlMDF_ADriver):
 	def Paste(self, Source: XmlObjMgt_Persistent, Target: TDF_Attribute, RelocTable: XmlObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, Source: TDF_Attribute, Target: XmlObjMgt_Persistent, RelocTable: XmlObjMgt_SRelocationTable) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlmdf_AddDrivers = xmlmdf.AddDrivers
 xmlmdf_FromTo = xmlmdf.FromTo
 xmlmdf_FromTo = xmlmdf.FromTo

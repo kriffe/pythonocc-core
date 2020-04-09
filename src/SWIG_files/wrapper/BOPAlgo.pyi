@@ -455,6 +455,11 @@ class BOPAlgo_Splitter(BOPAlgo_ToolsProvider):
 	@overload
 	def __init__(self, theAllocator: NCollection_BaseAllocator) -> None: ...
 	def Perform(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BOPAlgo_Options_GetParallelMode = BOPAlgo_Options.GetParallelMode
 BOPAlgo_Options_SetParallelMode = BOPAlgo_Options.SetParallelMode
 BOPAlgo_Tools_ClassifyFaces = BOPAlgo_Tools.ClassifyFaces

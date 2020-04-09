@@ -151,5 +151,10 @@ class Intf_InterferencePolygon2d(Intf_Interference):
 	@overload
 	def Perform(self, Obje: Intf_Polygon2d) -> None: ...
 	def Pnt2dValue(self, Index: int) -> gp_Pnt2d: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 intf_Contain = intf.Contain
 intf_PlaneEquation = intf.PlaneEquation

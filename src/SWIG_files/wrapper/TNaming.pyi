@@ -482,6 +482,11 @@ class TNaming_UsedShapes(TDF_Attribute):
 	def Paste(self, intoAttribute: TDF_Attribute, aRelocTationable: TDF_RelocationTable) -> None: ...
 	def References(self, aDataSet: TDF_DataSet) -> None: ...
 	def Restore(self, anAttribute: TDF_Attribute) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 tnaming_ChangeShapes = tnaming.ChangeShapes
 tnaming_Displace = tnaming.Displace
 tnaming_FindUniqueContext = tnaming.FindUniqueContext

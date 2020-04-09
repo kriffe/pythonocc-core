@@ -115,3 +115,11 @@ class FEmTool_ProfileMatrix(FEmTool_SparseMatrix):
 	def Solve(self, B: math_Vector, X: math_Vector) -> None: ...
 	@overload
 	def Solve(self, B: math_Vector, Init: math_Vector, X: math_Vector, Residual: math_Vector, Tolerance: Optional[float], NbIterations: Optional[int]) -> None: ...
+
+# harray1 classes
+# harray2 classes
+
+class FEmTool_HAssemblyTable(FEmTool_AssemblyTable, Standard_Transient): ...
+
+# harray2 classes
+

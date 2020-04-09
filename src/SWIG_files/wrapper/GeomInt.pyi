@@ -506,6 +506,11 @@ class GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox(math_FunctionSetWithD
 #classnotwrapped
 class GeomInt_WLApprox:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomint_AdjustPeriodic = geomint.AdjustPeriodic
 GeomInt_IntSS_BuildPCurves = GeomInt_IntSS.BuildPCurves
 GeomInt_IntSS_MakeBSpline = GeomInt_IntSS.MakeBSpline

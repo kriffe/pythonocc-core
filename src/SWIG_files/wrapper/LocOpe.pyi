@@ -339,6 +339,11 @@ class LocOpe_Revol:
 #classnotwrapped
 class LocOpe_RevolutionForm:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 locope_Closed = locope.Closed
 locope_Closed = locope.Closed
 locope_SampleEdges = locope.SampleEdges

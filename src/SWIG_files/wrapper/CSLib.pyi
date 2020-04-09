@@ -82,6 +82,11 @@ class CSLib_NormalPolyDef(math_FunctionWithDerivative):
 	def Derivative(self, X: float) -> Tuple[bool, float]: ...
 	def Value(self, X: float) -> Tuple[bool, float]: ...
 	def Values(self, X: float) -> Tuple[bool, float, float]: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 cslib_DNNUV = cslib.DNNUV
 cslib_DNNUV = cslib.DNNUV
 cslib_DNNormal = cslib.DNNormal

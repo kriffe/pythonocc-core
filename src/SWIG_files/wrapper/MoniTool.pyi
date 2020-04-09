@@ -299,6 +299,14 @@ class MoniTool_TransientElem(MoniTool_Element):
 	def Value(self) -> Standard_Transient: ...
 	def ValueType(self) -> Standard_Type: ...
 	def ValueTypeName(self) -> str: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class MoniTool_HSequenceOfElement(MoniTool_SequenceOfElement, Standard_Transient): ...
+
+
 MoniTool_CaseData_DefCheck = MoniTool_CaseData.DefCheck
 MoniTool_CaseData_DefMsg = MoniTool_CaseData.DefMsg
 MoniTool_CaseData_SetDefFail = MoniTool_CaseData.SetDefFail

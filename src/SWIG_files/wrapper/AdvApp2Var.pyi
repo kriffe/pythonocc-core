@@ -228,6 +228,11 @@ class AdvApp2Var_EvaluatorFunc2Var:
 #classnotwrapped
 class AdvApp2Var_Iso:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 AdvApp2Var_ApproxF2var_mma1her_ = AdvApp2Var_ApproxF2var.mma1her_
 AdvApp2Var_ApproxF2var_mma2ac1_ = AdvApp2Var_ApproxF2var.mma2ac1_
 AdvApp2Var_ApproxF2var_mma2ac2_ = AdvApp2Var_ApproxF2var.mma2ac2_

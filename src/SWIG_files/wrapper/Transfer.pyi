@@ -435,6 +435,17 @@ class Transfer_BinderOfTransientInteger(Transfer_SimpleBinderOfTransient):
 #classnotwrapped
 class Transfer_ProcessForFinder:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class Transfer_HSequenceOfBinder(Transfer_SequenceOfBinder, Standard_Transient): ...
+
+
+class Transfer_HSequenceOfFinder(Transfer_SequenceOfFinder, Standard_Transient): ...
+
+
 Transfer_DataInfo_Type = Transfer_DataInfo.Type
 Transfer_DataInfo_TypeName = Transfer_DataInfo.TypeName
 Transfer_FindHasher_HashCode = Transfer_FindHasher.HashCode

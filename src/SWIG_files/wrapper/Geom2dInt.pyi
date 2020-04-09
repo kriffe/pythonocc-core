@@ -247,6 +247,11 @@ class Geom2dInt_TheProjPCurOfGInter:
 	@overload
 	@staticmethod
 	def FindParameter(self, C: Adaptor2d_Curve2d, Pnt: gp_Pnt2d, LowParameter: float, HighParameter: float, Tol: float) -> float: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Geom2dInt_Geom2dCurveTool_Circle = Geom2dInt_Geom2dCurveTool.Circle
 Geom2dInt_Geom2dCurveTool_D0 = Geom2dInt_Geom2dCurveTool.D0
 Geom2dInt_Geom2dCurveTool_D1 = Geom2dInt_Geom2dCurveTool.D1

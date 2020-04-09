@@ -556,6 +556,11 @@ class TopOpeBRepTool_STATE:
 #classnotwrapped
 class TopOpeBRepTool_mkTondgE:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 topopebreptool_CorrectONUVISO = topopebreptool.CorrectONUVISO
 topopebreptool_MakeFaces = topopebreptool.MakeFaces
 topopebreptool_Print = topopebreptool.Print

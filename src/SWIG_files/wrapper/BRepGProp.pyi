@@ -241,6 +241,11 @@ class BRepGProp_VinertGK(GProp_GProps):
 #classnotwrapped
 class BRepGProp_MeshProps:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepgprop_LinearProperties = brepgprop.LinearProperties
 brepgprop_SurfaceProperties = brepgprop.SurfaceProperties
 brepgprop_SurfaceProperties = brepgprop.SurfaceProperties

@@ -159,3 +159,8 @@ class Convert_TorusToBSplineSurface(Convert_ElementarySurfaceToBSplineSurface):
 	def __init__(self, T: gp_Torus, Param1: float, Param2: float, UTrim: Optional[bool]) -> None: ...
 	@overload
 	def __init__(self, T: gp_Torus) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

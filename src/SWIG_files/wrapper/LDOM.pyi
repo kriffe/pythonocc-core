@@ -88,3 +88,8 @@ class LDOM_BasicNode:
 #classnotwrapped
 class LDOM_MemManager:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

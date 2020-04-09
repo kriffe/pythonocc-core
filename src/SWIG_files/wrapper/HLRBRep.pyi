@@ -1411,6 +1411,11 @@ class HLRBRep_Surface:
 #classnotwrapped
 class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 hlrbrep_MakeEdge = hlrbrep.MakeEdge
 hlrbrep_MakeEdge3d = hlrbrep.MakeEdge3d
 hlrbrep_PolyHLRAngleAndDeflection = hlrbrep.PolyHLRAngleAndDeflection

@@ -135,6 +135,11 @@ class GeomConvert_CompCurveToBSplineCurve:
 	def __init__(self, BasisCurve: Geom_BoundedCurve, Parameterisation: Optional[Convert_ParameterisationType]) -> None: ...
 	def Add(self, NewCurve: Geom_BoundedCurve, Tolerance: float, After: Optional[bool], WithRatio: Optional[bool], MinM: Optional[int]) -> bool: ...
 	def BSplineCurve(self) -> Geom_BSplineCurve: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve
 geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve
 geomconvert_C0BSplineToC1BSplineCurve = geomconvert.C0BSplineToC1BSplineCurve

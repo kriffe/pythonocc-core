@@ -497,6 +497,13 @@ class TDF_DefaultDeltaOnRemoval(TDF_DeltaOnRemoval):
 #classnotwrapped
 class TDF_LabelNode:
 	pass
+
+# harray1 classes
+class TDF_HAttributeArray1(TDF_AttributeArray1, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 tdf_AddLinkGUIDToProgID = tdf.AddLinkGUIDToProgID
 tdf_GUIDFromProgID = tdf.GUIDFromProgID
 tdf_LowestID = tdf.LowestID

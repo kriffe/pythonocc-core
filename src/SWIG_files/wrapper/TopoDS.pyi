@@ -240,6 +240,11 @@ class TopoDS_Vertex(TopoDS_Shape):
 
 class TopoDS_Wire(TopoDS_Shape):
 	def __init__(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 topods_CompSolid = topods.CompSolid
 topods_CompSolid = topods.CompSolid
 topods_Compound = topods.Compound

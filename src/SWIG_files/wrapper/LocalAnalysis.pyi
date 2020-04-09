@@ -70,5 +70,10 @@ class LocalAnalysis_SurfaceContinuity:
 	def IsG1(self) -> bool: ...
 	def IsG2(self) -> bool: ...
 	def StatusError(self) -> LocalAnalysis_StatusErrorType: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 localanalysis_Dump = localanalysis.Dump
 localanalysis_Dump = localanalysis.Dump

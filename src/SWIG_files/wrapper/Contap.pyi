@@ -404,6 +404,14 @@ class Contap_TheSegmentOfTheSearch:
 	def LastPoint(self) -> Contap_ThePathPointOfTheSearch: ...
 	def SetLimitPoint(self, V: Contap_ThePathPointOfTheSearch, First: bool) -> None: ...
 	def SetValue(self, A: Adaptor2d_HCurve2d) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class Contap_TheHSequenceOfPoint(Contap_TheSequenceOfPoint, Standard_Transient): ...
+
+
 Contap_HContTool_Bounds = Contap_HContTool.Bounds
 Contap_HContTool_HasBeenSeen = Contap_HContTool.HasBeenSeen
 Contap_HContTool_HasFirstPoint = Contap_HContTool.HasFirstPoint

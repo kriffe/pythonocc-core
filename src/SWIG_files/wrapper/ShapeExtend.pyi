@@ -234,6 +234,11 @@ class ShapeExtend_MsgRegistrator(ShapeExtend_BasicMsgRegistrator):
 	def Send(self, object: Standard_Transient, message: Message_Msg, gravity: Message_Gravity) -> None: ...
 	@overload
 	def Send(self, shape: TopoDS_Shape, message: Message_Msg, gravity: Message_Gravity) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapeextend_DecodeStatus = shapeextend.DecodeStatus
 shapeextend_EncodeStatus = shapeextend.EncodeStatus
 shapeextend_Init = shapeextend.Init

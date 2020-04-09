@@ -261,3 +261,8 @@ class Handle_Select3D_SensitiveEntity:
 #classnotwrapped
 class Select3D_SensitiveSet:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

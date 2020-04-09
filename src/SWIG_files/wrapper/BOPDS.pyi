@@ -529,6 +529,11 @@ class BOPDS_IteratorSI(BOPDS_Iterator):
 #classnotwrapped
 class BOPDS_Interf:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BOPDS_DS_NbInterfTypes = BOPDS_DS.NbInterfTypes
 BOPDS_Iterator_NbExtInterfs = BOPDS_Iterator.NbExtInterfs
 BOPDS_PairMapHasher_HashCode = BOPDS_PairMapHasher.HashCode

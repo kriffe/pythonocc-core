@@ -293,6 +293,11 @@ class BRepOffset_Tool:
 	def PipeInter(self, F1: TopoDS_Face, F2: TopoDS_Face, LInt1: TopTools_ListOfShape, LInt2: TopTools_ListOfShape, Side: TopAbs_State) -> None: ...
 	@staticmethod
 	def TryProject(self, F1: TopoDS_Face, F2: TopoDS_Face, Edges: TopTools_ListOfShape, LInt1: TopTools_ListOfShape, LInt2: TopTools_ListOfShape, Side: TopAbs_State, TolConf: float) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepoffset_CollapseSingularities = brepoffset.CollapseSingularities
 brepoffset_Surface = brepoffset.Surface
 BRepOffset_Inter2d_Compute = BRepOffset_Inter2d.Compute

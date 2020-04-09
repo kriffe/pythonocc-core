@@ -433,6 +433,13 @@ class TDataXtd_PatternStd(TDataXtd_Pattern):
 	def Value2(self, value: TDataStd_Real) -> None: ...
 	@overload
 	def Value2(self) -> TDataStd_Real: ...
+
+# harray1 classes
+class TDataXtd_HArray1OfTrsf(TDataXtd_Array1OfTrsf, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 tdataxtd_IDList = tdataxtd.IDList
 tdataxtd_Print = tdataxtd.Print
 tdataxtd_Print = tdataxtd.Print

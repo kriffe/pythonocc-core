@@ -109,4 +109,9 @@ class Draft_VertexInfo:
 	def MoreEdge(self) -> bool: ...
 	def NextEdge(self) -> None: ...
 	def Parameter(self, E: TopoDS_Edge) -> float: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 draft_Angle = draft.Angle

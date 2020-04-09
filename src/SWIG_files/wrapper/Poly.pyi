@@ -204,6 +204,13 @@ class Poly_MakeLoops3D:
 #classnotwrapped
 class Poly_MakeLoops2D:
 	pass
+
+# harray1 classes
+class Poly_HArray1OfTriangle(Poly_Array1OfTriangle, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 poly_Catenate = poly.Catenate
 poly_ComputeNormals = poly.ComputeNormals
 poly_Dump = poly.Dump

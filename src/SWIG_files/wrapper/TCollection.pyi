@@ -400,6 +400,11 @@ class TCollection_SeqNode(Standard_Transient):
 	def __init__(self, n: TCollection_SeqNodePtr, p: TCollection_SeqNodePtr) -> None: ...
 	def Next(self) -> TCollection_SeqNodePtr: ...
 	def Previous(self) -> TCollection_SeqNodePtr: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 tcollection_NextPrimeForMap = tcollection.NextPrimeForMap
 TCollection_AsciiString_HashCode = TCollection_AsciiString.HashCode
 TCollection_AsciiString_IsEqual = TCollection_AsciiString.IsEqual

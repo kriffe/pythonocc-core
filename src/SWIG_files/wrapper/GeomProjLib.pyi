@@ -31,6 +31,11 @@ class GeomProjLib:
 	def Project(self, C: Geom_Curve, S: Geom_Surface) -> Geom_Curve: ...
 	@staticmethod
 	def ProjectOnPlane(self, Curve: Geom_Curve, Plane: Geom_Plane, Dir: gp_Dir, KeepParametrization: bool) -> Geom_Curve: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomprojlib_Curve2d = geomprojlib.Curve2d
 geomprojlib_Curve2d = geomprojlib.Curve2d
 geomprojlib_Curve2d = geomprojlib.Curve2d

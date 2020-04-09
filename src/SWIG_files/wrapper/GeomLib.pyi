@@ -153,6 +153,11 @@ class GeomLib_Tool:
 	def Parameter(self, Curve: Geom2d_Curve, Point: gp_Pnt2d, MaxDist: float) -> Tuple[bool, float]: ...
 	@staticmethod
 	def Parameters(self, Surface: Geom_Surface, Point: gp_Pnt, MaxDist: float) -> Tuple[bool, float, float]: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomlib_AdjustExtremity = geomlib.AdjustExtremity
 geomlib_AxeOfInertia = geomlib.AxeOfInertia
 geomlib_BuildCurve3d = geomlib.BuildCurve3d

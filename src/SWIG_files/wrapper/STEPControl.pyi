@@ -90,4 +90,9 @@ class STEPControl_Writer:
 	def UnsetTolerance(self) -> None: ...
 	def WS(self) -> XSControl_WorkSession: ...
 	def Write(self, filename: str) -> IFSelect_ReturnStatus: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 STEPControl_Controller_Init = STEPControl_Controller.Init

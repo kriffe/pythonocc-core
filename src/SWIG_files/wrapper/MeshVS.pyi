@@ -528,6 +528,13 @@ class MeshVS_VectorPrsBuilder(MeshVS_PrsBuilder):
 	def SetVectors(self, IsElement: bool, Map: MeshVS_DataMapOfIntegerVector) -> None: ...
 	@staticmethod
 	def calculateArrow(self, Points: TColgp_Array1OfPnt, Length: float, ArrowPart: float) -> float: ...
+
+# harray1 classes
+class MeshVS_HArray1OfSequenceOfInteger(MeshVS_Array1OfSequenceOfInteger, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 MeshVS_SymmetricPairHasher_HashCode = MeshVS_SymmetricPairHasher.HashCode
 MeshVS_SymmetricPairHasher_IsEqual = MeshVS_SymmetricPairHasher.IsEqual
 MeshVS_Tool_CreateAspectFillArea3d = MeshVS_Tool.CreateAspectFillArea3d

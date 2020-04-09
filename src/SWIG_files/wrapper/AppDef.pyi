@@ -555,6 +555,13 @@ class AppDef_LinearCriteria(AppDef_SmoothCriterion):
 	def SetWeight(self, QuadraticWeight: float, QualityWeight: float, percentJ1: float, percentJ2: float, percentJ3: float) -> None: ...
 	@overload
 	def SetWeight(self, Weight: TColStd_Array1OfReal) -> None: ...
+
+# harray1 classes
+class AppDef_HArray1OfMultiPointConstraint(AppDef_Array1OfMultiPointConstraint, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
 AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
 AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature

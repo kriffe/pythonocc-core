@@ -155,6 +155,11 @@ class PLib_JacobiPolynomial(PLib_Base):
 	def ToCoefficients(self, Dimension: int, Degree: int, JacCoeff: TColStd_Array1OfReal, Coefficients: TColStd_Array1OfReal) -> None: ...
 	def Weights(self, NbGaussPoints: int, TabWeights: TColStd_Array2OfReal) -> None: ...
 	def WorkDegree(self) -> int: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 plib_Bin = plib.Bin
 plib_CoefficientsPoles = plib.CoefficientsPoles
 plib_CoefficientsPoles = plib.CoefficientsPoles

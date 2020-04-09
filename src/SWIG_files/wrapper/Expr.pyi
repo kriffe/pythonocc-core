@@ -584,6 +584,11 @@ class Expr_UnaryMinus(Expr_UnaryExpression):
 #classnotwrapped
 class Expr_Sign:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 expr_CopyShare = expr.CopyShare
 expr_NbOfFreeVariables = expr.NbOfFreeVariables
 expr_NbOfFreeVariables = expr.NbOfFreeVariables

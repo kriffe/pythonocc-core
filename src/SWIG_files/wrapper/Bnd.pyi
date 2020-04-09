@@ -408,5 +408,16 @@ class Bnd_Tools:
 	@overload
 	@staticmethod
 	def Bnd2BVH(self, theBox: Bnd_Box) -> False: ...
+
+# harray1 classes
+class Bnd_HArray1OfBox(Bnd_Array1OfBox, Standard_Transient): ...
+
+class Bnd_HArray1OfSphere(Bnd_Array1OfSphere, Standard_Transient): ...
+
+class Bnd_HArray1OfBox2d(Bnd_Array1OfBox2d, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 Bnd_Tools_Bnd2BVH = Bnd_Tools.Bnd2BVH
 Bnd_Tools_Bnd2BVH = Bnd_Tools.Bnd2BVH

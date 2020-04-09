@@ -186,6 +186,11 @@ class CDF_FWOSDriver(CDF_MetaDataDriver):
 	def FindFolder(self, aFolder: TCollection_ExtendedString) -> bool: ...
 	def HasReadPermission(self, aFolder: TCollection_ExtendedString, aName: TCollection_ExtendedString, aVersion: TCollection_ExtendedString) -> bool: ...
 	def SetName(self, aDocument: CDM_Document, aName: TCollection_ExtendedString) -> TCollection_ExtendedString: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 cdf_GetLicense = cdf.GetLicense
 cdf_IsAvailable = cdf.IsAvailable
 CDF_Application_Load = CDF_Application.Load

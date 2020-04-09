@@ -180,6 +180,14 @@ class TransferBRep_ShapeBinder(TransferBRep_BinderOfShape):
 	def Solid(self) -> TopoDS_Solid: ...
 	def Vertex(self) -> TopoDS_Vertex: ...
 	def Wire(self) -> TopoDS_Wire: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class TransferBRep_HSequenceOfTransferResultInfo(TransferBRep_SequenceOfTransferResultInfo, Standard_Transient): ...
+
+
 transferbrep_CheckObject = transferbrep.CheckObject
 transferbrep_Checked = transferbrep.Checked
 transferbrep_CheckedShapes = transferbrep.CheckedShapes

@@ -236,6 +236,11 @@ class BRepTools_TrsfModification(BRepTools_Modification):
 	def NewPoint(self, V: TopoDS_Vertex, P: gp_Pnt) -> Tuple[bool, float]: ...
 	def NewSurface(self, F: TopoDS_Face, S: Geom_Surface, L: TopLoc_Location) -> Tuple[bool, float, bool, bool]: ...
 	def Trsf(self) -> gp_Trsf: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 breptools_AddUVBounds = breptools.AddUVBounds
 breptools_AddUVBounds = breptools.AddUVBounds
 breptools_AddUVBounds = breptools.AddUVBounds

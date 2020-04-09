@@ -76,4 +76,9 @@ class AdvApprox_PrefCutting(AdvApprox_Cutting):
 #classnotwrapped
 class AdvApprox_EvaluatorFunction:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 AdvApprox_ApproxAFunction_Approximation = AdvApprox_ApproxAFunction.Approximation

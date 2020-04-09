@@ -75,4 +75,9 @@ class Geom2dAdaptor_HCurve(Geom2dAdaptor_GHCurve):
 	def __init__(self, S: Geom2d_Curve) -> None: ...
 	@overload
 	def __init__(self, S: Geom2d_Curve, UFirst: float, ULast: float) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geom2dadaptor_MakeCurve = geom2dadaptor.MakeCurve

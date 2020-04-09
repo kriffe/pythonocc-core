@@ -227,6 +227,11 @@ class IntPolyh_Array:
 #classnotwrapped
 class IntPolyh_MaillageAffinage:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 IntPolyh_CoupleMapHasher_HashCode = IntPolyh_CoupleMapHasher.HashCode
 IntPolyh_CoupleMapHasher_IsEqual = IntPolyh_CoupleMapHasher.IsEqual
 IntPolyh_Tools_ComputeDeflection = IntPolyh_Tools.ComputeDeflection

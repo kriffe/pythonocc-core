@@ -202,3 +202,8 @@ class NCollection_Shared:
 #classnotwrapped
 class NCollection_HeapAllocator:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

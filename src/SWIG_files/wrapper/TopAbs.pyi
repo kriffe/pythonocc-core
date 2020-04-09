@@ -68,6 +68,11 @@ class TopAbs:
 	def ShapeTypeFromString(self, theTypeString: str, theType: TopAbs_ShapeEnum) -> bool: ...
 	@staticmethod
 	def ShapeTypeToString(self, theType: TopAbs_ShapeEnum) -> str: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 topabs_Complement = topabs.Complement
 topabs_Compose = topabs.Compose
 topabs_Print = topabs.Print

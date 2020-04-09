@@ -221,4 +221,9 @@ class BinMXCAFDoc_NoteCommentDriver(BinMXCAFDoc_NoteDriver):
 class BinMXCAFDoc_NoteBalloonDriver(BinMXCAFDoc_NoteCommentDriver):
 	def __init__(self, theMsgDriver: Message_Messenger) -> None: ...
 	def NewEmpty(self) -> TDF_Attribute: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 binmxcafdoc_AddDrivers = binmxcafdoc.AddDrivers

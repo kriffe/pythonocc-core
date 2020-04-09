@@ -232,3 +232,8 @@ class BRepPrim_Torus(BRepPrim_Revolution):
 	@overload
 	def __init__(self, Center: gp_Pnt, Major: float, Minor: float) -> None: ...
 	def MakeEmptyLateralFace(self) -> TopoDS_Face: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

@@ -94,3 +94,8 @@ class Intrv_Intervals:
 	def XUnite(self, Tool: Intrv_Interval) -> None: ...
 	@overload
 	def XUnite(self, Tool: Intrv_Intervals) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

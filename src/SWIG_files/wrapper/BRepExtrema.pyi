@@ -217,4 +217,9 @@ class BRepExtrema_SelfIntersection(BRepExtrema_ElementFilter):
 #classnotwrapped
 class BRepExtrema_OverlapTool:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BRepExtrema_Poly_Distance = BRepExtrema_Poly.Distance

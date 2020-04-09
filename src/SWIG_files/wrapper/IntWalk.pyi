@@ -63,3 +63,8 @@ class IntWalk_TheInt2S:
 
 class IntWalk_WalkingData:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

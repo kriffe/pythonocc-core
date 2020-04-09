@@ -53,6 +53,11 @@ class BinLDrivers_DocumentStorageDriver(PCDM_StorageDriver):
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> BinMDF_ADriverTable: ...
 	@overload
 	def Write(self, theDocument: CDM_Document, theFileName: TCollection_ExtendedString) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 binldrivers_AttributeDrivers = binldrivers.AttributeDrivers
 binldrivers_DefineFormat = binldrivers.DefineFormat
 binldrivers_Factory = binldrivers.Factory

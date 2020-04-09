@@ -163,3 +163,8 @@ class BRepAlgoAPI_Section(BRepAlgoAPI_BooleanOperation):
 	def Init2(self, Pl: gp_Pln) -> None: ...
 	@overload
 	def Init2(self, Sf: Geom_Surface) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

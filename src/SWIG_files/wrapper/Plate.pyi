@@ -159,3 +159,10 @@ class Plate_Plate:
 class Plate_SampledCurveConstraint:
 	def __init__(self, SOPPC: Plate_SequenceOfPinpointConstraint, n: int) -> None: ...
 	def LXYZC(self) -> Plate_LinearXYZConstraint: ...
+
+# harray1 classes
+class Plate_HArray1OfPinpointConstraint(Plate_Array1OfPinpointConstraint, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+

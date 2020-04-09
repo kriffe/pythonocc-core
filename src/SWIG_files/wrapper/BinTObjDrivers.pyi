@@ -66,6 +66,11 @@ class BinTObjDrivers_XYZDriver(BinMDF_ADriver):
 	def Paste(self, theSource: BinObjMgt_Persistent, theTarget: TDF_Attribute, theRelocTable: BinObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, theSource: TDF_Attribute, theTarget: BinObjMgt_Persistent, theRelocTable: BinObjMgt_SRelocationTable) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bintobjdrivers_AddDrivers = bintobjdrivers.AddDrivers
 bintobjdrivers_DefineFormat = bintobjdrivers.DefineFormat
 bintobjdrivers_Factory = bintobjdrivers.Factory

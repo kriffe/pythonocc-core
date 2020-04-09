@@ -217,6 +217,11 @@ class Standard_ProgramError:
 #classnotwrapped
 class Standard_ReadBuffer:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 standard_Allocate = standard.Allocate
 standard_AllocateAligned = standard.AllocateAligned
 standard_Purge = standard.Purge

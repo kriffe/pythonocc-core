@@ -510,6 +510,11 @@ class ShapeFix_Wireframe(ShapeFix_Root):
 #classnotwrapped
 class ShapeFix_WireSegment:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapefix_EncodeRegularity = shapefix.EncodeRegularity
 shapefix_FixVertexPosition = shapefix.FixVertexPosition
 shapefix_LeastEdgeSize = shapefix.LeastEdgeSize

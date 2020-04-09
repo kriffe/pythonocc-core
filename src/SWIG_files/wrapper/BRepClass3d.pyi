@@ -128,6 +128,11 @@ class BRepClass3d_BndBoxTreeSelectorLine:
 #classnotwrapped
 class BRepClass3d_BndBoxTreeSelectorPoint:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 brepclass3d_OuterShell = brepclass3d.OuterShell
 BRepClass3d_SolidExplorer_FindAPointInTheFace = BRepClass3d_SolidExplorer.FindAPointInTheFace
 BRepClass3d_SolidExplorer_FindAPointInTheFace = BRepClass3d_SolidExplorer.FindAPointInTheFace

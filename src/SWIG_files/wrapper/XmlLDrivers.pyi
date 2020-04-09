@@ -46,6 +46,11 @@ class XmlLDrivers_NamespaceDef:
 	def __init__(self, thePrefix: TCollection_AsciiString, theURI: TCollection_AsciiString) -> None: ...
 	def Prefix(self) -> TCollection_AsciiString: ...
 	def URI(self) -> TCollection_AsciiString: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlldrivers_AttributeDrivers = xmlldrivers.AttributeDrivers
 xmlldrivers_CreationDate = xmlldrivers.CreationDate
 xmlldrivers_DefineFormat = xmlldrivers.DefineFormat

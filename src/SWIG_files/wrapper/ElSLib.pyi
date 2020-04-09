@@ -192,6 +192,11 @@ class ElSLib:
 	@overload
 	@staticmethod
 	def Value(self, U: float, V: float, T: gp_Torus) -> gp_Pnt: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 elslib_ConeD0 = elslib.ConeD0
 elslib_ConeD1 = elslib.ConeD1
 elslib_ConeD2 = elslib.ConeD2

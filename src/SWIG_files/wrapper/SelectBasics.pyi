@@ -50,6 +50,11 @@ class SelectBasics_SelectingVolumeManager:
 	def Overlaps(self, thePt1: gp_Pnt, thePt2: gp_Pnt, thePickResult: SelectBasics_PickResult) -> bool: ...
 	@overload
 	def Overlaps(self, thePt1: gp_Pnt, thePt2: gp_Pnt, thePt3: gp_Pnt, theSensType: int, thePickResult: SelectBasics_PickResult) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 selectbasics_MaxOwnerPriority = selectbasics.MaxOwnerPriority
 selectbasics_MinOwnerPriority = selectbasics.MinOwnerPriority
 SelectBasics_PickResult_Min = SelectBasics_PickResult.Min

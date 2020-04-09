@@ -580,6 +580,11 @@ class Message_PrinterOStream(Message_Printer):
 	@overload
 	def Send(self, theString: TCollection_ExtendedString, theGravity: Message_Gravity, putEndl: Optional[bool]) -> None: ...
 	def SetUseUtf8(self, useUtf8: bool) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 message_DefaultMessenger = message.DefaultMessenger
 message_FillTime = message.FillTime
 Message_Algorithm_PrepareReport = Message_Algorithm.PrepareReport

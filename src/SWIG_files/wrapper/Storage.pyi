@@ -129,3 +129,17 @@ class Storage_Data:
 #classnotwrapped
 class Storage:
 	pass
+
+# harray1 classes
+class Storage_HArrayOfSchema(Storage_ArrayOfSchema, Standard_Transient): ...
+
+class Storage_HPArray(Storage_PArray, Standard_Transient): ...
+
+class Storage_HArrayOfCallBack(Storage_ArrayOfCallBack, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
+class Storage_HSeqOfRoot(Storage_SeqOfRoot, Standard_Transient): ...
+
+

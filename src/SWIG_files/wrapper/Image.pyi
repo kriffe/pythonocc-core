@@ -108,3 +108,8 @@ class Image_AlienPixMap:
 #classnotwrapped
 class Image_Diff:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

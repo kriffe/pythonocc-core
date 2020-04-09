@@ -230,6 +230,11 @@ class GCPnts_DistFunction:
 #classnotwrapped
 class GCPnts_DistFunction2d:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
 GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
 GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length

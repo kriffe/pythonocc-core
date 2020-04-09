@@ -284,6 +284,11 @@ class StdPrs_WFSurface(Prs3d_Root):
 #classnotwrapped
 class StdPrs_DeflectionCurve:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 StdPrs_BndBox_Add = StdPrs_BndBox.Add
 StdPrs_BndBox_Add = StdPrs_BndBox.Add
 StdPrs_BndBox_FillSegments = StdPrs_BndBox.FillSegments

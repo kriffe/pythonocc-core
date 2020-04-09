@@ -12,3 +12,8 @@ Plugin_MapOfFunctions = NewType('Plugin_MapOfFunctions', Any)
 #classnotwrapped
 class Plugin:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

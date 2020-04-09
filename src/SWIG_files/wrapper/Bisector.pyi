@@ -214,4 +214,9 @@ class Bisector_BisecPC(Bisector_Curve):
 	def Reverse(self) -> None: ...
 	def ReversedParameter(self, U: float) -> float: ...
 	def Transform(self, T: gp_Trsf2d) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bisector_IsConvex = bisector.IsConvex

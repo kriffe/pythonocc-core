@@ -71,6 +71,11 @@ class Geom2dConvert_CompCurveToBSplineCurve:
 	def Add(self, NewCurve: Geom2d_BoundedCurve, Tolerance: float, After: Optional[bool]) -> bool: ...
 	def BSplineCurve(self) -> Geom2d_BSplineCurve: ...
 	def Clear(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geom2dconvert_C0BSplineToArrayOfC1BSplineCurve = geom2dconvert.C0BSplineToArrayOfC1BSplineCurve
 geom2dconvert_C0BSplineToArrayOfC1BSplineCurve = geom2dconvert.C0BSplineToArrayOfC1BSplineCurve
 geom2dconvert_C0BSplineToC1BSplineCurve = geom2dconvert.C0BSplineToC1BSplineCurve

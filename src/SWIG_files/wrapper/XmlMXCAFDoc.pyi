@@ -197,4 +197,9 @@ class XmlMXCAFDoc_NoteCommentDriver(XmlMXCAFDoc_NoteDriver):
 class XmlMXCAFDoc_NoteBalloonDriver(XmlMXCAFDoc_NoteCommentDriver):
 	def __init__(self, theMessageDriver: Message_Messenger) -> None: ...
 	def NewEmpty(self) -> TDF_Attribute: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlmxcafdoc_AddDrivers = xmlmxcafdoc.AddDrivers

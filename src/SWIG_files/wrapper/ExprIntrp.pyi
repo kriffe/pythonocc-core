@@ -80,6 +80,11 @@ class ExprIntrp_GenRel(ExprIntrp_Generator):
 	def IsDone(self) -> bool: ...
 	def Process(self, str: TCollection_AsciiString) -> None: ...
 	def Relation(self) -> Expr_GeneralRelation: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 ExprIntrp_GenExp_Create = ExprIntrp_GenExp.Create
 ExprIntrp_GenFct_Create = ExprIntrp_GenFct.Create
 ExprIntrp_GenRel_Create = ExprIntrp_GenRel.Create

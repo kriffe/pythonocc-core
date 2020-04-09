@@ -179,6 +179,11 @@ class CDM_ReferenceIterator:
 	def More(self) -> bool: ...
 	def Next(self) -> None: ...
 	def ReferenceIdentifier(self) -> int: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 CDM_Document_FindFromPresentation = CDM_Document.FindFromPresentation
 CDM_Document_FindPresentation = CDM_Document.FindPresentation
 CDM_MetaData_LookUp = CDM_MetaData.LookUp

@@ -78,3 +78,8 @@ class StepAP242_DraughtingModelItemAssociation(StepAP242_ItemIdentifiedRepresent
 
 class StepAP242_GeometricItemSpecificUsage(StepAP242_ItemIdentifiedRepresentationUsage):
 	def __init__(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

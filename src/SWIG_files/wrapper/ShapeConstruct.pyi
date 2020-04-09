@@ -76,6 +76,11 @@ class ShapeConstruct_ProjectCurveOnSurface(Standard_Transient):
 	@overload
 	def SetSurface(self, surf: ShapeAnalysis_Surface) -> None: ...
 	def Status(self, theStatus: ShapeExtend_Status) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline
 shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline
 shapeconstruct_ConvertSurfaceToBSpline = shapeconstruct.ConvertSurfaceToBSpline

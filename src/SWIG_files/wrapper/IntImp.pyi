@@ -15,3 +15,8 @@ IntImp_UIsoparametricOnCaro1 = IntImp_ConstIsoparametric.IntImp_UIsoparametricOn
 IntImp_VIsoparametricOnCaro1 = IntImp_ConstIsoparametric.IntImp_VIsoparametricOnCaro1
 IntImp_UIsoparametricOnCaro2 = IntImp_ConstIsoparametric.IntImp_UIsoparametricOnCaro2
 IntImp_VIsoparametricOnCaro2 = IntImp_ConstIsoparametric.IntImp_VIsoparametricOnCaro2
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

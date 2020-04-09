@@ -449,6 +449,11 @@ class BRepMesh_DelaunayDeflectionControlMeshAlgo:
 #classnotwrapped
 class BRepMesh_DelaunayNodeInsertionMeshAlgo:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BRepMesh_CircleInspector_IsEqual = BRepMesh_CircleInspector.IsEqual
 BRepMesh_CircleTool_MakeCircle = BRepMesh_CircleTool.MakeCircle
 BRepMesh_Deflection_ComputeAbsoluteDeflection = BRepMesh_Deflection.ComputeAbsoluteDeflection

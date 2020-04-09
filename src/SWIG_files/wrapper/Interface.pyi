@@ -1001,6 +1001,16 @@ class Interface_Static(Interface_TypedValue):
 	def Update(self, name: str) -> bool: ...
 	def UpdatedStatus(self) -> bool: ...
 	def Wild(self) -> Interface_Static: ...
+
+# harray1 classes
+class Interface_HArray1OfHAsciiString(Interface_Array1OfHAsciiString, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
+class Interface_HSequenceOfCheck(Interface_SequenceOfCheck, Standard_Transient): ...
+
+
 Interface_Category_AddCategory = Interface_Category.AddCategory
 Interface_Category_Init = Interface_Category.Init
 Interface_Category_Name = Interface_Category.Name

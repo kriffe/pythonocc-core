@@ -929,6 +929,13 @@ class TopOpeBRepDS_DSS:
 #classnotwrapped
 class TopOpeBRepDS_HDataStructure:
 	pass
+
+# harray1 classes
+class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 topopebrepds_IsGeometry = topopebrepds.IsGeometry
 topopebrepds_IsTopology = topopebrepds.IsTopology
 topopebrepds_KindToShape = topopebrepds.KindToShape

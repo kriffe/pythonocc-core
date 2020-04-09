@@ -194,6 +194,11 @@ class STEPCAFControl_Writer:
 	def Transfer(self, L: TDF_Label, mode: Optional[STEPControl_StepModelType], multi: Optional[str]) -> bool: ...
 	def Write(self, filename: str) -> IFSelect_ReturnStatus: ...
 	def Writer(self) -> STEPControl_Writer: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 STEPCAFControl_Controller_Init = STEPCAFControl_Controller.Init
 STEPCAFControl_GDTProperty_GetDatumRefModifiers = STEPCAFControl_GDTProperty.GetDatumRefModifiers
 STEPCAFControl_GDTProperty_GetDatumTargetName = STEPCAFControl_GDTProperty.GetDatumTargetName

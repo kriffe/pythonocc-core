@@ -102,6 +102,11 @@ class StepToGeom:
 	def MakeVectorWithMagnitude(self, SV: StepGeom_Vector) -> Geom_VectorWithMagnitude: ...
 	@staticmethod
 	def MakeVectorWithMagnitude2d(self, SV: StepGeom_Vector) -> Geom2d_VectorWithMagnitude: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 steptogeom_MakeAxis1Placement = steptogeom.MakeAxis1Placement
 steptogeom_MakeAxis2Placement = steptogeom.MakeAxis2Placement
 steptogeom_MakeAxisPlacement = steptogeom.MakeAxisPlacement

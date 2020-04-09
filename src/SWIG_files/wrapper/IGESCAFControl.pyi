@@ -55,5 +55,10 @@ class IGESCAFControl_Writer(IGESControl_Writer):
 	def Transfer(self, labels: TDF_LabelSequence) -> bool: ...
 	@overload
 	def Transfer(self, label: TDF_Label) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 igescafcontrol_DecodeColor = igescafcontrol.DecodeColor
 igescafcontrol_EncodeColor = igescafcontrol.EncodeColor

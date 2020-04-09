@@ -92,6 +92,11 @@ class ShapeProcess_ShapeContext(ShapeProcess_Context):
 class ShapeProcess_UOperator(ShapeProcess_Operator):
 	def __init__(self, func: ShapeProcess_OperFunc) -> None: ...
 	def Perform(self, context: ShapeProcess_Context) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapeprocess_FindOperator = shapeprocess.FindOperator
 shapeprocess_Perform = shapeprocess.Perform
 shapeprocess_RegisterOperator = shapeprocess.RegisterOperator

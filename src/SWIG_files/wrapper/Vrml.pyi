@@ -522,4 +522,9 @@ class Vrml_WWWInline:
 	def SetBboxCenter(self, aBboxCenter: gp_Vec) -> None: ...
 	def SetBboxSize(self, aBboxSize: gp_Vec) -> None: ...
 	def SetName(self, aName: TCollection_AsciiString) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 vrml_CommentWriter = vrml.CommentWriter

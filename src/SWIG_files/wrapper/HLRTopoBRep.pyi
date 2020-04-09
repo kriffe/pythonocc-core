@@ -108,6 +108,11 @@ class HLRTopoBRep_VData:
 	def __init__(self, P: float, V: TopoDS_Shape) -> None: ...
 	def Parameter(self) -> float: ...
 	def Vertex(self) -> TopoDS_Shape: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 HLRTopoBRep_DSFiller_Insert = HLRTopoBRep_DSFiller.Insert
 HLRTopoBRep_FaceIsoLiner_MakeIsoLine = HLRTopoBRep_FaceIsoLiner.MakeIsoLine
 HLRTopoBRep_FaceIsoLiner_MakeVertex = HLRTopoBRep_FaceIsoLiner.MakeVertex

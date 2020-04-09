@@ -277,6 +277,11 @@ class StepToTopoDS_Builder:
 #classnotwrapped
 class StepToTopoDS_PointVertexMap:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 steptotopods_DecodeBuilderError = steptotopods.DecodeBuilderError
 steptotopods_DecodeEdgeError = steptotopods.DecodeEdgeError
 steptotopods_DecodeFaceError = steptotopods.DecodeFaceError

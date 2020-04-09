@@ -66,6 +66,11 @@ class GccEnt_QualifiedLin:
 	def IsUnqualified(self) -> bool: ...
 	def Qualified(self) -> gp_Lin2d: ...
 	def Qualifier(self) -> GccEnt_Position: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 gccent_Enclosed = gccent.Enclosed
 gccent_Enclosed = gccent.Enclosed
 gccent_Enclosing = gccent.Enclosing

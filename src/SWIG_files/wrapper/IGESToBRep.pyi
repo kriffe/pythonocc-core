@@ -201,6 +201,11 @@ class IGESToBRep_TopoSurface(IGESToBRep_CurveAndSurface):
 	def ParamSurface(self, start: IGESData_IGESEntity, trans: gp_Trsf2d) -> Tuple[TopoDS_Shape, float]: ...
 	def TransferTopoBasicSurface(self, start: IGESData_IGESEntity) -> TopoDS_Shape: ...
 	def TransferTopoSurface(self, start: IGESData_IGESEntity) -> TopoDS_Shape: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 igestobrep_AlgoContainer = igestobrep.AlgoContainer
 igestobrep_IGESCurveToSequenceOfIGESCurve = igestobrep.IGESCurveToSequenceOfIGESCurve
 igestobrep_Init = igestobrep.Init

@@ -179,6 +179,11 @@ class PCDM_DOMHeaderParser:
 #classnotwrapped
 class PCDM_Document:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 pcdm_FileDriverType = pcdm.FileDriverType
 pcdm_FileDriverType = pcdm.FileDriverType
 PCDM_ReadWriter_FileFormat = PCDM_ReadWriter.FileFormat

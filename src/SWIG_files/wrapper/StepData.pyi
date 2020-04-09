@@ -589,6 +589,13 @@ class StepData_FreeFormEntity:
 #classnotwrapped
 class StepData_UndefinedEntity:
 	pass
+
+# harray1 classes
+class StepData_HArray1OfField(StepData_Array1OfField, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 stepdata_AddHeaderProtocol = stepdata.AddHeaderProtocol
 stepdata_HeaderProtocol = stepdata.HeaderProtocol
 stepdata_Init = stepdata.Init

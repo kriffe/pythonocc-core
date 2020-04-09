@@ -48,6 +48,11 @@ class UTL:
 	def Value(self, aResourceManager: Resource_Manager, aResourceName: TCollection_ExtendedString) -> TCollection_ExtendedString: ...
 	@staticmethod
 	def xgetenv(self, aCString: str) -> TCollection_ExtendedString: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 utl_AddToUserInfo = utl.AddToUserInfo
 utl_CString = utl.CString
 utl_Disk = utl.Disk

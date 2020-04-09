@@ -208,3 +208,8 @@ class GC_MakeTrimmedCylinder(GC_Root):
 	@overload
 	def __init__(self, A1: gp_Ax1, Radius: float, Height: float) -> None: ...
 	def Value(self) -> Geom_RectangularTrimmedSurface: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

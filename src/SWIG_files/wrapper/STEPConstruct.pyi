@@ -287,6 +287,11 @@ class STEPConstruct_ValidationProps(STEPConstruct_Tool):
 	def Init(self, WS: XSControl_WorkSession) -> bool: ...
 	def LoadProps(self, seq: TColStd_SequenceOfTransient) -> bool: ...
 	def SetAssemblyShape(self, shape: TopoDS_Shape) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 stepconstruct_FindCDSR = stepconstruct.FindCDSR
 stepconstruct_FindEntity = stepconstruct.FindEntity
 stepconstruct_FindEntity = stepconstruct.FindEntity

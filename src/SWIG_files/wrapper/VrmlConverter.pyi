@@ -148,6 +148,11 @@ class VrmlConverter_IsoAspect(VrmlConverter_LineAspect):
 	def __init__(self, aMaterial: Vrml_Material, OnOff: bool, aNumber: int) -> None: ...
 	def Number(self) -> int: ...
 	def SetNumber(self, aNumber: int) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 VrmlConverter_Curve_Add = VrmlConverter_Curve.Add
 VrmlConverter_Curve_Add = VrmlConverter_Curve.Add
 VrmlConverter_Curve_Add = VrmlConverter_Curve.Add

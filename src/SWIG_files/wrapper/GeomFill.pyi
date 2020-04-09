@@ -965,6 +965,18 @@ class GeomFill_NSections:
 #classnotwrapped
 class GeomFill_SweepSectionGenerator:
 	pass
+
+# harray1 classes
+class GeomFill_HArray1OfLocationLaw(GeomFill_Array1OfLocationLaw, Standard_Transient): ...
+
+class GeomFill_HArray1OfSectionLaw(GeomFill_Array1OfSectionLaw, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
+class GeomFill_HSequenceOfAx2(GeomFill_SequenceOfAx2, Standard_Transient): ...
+
+
 geomfill_GetCircle = geomfill.GetCircle
 geomfill_GetCircle = geomfill.GetCircle
 geomfill_GetCircle = geomfill.GetCircle

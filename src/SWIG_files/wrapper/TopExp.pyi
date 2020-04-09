@@ -50,6 +50,11 @@ class TopExp_Explorer:
 	def Next(self) -> None: ...
 	def ReInit(self) -> None: ...
 	def Value(self) -> TopoDS_Shape: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 topexp_CommonVertex = topexp.CommonVertex
 topexp_FirstVertex = topexp.FirstVertex
 topexp_LastVertex = topexp.LastVertex

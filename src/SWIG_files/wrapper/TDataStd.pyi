@@ -856,6 +856,13 @@ class TDataStd_Variable(TDF_Attribute):
 	def Unit(self, unit: TCollection_AsciiString) -> None: ...
 	@overload
 	def Unit(self) -> TCollection_AsciiString: ...
+
+# harray1 classes
+class TDataStd_HLabelArray1(TDataStd_LabelArray1, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 tdatastd_IDList = tdatastd.IDList
 tdatastd_Print = tdatastd.Print
 TDataStd_AsciiString_GetID = TDataStd_AsciiString.GetID

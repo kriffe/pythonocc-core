@@ -619,6 +619,11 @@ class Prs3d_WFShape:
 #classnotwrapped
 class Prs3d_Point:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 prs3d_AddPrimitivesGroup = prs3d.AddPrimitivesGroup
 prs3d_GetDeflection = prs3d.GetDeflection
 prs3d_MatchSegment = prs3d.MatchSegment

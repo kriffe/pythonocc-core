@@ -2023,6 +2023,11 @@ class AIS_MinRadiusDimension(AIS_EllipseRadiusDimension):
 	@overload
 	def __init__(self, aShape: TopoDS_Shape, aVal: float, aText: TCollection_ExtendedString, aPosition: gp_Pnt, aSymbolPrs: DsgPrs_ArrowSide, anArrowSize: Optional[float]) -> None: ...
 	def Compute(self, aProjector: Prs3d_Projector, aTrsf: Geom_Transformation, aPresentation: Prs3d_Presentation) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 ais_ComputeGeomCurve = ais.ComputeGeomCurve
 ais_ComputeGeometry = ais.ComputeGeometry
 ais_ComputeGeometry = ais.ComputeGeometry

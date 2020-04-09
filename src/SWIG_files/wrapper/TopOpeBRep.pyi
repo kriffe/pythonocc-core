@@ -589,6 +589,15 @@ class TopOpeBRep_WPointInterIterator:
 #classnotwrapped
 class TopOpeBRep_traceSIFF:
 	pass
+
+# harray1 classes
+class TopOpeBRep_HArray1OfVPointInter(TopOpeBRep_Array1OfVPointInter, Standard_Transient): ...
+
+class TopOpeBRep_HArray1OfLineInter(TopOpeBRep_Array1OfLineInter, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 topopebrep_Print = topopebrep.Print
 TopOpeBRep_FFTransitionTool_ProcessEdgeONTransition = TopOpeBRep_FFTransitionTool.ProcessEdgeONTransition
 TopOpeBRep_FFTransitionTool_ProcessEdgeTransition = TopOpeBRep_FFTransitionTool.ProcessEdgeTransition

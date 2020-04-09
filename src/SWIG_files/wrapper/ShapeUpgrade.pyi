@@ -374,5 +374,10 @@ class ShapeUpgrade_SplitCurve3dContinuity(ShapeUpgrade_SplitCurve3d):
 	def GetCurve(self) -> Geom_Curve: ...
 	def SetCriterion(self, Criterion: GeomAbs_Shape) -> None: ...
 	def SetTolerance(self, Tol: float) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapeupgrade_C0BSplineToSequenceOfC1BSplineCurve = shapeupgrade.C0BSplineToSequenceOfC1BSplineCurve
 shapeupgrade_C0BSplineToSequenceOfC1BSplineCurve = shapeupgrade.C0BSplineToSequenceOfC1BSplineCurve

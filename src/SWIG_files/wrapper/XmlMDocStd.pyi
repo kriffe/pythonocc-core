@@ -20,4 +20,9 @@ class XmlMDocStd_XLinkDriver(XmlMDF_ADriver):
 	def Paste(self, Source: XmlObjMgt_Persistent, Target: TDF_Attribute, RelocTable: XmlObjMgt_RRelocationTable) -> bool: ...
 	@overload
 	def Paste(self, Source: TDF_Attribute, Target: XmlObjMgt_Persistent, RelocTable: XmlObjMgt_SRelocationTable) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlmdocstd_AddDrivers = xmlmdocstd.AddDrivers

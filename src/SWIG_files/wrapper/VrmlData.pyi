@@ -382,6 +382,11 @@ class VrmlData_TextureTransform:
 #classnotwrapped
 class VrmlData_Faceted:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 VrmlData_Node_GlobalIndent = VrmlData_Node.GlobalIndent
 VrmlData_Node_OK = VrmlData_Node.OK
 VrmlData_Node_OK = VrmlData_Node.OK

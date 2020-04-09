@@ -596,6 +596,11 @@ class BRep_CurveOnClosedSurface(BRep_CurveOnSurface):
 	def Surface2(self) -> Geom_Surface: ...
 	def UVPoints2(self, P1: gp_Pnt2d, P2: gp_Pnt2d) -> None: ...
 	def Update(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 BRep_Tool_Continuity = BRep_Tool.Continuity
 BRep_Tool_Continuity = BRep_Tool.Continuity
 BRep_Tool_Curve = BRep_Tool.Curve

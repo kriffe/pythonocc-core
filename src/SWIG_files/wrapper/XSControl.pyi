@@ -297,6 +297,11 @@ class XSControl_Writer:
 	def TransferShape(self, sh: TopoDS_Shape, mode: Optional[int]) -> IFSelect_ReturnStatus: ...
 	def WS(self) -> XSControl_WorkSession: ...
 	def WriteFile(self, filename: str) -> IFSelect_ReturnStatus: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xscontrol_Session = xscontrol.Session
 xscontrol_Vars = xscontrol.Vars
 XSControl_ConnectedShapes_AdjacentEntities = XSControl_ConnectedShapes.AdjacentEntities

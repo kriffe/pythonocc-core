@@ -341,3 +341,8 @@ class SelectMgr_ViewerSelector:
 #classnotwrapped
 class SelectMgr_SensitiveEntitySet:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

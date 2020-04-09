@@ -1182,6 +1182,14 @@ class Geom_TrimmedCurve(Geom_BoundedCurve):
 	def StartPoint(self) -> gp_Pnt: ...
 	def Transform(self, T: gp_Trsf) -> None: ...
 	def TransformedParameter(self, U: float, T: gp_Trsf) -> float: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class Geom_HSequenceOfBSplineSurface(Geom_SequenceOfBSplineSurface, Standard_Transient): ...
+
+
 Geom_BSplineCurve_MaxDegree = Geom_BSplineCurve.MaxDegree
 Geom_BSplineSurface_MaxDegree = Geom_BSplineSurface.MaxDegree
 Geom_BezierCurve_MaxDegree = Geom_BezierCurve.MaxDegree

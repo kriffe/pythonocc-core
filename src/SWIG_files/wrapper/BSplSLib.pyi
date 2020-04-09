@@ -105,6 +105,11 @@ class BSplSLib_Cache(Standard_Transient):
 #classnotwrapped
 class BSplSLib_EvaluatorFunction:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bsplslib_BuildCache = bsplslib.BuildCache
 bsplslib_BuildCache = bsplslib.BuildCache
 bsplslib_CacheD0 = bsplslib.CacheD0

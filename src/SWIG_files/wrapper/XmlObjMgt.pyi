@@ -100,6 +100,11 @@ class XmlObjMgt_SRelocationTable(TColStd_IndexedMapOfTransient):
 	def Clear(self, doReleaseMemory: Optional[bool]) -> None: ...
 	def GetHeaderData(self) -> Storage_HeaderData: ...
 	def SetHeaderData(self, theHeaderData: Storage_HeaderData) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmlobjmgt_FindChildByName = xmlobjmgt.FindChildByName
 xmlobjmgt_FindChildByRef = xmlobjmgt.FindChildByRef
 xmlobjmgt_FindChildElement = xmlobjmgt.FindChildElement

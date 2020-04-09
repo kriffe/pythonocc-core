@@ -673,3 +673,8 @@ class Aspect_NeutralWindow:
 #classnotwrapped
 class Aspect_RectangularGrid:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

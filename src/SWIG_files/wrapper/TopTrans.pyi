@@ -35,5 +35,10 @@ class TopTrans_SurfaceTransition:
 	def Reset(self, Tgt: gp_Dir, Norm: gp_Dir) -> None: ...
 	def StateAfter(self) -> TopAbs_State: ...
 	def StateBefore(self) -> TopAbs_State: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 TopTrans_SurfaceTransition_GetAfter = TopTrans_SurfaceTransition.GetAfter
 TopTrans_SurfaceTransition_GetBefore = TopTrans_SurfaceTransition.GetBefore

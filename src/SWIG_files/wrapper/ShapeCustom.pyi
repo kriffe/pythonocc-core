@@ -136,6 +136,11 @@ class ShapeCustom_SweptToElementary:
 #classnotwrapped
 class ShapeCustom_ConvertToRevolution:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 shapecustom_BSplineRestriction = shapecustom.BSplineRestriction
 shapecustom_ConvertToBSpline = shapecustom.ConvertToBSpline
 shapecustom_ConvertToRevolution = shapecustom.ConvertToRevolution

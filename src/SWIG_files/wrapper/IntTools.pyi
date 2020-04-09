@@ -574,6 +574,11 @@ class IntTools_CArray1OfInteger:
 #classnotwrapped
 class IntTools_CArray1OfReal:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 inttools_FindRootStates = inttools.FindRootStates
 inttools_GetRadius = inttools.GetRadius
 inttools_Length = inttools.Length

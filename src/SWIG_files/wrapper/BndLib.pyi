@@ -125,6 +125,11 @@ class BndLib_AddSurface:
 	@overload
 	@staticmethod
 	def AddOptimal(self, S: Adaptor3d_Surface, UMin: float, UMax: float, VMin: float, VMax: float, Tol: float, B: Bnd_Box) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bndlib_Add = bndlib.Add
 bndlib_Add = bndlib.Add
 bndlib_Add = bndlib.Add

@@ -342,6 +342,19 @@ class HLRAlgo_PolyInternalSegment:
 #classnotwrapped
 class HLRAlgo_PolyHidingData:
 	pass
+
+# harray1 classes
+class HLRAlgo_HArray1OfPINod(HLRAlgo_Array1OfPINod, Standard_Transient): ...
+
+class HLRAlgo_HArray1OfPHDat(HLRAlgo_Array1OfPHDat, Standard_Transient): ...
+
+class HLRAlgo_HArray1OfTData(HLRAlgo_Array1OfTData, Standard_Transient): ...
+
+class HLRAlgo_HArray1OfPISeg(HLRAlgo_Array1OfPISeg, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
 hlralgo_AddMinMax = hlralgo.AddMinMax
 hlralgo_CopyMinMax = hlralgo.CopyMinMax
 hlralgo_DecodeMinMax = hlralgo.DecodeMinMax

@@ -55,3 +55,8 @@ class StepAP209_Construct(STEPConstruct_Tool):
 	@overload
 	def NominShape(self, PDF: StepBasic_ProductDefinitionFormation) -> StepShape_ShapeRepresentation: ...
 	def ReplaceCcDesingToApplied(self) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

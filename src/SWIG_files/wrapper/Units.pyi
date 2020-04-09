@@ -274,6 +274,20 @@ class Units_Quantity:
 #classnotwrapped
 class Units_Dimensions:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
+class Units_TokensSequence(Units_TksSequence, Standard_Transient): ...
+
+
+class Units_QuantitiesSequence(Units_QtsSequence, Standard_Transient): ...
+
+
+class Units_UnitsSequence(Units_UtsSequence, Standard_Transient): ...
+
+
 units_Convert = units.Convert
 units_DictionaryOfUnits = units.DictionaryOfUnits
 units_Dimensions = units.Dimensions

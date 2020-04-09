@@ -81,3 +81,8 @@ class BRepClass_Intersector(Geom2dInt_IntConicCurveOfGInter):
 #classnotwrapped
 class BRepClass_FaceClassifier:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

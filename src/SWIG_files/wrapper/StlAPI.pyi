@@ -20,5 +20,10 @@ class StlAPI_Writer:
 	def GetASCIIMode(self) -> bool: ...
 	def SetASCIIMode(self, value: bool) -> None: ...
 	def Write(self, theShape: TopoDS_Shape, theFileName: str) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 stlapi_Read = stlapi.Read
 stlapi_Write = stlapi.Write

@@ -905,6 +905,11 @@ class TopOpeBRepBuild_WireEdgeClassifier(TopOpeBRepBuild_CompositeClassifier):
 	def ResetElement(self, E: TopoDS_Shape) -> None: ...
 	def ResetShape(self, B: TopoDS_Shape) -> None: ...
 	def State(self) -> TopAbs_State: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 TopOpeBRepBuild_Builder_Contains = TopOpeBRepBuild_Builder.Contains
 TopOpeBRepBuild_Builder_GContains = TopOpeBRepBuild_Builder.GContains
 TopOpeBRepBuild_Builder_GCopyList = TopOpeBRepBuild_Builder.GCopyList

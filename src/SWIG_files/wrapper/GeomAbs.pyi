@@ -134,3 +134,8 @@ GeomAbs_SameUV = GeomAbs_UVSense.GeomAbs_SameUV
 GeomAbs_SameU = GeomAbs_UVSense.GeomAbs_SameU
 GeomAbs_SameV = GeomAbs_UVSense.GeomAbs_SameV
 GeomAbs_OppositeUV = GeomAbs_UVSense.GeomAbs_OppositeUV
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

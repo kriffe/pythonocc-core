@@ -101,6 +101,11 @@ class XCAFPrs_Style:
 	def SetVisibility(self, theVisibility: bool) -> None: ...
 	def UnSetColorCurv(self) -> None: ...
 	def UnSetColorSurf(self) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xcafprs_CollectStyleSettings = xcafprs.CollectStyleSettings
 xcafprs_GetViewNameMode = xcafprs.GetViewNameMode
 xcafprs_SetViewNameMode = xcafprs.SetViewNameMode

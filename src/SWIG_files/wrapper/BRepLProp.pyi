@@ -93,6 +93,11 @@ class BRepLProp_SurfaceTool:
 	def DN(self, S: BRepAdaptor_Surface, U: float, V: float, IU: int, IV: int) -> gp_Vec: ...
 	@staticmethod
 	def Value(self, S: BRepAdaptor_Surface, U: float, V: float, P: gp_Pnt) -> None: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 breplprop_Continuity = breplprop.Continuity
 breplprop_Continuity = breplprop.Continuity
 BRepLProp_CurveTool_Continuity = BRepLProp_CurveTool.Continuity

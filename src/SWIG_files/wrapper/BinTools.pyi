@@ -63,6 +63,11 @@ class BinTools_SurfaceSet:
 	def Clear(self) -> None: ...
 	def Index(self, S: Geom_Surface) -> int: ...
 	def Surface(self, I: int) -> Geom_Surface: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bintools_GetBool = bintools.GetBool
 bintools_GetExtChar = bintools.GetExtChar
 bintools_GetInteger = bintools.GetInteger

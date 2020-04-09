@@ -471,6 +471,11 @@ class BSplCLib_CacheParams:
 #classnotwrapped
 class BSplCLib_EvaluatorFunction:
 	pass
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 bsplclib_AntiBoorScheme = bsplclib.AntiBoorScheme
 bsplclib_Bohm = bsplclib.Bohm
 bsplclib_BoorIndex = bsplclib.BoorIndex

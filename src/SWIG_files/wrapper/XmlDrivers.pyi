@@ -29,6 +29,11 @@ class XmlDrivers_DocumentStorageDriver(XmlLDrivers_DocumentStorageDriver):
 	def __init__(self, theCopyright: TCollection_ExtendedString) -> None: ...
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> XmlMDF_ADriverTable: ...
 	def WriteShapeSection(self, thePDoc: XmlObjMgt_Element) -> bool: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 xmldrivers_AttributeDrivers = xmldrivers.AttributeDrivers
 xmldrivers_DefineFormat = xmldrivers.DefineFormat
 xmldrivers_Factory = xmldrivers.Factory

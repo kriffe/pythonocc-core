@@ -493,3 +493,13 @@ class ChFiDS_FilSpine(ChFiDS_Spine):
 	def UnSetRadius(self, E: TopoDS_Edge) -> None: ...
 	@overload
 	def UnSetRadius(self, V: TopoDS_Vertex) -> None: ...
+
+# harray1 classes
+class ChFiDS_SecHArray1(ChFiDS_SecArray1, Standard_Transient): ...
+
+# harray2 classes
+# harray2 classes
+
+class ChFiDS_HData(ChFiDS_SequenceOfSurfData, Standard_Transient): ...
+
+

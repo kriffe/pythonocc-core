@@ -39,3 +39,8 @@ class TopBas_TestInterference:
 	def Transition(self, Tr: TopAbs_Orientation) -> None: ...
 	@overload
 	def Transition(self) -> TopAbs_Orientation: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+

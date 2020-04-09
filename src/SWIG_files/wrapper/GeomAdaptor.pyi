@@ -270,5 +270,10 @@ class GeomAdaptor_SurfaceOfRevolution(GeomAdaptor_Surface):
 	def VPeriod(self) -> float: ...
 	def VResolution(self, R3d: float) -> float: ...
 	def VTrim(self, First: float, Last: float, Tol: float) -> Adaptor3d_HSurface: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 geomadaptor_MakeCurve = geomadaptor.MakeCurve
 geomadaptor_MakeSurface = geomadaptor.MakeSurface

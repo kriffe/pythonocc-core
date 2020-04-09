@@ -440,6 +440,11 @@ class Adaptor3d_IsoCurve(Adaptor3d_Curve):
 	def Surface(self) -> Adaptor3d_HSurface: ...
 	def Trim(self, First: float, Last: float, Tol: float) -> Adaptor3d_HCurve: ...
 	def Value(self, U: float) -> gp_Pnt: ...
+
+# harray1 classes
+# harray2 classes
+# harray2 classes
+
 Adaptor3d_HSurfaceTool_AxeOfRevolution = Adaptor3d_HSurfaceTool.AxeOfRevolution
 Adaptor3d_HSurfaceTool_BSpline = Adaptor3d_HSurfaceTool.BSpline
 Adaptor3d_HSurfaceTool_BasisCurve = Adaptor3d_HSurfaceTool.BasisCurve
