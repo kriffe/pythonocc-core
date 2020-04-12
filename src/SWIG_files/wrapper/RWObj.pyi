@@ -29,24 +29,19 @@ class RWObj_SubMesh:
 	pass
 
 #classnotwrapped
-class RWObj:
-	pass
+class RWObj: ...
 
 #classnotwrapped
-class RWObj_MtlReader:
-	pass
+class RWObj_MtlReader: ...
 
 #classnotwrapped
-class RWObj_CafReader:
-	pass
+class RWObj_CafReader: ...
 
 #classnotwrapped
-class RWObj_TriangulationReader:
-	pass
+class RWObj_TriangulationReader: ...
 
 #classnotwrapped
-class RWObj_Reader:
-	pass
+class RWObj_Reader: ...
 
 # harray1 classes
 # harray2 classes

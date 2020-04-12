@@ -74,8 +74,7 @@ class AdvApprox_PrefCutting(AdvApprox_Cutting):
 	def Value(self, a: float, b: float) -> Tuple[bool, float]: ...
 
 #classnotwrapped
-class AdvApprox_EvaluatorFunction:
-	pass
+class AdvApprox_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes

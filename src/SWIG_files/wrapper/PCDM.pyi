@@ -173,12 +173,10 @@ class PCDM_StorageDriver(PCDM_Writer):
 	def Write(self, aDocument: CDM_Document, aFileName: TCollection_ExtendedString) -> None: ...
 
 #classnotwrapped
-class PCDM_DOMHeaderParser:
-	pass
+class PCDM_DOMHeaderParser: ...
 
 #classnotwrapped
-class PCDM_Document:
-	pass
+class PCDM_Document: ...
 
 # harray1 classes
 # harray2 classes

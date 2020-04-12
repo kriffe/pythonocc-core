@@ -7,13 +7,23 @@ from OCC.Core.gp import *
 from OCC.Core.Bnd import *
 
 #the following typedef cannot be wrapped as is
-Intf_Array1OfLin = NewType('Intf_Array1OfLin', Any)
-#the following typedef cannot be wrapped as is
 Intf_SeqOfSectionLine = NewType('Intf_SeqOfSectionLine', Any)
 #the following typedef cannot be wrapped as is
 Intf_SeqOfSectionPoint = NewType('Intf_SeqOfSectionPoint', Any)
 #the following typedef cannot be wrapped as is
 Intf_SeqOfTangentZone = NewType('Intf_SeqOfTangentZone', Any)
+
+class Intf_Array1OfLin:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> gp_Lin: ...
+    def __setitem__(self, index: int, value: gp_Lin) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[gp_Lin]:
+    def next(self) -> gp_Lin: ...
+    __next__ = next
 
 class Intf_PIType(IntEnum):
 	Intf_EXTERNAL: int = ...

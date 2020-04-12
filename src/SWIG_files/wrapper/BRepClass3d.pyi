@@ -122,12 +122,10 @@ class BRepClass3d_SolidClassifier(BRepClass3d_SClassifier):
 	def PerformInfinitePoint(self, Tol: float) -> None: ...
 
 #classnotwrapped
-class BRepClass3d_BndBoxTreeSelectorLine:
-	pass
+class BRepClass3d_BndBoxTreeSelectorLine: ...
 
 #classnotwrapped
-class BRepClass3d_BndBoxTreeSelectorPoint:
-	pass
+class BRepClass3d_BndBoxTreeSelectorPoint: ...
 
 # harray1 classes
 # harray2 classes

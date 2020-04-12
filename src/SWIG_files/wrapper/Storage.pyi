@@ -5,10 +5,6 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 
 #the following typedef cannot be wrapped as is
-Storage_ArrayOfCallBack = NewType('Storage_ArrayOfCallBack', Any)
-#the following typedef cannot be wrapped as is
-Storage_ArrayOfSchema = NewType('Storage_ArrayOfSchema', Any)
-#the following typedef cannot be wrapped as is
 Storage_DataMapIteratorOfMapOfCallBack = NewType('Storage_DataMapIteratorOfMapOfCallBack', Any)
 #the following typedef cannot be wrapped as is
 Storage_DataMapIteratorOfMapOfPers = NewType('Storage_DataMapIteratorOfMapOfPers', Any)
@@ -21,6 +17,30 @@ Storage_PType = NewType('Storage_PType', Any)
 Storage_Position = NewType('Storage_Position', long)
 #the following typedef cannot be wrapped as is
 Storage_SeqOfRoot = NewType('Storage_SeqOfRoot', Any)
+
+class Storage_ArrayOfCallBack:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> False: ...
+    def __setitem__(self, index: int, value: False) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[False]:
+    def next(self) -> False: ...
+    __next__ = next
+
+class Storage_ArrayOfSchema:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> False: ...
+    def __setitem__(self, index: int, value: False) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[False]:
+    def next(self) -> False: ...
+    __next__ = next
 
 class Storage_SolveMode(IntEnum):
 	Storage_AddSolve: int = ...
@@ -71,64 +91,49 @@ Storage_VSWrite = Storage_OpenMode.Storage_VSWrite
 Storage_VSReadWrite = Storage_OpenMode.Storage_VSReadWrite
 
 #classnotwrapped
-class Storage_Bucket:
-	pass
+class Storage_Bucket: ...
 
 #classnotwrapped
-class Storage_BucketOfPersistent:
-	pass
+class Storage_BucketOfPersistent: ...
 
 #classnotwrapped
-class Storage_BucketIterator:
-	pass
+class Storage_BucketIterator: ...
 
 #classnotwrapped
-class Storage_RootData:
-	pass
+class Storage_RootData: ...
 
 #classnotwrapped
-class Storage_TypeData:
-	pass
+class Storage_TypeData: ...
 
 #classnotwrapped
-class Storage_Root:
-	pass
+class Storage_Root: ...
 
 #classnotwrapped
-class Storage_Schema:
-	pass
+class Storage_Schema: ...
 
 #classnotwrapped
-class Storage_DefaultCallBack:
-	pass
+class Storage_DefaultCallBack: ...
 
 #classnotwrapped
-class Storage_TypedCallBack:
-	pass
+class Storage_TypedCallBack: ...
 
 #classnotwrapped
-class Storage_CallBack:
-	pass
+class Storage_CallBack: ...
 
 #classnotwrapped
-class Storage_HeaderData:
-	pass
+class Storage_HeaderData: ...
 
 #classnotwrapped
-class Storage_BaseDriver:
-	pass
+class Storage_BaseDriver: ...
 
 #classnotwrapped
-class Storage_InternalData:
-	pass
+class Storage_InternalData: ...
 
 #classnotwrapped
-class Storage_Data:
-	pass
+class Storage_Data: ...
 
 #classnotwrapped
-class Storage:
-	pass
+class Storage: ...
 
 # harray1 classes
 class Storage_HArrayOfSchema(Storage_ArrayOfSchema, Standard_Transient): ...

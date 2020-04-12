@@ -222,12 +222,10 @@ class AdvApp2Var_SysBase:
 	def mnfndeb_(self) -> int: ...
 
 #classnotwrapped
-class AdvApp2Var_EvaluatorFunc2Var:
-	pass
+class AdvApp2Var_EvaluatorFunc2Var: ...
 
 #classnotwrapped
-class AdvApp2Var_Iso:
-	pass
+class AdvApp2Var_Iso: ...
 
 # harray1 classes
 # harray2 classes

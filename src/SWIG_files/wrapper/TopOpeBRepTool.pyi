@@ -550,12 +550,10 @@ class TopOpeBRepTool_makeTransition:
 	def Setfactor(self, factor: float) -> None: ...
 
 #classnotwrapped
-class TopOpeBRepTool_STATE:
-	pass
+class TopOpeBRepTool_STATE: ...
 
 #classnotwrapped
-class TopOpeBRepTool_mkTondgE:
-	pass
+class TopOpeBRepTool_mkTondgE: ...
 
 # harray1 classes
 # harray2 classes

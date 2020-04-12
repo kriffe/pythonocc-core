@@ -247,20 +247,16 @@ class Select3D_SensitiveCurve(Select3D_SensitivePoly):
 	def GetConnected(self) -> Select3D_SensitiveEntity: ...
 
 #classnotwrapped
-class Select3D_SensitiveTriangulation:
-	pass
+class Select3D_SensitiveTriangulation: ...
 
 #classnotwrapped
-class Select3D_SensitiveEntity:
-	pass
+class Select3D_SensitiveEntity: ...
 
 #classnotwrapped
-class Handle_Select3D_SensitiveEntity:
-	pass
+class Handle_Select3D_SensitiveEntity: ...
 
 #classnotwrapped
-class Select3D_SensitiveSet:
-	pass
+class Select3D_SensitiveSet: ...
 
 # harray1 classes
 # harray2 classes

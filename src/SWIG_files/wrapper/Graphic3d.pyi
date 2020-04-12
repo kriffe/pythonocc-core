@@ -15,11 +15,7 @@ from OCC.Core.Image import *
 from OCC.Core.OSD import *
 from OCC.Core.Media import *
 
-#the following typedef cannot be wrapped as is
-Graphic3d_Array1OfAttribute = NewType('Graphic3d_Array1OfAttribute', Any)
 Graphic3d_ArrayFlags = NewType('Graphic3d_ArrayFlags', Standard_Integer)
-#the following typedef cannot be wrapped as is
-Graphic3d_ArrayOfIndexedMapOfStructure = NewType('Graphic3d_ArrayOfIndexedMapOfStructure', Any)
 #the following typedef cannot be wrapped as is
 Graphic3d_BndBox3d = NewType('Graphic3d_BndBox3d', Any)
 #the following typedef cannot be wrapped as is
@@ -105,6 +101,30 @@ Graphic3d_Vec4ub = NewType('Graphic3d_Vec4ub', Any)
 Graphic3d_ZLayerId = NewType('Graphic3d_ZLayerId', Standard_Integer)
 #the following typedef cannot be wrapped as is
 Media_HMutex = NewType('Media_HMutex', Any)
+
+class Graphic3d_Array1OfAttribute:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> Graphic3d_Attribute: ...
+    def __setitem__(self, index: int, value: Graphic3d_Attribute) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[Graphic3d_Attribute]:
+    def next(self) -> Graphic3d_Attribute: ...
+    __next__ = next
+
+class Graphic3d_ArrayOfIndexedMapOfStructure:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> Graphic3d_IndexedMapOfStructure: ...
+    def __setitem__(self, index: int, value: Graphic3d_IndexedMapOfStructure) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[Graphic3d_IndexedMapOfStructure]:
+    def next(self) -> Graphic3d_IndexedMapOfStructure: ...
+    __next__ = next
 
 class Graphic3d_ClipState(IntEnum):
 	Graphic3d_ClipState_Out: int = ...
@@ -2303,44 +2323,34 @@ class Graphic3d_Texture2Dplane(Graphic3d_Texture2D):
 	def TranslateT(self, theVal: Standard_ShortReal) -> None: ...
 
 #classnotwrapped
-class Graphic3d_UniformValue:
-	pass
+class Graphic3d_UniformValue: ...
 
 #classnotwrapped
-class Graphic3d_UniformValueType:
-	pass
+class Graphic3d_UniformValueType: ...
 
 #classnotwrapped
-class Graphic3d_UniformValueTypeID:
-	pass
+class Graphic3d_UniformValueTypeID: ...
 
 #classnotwrapped
-class Graphic3d_Buffer:
-	pass
+class Graphic3d_Buffer: ...
 
 #classnotwrapped
-class Graphic3d_IndexBuffer:
-	pass
+class Graphic3d_IndexBuffer: ...
 
 #classnotwrapped
-class Graphic3d_TransformPers:
-	pass
+class Graphic3d_TransformPers: ...
 
 #classnotwrapped
-class Graphic3d_TextureSet:
-	pass
+class Graphic3d_TextureSet: ...
 
 #classnotwrapped
-class Graphic3d_CubeMapOrder:
-	pass
+class Graphic3d_CubeMapOrder: ...
 
 #classnotwrapped
-class Graphic3d_CubeMapPacked:
-	pass
+class Graphic3d_CubeMapPacked: ...
 
 #classnotwrapped
-class Graphic3d_BvhCStructureSetTrsfPers:
-	pass
+class Graphic3d_BvhCStructureSetTrsfPers: ...
 
 # harray1 classes
 # harray2 classes

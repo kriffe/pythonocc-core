@@ -306,20 +306,16 @@ class BOPTools_SetMapHasher:
 	def IsEqual(self, aSet1: BOPTools_Set, aSet2: BOPTools_Set) -> bool: ...
 
 #classnotwrapped
-class BOPTools_Parallel:
-	pass
+class BOPTools_Parallel: ...
 
 #classnotwrapped
-class BOPTools_BoxSelector:
-	pass
+class BOPTools_BoxSelector: ...
 
 #classnotwrapped
-class BOPTools_BoxSet:
-	pass
+class BOPTools_BoxSet: ...
 
 #classnotwrapped
-class BOPTools_PairSelector:
-	pass
+class BOPTools_PairSelector: ...
 
 # harray1 classes
 # harray2 classes

@@ -263,8 +263,7 @@ class IntCurveSurface_HInter(IntCurveSurface_Intersection):
 	def Perform(self, Curve: Adaptor3d_HCurve, Surface: Adaptor3d_HSurface, Polyhedron: IntCurveSurface_ThePolyhedronOfHInter) -> None: ...
 
 #classnotwrapped
-class IntCurveSurface_ThePolyhedronOfHInter:
-	pass
+class IntCurveSurface_ThePolyhedronOfHInter: ...
 
 # harray1 classes
 # harray2 classes

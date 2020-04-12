@@ -504,8 +504,7 @@ class GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox(math_FunctionSetWithD
 	def Values(self, X: math_Vector, F: math_Vector, D: math_Matrix) -> bool: ...
 
 #classnotwrapped
-class GeomInt_WLApprox:
-	pass
+class GeomInt_WLApprox: ...
 
 # harray1 classes
 # harray2 classes

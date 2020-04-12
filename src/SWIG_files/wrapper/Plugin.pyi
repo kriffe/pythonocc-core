@@ -10,8 +10,7 @@ Plugin_DataMapIteratorOfMapOfFunctions = NewType('Plugin_DataMapIteratorOfMapOfF
 Plugin_MapOfFunctions = NewType('Plugin_MapOfFunctions', Any)
 
 #classnotwrapped
-class Plugin:
-	pass
+class Plugin: ...
 
 # harray1 classes
 # harray2 classes

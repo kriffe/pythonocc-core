@@ -170,12 +170,10 @@ class MAT2d_Tool2d:
 	def TrimBisector(self, abisector: MAT_Bisector, apoint: int) -> bool: ...
 
 #classnotwrapped
-class MAT2d_SketchExplorer:
-	pass
+class MAT2d_SketchExplorer: ...
 
 #classnotwrapped
-class MAT2d_CutCurve:
-	pass
+class MAT2d_CutCurve: ...
 
 # harray1 classes
 # harray2 classes

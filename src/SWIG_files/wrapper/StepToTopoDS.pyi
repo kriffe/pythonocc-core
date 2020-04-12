@@ -271,12 +271,10 @@ class StepToTopoDS_TranslateVertexLoop(StepToTopoDS_Root):
 	def Value(self) -> TopoDS_Shape: ...
 
 #classnotwrapped
-class StepToTopoDS_Builder:
-	pass
+class StepToTopoDS_Builder: ...
 
 #classnotwrapped
-class StepToTopoDS_PointVertexMap:
-	pass
+class StepToTopoDS_PointVertexMap: ...
 
 # harray1 classes
 # harray2 classes

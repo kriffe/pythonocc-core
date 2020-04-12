@@ -103,8 +103,7 @@ class BSplSLib_Cache(Standard_Transient):
 	def IsCacheValid(self, theParameterU: float, theParameterV: float) -> bool: ...
 
 #classnotwrapped
-class BSplSLib_EvaluatorFunction:
-	pass
+class BSplSLib_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes

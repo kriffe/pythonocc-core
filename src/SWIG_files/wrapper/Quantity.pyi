@@ -14,8 +14,6 @@ Quantity_AmountOfSubstance = NewType('Quantity_AmountOfSubstance', Standard_Real
 Quantity_AngularVelocity = NewType('Quantity_AngularVelocity', Standard_Real)
 Quantity_Area = NewType('Quantity_Area', Standard_Real)
 #the following typedef cannot be wrapped as is
-Quantity_Array1OfColor = NewType('Quantity_Array1OfColor', Any)
-#the following typedef cannot be wrapped as is
 Quantity_Array2OfColor = NewType('Quantity_Array2OfColor', Any)
 Quantity_Capacitance = NewType('Quantity_Capacitance', Standard_Real)
 Quantity_Coefficient = NewType('Quantity_Coefficient', Standard_Real)
@@ -88,6 +86,18 @@ Quantity_Volume = NewType('Quantity_Volume', Standard_Real)
 Quantity_VolumeFlow = NewType('Quantity_VolumeFlow', Standard_Real)
 Quantity_Weight = NewType('Quantity_Weight', Standard_Real)
 Quantity_Work = NewType('Quantity_Work', Standard_Real)
+
+class Quantity_Array1OfColor:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> Quantity_Color: ...
+    def __setitem__(self, index: int, value: Quantity_Color) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[Quantity_Color]:
+    def next(self) -> Quantity_Color: ...
+    __next__ = next
 
 class Quantity_NameOfColor(IntEnum):
 	Quantity_NOC_BLACK: int = ...

@@ -307,40 +307,31 @@ class SelectMgr_OrFilter(SelectMgr_CompositionFilter):
 	def SetDisabledObjects(self, theObjects: Graphic3d_NMapOfTransient) -> None: ...
 
 #classnotwrapped
-class SelectMgr_Frustum:
-	pass
+class SelectMgr_Frustum: ...
 
 #classnotwrapped
-class SelectMgr_FrustumBuilder:
-	pass
+class SelectMgr_FrustumBuilder: ...
 
 #classnotwrapped
-class SelectMgr_BaseFrustum:
-	pass
+class SelectMgr_BaseFrustum: ...
 
 #classnotwrapped
-class SelectMgr_TriangularFrustum:
-	pass
+class SelectMgr_TriangularFrustum: ...
 
 #classnotwrapped
-class SelectMgr_RectangularFrustum:
-	pass
+class SelectMgr_RectangularFrustum: ...
 
 #classnotwrapped
-class SelectMgr_TriangularFrustumSet:
-	pass
+class SelectMgr_TriangularFrustumSet: ...
 
 #classnotwrapped
-class SelectMgr_ToleranceMap:
-	pass
+class SelectMgr_ToleranceMap: ...
 
 #classnotwrapped
-class SelectMgr_ViewerSelector:
-	pass
+class SelectMgr_ViewerSelector: ...
 
 #classnotwrapped
-class SelectMgr_SensitiveEntitySet:
-	pass
+class SelectMgr_SensitiveEntitySet: ...
 
 # harray1 classes
 # harray2 classes

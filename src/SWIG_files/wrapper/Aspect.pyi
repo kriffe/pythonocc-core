@@ -663,16 +663,13 @@ class Aspect_GradientBackground(Aspect_Background):
 	def SetColors(self, AColor1: Quantity_Color, AColor2: Quantity_Color, AMethod: Optional[Aspect_GradientFillMethod]) -> None: ...
 
 #classnotwrapped
-class Aspect_CircularGrid:
-	pass
+class Aspect_CircularGrid: ...
 
 #classnotwrapped
-class Aspect_NeutralWindow:
-	pass
+class Aspect_NeutralWindow: ...
 
 #classnotwrapped
-class Aspect_RectangularGrid:
-	pass
+class Aspect_RectangularGrid: ...
 
 # harray1 classes
 # harray2 classes

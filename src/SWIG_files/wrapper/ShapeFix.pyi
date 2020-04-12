@@ -508,8 +508,7 @@ class ShapeFix_Wireframe(ShapeFix_Root):
 	def StatusWireGaps(self, status: ShapeExtend_Status) -> bool: ...
 
 #classnotwrapped
-class ShapeFix_WireSegment:
-	pass
+class ShapeFix_WireSegment: ...
 
 # harray1 classes
 # harray2 classes

@@ -183,40 +183,31 @@ class Standard_Persistent(Standard_Transient):
 	def SetTypeNum(self, value: int) -> None: ...
 
 #classnotwrapped
-class Standard_AncestorIterator:
-	pass
+class Standard_AncestorIterator: ...
 
 #classnotwrapped
-class Standard_Static_Assert:
-	pass
+class Standard_Static_Assert: ...
 
 #classnotwrapped
-class Standard_CLocaleSentry:
-	pass
+class Standard_CLocaleSentry: ...
 
 #classnotwrapped
-class Standard_Type:
-	pass
+class Standard_Type: ...
 
 #classnotwrapped
-class Standard_Failure:
-	pass
+class Standard_Failure: ...
 
 #classnotwrapped
-class Standard_Mutex:
-	pass
+class Standard_Mutex: ...
 
 #classnotwrapped
-class Standard_ReadLineBuffer:
-	pass
+class Standard_ReadLineBuffer: ...
 
 #classnotwrapped
-class Standard_ProgramError:
-	pass
+class Standard_ProgramError: ...
 
 #classnotwrapped
-class Standard_ReadBuffer:
-	pass
+class Standard_ReadBuffer: ...
 
 # harray1 classes
 # harray2 classes

@@ -333,12 +333,10 @@ class LocOpe_GluedShape(LocOpe_GeneratedShape):
 	def OrientedFaces(self) -> TopTools_ListOfShape: ...
 
 #classnotwrapped
-class LocOpe_Revol:
-	pass
+class LocOpe_Revol: ...
 
 #classnotwrapped
-class LocOpe_RevolutionForm:
-	pass
+class LocOpe_RevolutionForm: ...
 
 # harray1 classes
 # harray2 classes

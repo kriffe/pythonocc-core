@@ -565,12 +565,10 @@ class ShapeAnalysis_TransferParametersProj(ShapeAnalysis_TransferParameters):
 	def TransferRange(self, newEdge: TopoDS_Edge, prevPar: float, currPar: float, Is2d: bool) -> None: ...
 
 #classnotwrapped
-class ShapeAnalysis_BoxBndTreeSelector:
-	pass
+class ShapeAnalysis_BoxBndTreeSelector: ...
 
 #classnotwrapped
-class ShapeCustom_ConvertToRevolution:
-	pass
+class ShapeCustom_ConvertToRevolution: ...
 
 # harray1 classes
 # harray2 classes

@@ -18,8 +18,6 @@ from OCC.Core.PrsMgr import *
 from OCC.Core.Prs3d import *
 from OCC.Core.Aspect import *
 
-#the following typedef cannot be wrapped as is
-MeshVS_Array1OfSequenceOfInteger = NewType('MeshVS_Array1OfSequenceOfInteger', Any)
 MeshVS_BuilderPriority = NewType('MeshVS_BuilderPriority', Standard_Integer)
 MeshVS_ColorHasher = NewType('MeshVS_ColorHasher', Quantity_ColorHasher)
 #the following typedef cannot be wrapped as is
@@ -84,6 +82,18 @@ MeshVS_SequenceOfPrsBuilder = NewType('MeshVS_SequenceOfPrsBuilder', Any)
 MeshVS_TwoColorsHasher = NewType('MeshVS_TwoColorsHasher', Any)
 #the following typedef cannot be wrapped as is
 MeshVS_TwoNodesHasher = NewType('MeshVS_TwoNodesHasher', Any)
+
+class MeshVS_Array1OfSequenceOfInteger:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TColStd_SequenceOfInteger: ...
+    def __setitem__(self, index: int, value: TColStd_SequenceOfInteger) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TColStd_SequenceOfInteger]:
+    def next(self) -> TColStd_SequenceOfInteger: ...
+    __next__ = next
 
 class MeshVS_EntityType(IntEnum):
 	MeshVS_ET_NONE: int = ...

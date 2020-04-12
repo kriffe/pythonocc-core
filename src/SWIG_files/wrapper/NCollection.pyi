@@ -32,176 +32,133 @@ class NCollection_StdAllocator:
 	def Allocator(self) -> NCollection_BaseAllocator: ...
 
 #classnotwrapped
-class NCollection_Array1:
-	pass
+class NCollection_Array1: ...
 
 #classnotwrapped
-class NCollection_AccAllocator:
-	pass
+class NCollection_AccAllocator: ...
 
 #classnotwrapped
-class NCollection_UtfString:
-	pass
+class NCollection_UtfString: ...
 
 #classnotwrapped
-class NCollection_Lerp:
-	pass
+class NCollection_Lerp: ...
 
 #classnotwrapped
-class NCollection_WinHeapAllocator:
-	pass
+class NCollection_WinHeapAllocator: ...
 
 #classnotwrapped
-class NCollection_Mat4:
-	pass
+class NCollection_Mat4: ...
 
 #classnotwrapped
-class NCollection_AlignedAllocator:
-	pass
+class NCollection_AlignedAllocator: ...
 
 #classnotwrapped
-class NCollection_Map:
-	pass
+class NCollection_Map: ...
 
 #classnotwrapped
-class NCollection_SeqNode:
-	pass
+class NCollection_SeqNode: ...
 
 #classnotwrapped
-class NCollection_BaseSequence:
-	pass
+class NCollection_BaseSequence: ...
 
 #classnotwrapped
-class NCollection_LocalArray:
-	pass
+class NCollection_LocalArray: ...
 
 #classnotwrapped
-class NCollection_Comparator:
-	pass
+class NCollection_Comparator: ...
 
 #classnotwrapped
-class NCollection_TListNode:
-	pass
+class NCollection_TListNode: ...
 
 #classnotwrapped
-class NCollection_DataMap:
-	pass
+class NCollection_DataMap: ...
 
 #classnotwrapped
-class NCollection_ListNode:
-	pass
+class NCollection_ListNode: ...
 
 #classnotwrapped
-class NCollection_Vector:
-	pass
+class NCollection_Vector: ...
 
 #classnotwrapped
-class NCollection_DoubleMap:
-	pass
+class NCollection_DoubleMap: ...
 
 #classnotwrapped
-class NCollection_UtfIterator:
-	pass
+class NCollection_UtfIterator: ...
 
 #classnotwrapped
-class NCollection_Vec3:
-	pass
+class NCollection_Vec3: ...
 
 #classnotwrapped
-class NCollection_UBTree:
-	pass
+class NCollection_UBTree: ...
 
 #classnotwrapped
-class NCollection_EBTree:
-	pass
+class NCollection_EBTree: ...
 
 #classnotwrapped
-class NCollection_Vec4:
-	pass
+class NCollection_Vec4: ...
 
 #classnotwrapped
-class NCollection_Handle:
-	pass
+class NCollection_Handle: ...
 
 #classnotwrapped
-class NCollection_BaseList:
-	pass
+class NCollection_BaseList: ...
 
 #classnotwrapped
-class NCollection_SparseArray:
-	pass
+class NCollection_SparseArray: ...
 
 #classnotwrapped
-class NCollection_BaseVector:
-	pass
+class NCollection_BaseVector: ...
 
 #classnotwrapped
-class NCollection_IncAllocator:
-	pass
+class NCollection_IncAllocator: ...
 
 #classnotwrapped
-class NCollection_BaseAllocator:
-	pass
+class NCollection_BaseAllocator: ...
 
 #classnotwrapped
-class NCollection_SparseArrayBase:
-	pass
+class NCollection_SparseArrayBase: ...
 
 #classnotwrapped
-class NCollection_IndexedMap:
-	pass
+class NCollection_IndexedMap: ...
 
 #classnotwrapped
-class NCollection_Vec2:
-	pass
+class NCollection_Vec2: ...
 
 #classnotwrapped
-class NCollection_List:
-	pass
+class NCollection_List: ...
 
 #classnotwrapped
-class NCollection_TListIterator:
-	pass
+class NCollection_TListIterator: ...
 
 #classnotwrapped
-class NCollection_BaseMap:
-	pass
+class NCollection_BaseMap: ...
 
 #classnotwrapped
-class NCollection_Buffer:
-	pass
+class NCollection_Buffer: ...
 
 #classnotwrapped
-class NCollection_IndexedDataMap:
-	pass
+class NCollection_IndexedDataMap: ...
 
 #classnotwrapped
-class NCollection_StdAllocator:
-	pass
+class NCollection_StdAllocator: ...
 
 #classnotwrapped
-class NCollection_UBTreeFiller:
-	pass
+class NCollection_UBTreeFiller: ...
 
 #classnotwrapped
-class NCollection_DefaultHasher:
-	pass
+class NCollection_DefaultHasher: ...
 
 #classnotwrapped
-class NCollection_Sequence:
-	pass
+class NCollection_Sequence: ...
 
 #classnotwrapped
-class NCollection_Array2:
-	pass
+class NCollection_Array2: ...
 
 #classnotwrapped
-class NCollection_Shared:
-	pass
+class NCollection_Shared: ...
 
 #classnotwrapped
-class NCollection_HeapAllocator:
-	pass
+class NCollection_HeapAllocator: ...
 
 # harray1 classes
 # harray2 classes

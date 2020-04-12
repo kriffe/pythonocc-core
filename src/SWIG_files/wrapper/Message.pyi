@@ -7,8 +7,6 @@ from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
 #the following typedef cannot be wrapped as is
-Message_ArrayOfMsg = NewType('Message_ArrayOfMsg', Any)
-#the following typedef cannot be wrapped as is
 Message_HArrayOfMsg = NewType('Message_HArrayOfMsg', Any)
 #the following typedef cannot be wrapped as is
 Message_ListIteratorOfListOfMsg = NewType('Message_ListIteratorOfListOfMsg', Any)

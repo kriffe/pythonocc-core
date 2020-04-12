@@ -26,104 +26,79 @@ DsgPrs_AS_FIRSTAR_LASTPT = DsgPrs_ArrowSide.DsgPrs_AS_FIRSTAR_LASTPT
 DsgPrs_AS_FIRSTPT_LASTAR = DsgPrs_ArrowSide.DsgPrs_AS_FIRSTPT_LASTAR
 
 #classnotwrapped
-class DsgPrs_EllipseRadiusPresentation:
-	pass
+class DsgPrs_EllipseRadiusPresentation: ...
 
 #classnotwrapped
-class DsgPrs_XYZPlanePresentation:
-	pass
+class DsgPrs_XYZPlanePresentation: ...
 
 #classnotwrapped
-class DsgPrs_ConcentricPresentation:
-	pass
+class DsgPrs_ConcentricPresentation: ...
 
 #classnotwrapped
-class DsgPrs_AnglePresentation:
-	pass
+class DsgPrs_AnglePresentation: ...
 
 #classnotwrapped
-class DsgPrs_ShadedPlanePresentation:
-	pass
+class DsgPrs_ShadedPlanePresentation: ...
 
 #classnotwrapped
-class DsgPrs_RadiusPresentation:
-	pass
+class DsgPrs_RadiusPresentation: ...
 
 #classnotwrapped
-class DsgPrs_TangentPresentation:
-	pass
+class DsgPrs_TangentPresentation: ...
 
 #classnotwrapped
-class DsgPrs_SymbPresentation:
-	pass
+class DsgPrs_SymbPresentation: ...
 
 #classnotwrapped
-class DsgPrs_FilletRadiusPresentation:
-	pass
+class DsgPrs_FilletRadiusPresentation: ...
 
 #classnotwrapped
-class DsgPrs_SymmetricPresentation:
-	pass
+class DsgPrs_SymmetricPresentation: ...
 
 #classnotwrapped
-class DsgPrs_ShapeDirPresentation:
-	pass
+class DsgPrs_ShapeDirPresentation: ...
 
 #classnotwrapped
-class DsgPrs_FixPresentation:
-	pass
+class DsgPrs_FixPresentation: ...
 
 #classnotwrapped
-class DsgPrs_IdenticPresentation:
-	pass
+class DsgPrs_IdenticPresentation: ...
 
 #classnotwrapped
-class DsgPrs_MidPointPresentation:
-	pass
+class DsgPrs_MidPointPresentation: ...
 
 #classnotwrapped
-class DsgPrs_EqualRadiusPresentation:
-	pass
+class DsgPrs_EqualRadiusPresentation: ...
 
 #classnotwrapped
-class DsgPrs_LengthPresentation:
-	pass
+class DsgPrs_LengthPresentation: ...
 
 #classnotwrapped
-class DsgPrs_EqualDistancePresentation:
-	pass
+class DsgPrs_EqualDistancePresentation: ...
 
 #classnotwrapped
-class DsgPrs_DatumPrs:
-	pass
+class DsgPrs_DatumPrs: ...
 
 #classnotwrapped
-class DsgPrs_DiameterPresentation:
-	pass
+class DsgPrs_DiameterPresentation: ...
 
 #classnotwrapped
-class DsgPrs_ParalPresentation:
-	pass
+class DsgPrs_ParalPresentation: ...
 
 #classnotwrapped
-class DsgPrs_OffsetPresentation:
-	pass
+class DsgPrs_OffsetPresentation: ...
 
 #classnotwrapped
-class DsgPrs_XYZAxisPresentation:
-	pass
+class DsgPrs_XYZAxisPresentation: ...
 
 #classnotwrapped
-class DsgPrs_Chamf2dPresentation:
-	pass
+class DsgPrs_Chamf2dPresentation: ...
 
 #classnotwrapped
-class DsgPrs_PerpenPresentation:
-	pass
+class DsgPrs_PerpenPresentation: ...
 
 #classnotwrapped
-class DsgPrs:
-	pass
+class DsgPrs: ...
 
 # harray1 classes
 # harray2 classes

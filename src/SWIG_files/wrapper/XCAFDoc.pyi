@@ -939,12 +939,10 @@ class XCAFDoc_NoteBalloon(XCAFDoc_NoteComment):
 	def Set(self, theLabel: TDF_Label, theUserName: TCollection_ExtendedString, theTimeStamp: TCollection_ExtendedString, theComment: TCollection_ExtendedString) -> XCAFDoc_NoteBalloon: ...
 
 #classnotwrapped
-class XCAFDoc_DimTolTool:
-	pass
+class XCAFDoc_DimTolTool: ...
 
 #classnotwrapped
-class XCAFDoc_GeomTolerance:
-	pass
+class XCAFDoc_GeomTolerance: ...
 
 # harray1 classes
 # harray2 classes

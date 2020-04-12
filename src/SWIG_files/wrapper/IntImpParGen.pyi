@@ -20,8 +20,7 @@ class IntImpParGen:
 	def NormalizeOnDomain(self, Dom1: IntRes2d_Domain) -> Tuple[float, float]: ...
 
 #classnotwrapped
-class IntImpParGen_ImpTool:
-	pass
+class IntImpParGen_ImpTool: ...
 
 # harray1 classes
 # harray2 classes

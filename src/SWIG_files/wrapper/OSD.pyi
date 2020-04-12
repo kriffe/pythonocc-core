@@ -180,92 +180,70 @@ OSD_WXD = OSD_SingleProtection.OSD_WXD
 OSD_RWXD = OSD_SingleProtection.OSD_RWXD
 
 #classnotwrapped
-class OSD_Timer:
-	pass
+class OSD_Timer: ...
 
 #classnotwrapped
-class OSD_PerfMeter:
-	pass
+class OSD_PerfMeter: ...
 
 #classnotwrapped
-class OSD_Disk:
-	pass
+class OSD_Disk: ...
 
 #classnotwrapped
-class OSD_Protection:
-	pass
+class OSD_Protection: ...
 
 #classnotwrapped
-class OSD_MemInfo:
-	pass
+class OSD_MemInfo: ...
 
 #classnotwrapped
-class OSD_DirectoryIterator:
-	pass
+class OSD_DirectoryIterator: ...
 
 #classnotwrapped
-class OSD_Chronometer:
-	pass
+class OSD_Chronometer: ...
 
 #classnotwrapped
-class OSD_ThreadPool:
-	pass
+class OSD_ThreadPool: ...
 
 #classnotwrapped
-class OSD_SharedLibrary:
-	pass
+class OSD_SharedLibrary: ...
 
 #classnotwrapped
-class OSD_Error:
-	pass
+class OSD_Error: ...
 
 #classnotwrapped
-class OSD_Host:
-	pass
+class OSD_Host: ...
 
 #classnotwrapped
-class OSD_Parallel:
-	pass
+class OSD_Parallel: ...
 
 #classnotwrapped
-class OSD_Directory:
-	pass
+class OSD_Directory: ...
 
 #classnotwrapped
-class OSD_Path:
-	pass
+class OSD_Path: ...
 
 #classnotwrapped
-class OSD_Process:
-	pass
+class OSD_Process: ...
 
 #classnotwrapped
-class OSD_MAllocHook:
-	pass
+class OSD_MAllocHook: ...
 
 #classnotwrapped
-class OSD_FileNode:
-	pass
+class OSD_FileNode: ...
 
 #classnotwrapped
-class OSD_File:
-	pass
+class OSD_File: ...
 
 #classnotwrapped
-class OSD_FileIterator:
-	pass
+class OSD_FileIterator: ...
 
 #classnotwrapped
-class OSD_Thread:
-	pass
+class OSD_Thread: ...
 
 #classnotwrapped
-class OSD_Environment:
-	pass
+class OSD_Environment: ...
 
 #classnotwrapped
-class OSD:
-	pass
+class OSD: ...
 
 # harray1 classes
 # harray2 classes

@@ -10,10 +10,6 @@ from OCC.Core.TopAbs import *
 from OCC.Core.TCollection import *
 
 #the following typedef cannot be wrapped as is
-TopTools_Array1OfListOfShape = NewType('TopTools_Array1OfListOfShape', Any)
-#the following typedef cannot be wrapped as is
-TopTools_Array1OfShape = NewType('TopTools_Array1OfShape', Any)
-#the following typedef cannot be wrapped as is
 TopTools_Array2OfShape = NewType('TopTools_Array2OfShape', Any)
 #the following typedef cannot be wrapped as is
 TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape = NewType('TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape', Any)
@@ -90,6 +86,30 @@ TopTools_MapOfOrientedShape = NewType('TopTools_MapOfOrientedShape', Any)
 TopTools_MapOfShape = NewType('TopTools_MapOfShape', Any)
 #the following typedef cannot be wrapped as is
 TopTools_SequenceOfShape = NewType('TopTools_SequenceOfShape', Any)
+
+class TopTools_Array1OfListOfShape:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TopTools_ListOfShape: ...
+    def __setitem__(self, index: int, value: TopTools_ListOfShape) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TopTools_ListOfShape]:
+    def next(self) -> TopTools_ListOfShape: ...
+    __next__ = next
+
+class TopTools_Array1OfShape:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TopoDS_Shape: ...
+    def __setitem__(self, index: int, value: TopoDS_Shape) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TopoDS_Shape]:
+    def next(self) -> TopoDS_Shape: ...
+    __next__ = next
 
 class TopTools:
 	@staticmethod

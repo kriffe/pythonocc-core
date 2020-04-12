@@ -239,8 +239,7 @@ class BRepGProp_VinertGK(GProp_GProps):
 	def SetLocation(self, theLocation: gp_Pnt) -> None: ...
 
 #classnotwrapped
-class BRepGProp_MeshProps:
-	pass
+class BRepGProp_MeshProps: ...
 
 # harray1 classes
 # harray2 classes

@@ -93,13 +93,23 @@ BOPDS_VectorOfListOfPaveBlock = NewType('BOPDS_VectorOfListOfPaveBlock', Any)
 #the following typedef cannot be wrapped as is
 BOPDS_VectorOfPair = NewType('BOPDS_VectorOfPair', Any)
 #the following typedef cannot be wrapped as is
-BOPDS_VectorOfPave = NewType('BOPDS_VectorOfPave', Any)
-#the following typedef cannot be wrapped as is
 BOPDS_VectorOfPoint = NewType('BOPDS_VectorOfPoint', Any)
 #the following typedef cannot be wrapped as is
 BOPDS_VectorOfShapeInfo = NewType('BOPDS_VectorOfShapeInfo', Any)
 #the following typedef cannot be wrapped as is
 BOPDS_VectorOfVectorOfPair = NewType('BOPDS_VectorOfVectorOfPair', Any)
+
+class BOPDS_VectorOfPave:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> BOPDS_Pave: ...
+    def __setitem__(self, index: int, value: BOPDS_Pave) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[BOPDS_Pave]:
+    def next(self) -> BOPDS_Pave: ...
+    __next__ = next
 
 class BOPDS_CommonBlock(Standard_Transient):
 	@overload
@@ -527,8 +537,7 @@ class BOPDS_IteratorSI(BOPDS_Iterator):
 	def UpdateByLevelOfCheck(self, theLevel: int) -> None: ...
 
 #classnotwrapped
-class BOPDS_Interf:
-	pass
+class BOPDS_Interf: ...
 
 # harray1 classes
 # harray2 classes

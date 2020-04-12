@@ -268,12 +268,10 @@ class Units_UnitsLexicon(Units_Lexicon):
 	def Dump(self) -> None: ...
 
 #classnotwrapped
-class Units_Quantity:
-	pass
+class Units_Quantity: ...
 
 #classnotwrapped
-class Units_Dimensions:
-	pass
+class Units_Dimensions: ...
 
 # harray1 classes
 # harray2 classes

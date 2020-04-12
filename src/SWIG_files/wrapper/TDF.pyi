@@ -7,8 +7,6 @@ from OCC.Core.TCollection import *
 from OCC.Core.TColStd import *
 
 #the following typedef cannot be wrapped as is
-TDF_AttributeArray1 = NewType('TDF_AttributeArray1', Any)
-#the following typedef cannot be wrapped as is
 TDF_AttributeDataMap = NewType('TDF_AttributeDataMap', Any)
 #the following typedef cannot be wrapped as is
 TDF_AttributeDeltaList = NewType('TDF_AttributeDeltaList', Any)
@@ -75,6 +73,18 @@ TDF_MapIteratorOfAttributeMap = NewType('TDF_MapIteratorOfAttributeMap', Any)
 TDF_MapIteratorOfIDMap = NewType('TDF_MapIteratorOfIDMap', Any)
 #the following typedef cannot be wrapped as is
 TDF_MapIteratorOfLabelMap = NewType('TDF_MapIteratorOfLabelMap', Any)
+
+class TDF_AttributeArray1:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> False: ...
+    def __setitem__(self, index: int, value: False) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[False]:
+    def next(self) -> False: ...
+    __next__ = next
 
 class TDF:
 	@staticmethod
@@ -495,8 +505,7 @@ class TDF_DefaultDeltaOnRemoval(TDF_DeltaOnRemoval):
 	def Apply(self) -> None: ...
 
 #classnotwrapped
-class TDF_LabelNode:
-	pass
+class TDF_LabelNode: ...
 
 # harray1 classes
 class TDF_HAttributeArray1(TDF_AttributeArray1, Standard_Transient): ...

@@ -151,24 +151,19 @@ class RWGltf_MaterialMetallicRoughness(Standard_Transient):
 	def __init__(self) -> None: ...
 
 #classnotwrapped
-class RWGltf_GltfSharedIStream:
-	pass
+class RWGltf_GltfSharedIStream: ...
 
 #classnotwrapped
-class RWGltf_TriangulationReader:
-	pass
+class RWGltf_TriangulationReader: ...
 
 #classnotwrapped
-class RWGltf_GltfLatePrimitiveArray:
-	pass
+class RWGltf_GltfLatePrimitiveArray: ...
 
 #classnotwrapped
-class RWGltf_PrimitiveArrayReader:
-	pass
+class RWGltf_PrimitiveArrayReader: ...
 
 #classnotwrapped
-class RWGltf_CafReader:
-	pass
+class RWGltf_CafReader: ...
 
 # harray1 classes
 # harray2 classes

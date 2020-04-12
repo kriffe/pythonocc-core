@@ -25,8 +25,7 @@ class RWStl:
 	def WriteBinary(self, theMesh: Poly_Triangulation, thePath: OSD_Path, theProgInd: Optional[Message_ProgressIndicator]) -> bool: ...
 
 #classnotwrapped
-class RWStl_Reader:
-	pass
+class RWStl_Reader: ...
 
 # harray1 classes
 # harray2 classes

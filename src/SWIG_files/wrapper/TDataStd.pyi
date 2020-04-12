@@ -28,8 +28,6 @@ TDataStd_DataMapOfStringReal = NewType('TDataStd_DataMapOfStringReal', Any)
 #the following typedef cannot be wrapped as is
 TDataStd_DataMapOfStringString = NewType('TDataStd_DataMapOfStringString', Any)
 #the following typedef cannot be wrapped as is
-TDataStd_LabelArray1 = NewType('TDataStd_LabelArray1', Any)
-#the following typedef cannot be wrapped as is
 TDataStd_ListIteratorOfListOfByte = NewType('TDataStd_ListIteratorOfListOfByte', Any)
 #the following typedef cannot be wrapped as is
 TDataStd_ListIteratorOfListOfExtendedString = NewType('TDataStd_ListIteratorOfListOfExtendedString', Any)
@@ -38,6 +36,18 @@ TDataStd_ListOfByte = NewType('TDataStd_ListOfByte', Any)
 #the following typedef cannot be wrapped as is
 TDataStd_ListOfExtendedString = NewType('TDataStd_ListOfExtendedString', Any)
 TDataStd_PtrTreeNode = NewType('TDataStd_PtrTreeNode', TDataStd_TreeNode)
+
+class TDataStd_LabelArray1:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TDF_Label: ...
+    def __setitem__(self, index: int, value: TDF_Label) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TDF_Label]:
+    def next(self) -> TDF_Label: ...
+    __next__ = next
 
 class TDataStd_RealEnum(IntEnum):
 	TDataStd_SCALAR: int = ...

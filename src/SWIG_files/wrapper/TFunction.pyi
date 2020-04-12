@@ -7,8 +7,6 @@ from OCC.Core.TDF import *
 from OCC.Core.TColStd import *
 
 #the following typedef cannot be wrapped as is
-TFunction_Array1OfDataMapOfGUIDDriver = NewType('TFunction_Array1OfDataMapOfGUIDDriver', Any)
-#the following typedef cannot be wrapped as is
 TFunction_DataMapIteratorOfDataMapOfGUIDDriver = NewType('TFunction_DataMapIteratorOfDataMapOfGUIDDriver', Any)
 #the following typedef cannot be wrapped as is
 TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel = NewType('TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel', Any)
@@ -20,6 +18,18 @@ TFunction_DataMapOfLabelListOfLabel = NewType('TFunction_DataMapOfLabelListOfLab
 TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel = NewType('TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel', Any)
 #the following typedef cannot be wrapped as is
 TFunction_DoubleMapOfIntegerLabel = NewType('TFunction_DoubleMapOfIntegerLabel', Any)
+
+class TFunction_Array1OfDataMapOfGUIDDriver:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TFunction_DataMapOfGUIDDriver: ...
+    def __setitem__(self, index: int, value: TFunction_DataMapOfGUIDDriver) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TFunction_DataMapOfGUIDDriver]:
+    def next(self) -> TFunction_DataMapOfGUIDDriver: ...
+    __next__ = next
 
 class TFunction_ExecutionStatus(IntEnum):
 	TFunction_ES_WrongDefinition: int = ...

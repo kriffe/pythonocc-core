@@ -7,8 +7,18 @@ from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 from OCC.Core.gp import *
 
-#the following typedef cannot be wrapped as is
-math_Array1OfValueAndWeight = NewType('math_Array1OfValueAndWeight', Any)
+
+class math_Array1OfValueAndWeight:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> math_ValueAndWeight: ...
+    def __setitem__(self, index: int, value: math_ValueAndWeight) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[math_ValueAndWeight]:
+    def next(self) -> math_ValueAndWeight: ...
+    __next__ = next
 
 class math_Status(IntEnum):
 	math_OK: int = ...
@@ -678,8 +688,7 @@ class math_TrigonometricEquationFunction(math_FunctionWithDerivative):
 	def Values(self, X: float) -> Tuple[bool, float, float]: ...
 
 #classnotwrapped
-class math_SingleTab:
-	pass
+class math_SingleTab: ...
 
 # harray1 classes
 # harray2 classes

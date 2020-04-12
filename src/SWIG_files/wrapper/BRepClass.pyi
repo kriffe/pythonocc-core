@@ -79,8 +79,7 @@ class BRepClass_Intersector(Geom2dInt_IntConicCurveOfGInter):
 	def Perform(self, L: gp_Lin2d, P: float, Tol: float, E: BRepClass_Edge) -> None: ...
 
 #classnotwrapped
-class BRepClass_FaceClassifier:
-	pass
+class BRepClass_FaceClassifier: ...
 
 # harray1 classes
 # harray2 classes

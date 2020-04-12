@@ -439,12 +439,10 @@ class Geom2dGcc_QualifiedCurve:
 	def Qualifier(self) -> GccEnt_Position: ...
 
 #classnotwrapped
-class Geom2dGcc_FuncTCuCuCuOfMyC2d3Tan:
-	pass
+class Geom2dGcc_FuncTCuCuCuOfMyC2d3Tan: ...
 
 #classnotwrapped
-class Geom2dGcc_FunctionTanCuCuCu:
-	pass
+class Geom2dGcc_FunctionTanCuCuCu: ...
 
 # harray1 classes
 # harray2 classes

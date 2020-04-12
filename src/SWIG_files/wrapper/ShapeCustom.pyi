@@ -126,16 +126,13 @@ class ShapeCustom_DirectModification(ShapeCustom_Modification):
 	def NewSurface(self, F: TopoDS_Face, S: Geom_Surface, L: TopLoc_Location) -> Tuple[bool, float, bool, bool]: ...
 
 #classnotwrapped
-class ShapeCustom_BSplineRestriction:
-	pass
+class ShapeCustom_BSplineRestriction: ...
 
 #classnotwrapped
-class ShapeCustom_SweptToElementary:
-	pass
+class ShapeCustom_SweptToElementary: ...
 
 #classnotwrapped
-class ShapeCustom_ConvertToRevolution:
-	pass
+class ShapeCustom_ConvertToRevolution: ...
 
 # harray1 classes
 # harray2 classes

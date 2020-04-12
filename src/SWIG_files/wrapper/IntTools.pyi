@@ -22,10 +22,6 @@ from OCC.Core.GeomAdaptor import *
 from OCC.Core.GeomInt import *
 
 #the following typedef cannot be wrapped as is
-IntTools_Array1OfRange = NewType('IntTools_Array1OfRange', Any)
-#the following typedef cannot be wrapped as is
-IntTools_Array1OfRoots = NewType('IntTools_Array1OfRoots', Any)
-#the following typedef cannot be wrapped as is
 IntTools_DataMapIteratorOfDataMapOfCurveSampleBox = NewType('IntTools_DataMapIteratorOfDataMapOfCurveSampleBox', Any)
 #the following typedef cannot be wrapped as is
 IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox = NewType('IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox', Any)
@@ -63,6 +59,30 @@ IntTools_SequenceOfPntOn2Faces = NewType('IntTools_SequenceOfPntOn2Faces', Any)
 IntTools_SequenceOfRanges = NewType('IntTools_SequenceOfRanges', Any)
 #the following typedef cannot be wrapped as is
 IntTools_SequenceOfRoots = NewType('IntTools_SequenceOfRoots', Any)
+
+class IntTools_Array1OfRange:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> IntTools_Range: ...
+    def __setitem__(self, index: int, value: IntTools_Range) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[IntTools_Range]:
+    def next(self) -> IntTools_Range: ...
+    __next__ = next
+
+class IntTools_Array1OfRoots:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> IntTools_Root: ...
+    def __setitem__(self, index: int, value: IntTools_Root) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[IntTools_Root]:
+    def next(self) -> IntTools_Root: ...
+    __next__ = next
 
 class IntTools:
 	@staticmethod
@@ -568,12 +588,10 @@ class IntTools_CurveRangeSample(IntTools_BaseRangeSample):
 	def SetRangeIndex(self, theIndex: int) -> None: ...
 
 #classnotwrapped
-class IntTools_CArray1OfInteger:
-	pass
+class IntTools_CArray1OfInteger: ...
 
 #classnotwrapped
-class IntTools_CArray1OfReal:
-	pass
+class IntTools_CArray1OfReal: ...
 
 # harray1 classes
 # harray2 classes

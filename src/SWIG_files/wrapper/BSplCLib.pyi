@@ -469,8 +469,7 @@ class BSplCLib_CacheParams:
 	def PeriodicNormalization(self, theParameter: float) -> float: ...
 
 #classnotwrapped
-class BSplCLib_EvaluatorFunction:
-	pass
+class BSplCLib_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes

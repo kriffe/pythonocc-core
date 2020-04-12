@@ -9,13 +9,23 @@ from OCC.Core.TColStd import *
 from OCC.Core.Message import *
 
 #the following typedef cannot be wrapped as is
-Plate_Array1OfPinpointConstraint = NewType('Plate_Array1OfPinpointConstraint', Any)
-#the following typedef cannot be wrapped as is
 Plate_SequenceOfLinearScalarConstraint = NewType('Plate_SequenceOfLinearScalarConstraint', Any)
 #the following typedef cannot be wrapped as is
 Plate_SequenceOfLinearXYZConstraint = NewType('Plate_SequenceOfLinearXYZConstraint', Any)
 #the following typedef cannot be wrapped as is
 Plate_SequenceOfPinpointConstraint = NewType('Plate_SequenceOfPinpointConstraint', Any)
+
+class Plate_Array1OfPinpointConstraint:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> Plate_PinpointConstraint: ...
+    def __setitem__(self, index: int, value: Plate_PinpointConstraint) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[Plate_PinpointConstraint]:
+    def next(self) -> Plate_PinpointConstraint: ...
+    __next__ = next
 
 class Plate_D1:
 	@overload

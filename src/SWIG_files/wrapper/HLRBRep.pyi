@@ -27,10 +27,6 @@ from OCC.Core.Intf import *
 from OCC.Core.IntSurf import *
 
 #the following typedef cannot be wrapped as is
-HLRBRep_Array1OfEData = NewType('HLRBRep_Array1OfEData', Any)
-#the following typedef cannot be wrapped as is
-HLRBRep_Array1OfFData = NewType('HLRBRep_Array1OfFData', Any)
-#the following typedef cannot be wrapped as is
 HLRBRep_ListIteratorOfListOfBPnt2D = NewType('HLRBRep_ListIteratorOfListOfBPnt2D', Any)
 #the following typedef cannot be wrapped as is
 HLRBRep_ListIteratorOfListOfBPoint = NewType('HLRBRep_ListIteratorOfListOfBPoint', Any)
@@ -40,6 +36,30 @@ HLRBRep_ListOfBPnt2D = NewType('HLRBRep_ListOfBPnt2D', Any)
 HLRBRep_ListOfBPoint = NewType('HLRBRep_ListOfBPoint', Any)
 #the following typedef cannot be wrapped as is
 HLRBRep_SeqOfShapeBounds = NewType('HLRBRep_SeqOfShapeBounds', Any)
+
+class HLRBRep_Array1OfEData:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> HLRBRep_EdgeData: ...
+    def __setitem__(self, index: int, value: HLRBRep_EdgeData) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[HLRBRep_EdgeData]:
+    def next(self) -> HLRBRep_EdgeData: ...
+    __next__ = next
+
+class HLRBRep_Array1OfFData:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> HLRBRep_FaceData: ...
+    def __setitem__(self, index: int, value: HLRBRep_FaceData) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[HLRBRep_FaceData]:
+    def next(self) -> HLRBRep_FaceData: ...
+    __next__ = next
 
 class HLRBRep_TypeOfResultingEdge(IntEnum):
 	HLRBRep_Undefined: int = ...
@@ -1397,20 +1417,16 @@ class HLRBRep_Algo(HLRBRep_InternalAlgo):
 	def OutLinedShapeNullify(self) -> None: ...
 
 #classnotwrapped
-class HLRBRep_ThePolyhedronOfInterCSurf:
-	pass
+class HLRBRep_ThePolyhedronOfInterCSurf: ...
 
 #classnotwrapped
-class HLRBRep_BSurfaceTool:
-	pass
+class HLRBRep_BSurfaceTool: ...
 
 #classnotwrapped
-class HLRBRep_Surface:
-	pass
+class HLRBRep_Surface: ...
 
 #classnotwrapped
-class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter:
-	pass
+class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter: ...
 
 # harray1 classes
 # harray2 classes

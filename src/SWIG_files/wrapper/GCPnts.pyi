@@ -224,12 +224,10 @@ class GCPnts_UniformDeflection:
 	def Value(self, Index: int) -> gp_Pnt: ...
 
 #classnotwrapped
-class GCPnts_DistFunction:
-	pass
+class GCPnts_DistFunction: ...
 
 #classnotwrapped
-class GCPnts_DistFunction2d:
-	pass
+class GCPnts_DistFunction2d: ...
 
 # harray1 classes
 # harray2 classes

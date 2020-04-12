@@ -19,15 +19,35 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.Plate import *
 
 #the following typedef cannot be wrapped as is
-GeomPlate_Array1OfHCurve = NewType('GeomPlate_Array1OfHCurve', Any)
-#the following typedef cannot be wrapped as is
-GeomPlate_Array1OfSequenceOfReal = NewType('GeomPlate_Array1OfSequenceOfReal', Any)
-#the following typedef cannot be wrapped as is
 GeomPlate_SequenceOfAij = NewType('GeomPlate_SequenceOfAij', Any)
 #the following typedef cannot be wrapped as is
 GeomPlate_SequenceOfCurveConstraint = NewType('GeomPlate_SequenceOfCurveConstraint', Any)
 #the following typedef cannot be wrapped as is
 GeomPlate_SequenceOfPointConstraint = NewType('GeomPlate_SequenceOfPointConstraint', Any)
+
+class GeomPlate_Array1OfHCurve:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> False: ...
+    def __setitem__(self, index: int, value: False) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[False]:
+    def next(self) -> False: ...
+    __next__ = next
+
+class GeomPlate_Array1OfSequenceOfReal:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TColStd_SequenceOfReal: ...
+    def __setitem__(self, index: int, value: TColStd_SequenceOfReal) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TColStd_SequenceOfReal]:
+    def next(self) -> TColStd_SequenceOfReal: ...
+    __next__ = next
 
 class GeomPlate_Aij:
 	@overload

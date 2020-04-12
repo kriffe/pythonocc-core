@@ -74,216 +74,163 @@ class BVH_Tree():
 	def __init__(self) -> None: ...
 
 #classnotwrapped
-class BVH_Tools:
-	pass
+class BVH_Tools: ...
 
 #classnotwrapped
-class BVH_BuildTool:
-	pass
+class BVH_BuildTool: ...
 
 #classnotwrapped
-class BVH_BuildThread:
-	pass
+class BVH_BuildThread: ...
 
 #classnotwrapped
-class BVH_Sorter:
-	pass
+class BVH_Sorter: ...
 
 #classnotwrapped
-class BVH_ObjectSet:
-	pass
+class BVH_ObjectSet: ...
 
 #classnotwrapped
-class BVH_Box:
-	pass
+class BVH_Box: ...
 
 #classnotwrapped
-class CenterAxis:
-	pass
+class CenterAxis: ...
 
 #classnotwrapped
-class SurfaceCalculator:
-	pass
+class SurfaceCalculator: ...
 
 #classnotwrapped
-class BoxMinMax:
-	pass
+class BoxMinMax: ...
 
 #classnotwrapped
-class BVH_Distance:
-	pass
+class BVH_Distance: ...
 
 #classnotwrapped
-class BVH_ObjectTransient:
-	pass
+class BVH_ObjectTransient: ...
 
 #classnotwrapped
-class BVH_Object:
-	pass
+class BVH_Object: ...
 
 #classnotwrapped
-class BVH_QuickSorter:
-	pass
+class BVH_QuickSorter: ...
 
 #classnotwrapped
-class BVH_Set:
-	pass
+class BVH_Set: ...
 
 #classnotwrapped
-class BVH_SpatialMedianBuilder:
-	pass
+class BVH_SpatialMedianBuilder: ...
 
 #classnotwrapped
-class BVH_Tree:
-	pass
+class BVH_Tree: ...
 
 #classnotwrapped
-class BVH_PrimitiveSet:
-	pass
+class BVH_PrimitiveSet: ...
 
 #classnotwrapped
-class BVH_BuildQueue:
-	pass
+class BVH_BuildQueue: ...
 
 #classnotwrapped
-class BVH_BuilderTransient:
-	pass
+class BVH_BuilderTransient: ...
 
 #classnotwrapped
-class BVH_Builder:
-	pass
+class BVH_Builder: ...
 
 #classnotwrapped
-class BVH_Properties:
-	pass
+class BVH_Properties: ...
 
 #classnotwrapped
-class BVH_Transform:
-	pass
+class BVH_Transform: ...
 
 #classnotwrapped
-class MatrixOp:
-	pass
+class MatrixOp: ...
 
 #classnotwrapped
-class UnitVector:
-	pass
+class UnitVector: ...
 
 #classnotwrapped
-class BVH_RadixSorter:
-	pass
+class BVH_RadixSorter: ...
 
 #classnotwrapped
-class BitPredicate:
-	pass
+class BitPredicate: ...
 
 #classnotwrapped
-class BitComparator:
-	pass
+class BitComparator: ...
 
 #classnotwrapped
-class RadixSorter:
-	pass
+class RadixSorter: ...
 
 #classnotwrapped
-class VectorType:
-	pass
+class VectorType: ...
 
 #classnotwrapped
-class MatrixType:
-	pass
+class MatrixType: ...
 
 #classnotwrapped
-class ArrayType:
-	pass
+class ArrayType: ...
 
 #classnotwrapped
-class VecComp:
-	pass
+class VecComp: ...
 
 #classnotwrapped
-class Array:
-	pass
+class Array: ...
 
 #classnotwrapped
-class BVH_Triangulation:
-	pass
+class BVH_Triangulation: ...
 
 #classnotwrapped
-class BVH_PairDistance:
-	pass
+class BVH_PairDistance: ...
 
 #classnotwrapped
-class BVH_TreeBaseTransient:
-	pass
+class BVH_TreeBaseTransient: ...
 
 #classnotwrapped
-class BVH_TreeBase:
-	pass
+class BVH_TreeBase: ...
 
 #classnotwrapped
-class BVH_QuadTree:
-	pass
+class BVH_QuadTree: ...
 
 #classnotwrapped
-class BVH_BinaryTree:
-	pass
+class BVH_BinaryTree: ...
 
 #classnotwrapped
-class BVH_SweepPlaneBuilder:
-	pass
+class BVH_SweepPlaneBuilder: ...
 
 #classnotwrapped
-class BVH_BaseTraverse:
-	pass
+class BVH_BaseTraverse: ...
 
 #classnotwrapped
-class BVH_Traverse:
-	pass
+class BVH_Traverse: ...
 
 #classnotwrapped
-class BVH_PairTraverse:
-	pass
+class BVH_PairTraverse: ...
 
 #classnotwrapped
-class BVH_BoxSet:
-	pass
+class BVH_BoxSet: ...
 
 #classnotwrapped
-class BVH_Geometry:
-	pass
+class BVH_Geometry: ...
 
 #classnotwrapped
-class BVH_QueueBuilder:
-	pass
+class BVH_QueueBuilder: ...
 
 #classnotwrapped
-class BVH_DistanceField:
-	pass
+class BVH_DistanceField: ...
 
 #classnotwrapped
-class BVH_LinearBuilder:
-	pass
+class BVH_LinearBuilder: ...
 
 #classnotwrapped
-class BoundData:
-	pass
+class BoundData: ...
 
 #classnotwrapped
-class UpdateBoundTask:
-	pass
+class UpdateBoundTask: ...
 
 #classnotwrapped
-class BVH_Bin:
-	pass
+class BVH_Bin: ...
 
 #classnotwrapped
-class BVH_BinnedBuilder:
-	pass
+class BVH_BinnedBuilder: ...
 
 #classnotwrapped
-class BVH_AxisSelector:
-	pass
+class BVH_AxisSelector: ...
 
 # harray1 classes
 # harray2 classes

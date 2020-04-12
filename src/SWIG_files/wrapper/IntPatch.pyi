@@ -753,8 +753,7 @@ class IntPatch_WLine(IntPatch_PointLine):
 	def Vertex(self, Index: int) -> IntPatch_Point: ...
 
 #classnotwrapped
-class IntPatch_Polyhedron:
-	pass
+class IntPatch_Polyhedron: ...
 
 # harray1 classes
 # harray2 classes

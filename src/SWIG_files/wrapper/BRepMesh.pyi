@@ -407,48 +407,37 @@ class BRepMesh_DelaunayBaseMeshAlgo(BRepMesh_ConstrainedBaseMeshAlgo):
 	def __init__(self) -> None: ...
 
 #classnotwrapped
-class BRepMesh_WireInterferenceChecker:
-	pass
+class BRepMesh_WireInterferenceChecker: ...
 
 #classnotwrapped
-class BRepMesh_EdgeTessellator:
-	pass
+class BRepMesh_EdgeTessellator: ...
 
 #classnotwrapped
-class BRepMesh_EdgeTessellationExtractor:
-	pass
+class BRepMesh_EdgeTessellationExtractor: ...
 
 #classnotwrapped
-class BRepMesh_EdgeParameterProvider:
-	pass
+class BRepMesh_EdgeParameterProvider: ...
 
 #classnotwrapped
-class BRepMesh_FastDiscret:
-	pass
+class BRepMesh_FastDiscret: ...
 
 #classnotwrapped
-class BRepMesh_CustomDelaunayBaseMeshAlgo:
-	pass
+class BRepMesh_CustomDelaunayBaseMeshAlgo: ...
 
 #classnotwrapped
-class BRepMesh_NodeInsertionMeshAlgo:
-	pass
+class BRepMesh_NodeInsertionMeshAlgo: ...
 
 #classnotwrapped
-class BRepMesh_ConstrainedBaseMeshAlgo:
-	pass
+class BRepMesh_ConstrainedBaseMeshAlgo: ...
 
 #classnotwrapped
-class BRepMesh_CustomBaseMeshAlgo:
-	pass
+class BRepMesh_CustomBaseMeshAlgo: ...
 
 #classnotwrapped
-class BRepMesh_DelaunayDeflectionControlMeshAlgo:
-	pass
+class BRepMesh_DelaunayDeflectionControlMeshAlgo: ...
 
 #classnotwrapped
-class BRepMesh_DelaunayNodeInsertionMeshAlgo:
-	pass
+class BRepMesh_DelaunayNodeInsertionMeshAlgo: ...
 
 # harray1 classes
 # harray2 classes

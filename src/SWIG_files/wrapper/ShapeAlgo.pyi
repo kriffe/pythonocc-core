@@ -20,8 +20,7 @@ class ShapeAlgo_ToolContainer(Standard_Transient):
 	def FixShape(self) -> ShapeFix_Shape: ...
 
 #classnotwrapped
-class ShapeAlgo_AlgoContainer:
-	pass
+class ShapeAlgo_AlgoContainer: ...
 
 # harray1 classes
 # harray2 classes

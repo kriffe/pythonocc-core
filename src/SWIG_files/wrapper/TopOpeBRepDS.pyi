@@ -14,8 +14,6 @@ from OCC.Core.gp import *
 from OCC.Core.TColStd import *
 
 #the following typedef cannot be wrapped as is
-TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference = NewType('TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference', Any)
-#the following typedef cannot be wrapped as is
 TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus', Any)
 #the following typedef cannot be wrapped as is
 TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference = NewType('TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference', Any)
@@ -74,6 +72,18 @@ TopOpeBRepDS_MapOfSurface = NewType('TopOpeBRepDS_MapOfSurface', Any)
 TopOpeBRepDS_PDataStructure = NewType('TopOpeBRepDS_PDataStructure', TopOpeBRepDS_DataStructure)
 #the following typedef cannot be wrapped as is
 TopOpeBRepDS_ShapeSurface = NewType('TopOpeBRepDS_ShapeSurface', Any)
+
+class TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> TopOpeBRepDS_DataMapOfIntegerListOfInterference: ...
+    def __setitem__(self, index: int, value: TopOpeBRepDS_DataMapOfIntegerListOfInterference) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[TopOpeBRepDS_DataMapOfIntegerListOfInterference]:
+    def next(self) -> TopOpeBRepDS_DataMapOfIntegerListOfInterference: ...
+    __next__ = next
 
 class TopOpeBRepDS_Config(IntEnum):
 	TopOpeBRepDS_UNSHGEOMETRY: int = ...
@@ -923,12 +933,10 @@ class TopOpeBRepDS_FaceEdgeInterference(TopOpeBRepDS_ShapeShapeInterference):
 	def __init__(self, T: TopOpeBRepDS_Transition, S: int, G: int, GIsBound: bool, C: TopOpeBRepDS_Config) -> None: ...
 
 #classnotwrapped
-class TopOpeBRepDS_DSS:
-	pass
+class TopOpeBRepDS_DSS: ...
 
 #classnotwrapped
-class TopOpeBRepDS_HDataStructure:
-	pass
+class TopOpeBRepDS_HDataStructure: ...
 
 # harray1 classes
 class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference, Standard_Transient): ...

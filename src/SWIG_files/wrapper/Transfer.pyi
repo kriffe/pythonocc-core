@@ -433,8 +433,7 @@ class Transfer_BinderOfTransientInteger(Transfer_SimpleBinderOfTransient):
 	def SetInteger(self, value: int) -> None: ...
 
 #classnotwrapped
-class Transfer_ProcessForFinder:
-	pass
+class Transfer_ProcessForFinder: ...
 
 # harray1 classes
 # harray2 classes

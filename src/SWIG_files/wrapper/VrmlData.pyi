@@ -364,24 +364,19 @@ class VrmlData_IndexedFaceSet(VrmlData_Faceted):
 	def Write(self, thePrefix: str) -> VrmlData_ErrorStatus: ...
 
 #classnotwrapped
-class VrmlData_InBuffer:
-	pass
+class VrmlData_InBuffer: ...
 
 #classnotwrapped
-class VrmlData_ArrayVec3d:
-	pass
+class VrmlData_ArrayVec3d: ...
 
 #classnotwrapped
-class VrmlData_Texture:
-	pass
+class VrmlData_Texture: ...
 
 #classnotwrapped
-class VrmlData_TextureTransform:
-	pass
+class VrmlData_TextureTransform: ...
 
 #classnotwrapped
-class VrmlData_Faceted:
-	pass
+class VrmlData_Faceted: ...
 
 # harray1 classes
 # harray2 classes

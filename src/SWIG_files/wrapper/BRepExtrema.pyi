@@ -215,8 +215,7 @@ class BRepExtrema_SelfIntersection(BRepExtrema_ElementFilter):
 	def Tolerance(self) -> float: ...
 
 #classnotwrapped
-class BRepExtrema_OverlapTool:
-	pass
+class BRepExtrema_OverlapTool: ...
 
 # harray1 classes
 # harray2 classes

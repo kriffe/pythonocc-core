@@ -613,12 +613,10 @@ class Prs3d_IsoAspect(Prs3d_LineAspect):
 	def SetNumber(self, theNumber: int) -> None: ...
 
 #classnotwrapped
-class Prs3d_WFShape:
-	pass
+class Prs3d_WFShape: ...
 
 #classnotwrapped
-class Prs3d_Point:
-	pass
+class Prs3d_Point: ...
 
 # harray1 classes
 # harray2 classes

@@ -9,8 +9,6 @@ from OCC.Core.TColStd import *
 from OCC.Core.TShort import *
 
 #the following typedef cannot be wrapped as is
-Poly_Array1OfTriangle = NewType('Poly_Array1OfTriangle', Any)
-#the following typedef cannot be wrapped as is
 Poly_BaseIteratorOfCoherentLink = NewType('Poly_BaseIteratorOfCoherentLink', Any)
 #the following typedef cannot be wrapped as is
 Poly_BaseIteratorOfCoherentNode = NewType('Poly_BaseIteratorOfCoherentNode', Any)
@@ -18,6 +16,18 @@ Poly_BaseIteratorOfCoherentNode = NewType('Poly_BaseIteratorOfCoherentNode', Any
 Poly_BaseIteratorOfCoherentTriangle = NewType('Poly_BaseIteratorOfCoherentTriangle', Any)
 #the following typedef cannot be wrapped as is
 Poly_ListOfTriangulation = NewType('Poly_ListOfTriangulation', Any)
+
+class Poly_Array1OfTriangle:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> Poly_Triangle: ...
+    def __setitem__(self, index: int, value: Poly_Triangle) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[Poly_Triangle]:
+    def next(self) -> Poly_Triangle: ...
+    __next__ = next
 
 class Poly:
 	@staticmethod
@@ -186,24 +196,19 @@ class Poly_Triangulation(Standard_Transient):
 	def UVNodes(self) -> TColgp_Array1OfPnt2d: ...
 
 #classnotwrapped
-class Poly_CoherentTriPtr:
-	pass
+class Poly_CoherentTriPtr: ...
 
 #classnotwrapped
-class Poly_CoherentTriangulation:
-	pass
+class Poly_CoherentTriangulation: ...
 
 #classnotwrapped
-class Poly_MakeLoops:
-	pass
+class Poly_MakeLoops: ...
 
 #classnotwrapped
-class Poly_MakeLoops3D:
-	pass
+class Poly_MakeLoops3D: ...
 
 #classnotwrapped
-class Poly_MakeLoops2D:
-	pass
+class Poly_MakeLoops2D: ...
 
 # harray1 classes
 class Poly_HArray1OfTriangle(Poly_Array1OfTriangle, Standard_Transient): ...

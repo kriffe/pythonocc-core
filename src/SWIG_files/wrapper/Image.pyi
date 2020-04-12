@@ -38,76 +38,58 @@ Image_Format_RGBAF = Image_Format.Image_Format_RGBAF
 Image_Format_BGRAF = Image_Format.Image_Format_BGRAF
 
 #classnotwrapped
-class Image_ColorRGB:
-	pass
+class Image_ColorRGB: ...
 
 #classnotwrapped
-class Image_ColorRGB32:
-	pass
+class Image_ColorRGB32: ...
 
 #classnotwrapped
-class Image_ColorRGBA:
-	pass
+class Image_ColorRGBA: ...
 
 #classnotwrapped
-class Image_ColorBGR:
-	pass
+class Image_ColorBGR: ...
 
 #classnotwrapped
-class Image_ColorBGR32:
-	pass
+class Image_ColorBGR32: ...
 
 #classnotwrapped
-class Image_ColorBGRA:
-	pass
+class Image_ColorBGRA: ...
 
 #classnotwrapped
-class Image_ColorRGBF:
-	pass
+class Image_ColorRGBF: ...
 
 #classnotwrapped
-class Image_ColorBGRF:
-	pass
+class Image_ColorBGRF: ...
 
 #classnotwrapped
-class Image_ColorRGBAF:
-	pass
+class Image_ColorRGBAF: ...
 
 #classnotwrapped
-class Image_ColorBGRAF:
-	pass
+class Image_ColorBGRAF: ...
 
 #classnotwrapped
-class Image_VideoParams:
-	pass
+class Image_VideoParams: ...
 
 #classnotwrapped
-class Image_VideoRecorder:
-	pass
+class Image_VideoRecorder: ...
 
 #classnotwrapped
-class Image_PixMapData:
-	pass
+class Image_PixMapData: ...
 
 #classnotwrapped
-class Image_PixMapTypedData:
-	pass
+class Image_PixMapTypedData: ...
 
 #classnotwrapped
-class Image_PixMap:
-	pass
+class Image_PixMap: ...
 
 #classnotwrapped
-class Image_Texture:
-	pass
+class Image_Texture: ...
 
 #classnotwrapped
-class Image_AlienPixMap:
-	pass
+class Image_AlienPixMap: ...
 
 #classnotwrapped
-class Image_Diff:
-	pass
+class Image_Diff: ...
 
 # harray1 classes
 # harray2 classes

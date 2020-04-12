@@ -221,12 +221,10 @@ class IntPolyh_Triangle:
 	def ThirdPoint(self) -> int: ...
 
 #classnotwrapped
-class IntPolyh_Array:
-	pass
+class IntPolyh_Array: ...
 
 #classnotwrapped
-class IntPolyh_MaillageAffinage:
-	pass
+class IntPolyh_MaillageAffinage: ...
 
 # harray1 classes
 # harray2 classes

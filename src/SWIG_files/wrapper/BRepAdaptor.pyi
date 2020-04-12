@@ -13,8 +13,18 @@ from OCC.Core.GeomAdaptor import *
 from OCC.Core.Geom2dAdaptor import *
 from OCC.Core.Adaptor2d import *
 
-#the following typedef cannot be wrapped as is
-BRepAdaptor_Array1OfCurve = NewType('BRepAdaptor_Array1OfCurve', Any)
+
+class BRepAdaptor_Array1OfCurve:
+    @overload
+    def __init__(self): ...
+    @overload
+    def __init__(self, theLower: int, theUpper: int): ...
+    def __getitem__(self, index: int) -> BRepAdaptor_Curve: ...
+    def __setitem__(self, index: int, value: BRepAdaptor_Curve) -> None: ...
+    def __len__(self) -> int: ...
+    def __iter__(self) -> Iterator[BRepAdaptor_Curve]:
+    def next(self) -> BRepAdaptor_Curve: ...
+    __next__ = next
 
 class BRepAdaptor_CompCurve(Adaptor3d_Curve):
 	@overload
