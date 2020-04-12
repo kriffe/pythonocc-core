@@ -286,7 +286,7 @@ class StdPrs_DeflectionCurve: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 StdPrs_BndBox_Add = StdPrs_BndBox.Add
 StdPrs_BndBox_Add = StdPrs_BndBox.Add

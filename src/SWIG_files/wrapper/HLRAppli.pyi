@@ -16,5 +16,5 @@ class HLRAppli_ReflectLines:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

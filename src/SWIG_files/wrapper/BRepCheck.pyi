@@ -203,7 +203,7 @@ class BRepCheck_Wire(BRepCheck_Result):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepcheck_Add = brepcheck.Add
 brepcheck_PrecCurve = brepcheck.PrecCurve

@@ -110,5 +110,5 @@ class FairCurve_MinimalVariation(FairCurve_Batten):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

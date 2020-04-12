@@ -407,7 +407,7 @@ class Contap_TheSegmentOfTheSearch:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class Contap_TheHSequenceOfPoint(Contap_TheSequenceOfPoint, Standard_Transient):
     def __init__(self) -> None: ...

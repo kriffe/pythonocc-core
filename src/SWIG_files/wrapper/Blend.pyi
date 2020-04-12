@@ -333,5 +333,5 @@ class Blend_SurfRstFunction(Blend_AppFunction):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

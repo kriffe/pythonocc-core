@@ -138,7 +138,7 @@ class GeomConvert_CompCurveToBSplineCurve:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve
 geomconvert_C0BSplineToArrayOfC1BSplineCurve = geomconvert.C0BSplineToArrayOfC1BSplineCurve

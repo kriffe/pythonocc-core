@@ -227,5 +227,5 @@ class GccAna_Pnt2dBisec:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

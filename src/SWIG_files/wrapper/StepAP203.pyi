@@ -296,5 +296,5 @@ class StepAP203_HArray1OfWorkItem(StepAP203_Array1OfWorkItem, Standard_Transient
 class StepAP203_HArray1OfClassifiedItem(StepAP203_Array1OfClassifiedItem, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

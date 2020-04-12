@@ -38,6 +38,6 @@ class BinMNaming_NamingDriver(BinMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binmnaming_AddDrivers = binmnaming.AddDrivers

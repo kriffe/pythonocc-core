@@ -104,7 +104,7 @@ class Resource_Unicode:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Resource_Manager_GetResourcePath = Resource_Manager.GetResourcePath
 Resource_Unicode_ConvertANSIToUnicode = Resource_Unicode.ConvertANSIToUnicode

@@ -34,7 +34,7 @@ class GeomProjLib:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomprojlib_Curve2d = geomprojlib.Curve2d
 geomprojlib_Curve2d = geomprojlib.Curve2d

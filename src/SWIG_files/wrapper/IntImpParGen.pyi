@@ -24,7 +24,7 @@ class IntImpParGen_ImpTool: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 intimppargen_DeterminePosition = intimppargen.DeterminePosition
 intimppargen_DetermineTransition = intimppargen.DetermineTransition

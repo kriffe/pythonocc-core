@@ -570,7 +570,7 @@ class AppDef_LinearCriteria(AppDef_SmoothCriterion):
 class AppDef_HArray1OfMultiPointConstraint(AppDef_Array1OfMultiPointConstraint, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature
 AppDef_MyLineTool_Curvature = AppDef_MyLineTool.Curvature

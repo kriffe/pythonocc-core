@@ -29,5 +29,5 @@ class Geom2dEvaluator_OffsetCurve(Geom2dEvaluator_Curve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

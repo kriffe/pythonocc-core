@@ -73,7 +73,7 @@ class LocalAnalysis_SurfaceContinuity:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 localanalysis_Dump = localanalysis.Dump
 localanalysis_Dump = localanalysis.Dump

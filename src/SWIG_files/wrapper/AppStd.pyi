@@ -11,5 +11,5 @@ class AppStd_Application(TDocStd_Application):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

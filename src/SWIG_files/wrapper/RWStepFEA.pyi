@@ -322,5 +322,5 @@ class RWStepFEA_RWVolume3dElementRepresentation:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

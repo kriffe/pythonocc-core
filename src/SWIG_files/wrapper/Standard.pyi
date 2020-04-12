@@ -211,7 +211,7 @@ class Standard_ReadBuffer: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 standard_Allocate = standard.Allocate
 standard_AllocateAligned = standard.AllocateAligned

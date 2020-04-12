@@ -195,7 +195,7 @@ class ElSLib:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 elslib_ConeD0 = elslib.ConeD0
 elslib_ConeD1 = elslib.ConeD1

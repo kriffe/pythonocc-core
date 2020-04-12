@@ -93,6 +93,6 @@ class STEPControl_Writer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 STEPControl_Controller_Init = STEPControl_Controller.Init

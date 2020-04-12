@@ -380,7 +380,7 @@ class VrmlData_Faceted: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 VrmlData_Node_GlobalIndent = VrmlData_Node.GlobalIndent
 VrmlData_Node_OK = VrmlData_Node.OK

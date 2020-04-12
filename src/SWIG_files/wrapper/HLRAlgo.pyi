@@ -380,7 +380,7 @@ class HLRAlgo_HArray1OfTData(HLRAlgo_Array1OfTData, Standard_Transient): ...
 class HLRAlgo_HArray1OfPISeg(HLRAlgo_Array1OfPISeg, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 hlralgo_AddMinMax = hlralgo.AddMinMax
 hlralgo_CopyMinMax = hlralgo.CopyMinMax

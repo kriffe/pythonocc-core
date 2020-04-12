@@ -180,7 +180,7 @@ class PCDM_Document: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 pcdm_FileDriverType = pcdm.FileDriverType
 pcdm_FileDriverType = pcdm.FileDriverType

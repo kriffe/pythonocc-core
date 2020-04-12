@@ -158,7 +158,7 @@ class PLib_JacobiPolynomial(PLib_Base):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 plib_Bin = plib.Bin
 plib_CoefficientsPoles = plib.CoefficientsPoles

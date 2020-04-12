@@ -1947,7 +1947,7 @@ class gp_XYZ:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 gp_DX = gp.DX
 gp_DX2d = gp.DX2d

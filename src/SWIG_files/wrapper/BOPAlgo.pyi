@@ -458,7 +458,7 @@ class BOPAlgo_Splitter(BOPAlgo_ToolsProvider):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BOPAlgo_Options_GetParallelMode = BOPAlgo_Options.GetParallelMode
 BOPAlgo_Options_SetParallelMode = BOPAlgo_Options.SetParallelMode

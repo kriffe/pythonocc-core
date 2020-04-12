@@ -183,7 +183,7 @@ class TransferBRep_ShapeBinder(TransferBRep_BinderOfShape):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class TransferBRep_HSequenceOfTransferResultInfo(TransferBRep_SequenceOfTransferResultInfo, Standard_Transient):
     def __init__(self) -> None: ...

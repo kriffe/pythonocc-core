@@ -105,7 +105,7 @@ class StepToGeom:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 steptogeom_MakeAxis1Placement = steptogeom.MakeAxis1Placement
 steptogeom_MakeAxis2Placement = steptogeom.MakeAxis2Placement

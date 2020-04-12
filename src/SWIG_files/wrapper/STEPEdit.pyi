@@ -41,7 +41,7 @@ class STEPEdit_EditSDR(IFSelect_Editor):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 stepedit_NewModel = stepedit.NewModel
 stepedit_NewSelectPlacedItem = stepedit.NewSelectPlacedItem

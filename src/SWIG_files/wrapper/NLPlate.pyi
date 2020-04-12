@@ -103,5 +103,5 @@ class NLPlate_HPG0G3Constraint(NLPlate_HPG0G2Constraint):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

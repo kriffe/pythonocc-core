@@ -530,7 +530,7 @@ class BRepLib_MakeWire(BRepLib_MakeShape):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 breplib_BoundingVertex = breplib.BoundingVertex
 breplib_BuildCurve3d = breplib.BuildCurve3d

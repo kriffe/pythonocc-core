@@ -93,5 +93,5 @@ class BRepTopAdaptor_TopolTool(Adaptor3d_TopolTool):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

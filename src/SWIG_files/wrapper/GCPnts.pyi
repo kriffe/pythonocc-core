@@ -231,7 +231,7 @@ class GCPnts_DistFunction2d: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length
 GCPnts_AbscissaPoint_Length = GCPnts_AbscissaPoint.Length

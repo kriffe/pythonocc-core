@@ -49,7 +49,7 @@ class XmlLDrivers_NamespaceDef:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlldrivers_AttributeDrivers = xmlldrivers.AttributeDrivers
 xmlldrivers_CreationDate = xmlldrivers.CreationDate

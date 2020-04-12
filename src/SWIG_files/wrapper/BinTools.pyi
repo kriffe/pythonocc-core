@@ -66,7 +66,7 @@ class BinTools_SurfaceSet:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bintools_GetBool = bintools.GetBool
 bintools_GetExtChar = bintools.GetExtChar

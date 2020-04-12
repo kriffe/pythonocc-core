@@ -239,7 +239,7 @@ class BRepTools_TrsfModification(BRepTools_Modification):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 breptools_AddUVBounds = breptools.AddUVBounds
 breptools_AddUVBounds = breptools.AddUVBounds

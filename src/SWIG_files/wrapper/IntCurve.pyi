@@ -160,7 +160,7 @@ class IntCurve_ProjectOnPConicTool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IntCurve_PConicTool_D1 = IntCurve_PConicTool.D1
 IntCurve_PConicTool_D2 = IntCurve_PConicTool.D2

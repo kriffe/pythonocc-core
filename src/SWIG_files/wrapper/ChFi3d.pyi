@@ -161,7 +161,7 @@ class ChFi3d_FilBuilder(ChFi3d_Builder):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 chfi3d_ConcaveSide = chfi3d.ConcaveSide
 chfi3d_NextSide = chfi3d.NextSide

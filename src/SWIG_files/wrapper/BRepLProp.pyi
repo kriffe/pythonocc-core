@@ -96,7 +96,7 @@ class BRepLProp_SurfaceTool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 breplprop_Continuity = breplprop.Continuity
 breplprop_Continuity = breplprop.Continuity

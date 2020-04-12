@@ -7,5 +7,5 @@ from OCC.Core.NCollection import *
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

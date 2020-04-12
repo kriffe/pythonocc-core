@@ -61,5 +61,5 @@ class GccInt_BPoint(GccInt_Bisec):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

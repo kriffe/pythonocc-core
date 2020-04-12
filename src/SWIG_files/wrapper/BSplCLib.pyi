@@ -473,7 +473,7 @@ class BSplCLib_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bsplclib_AntiBoorScheme = bsplclib.AntiBoorScheme
 bsplclib_Bohm = bsplclib.Bohm

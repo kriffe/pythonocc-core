@@ -267,7 +267,7 @@ class IntCurveSurface_ThePolyhedronOfHInter: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IntCurveSurface_TheHCurveTool_BSpline = IntCurveSurface_TheHCurveTool.BSpline
 IntCurveSurface_TheHCurveTool_Bezier = IntCurveSurface_TheHCurveTool.Bezier

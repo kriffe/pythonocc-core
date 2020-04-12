@@ -176,7 +176,7 @@ class StdSelect_ViewerSelector3d(SelectMgr_ViewerSelector):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 stdselect_SetDrawerForBRepOwner = stdselect.SetDrawerForBRepOwner
 StdSelect_BRepSelectionTool_ComputeSensitive = StdSelect_BRepSelectionTool.ComputeSensitive

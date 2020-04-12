@@ -319,7 +319,7 @@ class BOPTools_PairSelector: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BOPTools_AlgoTools_AreFacesSameDomain = BOPTools_AlgoTools.AreFacesSameDomain
 BOPTools_AlgoTools_ComputeState = BOPTools_AlgoTools.ComputeState

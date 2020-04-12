@@ -53,7 +53,7 @@ class Precision:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 precision_Angular = precision.Angular
 precision_Approximation = precision.Approximation

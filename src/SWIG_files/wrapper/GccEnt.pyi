@@ -79,7 +79,7 @@ class GccEnt_QualifiedLin:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 gccent_Enclosed = gccent.Enclosed
 gccent_Enclosed = gccent.Enclosed

@@ -107,7 +107,7 @@ class XmlMDataXtd_TriangulationDriver(XmlMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlmdataxtd_AddDrivers = xmlmdataxtd.AddDrivers
 xmlmdataxtd_DocumentVersion = xmlmdataxtd.DocumentVersion

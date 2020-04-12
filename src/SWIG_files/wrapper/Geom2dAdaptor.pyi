@@ -78,6 +78,6 @@ class Geom2dAdaptor_HCurve(Geom2dAdaptor_GHCurve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geom2dadaptor_MakeCurve = geom2dadaptor.MakeCurve

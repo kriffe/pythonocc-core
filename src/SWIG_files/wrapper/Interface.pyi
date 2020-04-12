@@ -1026,7 +1026,7 @@ class Interface_Static(Interface_TypedValue):
 class Interface_HArray1OfHAsciiString(Interface_Array1OfHAsciiString, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class Interface_HSequenceOfCheck(Interface_SequenceOfCheck, Standard_Transient):
     def __init__(self) -> None: ...

@@ -24,7 +24,7 @@ class ShapeAlgo_AlgoContainer: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 shapealgo_AlgoContainer = shapealgo.AlgoContainer
 shapealgo_Init = shapealgo.Init

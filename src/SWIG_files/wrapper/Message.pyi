@@ -581,7 +581,7 @@ class Message_PrinterOStream(Message_Printer):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 message_DefaultMessenger = message.DefaultMessenger
 message_FillTime = message.FillTime

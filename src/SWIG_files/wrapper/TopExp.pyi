@@ -53,7 +53,7 @@ class TopExp_Explorer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topexp_CommonVertex = topexp.CommonVertex
 topexp_FirstVertex = topexp.FirstVertex

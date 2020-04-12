@@ -214,7 +214,7 @@ class Poly_MakeLoops2D: ...
 class Poly_HArray1OfTriangle(Poly_Array1OfTriangle, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 poly_Catenate = poly.Catenate
 poly_ComputeNormals = poly.ComputeNormals

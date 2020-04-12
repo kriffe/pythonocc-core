@@ -22,6 +22,6 @@ class ApproxInt_SvSurfaces:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 ApproxInt_KnotTools_BuildKnots = ApproxInt_KnotTools.BuildKnots

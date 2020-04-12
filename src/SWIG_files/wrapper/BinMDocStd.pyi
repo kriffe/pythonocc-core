@@ -23,6 +23,6 @@ class BinMDocStd_XLinkDriver(BinMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binmdocstd_AddDrivers = binmdocstd.AddDrivers

@@ -553,7 +553,7 @@ class StepFEA_HArray1OfDegreeOfFreedom(StepFEA_Array1OfDegreeOfFreedom, Standard
 class StepFEA_HArray1OfNodeRepresentation(StepFEA_Array1OfNodeRepresentation, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class StepFEA_HSequenceOfElementRepresentation(StepFEA_SequenceOfElementRepresentation, Standard_Transient):
     def __init__(self) -> None: ...

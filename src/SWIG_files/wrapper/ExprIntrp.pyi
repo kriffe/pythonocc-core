@@ -83,7 +83,7 @@ class ExprIntrp_GenRel(ExprIntrp_Generator):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 ExprIntrp_GenExp_Create = ExprIntrp_GenExp.Create
 ExprIntrp_GenFct_Create = ExprIntrp_GenFct.Create

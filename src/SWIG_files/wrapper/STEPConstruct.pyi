@@ -290,7 +290,7 @@ class STEPConstruct_ValidationProps(STEPConstruct_Tool):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 stepconstruct_FindCDSR = stepconstruct.FindCDSR
 stepconstruct_FindEntity = stepconstruct.FindEntity

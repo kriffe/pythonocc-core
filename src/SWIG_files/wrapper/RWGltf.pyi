@@ -167,5 +167,5 @@ class RWGltf_CafReader: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

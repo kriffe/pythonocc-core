@@ -42,5 +42,5 @@ class LProp_CurAndInf:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

@@ -174,5 +174,5 @@ class Plate_SampledCurveConstraint:
 class Plate_HArray1OfPinpointConstraint(Plate_Array1OfPinpointConstraint, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

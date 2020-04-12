@@ -46,7 +46,7 @@ class GeomTools_UndefinedTypeHandler(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomtools_Dump = geomtools.Dump
 geomtools_Dump = geomtools.Dump

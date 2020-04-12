@@ -103,7 +103,7 @@ class XmlObjMgt_SRelocationTable(TColStd_IndexedMapOfTransient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlobjmgt_FindChildByName = xmlobjmgt.FindChildByName
 xmlobjmgt_FindChildByRef = xmlobjmgt.FindChildByRef

@@ -108,5 +108,5 @@ class IMeshData_Wire(IMeshData_TessellatedShape, IMeshData_StatusOwner):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

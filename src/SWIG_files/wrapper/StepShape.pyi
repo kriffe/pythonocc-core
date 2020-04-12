@@ -903,5 +903,5 @@ class StepShape_HArray1OfOrientedClosedShell(StepShape_Array1OfOrientedClosedShe
 class StepShape_HArray1OfOrientedEdge(StepShape_Array1OfOrientedEdge, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

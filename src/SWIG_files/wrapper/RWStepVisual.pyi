@@ -446,5 +446,5 @@ class RWStepVisual_RWViewVolume:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

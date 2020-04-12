@@ -301,5 +301,5 @@ class RWStepDimTol_RWUnequallyDisposedGeometricTolerance:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

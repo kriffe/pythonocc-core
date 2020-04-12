@@ -128,7 +128,7 @@ class BndLib_AddSurface:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bndlib_Add = bndlib.Add
 bndlib_Add = bndlib.Add

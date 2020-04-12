@@ -76,5 +76,5 @@ class RWStepAP203_RWStartWork:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

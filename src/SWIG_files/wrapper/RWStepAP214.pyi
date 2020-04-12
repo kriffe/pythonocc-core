@@ -193,6 +193,6 @@ class RWStepAP214_ReadWriteModule(StepData_ReadWriteModule):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 rwstepap214_Init = rwstepap214.Init

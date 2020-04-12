@@ -78,7 +78,7 @@ class Geom2dLProp_NumericCurInf2d:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Geom2dLProp_Curve2dTool_Continuity = Geom2dLProp_Curve2dTool.Continuity
 Geom2dLProp_Curve2dTool_D1 = Geom2dLProp_Curve2dTool.D1

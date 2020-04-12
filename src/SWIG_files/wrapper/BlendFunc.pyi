@@ -511,7 +511,7 @@ class BlendFunc_ConstThroatWithPenetrationInv(BlendFunc_ConstThroatInv):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 blendfunc_ComputeDNormal = blendfunc.ComputeDNormal
 blendfunc_ComputeNormal = blendfunc.ComputeNormal

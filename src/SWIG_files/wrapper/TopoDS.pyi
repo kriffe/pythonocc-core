@@ -243,7 +243,7 @@ class TopoDS_Wire(TopoDS_Shape):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topods_CompSolid = topods.CompSolid
 topods_CompSolid = topods.CompSolid

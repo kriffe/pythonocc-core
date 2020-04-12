@@ -415,7 +415,7 @@ class ProjLib_Torus(ProjLib_Projector):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class ProjLib_HSequenceOfHSequenceOfPnt(ProjLib_SequenceOfHSequenceOfPnt, Standard_Transient):
     def __init__(self) -> None: ...

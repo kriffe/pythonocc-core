@@ -235,7 +235,7 @@ class GeomAPI_ProjectPointOnSurf:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomapi_To2d = geomapi.To2d
 geomapi_To3d = geomapi.To3d

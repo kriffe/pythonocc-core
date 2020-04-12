@@ -557,7 +557,7 @@ class TopOpeBRepTool_mkTondgE: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topopebreptool_CorrectONUVISO = topopebreptool.CorrectONUVISO
 topopebreptool_MakeFaces = topopebreptool.MakeFaces

@@ -48,6 +48,6 @@ class VrmlAPI_Writer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 vrmlapi_Write = vrmlapi.Write

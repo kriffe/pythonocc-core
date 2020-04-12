@@ -95,7 +95,7 @@ class ShapeProcess_UOperator(ShapeProcess_Operator):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 shapeprocess_FindOperator = shapeprocess.FindOperator
 shapeprocess_Perform = shapeprocess.Perform

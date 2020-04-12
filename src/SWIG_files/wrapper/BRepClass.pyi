@@ -83,5 +83,5 @@ class BRepClass_FaceClassifier: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

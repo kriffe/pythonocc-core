@@ -162,5 +162,5 @@ class GCE2d_MakeSegment(GCE2d_Root):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

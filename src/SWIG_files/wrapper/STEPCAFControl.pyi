@@ -197,7 +197,7 @@ class STEPCAFControl_Writer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 STEPCAFControl_Controller_Init = STEPCAFControl_Controller.Init
 STEPCAFControl_GDTProperty_GetDatumRefModifiers = STEPCAFControl_GDTProperty.GetDatumRefModifiers

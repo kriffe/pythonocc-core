@@ -19,5 +19,5 @@ class ShapeProcessAPI_ApplySequence:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

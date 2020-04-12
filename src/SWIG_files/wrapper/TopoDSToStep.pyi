@@ -208,7 +208,7 @@ class TopoDSToStep_WireframeBuilder(TopoDSToStep_Root):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topodstostep_AddResult = topodstostep.AddResult
 topodstostep_AddResult = topodstostep.AddResult

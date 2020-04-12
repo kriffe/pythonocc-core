@@ -19,7 +19,7 @@ class BRepBndLib:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepbndlib_Add = brepbndlib.Add
 brepbndlib_AddClose = brepbndlib.AddClose

@@ -441,7 +441,7 @@ class BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox(math_FunctionSetWith
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BRepApprox_TheMultiLineToolOfApprox_Curvature = BRepApprox_TheMultiLineToolOfApprox.Curvature
 BRepApprox_TheMultiLineToolOfApprox_Curvature = BRepApprox_TheMultiLineToolOfApprox.Curvature

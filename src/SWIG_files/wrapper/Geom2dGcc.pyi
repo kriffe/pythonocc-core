@@ -446,7 +446,7 @@ class Geom2dGcc_FunctionTanCuCuCu: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geom2dgcc_Enclosed = geom2dgcc.Enclosed
 geom2dgcc_Enclosing = geom2dgcc.Enclosing

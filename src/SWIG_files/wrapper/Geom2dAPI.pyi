@@ -106,5 +106,5 @@ class Geom2dAPI_ProjectPointOnCurve:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

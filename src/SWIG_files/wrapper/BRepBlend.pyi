@@ -543,5 +543,5 @@ class BRepBlend_AppFuncRstRst(BRepBlend_AppFuncRoot):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

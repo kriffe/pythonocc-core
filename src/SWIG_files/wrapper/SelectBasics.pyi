@@ -53,7 +53,7 @@ class SelectBasics_SelectingVolumeManager:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 selectbasics_MaxOwnerPriority = selectbasics.MaxOwnerPriority
 selectbasics_MinOwnerPriority = selectbasics.MinOwnerPriority

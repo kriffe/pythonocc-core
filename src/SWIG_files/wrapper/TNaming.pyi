@@ -485,7 +485,7 @@ class TNaming_UsedShapes(TDF_Attribute):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tnaming_ChangeShapes = tnaming.ChangeShapes
 tnaming_Displace = tnaming.Displace

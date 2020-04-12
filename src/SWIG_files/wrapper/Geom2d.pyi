@@ -563,7 +563,7 @@ class Geom2d_TrimmedCurve(Geom2d_BoundedCurve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Geom2d_BSplineCurve_MaxDegree = Geom2d_BSplineCurve.MaxDegree
 Geom2d_BezierCurve_MaxDegree = Geom2d_BezierCurve.MaxDegree

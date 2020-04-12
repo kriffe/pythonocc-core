@@ -757,7 +757,7 @@ class IntPatch_Polyhedron: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IntPatch_HCurve2dTool_BSpline = IntPatch_HCurve2dTool.BSpline
 IntPatch_HCurve2dTool_Bezier = IntPatch_HCurve2dTool.Bezier

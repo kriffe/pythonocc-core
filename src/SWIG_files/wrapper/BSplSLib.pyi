@@ -107,7 +107,7 @@ class BSplSLib_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bsplslib_BuildCache = bsplslib.BuildCache
 bsplslib_BuildCache = bsplslib.BuildCache

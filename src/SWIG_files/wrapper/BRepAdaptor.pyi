@@ -227,5 +227,5 @@ class BRepAdaptor_Surface(Adaptor3d_Surface):
 class BRepAdaptor_HArray1OfCurve(BRepAdaptor_Array1OfCurve, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

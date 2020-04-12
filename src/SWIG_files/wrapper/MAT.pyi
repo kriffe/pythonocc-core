@@ -277,5 +277,5 @@ class MAT_Zone(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

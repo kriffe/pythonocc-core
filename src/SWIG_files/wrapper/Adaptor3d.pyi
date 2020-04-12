@@ -443,7 +443,7 @@ class Adaptor3d_IsoCurve(Adaptor3d_Curve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Adaptor3d_HSurfaceTool_AxeOfRevolution = Adaptor3d_HSurfaceTool.AxeOfRevolution
 Adaptor3d_HSurfaceTool_BSpline = Adaptor3d_HSurfaceTool.BSpline

@@ -155,5 +155,5 @@ class BiTgte_HCurveOnVertex(Adaptor3d_HCurve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

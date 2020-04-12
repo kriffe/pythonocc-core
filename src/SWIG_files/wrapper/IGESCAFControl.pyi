@@ -58,7 +58,7 @@ class IGESCAFControl_Writer(IGESControl_Writer):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 igescafcontrol_DecodeColor = igescafcontrol.DecodeColor
 igescafcontrol_EncodeColor = igescafcontrol.EncodeColor

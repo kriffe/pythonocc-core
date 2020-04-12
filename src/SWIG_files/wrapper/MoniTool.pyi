@@ -302,7 +302,7 @@ class MoniTool_TransientElem(MoniTool_Element):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class MoniTool_HSequenceOfElement(MoniTool_SequenceOfElement, Standard_Transient):
     def __init__(self) -> None: ...

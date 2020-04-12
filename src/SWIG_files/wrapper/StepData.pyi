@@ -602,7 +602,7 @@ class StepData_UndefinedEntity: ...
 class StepData_HArray1OfField(StepData_Array1OfField, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 stepdata_AddHeaderProtocol = stepdata.AddHeaderProtocol
 stepdata_HeaderProtocol = stepdata.HeaderProtocol

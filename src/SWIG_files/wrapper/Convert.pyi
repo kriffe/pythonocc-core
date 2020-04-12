@@ -162,5 +162,5 @@ class Convert_TorusToBSplineSurface(Convert_ElementarySurfaceToBSplineSurface):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

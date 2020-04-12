@@ -121,5 +121,5 @@ class IntRes2d_Transition:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

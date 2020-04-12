@@ -81,5 +81,5 @@ class StepAP242_GeometricItemSpecificUsage(StepAP242_ItemIdentifiedRepresentatio
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

@@ -29,7 +29,7 @@ class RWStl_Reader: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 rwstl_ReadAscii = rwstl.ReadAscii
 rwstl_ReadBinary = rwstl.ReadBinary

@@ -478,7 +478,7 @@ class BRepFill_DraftLaw(BRepFill_Edge3DLaw):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepfill_Axe = brepfill.Axe
 brepfill_ComputeACR = brepfill.ComputeACR

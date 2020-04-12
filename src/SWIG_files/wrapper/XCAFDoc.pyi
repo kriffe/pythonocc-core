@@ -946,7 +946,7 @@ class XCAFDoc_GeomTolerance: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xcafdoc_AssemblyGUID = xcafdoc.AssemblyGUID
 xcafdoc_ColorByLayerGUID = xcafdoc.ColorByLayerGUID

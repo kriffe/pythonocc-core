@@ -33,7 +33,7 @@ class ChFiKPart_ComputeData:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 ChFiKPart_ComputeData_Compute = ChFiKPart_ComputeData.Compute
 ChFiKPart_ComputeData_ComputeCorner = ChFiKPart_ComputeData.ComputeCorner

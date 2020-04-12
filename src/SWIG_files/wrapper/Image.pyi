@@ -93,5 +93,5 @@ class Image_Diff: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

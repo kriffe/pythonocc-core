@@ -692,7 +692,7 @@ class math_SingleTab: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 math_GaussPoints = math.GaussPoints
 math_GaussPointsMax = math.GaussPointsMax

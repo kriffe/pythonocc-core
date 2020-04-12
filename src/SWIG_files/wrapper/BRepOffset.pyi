@@ -296,7 +296,7 @@ class BRepOffset_Tool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepoffset_CollapseSingularities = brepoffset.CollapseSingularities
 brepoffset_Surface = brepoffset.Surface

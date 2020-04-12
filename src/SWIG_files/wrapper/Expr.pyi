@@ -616,7 +616,7 @@ class Expr_Sign: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 expr_CopyShare = expr.CopyShare
 expr_NbOfFreeVariables = expr.NbOfFreeVariables

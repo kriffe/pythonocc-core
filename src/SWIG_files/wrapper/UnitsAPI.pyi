@@ -88,7 +88,7 @@ class UnitsAPI:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 unitsapi_AnyFromLS = unitsapi.AnyFromLS
 unitsapi_AnyFromSI = unitsapi.AnyFromSI

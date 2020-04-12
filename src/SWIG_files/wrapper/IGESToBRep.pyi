@@ -204,7 +204,7 @@ class IGESToBRep_TopoSurface(IGESToBRep_CurveAndSurface):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 igestobrep_AlgoContainer = igestobrep.AlgoContainer
 igestobrep_IGESCurveToSequenceOfIGESCurve = igestobrep.IGESCurveToSequenceOfIGESCurve

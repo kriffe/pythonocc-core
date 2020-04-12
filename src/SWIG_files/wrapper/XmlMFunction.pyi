@@ -39,6 +39,6 @@ class XmlMFunction_ScopeDriver(XmlMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlmfunction_AddDrivers = xmlmfunction.AddDrivers

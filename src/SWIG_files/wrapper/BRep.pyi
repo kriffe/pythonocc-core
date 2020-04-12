@@ -599,7 +599,7 @@ class BRep_CurveOnClosedSurface(BRep_CurveOnSurface):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BRep_Tool_Continuity = BRep_Tool.Continuity
 BRep_Tool_Continuity = BRep_Tool.Continuity

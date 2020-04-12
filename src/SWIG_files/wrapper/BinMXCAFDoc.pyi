@@ -224,6 +224,6 @@ class BinMXCAFDoc_NoteBalloonDriver(BinMXCAFDoc_NoteCommentDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binmxcafdoc_AddDrivers = binmxcafdoc.AddDrivers

@@ -250,7 +250,7 @@ class Geom2dInt_TheProjPCurOfGInter:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Geom2dInt_Geom2dCurveTool_Circle = Geom2dInt_Geom2dCurveTool.Circle
 Geom2dInt_Geom2dCurveTool_D0 = Geom2dInt_Geom2dCurveTool.D0

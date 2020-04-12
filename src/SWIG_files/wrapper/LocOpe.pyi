@@ -340,7 +340,7 @@ class LocOpe_RevolutionForm: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 locope_Closed = locope.Closed
 locope_Closed = locope.Closed

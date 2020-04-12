@@ -620,7 +620,7 @@ class Prs3d_Point: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 prs3d_AddPrimitivesGroup = prs3d.AddPrimitivesGroup
 prs3d_GetDeflection = prs3d.GetDeflection

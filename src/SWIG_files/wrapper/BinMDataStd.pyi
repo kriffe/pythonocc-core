@@ -223,6 +223,6 @@ class BinMDataStd_VariableDriver(BinMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binmdatastd_AddDrivers = binmdatastd.AddDrivers

@@ -942,7 +942,7 @@ class TopOpeBRepDS_HDataStructure: ...
 class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference(TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topopebrepds_IsGeometry = topopebrepds.IsGeometry
 topopebrepds_IsTopology = topopebrepds.IsTopology

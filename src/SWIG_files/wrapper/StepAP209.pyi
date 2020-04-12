@@ -58,5 +58,5 @@ class StepAP209_Construct(STEPConstruct_Tool):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

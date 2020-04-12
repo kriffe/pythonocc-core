@@ -275,7 +275,7 @@ class Units_Dimensions: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class Units_TokensSequence(Units_TksSequence, Standard_Transient):
     def __init__(self) -> None: ...

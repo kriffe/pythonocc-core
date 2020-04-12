@@ -189,7 +189,7 @@ class CDF_FWOSDriver(CDF_MetaDataDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 cdf_GetLicense = cdf.GetLicense
 cdf_IsAvailable = cdf.IsAvailable

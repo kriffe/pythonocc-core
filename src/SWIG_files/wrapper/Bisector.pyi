@@ -217,6 +217,6 @@ class Bisector_BisecPC(Bisector_Curve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bisector_IsConvex = bisector.IsConvex

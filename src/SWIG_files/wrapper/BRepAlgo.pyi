@@ -174,7 +174,7 @@ class BRepAlgo_Section(BRepAlgo_BooleanOperation):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepalgo_ConcatenateWire = brepalgo.ConcatenateWire
 brepalgo_ConcatenateWireC0 = brepalgo.ConcatenateWireC0

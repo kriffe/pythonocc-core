@@ -71,7 +71,7 @@ class TopAbs:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topabs_Complement = topabs.Complement
 topabs_Compose = topabs.Compose

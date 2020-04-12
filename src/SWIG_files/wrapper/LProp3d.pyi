@@ -87,7 +87,7 @@ class LProp3d_SurfaceTool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 LProp3d_CurveTool_Continuity = LProp3d_CurveTool.Continuity
 LProp3d_CurveTool_D1 = LProp3d_CurveTool.D1

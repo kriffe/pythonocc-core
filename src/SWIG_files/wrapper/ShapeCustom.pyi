@@ -136,7 +136,7 @@ class ShapeCustom_ConvertToRevolution: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 shapecustom_BSplineRestriction = shapecustom.BSplineRestriction
 shapecustom_ConvertToBSpline = shapecustom.ConvertToBSpline

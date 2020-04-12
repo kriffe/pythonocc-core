@@ -85,7 +85,7 @@ class CSLib_NormalPolyDef(math_FunctionWithDerivative):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 cslib_DNNUV = cslib.DNNUV
 cslib_DNNUV = cslib.DNNUV

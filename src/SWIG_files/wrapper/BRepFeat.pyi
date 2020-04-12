@@ -321,7 +321,7 @@ class BRepFeat_MakeRevolutionForm(BRepFeat_RibSlot):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepfeat_Barycenter = brepfeat.Barycenter
 brepfeat_FaceUntil = brepfeat.FaceUntil

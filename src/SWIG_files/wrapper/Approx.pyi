@@ -234,5 +234,5 @@ class Approx_HArray1OfGTrsf2d(Approx_Array1OfGTrsf2d, Standard_Transient): ...
 class Approx_HArray1OfAdHSurface(Approx_Array1OfAdHSurface, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

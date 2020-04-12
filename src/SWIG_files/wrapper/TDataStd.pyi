@@ -871,7 +871,7 @@ class TDataStd_Variable(TDF_Attribute):
 class TDataStd_HLabelArray1(TDataStd_LabelArray1, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tdatastd_IDList = tdatastd.IDList
 tdatastd_Print = tdatastd.Print

@@ -256,5 +256,5 @@ class BRepOffsetAPI_MakeThickSolid(BRepOffsetAPI_MakeOffsetShape):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

@@ -74,7 +74,7 @@ class Geom2dConvert_CompCurveToBSplineCurve:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geom2dconvert_C0BSplineToArrayOfC1BSplineCurve = geom2dconvert.C0BSplineToArrayOfC1BSplineCurve
 geom2dconvert_C0BSplineToArrayOfC1BSplineCurve = geom2dconvert.C0BSplineToArrayOfC1BSplineCurve

@@ -543,7 +543,7 @@ class MeshVS_VectorPrsBuilder(MeshVS_PrsBuilder):
 class MeshVS_HArray1OfSequenceOfInteger(MeshVS_Array1OfSequenceOfInteger, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 MeshVS_SymmetricPairHasher_HashCode = MeshVS_SymmetricPairHasher.HashCode
 MeshVS_SymmetricPairHasher_IsEqual = MeshVS_SymmetricPairHasher.IsEqual

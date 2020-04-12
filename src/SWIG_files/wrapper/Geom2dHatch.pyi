@@ -187,5 +187,5 @@ class Geom2dHatch_Intersector(Geom2dInt_GInter):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

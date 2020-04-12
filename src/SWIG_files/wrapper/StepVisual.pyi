@@ -951,5 +951,5 @@ class StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect(StepVisual
 class StepVisual_HArray1OfInvisibleItem(StepVisual_Array1OfInvisibleItem, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

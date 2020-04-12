@@ -104,7 +104,7 @@ class XCAFPrs_Style:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xcafprs_CollectStyleSettings = xcafprs.CollectStyleSettings
 xcafprs_GetViewNameMode = xcafprs.GetViewNameMode

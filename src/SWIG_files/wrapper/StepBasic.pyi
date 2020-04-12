@@ -1389,5 +1389,5 @@ class StepBasic_HArray1OfDocument(StepBasic_Array1OfDocument, Standard_Transient
 class StepBasic_HArray1OfProduct(StepBasic_Array1OfProduct, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

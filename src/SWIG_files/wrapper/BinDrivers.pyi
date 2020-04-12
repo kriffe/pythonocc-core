@@ -40,7 +40,7 @@ class BinDrivers_DocumentStorageDriver(BinLDrivers_DocumentStorageDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bindrivers_AttributeDrivers = bindrivers.AttributeDrivers
 bindrivers_DefineFormat = bindrivers.DefineFormat

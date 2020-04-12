@@ -56,7 +56,7 @@ class BinLDrivers_DocumentStorageDriver(PCDM_StorageDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binldrivers_AttributeDrivers = binldrivers.AttributeDrivers
 binldrivers_DefineFormat = binldrivers.DefineFormat

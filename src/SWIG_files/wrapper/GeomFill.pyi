@@ -990,7 +990,7 @@ class GeomFill_HArray1OfLocationLaw(GeomFill_Array1OfLocationLaw, Standard_Trans
 class GeomFill_HArray1OfSectionLaw(GeomFill_Array1OfSectionLaw, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class GeomFill_HSequenceOfAx2(GeomFill_SequenceOfAx2, Standard_Transient):
     def __init__(self) -> None: ...

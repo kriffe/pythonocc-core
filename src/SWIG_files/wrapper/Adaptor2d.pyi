@@ -176,5 +176,5 @@ class Adaptor2d_OffsetCurve(Adaptor2d_Curve2d):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

@@ -96,7 +96,7 @@ class GeomLProp_SurfaceTool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomlprop_Continuity = geomlprop.Continuity
 geomlprop_Continuity = geomlprop.Continuity

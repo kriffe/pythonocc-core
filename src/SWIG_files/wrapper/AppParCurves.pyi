@@ -185,7 +185,7 @@ class AppParCurves_HArray1OfMultiPoint(AppParCurves_Array1OfMultiPoint, Standard
 class AppParCurves_HArray1OfMultiBSpCurve(AppParCurves_Array1OfMultiBSpCurve, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 appparcurves_Bernstein = appparcurves.Bernstein
 appparcurves_BernsteinMatrix = appparcurves.BernsteinMatrix

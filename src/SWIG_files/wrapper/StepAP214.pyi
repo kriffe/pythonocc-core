@@ -680,6 +680,6 @@ class StepAP214_HArray1OfGroupItem(StepAP214_Array1OfGroupItem, Standard_Transie
 class StepAP214_HArray1OfDateAndTimeItem(StepAP214_Array1OfDateAndTimeItem, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 stepap214_Protocol = stepap214.Protocol

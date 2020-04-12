@@ -131,5 +131,5 @@ class ChFi2d_FilletAlgo:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

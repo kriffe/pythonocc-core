@@ -273,7 +273,7 @@ class GeomAdaptor_SurfaceOfRevolution(GeomAdaptor_Surface):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomadaptor_MakeCurve = geomadaptor.MakeCurve
 geomadaptor_MakeSurface = geomadaptor.MakeSurface

@@ -182,7 +182,7 @@ class CDM_ReferenceIterator:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 CDM_Document_FindFromPresentation = CDM_Document.FindFromPresentation
 CDM_Document_FindPresentation = CDM_Document.FindPresentation

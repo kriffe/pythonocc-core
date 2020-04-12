@@ -109,5 +109,5 @@ class HatchGen_PointOnHatching(HatchGen_IntersectionPoint):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

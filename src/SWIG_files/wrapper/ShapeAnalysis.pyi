@@ -572,7 +572,7 @@ class ShapeCustom_ConvertToRevolution: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class ShapeAnalysis_HSequenceOfFreeBounds(ShapeAnalysis_SequenceOfFreeBounds, Standard_Transient):
     def __init__(self) -> None: ...

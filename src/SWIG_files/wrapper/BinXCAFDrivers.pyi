@@ -27,7 +27,7 @@ class BinXCAFDrivers_DocumentStorageDriver(BinDrivers_DocumentStorageDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 binxcafdrivers_AttributeDrivers = binxcafdrivers.AttributeDrivers
 binxcafdrivers_DefineFormat = binxcafdrivers.DefineFormat

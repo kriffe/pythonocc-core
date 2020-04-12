@@ -8,5 +8,5 @@ MMgt_TShared = NewType('MMgt_TShared', Standard_Transient)
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

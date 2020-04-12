@@ -268,7 +268,7 @@ class TDocStd_XLinkTool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tdocstd_IDList = tdocstd.IDList
 TDocStd_Document_Get = TDocStd_Document.Get

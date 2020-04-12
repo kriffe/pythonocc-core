@@ -1185,7 +1185,7 @@ class Geom_TrimmedCurve(Geom_BoundedCurve):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class Geom_HSequenceOfBSplineSurface(Geom_SequenceOfBSplineSurface, Standard_Transient):
     def __init__(self) -> None: ...

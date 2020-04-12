@@ -368,7 +368,7 @@ class ElCLib:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 elclib_AdjustPeriodic = elclib.AdjustPeriodic
 elclib_CircleD1 = elclib.CircleD1

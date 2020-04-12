@@ -235,5 +235,5 @@ class BRepPrim_Torus(BRepPrim_Revolution):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

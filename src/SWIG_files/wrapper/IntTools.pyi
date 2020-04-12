@@ -595,7 +595,7 @@ class IntTools_CArray1OfReal: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 inttools_FindRootStates = inttools.FindRootStates
 inttools_GetRadius = inttools.GetRadius

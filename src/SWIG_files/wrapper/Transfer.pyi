@@ -437,7 +437,7 @@ class Transfer_ProcessForFinder: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class Transfer_HSequenceOfBinder(Transfer_SequenceOfBinder, Standard_Transient):
     def __init__(self) -> None: ...

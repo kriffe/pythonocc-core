@@ -342,7 +342,7 @@ class TObj_ReferenceIterator(TObj_LabelIterator):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class TObj_HSequenceOfObject(TObj_SequenceOfObject, Standard_Transient):
     def __init__(self) -> None: ...

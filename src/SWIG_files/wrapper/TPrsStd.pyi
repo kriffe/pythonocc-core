@@ -100,7 +100,7 @@ class TPrsStd_PointDriver(TPrsStd_Driver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 TPrsStd_ConstraintTools_ComputeAngle = TPrsStd_ConstraintTools.ComputeAngle
 TPrsStd_ConstraintTools_ComputeAngleForOneFace = TPrsStd_ConstraintTools.ComputeAngleForOneFace

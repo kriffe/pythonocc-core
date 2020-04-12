@@ -164,7 +164,7 @@ class Intf_InterferencePolygon2d(Intf_Interference):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 intf_Contain = intf.Contain
 intf_PlaneEquation = intf.PlaneEquation

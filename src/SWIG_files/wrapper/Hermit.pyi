@@ -19,7 +19,7 @@ class Hermit:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 hermit_Solution = hermit.Solution
 hermit_Solution = hermit.Solution

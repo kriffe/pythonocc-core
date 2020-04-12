@@ -448,7 +448,7 @@ class TDataXtd_PatternStd(TDataXtd_Pattern):
 class TDataXtd_HArray1OfTrsf(TDataXtd_Array1OfTrsf, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tdataxtd_IDList = tdataxtd.IDList
 tdataxtd_Print = tdataxtd.Print

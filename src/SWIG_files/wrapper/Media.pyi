@@ -110,7 +110,7 @@ class Media_Timer(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Media_FormatContext_FormatAVErrorDescription = Media_FormatContext.FormatAVErrorDescription
 Media_FormatContext_FormatTime = Media_FormatContext.FormatTime

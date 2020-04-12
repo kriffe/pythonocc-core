@@ -18,5 +18,5 @@ IntImp_VIsoparametricOnCaro2 = IntImp_ConstIsoparametric.IntImp_VIsoparametricOn
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

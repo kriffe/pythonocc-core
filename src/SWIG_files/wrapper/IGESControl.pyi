@@ -70,6 +70,6 @@ class IGESControl_Writer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IGESControl_Controller_Init = IGESControl_Controller.Init

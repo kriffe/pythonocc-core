@@ -260,5 +260,5 @@ class Select3D_SensitiveSet: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

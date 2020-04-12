@@ -511,7 +511,7 @@ class TDF_LabelNode: ...
 class TDF_HAttributeArray1(TDF_AttributeArray1, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tdf_AddLinkGUIDToProgID = tdf.AddLinkGUIDToProgID
 tdf_GUIDFromProgID = tdf.GUIDFromProgID

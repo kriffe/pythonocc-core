@@ -221,7 +221,7 @@ class TFunction_Scope(TDF_Attribute):
 class TFunction_HArray1OfDataMapOfGUIDDriver(TFunction_Array1OfDataMapOfGUIDDriver, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 TFunction_DriverTable_Get = TFunction_DriverTable.Get
 TFunction_Function_GetID = TFunction_Function.GetID

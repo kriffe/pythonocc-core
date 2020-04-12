@@ -38,7 +38,7 @@ class TopTrans_SurfaceTransition:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 TopTrans_SurfaceTransition_GetAfter = TopTrans_SurfaceTransition.GetAfter
 TopTrans_SurfaceTransition_GetBefore = TopTrans_SurfaceTransition.GetBefore

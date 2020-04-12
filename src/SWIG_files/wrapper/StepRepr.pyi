@@ -558,7 +558,7 @@ class StepRepr_HArray1OfPropertyDefinitionRepresentation(StepRepr_Array1OfProper
 class StepRepr_HArray1OfShapeAspect(StepRepr_Array1OfShapeAspect, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class StepRepr_HSequenceOfRepresentationItem(StepRepr_SequenceOfRepresentationItem, Standard_Transient):
     def __init__(self) -> None: ...

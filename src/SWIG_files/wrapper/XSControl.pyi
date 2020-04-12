@@ -300,7 +300,7 @@ class XSControl_Writer:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xscontrol_Session = xscontrol.Session
 xscontrol_Vars = xscontrol.Vars

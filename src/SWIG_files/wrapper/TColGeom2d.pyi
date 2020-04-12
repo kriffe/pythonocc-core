@@ -56,7 +56,7 @@ class TColGeom2d_HArray1OfBezierCurve(TColGeom2d_Array1OfBezierCurve, Standard_T
 class TColGeom2d_HArray1OfBSplineCurve(TColGeom2d_Array1OfBSplineCurve, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class TColGeom2d_HSequenceOfBoundedCurve(TColGeom2d_SequenceOfBoundedCurve, Standard_Transient):
     def __init__(self) -> None: ...

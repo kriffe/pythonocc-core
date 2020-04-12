@@ -1141,7 +1141,7 @@ class IFSelect_SelectType(IFSelect_SelectAnyType):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class IFSelect_HSeqOfSelection(IFSelect_TSeqOfSelection, Standard_Transient):
     def __init__(self) -> None: ...

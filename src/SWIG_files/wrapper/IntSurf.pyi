@@ -223,7 +223,7 @@ class IntSurf_Transition:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 intsurf_MakeTransition = intsurf.MakeTransition
 intsurf_SetPeriod = intsurf.SetPeriod

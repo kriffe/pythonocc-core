@@ -70,7 +70,7 @@ class XmlTObjDrivers_XYZDriver(XmlMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmltobjdrivers_AddDrivers = xmltobjdrivers.AddDrivers
 xmltobjdrivers_DefineFormat = xmltobjdrivers.DefineFormat

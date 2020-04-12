@@ -56,5 +56,5 @@ class BRepMeshData_Wire(IMeshData_Wire):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

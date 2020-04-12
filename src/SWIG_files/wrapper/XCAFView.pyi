@@ -56,5 +56,5 @@ class XCAFView_Object(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

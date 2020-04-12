@@ -78,6 +78,6 @@ class AdvApprox_EvaluatorFunction: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 AdvApprox_ApproxAFunction_Approximation = AdvApprox_ApproxAFunction.Approximation

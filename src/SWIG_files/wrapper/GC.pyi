@@ -211,5 +211,5 @@ class GC_MakeTrimmedCylinder(GC_Root):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

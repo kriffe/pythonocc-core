@@ -229,7 +229,7 @@ class AdvApp2Var_Iso: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 AdvApp2Var_ApproxF2var_mma1her_ = AdvApp2Var_ApproxF2var.mma1her_
 AdvApp2Var_ApproxF2var_mma2ac1_ = AdvApp2Var_ApproxF2var.mma2ac1_

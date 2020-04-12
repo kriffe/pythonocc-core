@@ -96,7 +96,7 @@ class STEPSelections_SelectInstances(IFSelect_SelectExplore):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class STEPSelections_HSequenceOfAssemblyLink(STEPSelections_SequenceOfAssemblyLink, Standard_Transient):
     def __init__(self) -> None: ...

@@ -53,6 +53,6 @@ class XmlMNaming_Shape1:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlmnaming_AddDrivers = xmlmnaming.AddDrivers

@@ -512,7 +512,7 @@ class ShapeFix_WireSegment: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 shapefix_EncodeRegularity = shapefix.EncodeRegularity
 shapefix_FixVertexPosition = shapefix.FixVertexPosition

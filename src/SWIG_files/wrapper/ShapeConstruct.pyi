@@ -79,7 +79,7 @@ class ShapeConstruct_ProjectCurveOnSurface(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline
 shapeconstruct_ConvertCurveToBSpline = shapeconstruct.ConvertCurveToBSpline

@@ -2354,7 +2354,7 @@ class Graphic3d_BvhCStructureSetTrsfPers: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Graphic3d_ArrayOfPrimitives_CreateArray = Graphic3d_ArrayOfPrimitives.CreateArray
 Graphic3d_ArrayOfPrimitives_CreateArray = Graphic3d_ArrayOfPrimitives.CreateArray

@@ -689,5 +689,5 @@ class RWStepBasic_RWWeekOfYearAndDayDate:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

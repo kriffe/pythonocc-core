@@ -73,6 +73,6 @@ class IMeshTools_ShapeVisitor(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IMeshTools_Parameters_RelMinSize = IMeshTools_Parameters.RelMinSize

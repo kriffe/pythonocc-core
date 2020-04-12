@@ -69,7 +69,7 @@ class BinTObjDrivers_XYZDriver(BinMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 bintobjdrivers_AddDrivers = bintobjdrivers.AddDrivers
 bintobjdrivers_DefineFormat = bintobjdrivers.DefineFormat

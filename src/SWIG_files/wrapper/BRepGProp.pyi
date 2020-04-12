@@ -243,7 +243,7 @@ class BRepGProp_MeshProps: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 brepgprop_LinearProperties = brepgprop.LinearProperties
 brepgprop_SurfaceProperties = brepgprop.SurfaceProperties

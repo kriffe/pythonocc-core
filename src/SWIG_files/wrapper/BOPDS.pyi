@@ -541,7 +541,7 @@ class BOPDS_Interf: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BOPDS_DS_NbInterfTypes = BOPDS_DS.NbInterfTypes
 BOPDS_Iterator_NbExtInterfs = BOPDS_Iterator.NbExtInterfs

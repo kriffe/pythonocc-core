@@ -618,7 +618,7 @@ class V3d_SpotLight(V3d_PositionLight):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 v3d_ArrowOfRadius = v3d.ArrowOfRadius
 v3d_CircleInPlane = v3d.CircleInPlane

@@ -525,6 +525,6 @@ class Vrml_WWWInline:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 vrml_CommentWriter = vrml.CommentWriter

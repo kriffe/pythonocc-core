@@ -403,7 +403,7 @@ class TCollection_SeqNode(Standard_Transient):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 tcollection_NextPrimeForMap = tcollection.NextPrimeForMap
 TCollection_AsciiString_HashCode = TCollection_AsciiString.HashCode

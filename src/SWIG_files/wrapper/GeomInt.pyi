@@ -508,7 +508,7 @@ class GeomInt_WLApprox: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomint_AdjustPeriodic = geomint.AdjustPeriodic
 GeomInt_IntSS_BuildPCurves = GeomInt_IntSS.BuildPCurves

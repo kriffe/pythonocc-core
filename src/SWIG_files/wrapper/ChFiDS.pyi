@@ -518,7 +518,7 @@ class ChFiDS_FilSpine(ChFiDS_Spine):
 class ChFiDS_SecHArray1(ChFiDS_SecArray1, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class ChFiDS_HData(ChFiDS_SequenceOfSurfData, Standard_Transient):
     def __init__(self) -> None: ...

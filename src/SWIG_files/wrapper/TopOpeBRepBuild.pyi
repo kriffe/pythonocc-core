@@ -908,7 +908,7 @@ class TopOpeBRepBuild_WireEdgeClassifier(TopOpeBRepBuild_CompositeClassifier):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 TopOpeBRepBuild_Builder_Contains = TopOpeBRepBuild_Builder.Contains
 TopOpeBRepBuild_Builder_GContains = TopOpeBRepBuild_Builder.GContains

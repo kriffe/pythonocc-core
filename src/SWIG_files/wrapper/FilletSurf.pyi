@@ -90,5 +90,5 @@ class FilletSurf_InternalBuilder(ChFi3d_FilBuilder):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

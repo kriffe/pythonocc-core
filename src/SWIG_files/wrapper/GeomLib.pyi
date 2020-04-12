@@ -166,7 +166,7 @@ class GeomLib_Tool:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 geomlib_AdjustExtremity = geomlib.AdjustExtremity
 geomlib_AxeOfInertia = geomlib.AxeOfInertia

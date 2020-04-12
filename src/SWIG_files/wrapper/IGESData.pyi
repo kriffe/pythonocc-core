@@ -727,7 +727,7 @@ class IGESData_FreeFormatEntity(IGESData_UndefinedEntity):
 class IGESData_HArray1OfIGESEntity(IGESData_Array1OfIGESEntity, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 igesdata_Init = igesdata.Init
 igesdata_Protocol = igesdata.Protocol

@@ -219,6 +219,6 @@ class BRepExtrema_OverlapTool: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 BRepExtrema_Poly_Distance = BRepExtrema_Poly.Distance

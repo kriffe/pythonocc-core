@@ -151,7 +151,7 @@ class VrmlConverter_IsoAspect(VrmlConverter_LineAspect):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 VrmlConverter_Curve_Add = VrmlConverter_Curve.Add
 VrmlConverter_Curve_Add = VrmlConverter_Curve.Add

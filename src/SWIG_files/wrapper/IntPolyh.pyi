@@ -228,7 +228,7 @@ class IntPolyh_MaillageAffinage: ...
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 IntPolyh_CoupleMapHasher_HashCode = IntPolyh_CoupleMapHasher.HashCode
 IntPolyh_CoupleMapHasher_IsEqual = IntPolyh_CoupleMapHasher.IsEqual

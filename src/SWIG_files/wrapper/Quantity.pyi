@@ -1416,7 +1416,7 @@ class Quantity_Period:
 class Quantity_HArray1OfColor(Quantity_Array1OfColor, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 Quantity_Color_Argb2color = Quantity_Color.Argb2color
 Quantity_Color_Color2argb = Quantity_Color.Color2argb

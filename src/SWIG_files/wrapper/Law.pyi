@@ -210,7 +210,7 @@ class Law_S(Law_BSpFunc):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 law_MixBnd = law.MixBnd
 law_MixBnd = law.MixBnd

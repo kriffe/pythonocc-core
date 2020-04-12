@@ -244,5 +244,5 @@ class IntAna_Quadric:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

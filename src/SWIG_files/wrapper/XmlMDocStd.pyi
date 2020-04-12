@@ -23,6 +23,6 @@ class XmlMDocStd_XLinkDriver(XmlMDF_ADriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlmdocstd_AddDrivers = xmlmdocstd.AddDrivers

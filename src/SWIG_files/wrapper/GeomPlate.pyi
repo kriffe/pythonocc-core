@@ -212,7 +212,7 @@ class GeomPlate_HArray1OfSequenceOfReal(GeomPlate_Array1OfSequenceOfReal, Standa
 class GeomPlate_HArray1OfHCurve(GeomPlate_Array1OfHCurve, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 class GeomPlate_HSequenceOfPointConstraint(GeomPlate_SequenceOfPointConstraint, Standard_Transient):
     def __init__(self) -> None: ...

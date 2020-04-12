@@ -69,5 +69,5 @@ class BRepMAT2d_LinkTopoBilo:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

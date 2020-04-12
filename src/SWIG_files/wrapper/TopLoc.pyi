@@ -72,5 +72,5 @@ class TopLoc_SListOfItemLocation:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

@@ -166,5 +166,5 @@ class BRepAlgoAPI_Section(BRepAlgoAPI_BooleanOperation):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

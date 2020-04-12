@@ -2026,7 +2026,7 @@ class AIS_MinRadiusDimension(AIS_EllipseRadiusDimension):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 ais_ComputeGeomCurve = ais.ComputeGeomCurve
 ais_ComputeGeometry = ais.ComputeGeometry

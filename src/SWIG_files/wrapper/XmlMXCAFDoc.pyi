@@ -200,6 +200,6 @@ class XmlMXCAFDoc_NoteBalloonDriver(XmlMXCAFDoc_NoteCommentDriver):
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 xmlmxcafdoc_AddDrivers = xmlmxcafdoc.AddDrivers

@@ -615,7 +615,7 @@ class TopOpeBRep_HArray1OfVPointInter(TopOpeBRep_Array1OfVPointInter, Standard_T
 class TopOpeBRep_HArray1OfLineInter(TopOpeBRep_Array1OfLineInter, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 topopebrep_Print = topopebrep.Print
 TopOpeBRep_FFTransitionTool_ProcessEdgeONTransition = TopOpeBRep_FFTransitionTool.ProcessEdgeONTransition

@@ -629,5 +629,5 @@ class StepDimTol_HArray1OfDatumReferenceModifier(StepDimTol_Array1OfDatumReferen
 class StepDimTol_HArray1OfGeometricToleranceModifier(StepDimTol_Array1OfGeometricToleranceModifier, Standard_Transient): ...
 
 # harray2 classes
-# harray2 classes
+# hsequence classes
 

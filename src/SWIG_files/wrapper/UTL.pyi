@@ -51,7 +51,7 @@ class UTL:
 
 # harray1 classes
 # harray2 classes
-# harray2 classes
+# hsequence classes
 
 utl_AddToUserInfo = utl.AddToUserInfo
 utl_CString = utl.CString
