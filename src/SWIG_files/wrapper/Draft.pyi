@@ -31,7 +31,7 @@ Draft_VertexRecomputation = Draft_ErrorStatus.Draft_VertexRecomputation
 
 class draft:
 	@staticmethod
-	def Angle(self, F: TopoDS_Face, Direction: gp_Dir) -> float: ...
+	def Angle(F: TopoDS_Face, Direction: gp_Dir) -> float: ...
 
 class Draft_EdgeInfo:
 	@overload

@@ -148,7 +148,7 @@ class BRepExtrema_ExtPF:
 
 class BRepExtrema_Poly:
 	@staticmethod
-	def Distance(self, S1: TopoDS_Shape, S2: TopoDS_Shape, P1: gp_Pnt, P2: gp_Pnt) -> Tuple[bool, float]: ...
+	def Distance(S1: TopoDS_Shape, S2: TopoDS_Shape, P1: gp_Pnt, P2: gp_Pnt) -> Tuple[bool, float]: ...
 
 class BRepExtrema_ShapeProximity:
 	@overload
