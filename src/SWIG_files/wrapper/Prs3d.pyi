@@ -153,7 +153,7 @@ Prs3d_DAO_Internal = Prs3d_DimensionArrowOrientation.Prs3d_DAO_Internal
 Prs3d_DAO_External = Prs3d_DimensionArrowOrientation.Prs3d_DAO_External
 Prs3d_DAO_Fit = Prs3d_DimensionArrowOrientation.Prs3d_DAO_Fit
 
-class Prs3d:
+class prs3d:
 	@staticmethod
 	def AddPrimitivesGroup(self, thePrs: Prs3d_Presentation, theAspect: Prs3d_LineAspect, thePolylines: Prs3d_NListOfSequenceOfPnt) -> None: ...
 	@staticmethod

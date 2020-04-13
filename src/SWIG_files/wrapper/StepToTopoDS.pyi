@@ -96,7 +96,7 @@ class StepToTopoDS_TranslateVertexError(IntEnum):
 StepToTopoDS_TranslateVertexDone = StepToTopoDS_TranslateVertexError.StepToTopoDS_TranslateVertexDone
 StepToTopoDS_TranslateVertexOther = StepToTopoDS_TranslateVertexError.StepToTopoDS_TranslateVertexOther
 
-class StepToTopoDS:
+class steptotopods:
 	@staticmethod
 	def DecodeBuilderError(self, Error: StepToTopoDS_BuilderError) -> TCollection_HAsciiString: ...
 	@staticmethod

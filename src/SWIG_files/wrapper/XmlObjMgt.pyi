@@ -13,7 +13,7 @@ XmlObjMgt_DOMString = NewType('XmlObjMgt_DOMString', LDOMString)
 XmlObjMgt_Document = NewType('XmlObjMgt_Document', LDOM_Document)
 XmlObjMgt_Element = NewType('XmlObjMgt_Element', LDOM_Element)
 
-class XmlObjMgt:
+class xmlobjmgt:
 	@staticmethod
 	def FindChildByName(self, theSource: XmlObjMgt_Element, theName: XmlObjMgt_DOMString) -> XmlObjMgt_Element: ...
 	@staticmethod

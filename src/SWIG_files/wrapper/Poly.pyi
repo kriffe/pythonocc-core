@@ -29,7 +29,7 @@ class Poly_Array1OfTriangle:
     def next(self) -> Poly_Triangle: ...
     __next__ = next
 
-class Poly:
+class poly:
 	@staticmethod
 	def Catenate(self, lstTri: Poly_ListOfTriangulation) -> Poly_Triangulation: ...
 	@staticmethod

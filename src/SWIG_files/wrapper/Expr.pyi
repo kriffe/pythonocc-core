@@ -49,7 +49,7 @@ class Expr_Array1OfSingleRelation:
     def next(self) -> False: ...
     __next__ = next
 
-class Expr:
+class expr:
 	@staticmethod
 	def CopyShare(self, exp: Expr_GeneralExpression) -> Expr_GeneralExpression: ...
 	@overload

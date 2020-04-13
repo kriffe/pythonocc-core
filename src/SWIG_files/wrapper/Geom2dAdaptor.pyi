@@ -10,7 +10,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.TColStd import *
 
 
-class Geom2dAdaptor:
+class geom2dadaptor:
 	@staticmethod
 	def MakeCurve(self, HC: Adaptor2d_Curve2d) -> Geom2d_Curve: ...
 

@@ -8,7 +8,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.gp import *
 
 
-class GeomLProp:
+class geomlprop:
 	@overload
 	@staticmethod
 	def Continuity(self, C1: Geom_Curve, C2: Geom_Curve, u1: float, u2: float, r1: bool, r2: bool, tl: float, ta: float) -> GeomAbs_Shape: ...

@@ -82,7 +82,7 @@ IFSelect_GeneralInfo = IFSelect_PrintCount.IFSelect_GeneralInfo
 IFSelect_Mapping = IFSelect_PrintCount.IFSelect_Mapping
 IFSelect_ResultCount = IFSelect_PrintCount.IFSelect_ResultCount
 
-class IFSelect:
+class ifselect:
 	@staticmethod
 	def RestoreSession(self, WS: IFSelect_WorkSession, file: str) -> bool: ...
 	@staticmethod

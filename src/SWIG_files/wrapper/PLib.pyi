@@ -9,7 +9,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.math import *
 
 
-class PLib:
+class plib:
 	@staticmethod
 	def Bin(self, N: int, P: int) -> float: ...
 	@overload

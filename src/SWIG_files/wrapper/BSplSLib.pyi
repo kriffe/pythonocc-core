@@ -8,7 +8,7 @@ from OCC.Core.TColgp import *
 from OCC.Core.gp import *
 
 
-class BSplSLib:
+class bsplslib:
 	@overload
 	@staticmethod
 	def BuildCache(self, U: float, V: float, USpanDomain: float, VSpanDomain: float, UPeriodicFlag: bool, VPeriodicFlag: bool, UDegree: int, VDegree: int, UIndex: int, VIndex: int, UFlatKnots: TColStd_Array1OfReal, VFlatKnots: TColStd_Array1OfReal, Poles: TColgp_Array2OfPnt, Weights: TColStd_Array2OfReal, CachePoles: TColgp_Array2OfPnt, CacheWeights: TColStd_Array2OfReal) -> None: ...

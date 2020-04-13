@@ -217,7 +217,7 @@ class StepAP214_Array1OfSecurityClassificationItem:
     def next(self) -> StepAP214_SecurityClassificationItem: ...
     __next__ = next
 
-class StepAP214:
+class stepap214:
 	@staticmethod
 	def Protocol(self) -> StepAP214_Protocol: ...
 

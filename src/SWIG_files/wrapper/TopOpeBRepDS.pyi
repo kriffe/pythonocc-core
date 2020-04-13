@@ -125,7 +125,7 @@ TopOpeBRepDS_COMPSOLID = TopOpeBRepDS_Kind.TopOpeBRepDS_COMPSOLID
 TopOpeBRepDS_COMPOUND = TopOpeBRepDS_Kind.TopOpeBRepDS_COMPOUND
 TopOpeBRepDS_UNKNOWN = TopOpeBRepDS_Kind.TopOpeBRepDS_UNKNOWN
 
-class TopOpeBRepDS:
+class topopebrepds:
 	@staticmethod
 	def IsGeometry(self, K: TopOpeBRepDS_Kind) -> bool: ...
 	@staticmethod

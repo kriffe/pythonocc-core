@@ -10,7 +10,7 @@ from OCC.Core.TDF import *
 from OCC.Core.BinObjMgt import *
 
 
-class BinMNaming:
+class binmnaming:
 	@staticmethod
 	def AddDrivers(self, theDriverTable: BinMDF_ADriverTable, aMsgDrv: Message_Messenger) -> None: ...
 

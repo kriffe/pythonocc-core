@@ -29,7 +29,7 @@ StepData_LFalse = StepData_Logical.StepData_LFalse
 StepData_LTrue = StepData_Logical.StepData_LTrue
 StepData_LUnknown = StepData_Logical.StepData_LUnknown
 
-class StepData:
+class stepdata:
 	@staticmethod
 	def AddHeaderProtocol(self, headerproto: StepData_Protocol) -> None: ...
 	@staticmethod

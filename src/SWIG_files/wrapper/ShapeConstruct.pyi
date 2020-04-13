@@ -17,7 +17,7 @@ from OCC.Core.ShapeAnalysis import *
 from OCC.Core.ShapeExtend import *
 
 
-class ShapeConstruct:
+class shapeconstruct:
 	@overload
 	@staticmethod
 	def ConvertCurveToBSpline(self, C3D: Geom_Curve, First: float, Last: float, Tol3d: float, Continuity: GeomAbs_Shape, MaxSegments: int, MaxDegree: int) -> Geom_BSplineCurve: ...

@@ -11,7 +11,7 @@ from OCC.Core.XmlObjMgt import *
 from OCC.Core.TCollection import *
 
 
-class XmlDrivers:
+class xmldrivers:
 	@staticmethod
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> XmlMDF_ADriverTable: ...
 	@staticmethod

@@ -6,7 +6,7 @@ from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 
 
-class ElSLib:
+class elslib:
 	@staticmethod
 	def ConeD0(self, U: float, V: float, Pos: gp_Ax3, Radius: float, SAngle: float, P: gp_Pnt) -> None: ...
 	@staticmethod

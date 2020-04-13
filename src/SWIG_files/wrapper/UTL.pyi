@@ -9,7 +9,7 @@ from OCC.Core.OSD import *
 from OCC.Core.Resource import *
 
 
-class UTL:
+class utl:
 	@staticmethod
 	def AddToUserInfo(self, aData: Storage_Data, anInfo: TCollection_ExtendedString) -> None: ...
 	@staticmethod

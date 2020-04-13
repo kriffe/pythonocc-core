@@ -13,7 +13,7 @@ from OCC.Core.TopAbs import *
 from OCC.Core.ShapeExtend import *
 
 
-class ShapeBuild:
+class shapebuild:
 	@staticmethod
 	def PlaneXOY(self) -> Geom_Plane: ...
 

@@ -11,7 +11,7 @@ from OCC.Core.BinTools import *
 from OCC.Core.TopLoc import *
 
 
-class BinMXCAFDoc:
+class binmxcafdoc:
 	@staticmethod
 	def AddDrivers(self, theDriverTable: BinMDF_ADriverTable, theMsgDrv: Message_Messenger) -> None: ...
 

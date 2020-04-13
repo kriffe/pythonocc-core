@@ -74,7 +74,7 @@ BRepLib_NotPlanar = BRepLib_FaceError.BRepLib_NotPlanar
 BRepLib_CurveProjectionFailed = BRepLib_FaceError.BRepLib_CurveProjectionFailed
 BRepLib_ParametersOutOfRange = BRepLib_FaceError.BRepLib_ParametersOutOfRange
 
-class BRepLib:
+class breplib:
 	@staticmethod
 	def BuildCurve3d(self, E: TopoDS_Edge, Tolerance: Optional[float], Continuity: Optional[GeomAbs_Shape], MaxDegree: Optional[int], MaxSegment: Optional[int]) -> bool: ...
 	@overload

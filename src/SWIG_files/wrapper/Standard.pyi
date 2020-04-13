@@ -51,7 +51,7 @@ Standard_HandlerVoid = Standard_HandlerStatus.Standard_HandlerVoid
 Standard_HandlerJumped = Standard_HandlerStatus.Standard_HandlerJumped
 Standard_HandlerProcessed = Standard_HandlerStatus.Standard_HandlerProcessed
 
-class Standard:
+class standard:
 	@staticmethod
 	def Allocate(self, aSize: int) -> None: ...
 	@staticmethod

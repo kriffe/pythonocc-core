@@ -12,7 +12,7 @@ TopoDS_ListIteratorOfListOfShape = NewType('TopoDS_ListIteratorOfListOfShape', A
 #the following typedef cannot be wrapped as is
 TopoDS_ListOfShape = NewType('TopoDS_ListOfShape', Any)
 
-class TopoDS:
+class topods:
 	@overload
 	@staticmethod
 	def CompSolid(self, S: TopoDS_Shape) -> TopoDS_CompSolid: ...

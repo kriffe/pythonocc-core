@@ -25,7 +25,7 @@ BlendFunc_QuasiAngular = BlendFunc_SectionShape.BlendFunc_QuasiAngular
 BlendFunc_Polynomial = BlendFunc_SectionShape.BlendFunc_Polynomial
 BlendFunc_Linear = BlendFunc_SectionShape.BlendFunc_Linear
 
-class BlendFunc:
+class blendfunc:
 	@staticmethod
 	def ComputeDNormal(self, Surf: Adaptor3d_HSurface, p2d: gp_Pnt2d, Normal: gp_Vec, DNu: gp_Vec, DNv: gp_Vec) -> bool: ...
 	@staticmethod

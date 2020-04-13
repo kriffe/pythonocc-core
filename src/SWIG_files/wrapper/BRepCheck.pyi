@@ -96,7 +96,7 @@ BRepCheck_InvalidToleranceValue = BRepCheck_Status.BRepCheck_InvalidToleranceVal
 BRepCheck_EnclosedRegion = BRepCheck_Status.BRepCheck_EnclosedRegion
 BRepCheck_CheckFail = BRepCheck_Status.BRepCheck_CheckFail
 
-class BRepCheck:
+class brepcheck:
 	@staticmethod
 	def Add(self, List: BRepCheck_ListOfStatus, Stat: BRepCheck_Status) -> None: ...
 	@staticmethod

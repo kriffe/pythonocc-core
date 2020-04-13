@@ -98,7 +98,7 @@ BRepBuilderAPI_EmptyShell = BRepBuilderAPI_ShellError.BRepBuilderAPI_EmptyShell
 BRepBuilderAPI_DisconnectedShell = BRepBuilderAPI_ShellError.BRepBuilderAPI_DisconnectedShell
 BRepBuilderAPI_ShellParametersOutOfRange = BRepBuilderAPI_ShellError.BRepBuilderAPI_ShellParametersOutOfRange
 
-class BRepBuilderAPI:
+class brepbuilderapi:
 	@overload
 	@staticmethod
 	def Plane(self, P: Geom_Plane) -> None: ...

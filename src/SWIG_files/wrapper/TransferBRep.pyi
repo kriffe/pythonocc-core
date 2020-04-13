@@ -14,7 +14,7 @@ from OCC.Core.TopAbs import *
 #the following typedef cannot be wrapped as is
 TransferBRep_SequenceOfTransferResultInfo = NewType('TransferBRep_SequenceOfTransferResultInfo', Any)
 
-class TransferBRep:
+class transferbrep:
 	@staticmethod
 	def CheckObject(self, chl: Interface_CheckIterator, obj: Standard_Transient) -> Interface_CheckIterator: ...
 	@staticmethod

@@ -8,7 +8,7 @@ from OCC.Core.Geom2d import *
 from OCC.Core.gp import *
 
 
-class GeomProjLib:
+class geomprojlib:
 	@overload
 	@staticmethod
 	def Curve2d(self, C: Geom_Curve, First: float, Last: float, S: Geom_Surface, UFirst: float, ULast: float, VFirst: float, VLast: float) -> Tuple[Geom2d_Curve, float]: ...

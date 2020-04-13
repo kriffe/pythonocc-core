@@ -17,7 +17,7 @@ from OCC.Core.gp import *
 from OCC.Core.Message import *
 
 
-class XSControl:
+class xscontrol:
 	@staticmethod
 	def Session(self, pilot: IFSelect_SessionPilot) -> XSControl_WorkSession: ...
 	@staticmethod

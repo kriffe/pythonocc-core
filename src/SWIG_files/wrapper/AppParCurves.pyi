@@ -71,7 +71,7 @@ AppParCurves_PassPoint = AppParCurves_Constraint.AppParCurves_PassPoint
 AppParCurves_TangencyPoint = AppParCurves_Constraint.AppParCurves_TangencyPoint
 AppParCurves_CurvaturePoint = AppParCurves_Constraint.AppParCurves_CurvaturePoint
 
-class AppParCurves:
+class appparcurves:
 	@staticmethod
 	def Bernstein(self, NbPoles: int, U: math_Vector, A: math_Matrix, DA: math_Matrix) -> None: ...
 	@staticmethod

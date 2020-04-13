@@ -24,7 +24,7 @@ class BSplCLib_KnotDistribution(IntEnum):
 BSplCLib_NonUniform = BSplCLib_KnotDistribution.BSplCLib_NonUniform
 BSplCLib_Uniform = BSplCLib_KnotDistribution.BSplCLib_Uniform
 
-class BSplCLib:
+class bsplclib:
 	@staticmethod
 	def AntiBoorScheme(self, U: float, Degree: int, Dimension: int, Depth: int, Length: int, Tolerance: float) -> Tuple[bool, float, float]: ...
 	@staticmethod

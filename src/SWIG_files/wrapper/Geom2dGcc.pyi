@@ -57,7 +57,7 @@ Geom2dGcc_CiLiCu = Geom2dGcc_Type1.Geom2dGcc_CiLiCu
 Geom2dGcc_LiLiCu = Geom2dGcc_Type1.Geom2dGcc_LiLiCu
 Geom2dGcc_LiCuCu = Geom2dGcc_Type1.Geom2dGcc_LiCuCu
 
-class Geom2dGcc:
+class geom2dgcc:
 	@staticmethod
 	def Enclosed(self, Obj: Geom2dAdaptor_Curve) -> Geom2dGcc_QualifiedCurve: ...
 	@staticmethod

@@ -70,7 +70,7 @@ ShapeExtend_Natural = ShapeExtend_Parametrisation.ShapeExtend_Natural
 ShapeExtend_Uniform = ShapeExtend_Parametrisation.ShapeExtend_Uniform
 ShapeExtend_Unitary = ShapeExtend_Parametrisation.ShapeExtend_Unitary
 
-class ShapeExtend:
+class shapeextend:
 	@staticmethod
 	def DecodeStatus(self, flag: int, status: ShapeExtend_Status) -> bool: ...
 	@staticmethod

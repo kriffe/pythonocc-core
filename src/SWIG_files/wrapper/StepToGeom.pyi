@@ -9,7 +9,7 @@ from OCC.Core.Geom2d import *
 from OCC.Core.gp import *
 
 
-class StepToGeom:
+class steptogeom:
 	@staticmethod
 	def MakeAxis1Placement(self, SA: StepGeom_Axis1Placement) -> Geom_Axis1Placement: ...
 	@staticmethod

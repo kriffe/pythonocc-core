@@ -22,7 +22,7 @@ TDocStd_SequenceOfApplicationDelta = NewType('TDocStd_SequenceOfApplicationDelta
 TDocStd_SequenceOfDocument = NewType('TDocStd_SequenceOfDocument', Any)
 TDocStd_XLinkPtr = NewType('TDocStd_XLinkPtr', TDocStd_XLink)
 
-class TDocStd:
+class tdocstd:
 	@staticmethod
 	def IDList(self, anIDList: TDF_IDList) -> None: ...
 

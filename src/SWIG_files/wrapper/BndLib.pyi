@@ -10,7 +10,7 @@ from OCC.Core.Geom2d import *
 from OCC.Core.Adaptor3d import *
 
 
-class BndLib:
+class bndlib:
 	@overload
 	@staticmethod
 	def Add(self, L: gp_Lin, P1: float, P2: float, Tol: float, B: Bnd_Box) -> None: ...

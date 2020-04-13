@@ -11,7 +11,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.Adaptor2d import *
 
 
-class Geom2dConvert:
+class geom2dconvert:
 	@overload
 	@staticmethod
 	def C0BSplineToArrayOfC1BSplineCurve(self, BS: Geom2d_BSplineCurve, tabBS: TColGeom2d_HArray1OfBSplineCurve, Tolerance: float) -> None: ...

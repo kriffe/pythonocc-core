@@ -14,7 +14,7 @@ from OCC.Core.Storage import *
 #the following typedef cannot be wrapped as is
 XmlLDrivers_SequenceOfNamespaceDef = NewType('XmlLDrivers_SequenceOfNamespaceDef', Any)
 
-class XmlLDrivers:
+class xmlldrivers:
 	@staticmethod
 	def AttributeDrivers(self, theMsgDriver: Message_Messenger) -> XmlMDF_ADriverTable: ...
 	@staticmethod

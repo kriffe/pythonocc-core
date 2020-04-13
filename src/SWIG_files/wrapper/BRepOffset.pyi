@@ -90,7 +90,7 @@ BRepOffset_Reversed = BRepOffset_Status.BRepOffset_Reversed
 BRepOffset_Degenerated = BRepOffset_Status.BRepOffset_Degenerated
 BRepOffset_Unknown = BRepOffset_Status.BRepOffset_Unknown
 
-class BRepOffset:
+class brepoffset:
 	@staticmethod
 	def CollapseSingularities(self, theSurface: Geom_Surface, theFace: TopoDS_Face, thePrecision: float) -> Geom_Surface: ...
 	@staticmethod

@@ -82,7 +82,7 @@ IGESData_DefAny = IGESData_DefType.IGESData_DefAny
 IGESData_ErrorVal = IGESData_DefType.IGESData_ErrorVal
 IGESData_ErrorRef = IGESData_DefType.IGESData_ErrorRef
 
-class IGESData:
+class igesdata:
 	@staticmethod
 	def Init(self) -> None: ...
 	@staticmethod

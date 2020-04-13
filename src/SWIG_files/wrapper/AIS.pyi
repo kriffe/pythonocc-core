@@ -458,7 +458,7 @@ AIS_DS_Displayed = AIS_DisplayStatus.AIS_DS_Displayed
 AIS_DS_Erased = AIS_DisplayStatus.AIS_DS_Erased
 AIS_DS_None = AIS_DisplayStatus.AIS_DS_None
 
-class AIS:
+class ais:
 	@staticmethod
 	def ComputeGeomCurve(self, aCurve: Geom_Curve, first1: float, last1: float, FirstPnt1: gp_Pnt, LastPnt1: gp_Pnt, aPlane: Geom_Plane) -> Tuple[bool, bool]: ...
 	@overload

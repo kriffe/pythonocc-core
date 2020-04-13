@@ -8,7 +8,7 @@ from OCC.Core.Geom2d import *
 from OCC.Core.Message import *
 
 
-class GeomTools:
+class geomtools:
 	@staticmethod
 	def GetUndefinedTypeHandler(self) -> GeomTools_UndefinedTypeHandler: ...
 	@staticmethod

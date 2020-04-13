@@ -17,7 +17,7 @@ class BinDrivers_Marker(IntEnum):
 BinDrivers_ENDATTRLIST = BinDrivers_Marker.BinDrivers_ENDATTRLIST
 BinDrivers_ENDLABEL = BinDrivers_Marker.BinDrivers_ENDLABEL
 
-class BinDrivers:
+class bindrivers:
 	@staticmethod
 	def AttributeDrivers(self, MsgDrv: Message_Messenger) -> BinMDF_ADriverTable: ...
 	@staticmethod

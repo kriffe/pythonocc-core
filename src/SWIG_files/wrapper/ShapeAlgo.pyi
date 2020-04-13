@@ -6,7 +6,7 @@ from OCC.Core.NCollection import *
 from OCC.Core.ShapeFix import *
 
 
-class ShapeAlgo:
+class shapealgo:
 	@staticmethod
 	def AlgoContainer(self) -> ShapeAlgo_AlgoContainer: ...
 	@staticmethod

@@ -12,7 +12,7 @@ from OCC.Core.TDF import *
 from OCC.Core.XmlObjMgt import *
 
 
-class XmlTObjDrivers:
+class xmltobjdrivers:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: XmlMDF_ADriverTable, anMsgDrv: Message_Messenger) -> None: ...
 	@staticmethod

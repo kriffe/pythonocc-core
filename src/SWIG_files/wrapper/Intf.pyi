@@ -35,7 +35,7 @@ Intf_FACE = Intf_PIType.Intf_FACE
 Intf_EDGE = Intf_PIType.Intf_EDGE
 Intf_VERTEX = Intf_PIType.Intf_VERTEX
 
-class Intf:
+class intf:
 	@staticmethod
 	def Contain(self, P1: gp_Pnt, P2: gp_Pnt, P3: gp_Pnt, ThePnt: gp_Pnt) -> bool: ...
 	@staticmethod

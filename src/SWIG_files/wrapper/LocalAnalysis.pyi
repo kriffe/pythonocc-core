@@ -21,7 +21,7 @@ LocalAnalysis_TangentNotDefined = LocalAnalysis_StatusErrorType.LocalAnalysis_Ta
 LocalAnalysis_NormalNotDefined = LocalAnalysis_StatusErrorType.LocalAnalysis_NormalNotDefined
 LocalAnalysis_CurvatureNotDefined = LocalAnalysis_StatusErrorType.LocalAnalysis_CurvatureNotDefined
 
-class LocalAnalysis:
+class localanalysis:
 	pass
 
 class LocalAnalysis_CurveContinuity:

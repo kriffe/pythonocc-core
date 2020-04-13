@@ -44,7 +44,7 @@ GProp_InertiaXZ = GProp_ValueType.GProp_InertiaXZ
 GProp_InertiaYZ = GProp_ValueType.GProp_InertiaYZ
 GProp_Unknown = GProp_ValueType.GProp_Unknown
 
-class GProp:
+class gprop:
 	@staticmethod
 	def HOperator(self, G: gp_Pnt, Q: gp_Pnt, Mass: float, Operator: gp_Mat) -> None: ...
 

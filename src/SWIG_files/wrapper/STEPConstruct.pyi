@@ -29,7 +29,7 @@ STEPConstruct_DataMapOfAsciiStringTransient = NewType('STEPConstruct_DataMapOfAs
 #the following typedef cannot be wrapped as is
 STEPConstruct_DataMapOfPointTransient = NewType('STEPConstruct_DataMapOfPointTransient', Any)
 
-class STEPConstruct:
+class stepconstruct:
 	@staticmethod
 	def FindCDSR(self, ComponentBinder: Transfer_Binder, AssemblySDR: StepShape_ShapeDefinitionRepresentation, ComponentCDSR: StepShape_ContextDependentShapeRepresentation) -> bool: ...
 	@overload

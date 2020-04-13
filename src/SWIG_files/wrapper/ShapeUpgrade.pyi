@@ -20,7 +20,7 @@ from OCC.Core.ShapeAnalysis import *
 from OCC.Core.TopLoc import *
 
 
-class ShapeUpgrade:
+class shapeupgrade:
 	@overload
 	@staticmethod
 	def C0BSplineToSequenceOfC1BSplineCurve(self, BS: Geom_BSplineCurve, seqBS: TColGeom_HSequenceOfBoundedCurve) -> bool: ...

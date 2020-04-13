@@ -10,7 +10,7 @@ from OCC.Core.XmlMDF import *
 from OCC.Core.TCollection import *
 
 
-class XmlXCAFDrivers:
+class xmlxcafdrivers:
 	@staticmethod
 	def DefineFormat(self, theApp: TDocStd_Application) -> None: ...
 	@staticmethod

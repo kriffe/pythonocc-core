@@ -15,7 +15,7 @@ from OCC.Core.ShapeExtend import *
 from OCC.Core.Geom2d import *
 
 
-class IGESToBRep:
+class igestobrep:
 	@staticmethod
 	def AlgoContainer(self) -> IGESToBRep_AlgoContainer: ...
 	@staticmethod

@@ -75,7 +75,7 @@ HLRBRep_Rg1Line = HLRBRep_TypeOfResultingEdge.HLRBRep_Rg1Line
 HLRBRep_RgNLine = HLRBRep_TypeOfResultingEdge.HLRBRep_RgNLine
 HLRBRep_Sharp = HLRBRep_TypeOfResultingEdge.HLRBRep_Sharp
 
-class HLRBRep:
+class hlrbrep:
 	@staticmethod
 	def MakeEdge(self, ec: HLRBRep_Curve, U1: float, U2: float) -> TopoDS_Edge: ...
 	@staticmethod

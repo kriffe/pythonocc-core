@@ -13,7 +13,7 @@ Units_TksSequence = NewType('Units_TksSequence', Any)
 #the following typedef cannot be wrapped as is
 Units_UtsSequence = NewType('Units_UtsSequence', Any)
 
-class Units:
+class units:
 	@staticmethod
 	def Convert(self, avalue: float, afirstunit: str, asecondunit: str) -> float: ...
 	@staticmethod

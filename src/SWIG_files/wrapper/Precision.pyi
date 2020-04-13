@@ -5,7 +5,7 @@ from OCC.Core.Standard import *
 from OCC.Core.NCollection import *
 
 
-class Precision:
+class precision:
 	@staticmethod
 	def Angular(self) -> float: ...
 	@staticmethod

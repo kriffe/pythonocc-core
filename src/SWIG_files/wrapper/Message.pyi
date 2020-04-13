@@ -301,7 +301,7 @@ Message_WARN = Message_StatusType.Message_WARN
 Message_ALARM = Message_StatusType.Message_ALARM
 Message_FAIL = Message_StatusType.Message_FAIL
 
-class Message:
+class message:
 	@staticmethod
 	def DefaultMessenger(self) -> Message_Messenger: ...
 	@staticmethod

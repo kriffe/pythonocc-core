@@ -54,7 +54,7 @@ TopOpeBRepTool_BSPLINE1 = TopOpeBRepTool_OutCurveType.TopOpeBRepTool_BSPLINE1
 TopOpeBRepTool_APPROX = TopOpeBRepTool_OutCurveType.TopOpeBRepTool_APPROX
 TopOpeBRepTool_INTERPOL = TopOpeBRepTool_OutCurveType.TopOpeBRepTool_INTERPOL
 
-class TopOpeBRepTool:
+class topopebreptool:
 	@staticmethod
 	def CorrectONUVISO(self, F: TopoDS_Face, Fsp: TopoDS_Face) -> bool: ...
 	@staticmethod

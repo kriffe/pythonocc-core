@@ -11,7 +11,7 @@ from OCC.Core.TopTools import *
 from OCC.Core.TopLoc import *
 
 
-class XmlMXCAFDoc:
+class xmlmxcafdoc:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: XmlMDF_ADriverTable, anMsgDrv: Message_Messenger) -> None: ...
 

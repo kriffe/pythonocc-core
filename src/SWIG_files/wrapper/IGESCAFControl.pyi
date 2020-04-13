@@ -11,7 +11,7 @@ from OCC.Core.TDocStd import *
 from OCC.Core.TDF import *
 
 
-class IGESCAFControl:
+class igescafcontrol:
 	@staticmethod
 	def DecodeColor(self, col: int) -> Quantity_Color: ...
 	@staticmethod

@@ -15,7 +15,7 @@ from OCC.Core.gp import *
 from OCC.Core.TopLoc import *
 
 
-class ShapeCustom:
+class shapecustom:
 	@staticmethod
 	def BSplineRestriction(self, S: TopoDS_Shape, Tol3d: float, Tol2d: float, MaxDegree: int, MaxNbSegment: int, Continuity3d: GeomAbs_Shape, Continuity2d: GeomAbs_Shape, Degree: bool, Rational: bool, aParameters: ShapeCustom_RestrictionParameters) -> TopoDS_Shape: ...
 	@staticmethod

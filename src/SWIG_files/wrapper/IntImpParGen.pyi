@@ -7,7 +7,7 @@ from OCC.Core.IntRes2d import *
 from OCC.Core.gp import *
 
 
-class IntImpParGen:
+class intimppargen:
 	@staticmethod
 	def DeterminePosition(self, Pos1: IntRes2d_Position, Dom1: IntRes2d_Domain, P1: gp_Pnt2d, Tol: float) -> None: ...
 	@overload

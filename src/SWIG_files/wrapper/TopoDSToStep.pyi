@@ -61,7 +61,7 @@ TopoDSToStep_FacetedDone = TopoDSToStep_FacetedError.TopoDSToStep_FacetedDone
 TopoDSToStep_SurfaceNotPlane = TopoDSToStep_FacetedError.TopoDSToStep_SurfaceNotPlane
 TopoDSToStep_PCurveNotLinear = TopoDSToStep_FacetedError.TopoDSToStep_PCurveNotLinear
 
-class TopoDSToStep:
+class topodstostep:
 	@overload
 	@staticmethod
 	def AddResult(self, FP: Transfer_FinderProcess, Shape: TopoDS_Shape, entity: Standard_Transient) -> None: ...

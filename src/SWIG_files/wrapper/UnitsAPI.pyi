@@ -14,7 +14,7 @@ UnitsAPI_DEFAULT = UnitsAPI_SystemUnits.UnitsAPI_DEFAULT
 UnitsAPI_SI = UnitsAPI_SystemUnits.UnitsAPI_SI
 UnitsAPI_MDTV = UnitsAPI_SystemUnits.UnitsAPI_MDTV
 
-class UnitsAPI:
+class unitsapi:
 	@staticmethod
 	def AnyFromLS(self, aData: float, aUnit: str) -> float: ...
 	@staticmethod

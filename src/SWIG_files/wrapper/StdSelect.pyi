@@ -80,7 +80,7 @@ StdSelect_TypeOfSelectionImage_ColoredEntity = StdSelect_TypeOfSelectionImage.St
 StdSelect_TypeOfSelectionImage_ColoredOwner = StdSelect_TypeOfSelectionImage.StdSelect_TypeOfSelectionImage_ColoredOwner
 StdSelect_TypeOfSelectionImage_ColoredSelectionMode = StdSelect_TypeOfSelectionImage.StdSelect_TypeOfSelectionImage_ColoredSelectionMode
 
-class StdSelect:
+class stdselect:
 	@staticmethod
 	def SetDrawerForBRepOwner(self, aSelection: SelectMgr_Selection, aDrawer: Prs3d_Drawer) -> None: ...
 

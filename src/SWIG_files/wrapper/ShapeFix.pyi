@@ -22,7 +22,7 @@ ShapeFix_DataMapOfShapeBox2d = NewType('ShapeFix_DataMapOfShapeBox2d', Any)
 #the following typedef cannot be wrapped as is
 ShapeFix_SequenceOfWireSegment = NewType('ShapeFix_SequenceOfWireSegment', Any)
 
-class ShapeFix:
+class shapefix:
 	@staticmethod
 	def EncodeRegularity(self, shape: TopoDS_Shape, tolang: Optional[float]) -> None: ...
 	@staticmethod

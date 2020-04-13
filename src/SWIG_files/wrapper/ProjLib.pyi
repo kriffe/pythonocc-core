@@ -18,7 +18,7 @@ from OCC.Core.GeomAdaptor import *
 #the following typedef cannot be wrapped as is
 ProjLib_SequenceOfHSequenceOfPnt = NewType('ProjLib_SequenceOfHSequenceOfPnt', Any)
 
-class ProjLib:
+class projlib:
 	@staticmethod
 	def IsAnaSurf(self, theAS: Adaptor3d_HSurface) -> bool: ...
 	@staticmethod

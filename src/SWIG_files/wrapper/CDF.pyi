@@ -44,7 +44,7 @@ CDF_SSNS_OK = CDF_StoreSetNameStatus.CDF_SSNS_OK
 CDF_SSNS_ReplacingAnExistentDocument = CDF_StoreSetNameStatus.CDF_SSNS_ReplacingAnExistentDocument
 CDF_SSNS_OpenDocument = CDF_StoreSetNameStatus.CDF_SSNS_OpenDocument
 
-class CDF:
+class cdf:
 	@staticmethod
 	def GetLicense(self, anApplicationIdentifier: int) -> None: ...
 	@staticmethod

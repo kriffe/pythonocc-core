@@ -23,7 +23,7 @@ ExprIntrp_StackOfGeneralFunction = NewType('ExprIntrp_StackOfGeneralFunction', A
 #the following typedef cannot be wrapped as is
 ExprIntrp_StackOfGeneralRelation = NewType('ExprIntrp_StackOfGeneralRelation', Any)
 
-class ExprIntrp:
+class exprintrp:
 	pass
 
 class ExprIntrp_Analysis:

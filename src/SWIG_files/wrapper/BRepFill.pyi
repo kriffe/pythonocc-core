@@ -78,7 +78,7 @@ BRepFill_Modified = BRepFill_TransitionStyle.BRepFill_Modified
 BRepFill_Right = BRepFill_TransitionStyle.BRepFill_Right
 BRepFill_Round = BRepFill_TransitionStyle.BRepFill_Round
 
-class BRepFill:
+class brepfill:
 	@staticmethod
 	def Axe(self, Spine: TopoDS_Shape, Profile: TopoDS_Wire, AxeProf: gp_Ax3, Tol: float) -> bool: ...
 	@staticmethod

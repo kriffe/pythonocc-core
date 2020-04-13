@@ -81,7 +81,7 @@ HLRAlgo_PolyMask_FMskOnOutL = HLRAlgo_PolyMask.HLRAlgo_PolyMask_FMskOnOutL
 HLRAlgo_PolyMask_FMskOrBack = HLRAlgo_PolyMask.HLRAlgo_PolyMask_FMskOrBack
 HLRAlgo_PolyMask_FMskFrBack = HLRAlgo_PolyMask.HLRAlgo_PolyMask_FMskFrBack
 
-class HLRAlgo:
+class hlralgo:
 	@staticmethod
 	def EnlargeMinMax(self, tol: float, Min_list: List[float], Max_list: List[float]) -> None: ...
 	@staticmethod

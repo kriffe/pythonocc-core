@@ -19,7 +19,7 @@ BRepClass3d_DataMapIteratorOfMapOfInter = NewType('BRepClass3d_DataMapIteratorOf
 #the following typedef cannot be wrapped as is
 BRepClass3d_MapOfInter = NewType('BRepClass3d_MapOfInter', Any)
 
-class BRepClass3d:
+class brepclass3d:
 	@staticmethod
 	def OuterShell(self, S: TopoDS_Solid) -> TopoDS_Shell: ...
 

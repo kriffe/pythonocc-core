@@ -9,7 +9,7 @@ from OCC.Core.TopTools import *
 
 TopExp_Stack = NewType('TopExp_Stack', TopoDS_Iterator)
 
-class TopExp:
+class topexp:
 	@staticmethod
 	def CommonVertex(self, E1: TopoDS_Edge, E2: TopoDS_Edge, V: TopoDS_Vertex) -> bool: ...
 	@staticmethod

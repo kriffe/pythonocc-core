@@ -12,7 +12,7 @@ from OCC.Core.Adaptor3d import *
 from OCC.Core.TColgp import *
 
 
-class GeomConvert:
+class geomconvert:
 	@overload
 	@staticmethod
 	def C0BSplineToArrayOfC1BSplineCurve(self, BS: Geom_BSplineCurve, tabBS: TColGeom_HArray1OfBSplineCurve, tolerance: float) -> None: ...

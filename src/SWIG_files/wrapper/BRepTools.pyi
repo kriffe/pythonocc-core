@@ -21,7 +21,7 @@ BRepTools_DataMapIteratorOfMapOfVertexPnt2d = NewType('BRepTools_DataMapIterator
 #the following typedef cannot be wrapped as is
 BRepTools_MapOfVertexPnt2d = NewType('BRepTools_MapOfVertexPnt2d', Any)
 
-class BRepTools:
+class breptools:
 	@overload
 	@staticmethod
 	def AddUVBounds(self, F: TopoDS_Face, B: Bnd_Box2d) -> None: ...

@@ -10,7 +10,7 @@ from OCC.Core.math import *
 from OCC.Core.IntRes2d import *
 
 
-class Bisector:
+class bisector:
 	@staticmethod
 	def IsConvex(self, Cu: Geom2d_Curve, Sign: float) -> bool: ...
 

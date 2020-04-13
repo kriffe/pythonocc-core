@@ -7,7 +7,7 @@ from OCC.Core.Geom import *
 from OCC.Core.Geom2d import *
 
 
-class Hermit:
+class hermit:
 	@overload
 	@staticmethod
 	def Solution(self, BS: Geom_BSplineCurve, TolPoles: Optional[float], TolKnots: Optional[float]) -> Geom2d_BSplineCurve: ...

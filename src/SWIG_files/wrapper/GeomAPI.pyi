@@ -13,7 +13,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.Approx import *
 
 
-class GeomAPI:
+class geomapi:
 	@staticmethod
 	def To2d(self, C: Geom_Curve, P: gp_Pln) -> Geom2d_Curve: ...
 	@staticmethod

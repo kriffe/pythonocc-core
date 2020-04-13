@@ -13,7 +13,7 @@ from OCC.Core.TColgp import *
 from OCC.Core.math import *
 
 
-class BRepGProp:
+class brepgprop:
 	@staticmethod
 	def LinearProperties(self, S: TopoDS_Shape, LProps: GProp_GProps, SkipShared: Optional[bool], UseTriangulation: Optional[bool]) -> None: ...
 	@overload

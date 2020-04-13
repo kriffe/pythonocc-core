@@ -20,7 +20,7 @@ class BinLDrivers_Marker(IntEnum):
 BinLDrivers_ENDATTRLIST = BinLDrivers_Marker.BinLDrivers_ENDATTRLIST
 BinLDrivers_ENDLABEL = BinLDrivers_Marker.BinLDrivers_ENDLABEL
 
-class BinLDrivers:
+class binldrivers:
 	@staticmethod
 	def AttributeDrivers(self, MsgDrv: Message_Messenger) -> BinMDF_ADriverTable: ...
 	@staticmethod

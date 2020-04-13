@@ -6,7 +6,7 @@ from OCC.Core.NCollection import *
 from OCC.Core.TopoDS import *
 
 
-class StlAPI:
+class stlapi:
 	@staticmethod
 	def Read(self, theShape: TopoDS_Shape, aFile: str) -> bool: ...
 	@staticmethod

@@ -97,7 +97,7 @@ TDataXtd_SPLINE = TDataXtd_GeometryEnum.TDataXtd_SPLINE
 TDataXtd_PLANE = TDataXtd_GeometryEnum.TDataXtd_PLANE
 TDataXtd_CYLINDER = TDataXtd_GeometryEnum.TDataXtd_CYLINDER
 
-class TDataXtd:
+class tdataxtd:
 	@staticmethod
 	def IDList(self, anIDList: TDF_IDList) -> None: ...
 

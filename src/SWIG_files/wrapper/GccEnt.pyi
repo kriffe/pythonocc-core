@@ -30,7 +30,7 @@ GccEnt_enclosed = GccEnt_Position.GccEnt_enclosed
 GccEnt_outside = GccEnt_Position.GccEnt_outside
 GccEnt_noqualifier = GccEnt_Position.GccEnt_noqualifier
 
-class GccEnt:
+class gccent:
 	@overload
 	@staticmethod
 	def Enclosed(self, Obj: gp_Lin2d) -> GccEnt_QualifiedLin: ...

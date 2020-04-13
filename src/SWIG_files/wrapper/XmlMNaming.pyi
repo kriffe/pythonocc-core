@@ -12,7 +12,7 @@ from OCC.Core.TopAbs import *
 from OCC.Core.TopoDS import *
 
 
-class XmlMNaming:
+class xmlmnaming:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: XmlMDF_ADriverTable, aMessageDriver: Message_Messenger) -> None: ...
 

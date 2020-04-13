@@ -33,7 +33,7 @@ ChFi3d_Rational = ChFi3d_FilletShape.ChFi3d_Rational
 ChFi3d_QuasiAngular = ChFi3d_FilletShape.ChFi3d_QuasiAngular
 ChFi3d_Polynomial = ChFi3d_FilletShape.ChFi3d_Polynomial
 
-class ChFi3d:
+class chfi3d:
 	@staticmethod
 	def ConcaveSide(self, S1: BRepAdaptor_Surface, S2: BRepAdaptor_Surface, E: TopoDS_Edge, Or1: TopAbs_Orientation, Or2: TopAbs_Orientation) -> int: ...
 	@overload

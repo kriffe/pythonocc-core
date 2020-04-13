@@ -45,7 +45,7 @@ TopAbs_OUT = TopAbs_State.TopAbs_OUT
 TopAbs_ON = TopAbs_State.TopAbs_ON
 TopAbs_UNKNOWN = TopAbs_State.TopAbs_UNKNOWN
 
-class TopAbs:
+class topabs:
 	@staticmethod
 	def Complement(self, Or: TopAbs_Orientation) -> TopAbs_Orientation: ...
 	@staticmethod

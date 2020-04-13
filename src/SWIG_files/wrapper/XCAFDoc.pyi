@@ -34,7 +34,7 @@ XCAFDoc_ColorGen = XCAFDoc_ColorType.XCAFDoc_ColorGen
 XCAFDoc_ColorSurf = XCAFDoc_ColorType.XCAFDoc_ColorSurf
 XCAFDoc_ColorCurv = XCAFDoc_ColorType.XCAFDoc_ColorCurv
 
-class XCAFDoc:
+class xcafdoc:
 	@staticmethod
 	def AssemblyGUID(self) -> Standard_GUID: ...
 	@staticmethod

@@ -94,7 +94,7 @@ TopOpeBRep_PARABOLA = TopOpeBRep_TypeLineCurve.TopOpeBRep_PARABOLA
 TopOpeBRep_HYPERBOLA = TopOpeBRep_TypeLineCurve.TopOpeBRep_HYPERBOLA
 TopOpeBRep_OTHERTYPE = TopOpeBRep_TypeLineCurve.TopOpeBRep_OTHERTYPE
 
-class TopOpeBRep:
+class topopebrep:
 	pass
 
 class TopOpeBRep_Bipoint:

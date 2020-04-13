@@ -30,7 +30,7 @@ LocOpe_FUSE = LocOpe_Operation.LocOpe_FUSE
 LocOpe_CUT = LocOpe_Operation.LocOpe_CUT
 LocOpe_INVALID = LocOpe_Operation.LocOpe_INVALID
 
-class LocOpe:
+class locope:
 	@overload
 	@staticmethod
 	def Closed(self, W: TopoDS_Wire, OnF: TopoDS_Face) -> bool: ...

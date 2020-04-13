@@ -7,7 +7,7 @@ from OCC.Core.gp import *
 from OCC.Core.TColgp import *
 
 
-class SelectBasics:
+class selectbasics:
 	@staticmethod
 	def MaxOwnerPriority(self) -> int: ...
 	@staticmethod

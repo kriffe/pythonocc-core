@@ -19,7 +19,7 @@ BinMDF_TypeADriverMap = NewType('BinMDF_TypeADriverMap', Any)
 #the following typedef cannot be wrapped as is
 BinMDF_TypeIdMap = NewType('BinMDF_TypeIdMap', Any)
 
-class BinMDF:
+class binmdf:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: BinMDF_ADriverTable, aMsgDrv: Message_Messenger) -> None: ...
 

@@ -9,7 +9,7 @@ from OCC.Core.Interface import *
 from OCC.Core.TCollection import *
 
 
-class STEPEdit:
+class stepedit:
 	@staticmethod
 	def NewModel(self) -> StepData_StepModel: ...
 	@staticmethod

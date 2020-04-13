@@ -57,7 +57,7 @@ TDataStd_SCALAR = TDataStd_RealEnum.TDataStd_SCALAR
 TDataStd_LENGTH = TDataStd_RealEnum.TDataStd_LENGTH
 TDataStd_ANGULAR = TDataStd_RealEnum.TDataStd_ANGULAR
 
-class TDataStd:
+class tdatastd:
 	@staticmethod
 	def IDList(self, anIDList: TDF_IDList) -> None: ...
 

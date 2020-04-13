@@ -13,7 +13,7 @@ Law_Laws = NewType('Law_Laws', Any)
 #the following typedef cannot be wrapped as is
 Law_ListIteratorOfLaws = NewType('Law_ListIteratorOfLaws', Any)
 
-class Law:
+class law:
 	@overload
 	@staticmethod
 	def MixBnd(self, Lin: Law_Linear) -> Law_BSpFunc: ...

@@ -37,7 +37,7 @@ GeomLib_NotEnoughtPoints = GeomLib_InterpolationErrors.GeomLib_NotEnoughtPoints
 GeomLib_DegreeSmallerThan3 = GeomLib_InterpolationErrors.GeomLib_DegreeSmallerThan3
 GeomLib_InversionProblem = GeomLib_InterpolationErrors.GeomLib_InversionProblem
 
-class GeomLib:
+class geomlib:
 	@staticmethod
 	def AdjustExtremity(self, Curve: Geom_BoundedCurve, P1: gp_Pnt, P2: gp_Pnt, T1: gp_Vec, T2: gp_Vec) -> None: ...
 	@staticmethod

@@ -6,7 +6,7 @@ from OCC.Core.NCollection import *
 from OCC.Core.gp import *
 
 
-class ElCLib:
+class elclib:
 	@staticmethod
 	def AdjustPeriodic(self, UFirst: float, ULast: float, Precision: float) -> Tuple[float, float]: ...
 	@overload

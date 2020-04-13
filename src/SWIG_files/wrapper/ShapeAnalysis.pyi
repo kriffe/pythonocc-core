@@ -27,7 +27,7 @@ ShapeAnalysis_DataMapOfShapeListOfReal = NewType('ShapeAnalysis_DataMapOfShapeLi
 #the following typedef cannot be wrapped as is
 ShapeAnalysis_SequenceOfFreeBounds = NewType('ShapeAnalysis_SequenceOfFreeBounds', Any)
 
-class ShapeAnalysis:
+class shapeanalysis:
 	@staticmethod
 	def AdjustByPeriod(self, Val: float, ToVal: float, Period: float) -> float: ...
 	@staticmethod

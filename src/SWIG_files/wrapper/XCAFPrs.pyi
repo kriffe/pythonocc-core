@@ -27,7 +27,7 @@ XCAFPrs_DocumentExplorerFlags = NewType('XCAFPrs_DocumentExplorerFlags', Standar
 #the following typedef cannot be wrapped as is
 XCAFPrs_IndexedDataMapOfShapeStyle = NewType('XCAFPrs_IndexedDataMapOfShapeStyle', Any)
 
-class XCAFPrs:
+class xcafprs:
 	@staticmethod
 	def CollectStyleSettings(self, L: TDF_Label, loc: TopLoc_Location, settings: XCAFPrs_IndexedDataMapOfShapeStyle, theLayerColor: Optional[Quantity_ColorRGBA]) -> None: ...
 	@staticmethod

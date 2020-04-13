@@ -191,7 +191,7 @@ V3d_ExtRADIUSLIGHT = V3d_TypeOfPickLight.V3d_ExtRADIUSLIGHT
 V3d_IntRADIUSLIGHT = V3d_TypeOfPickLight.V3d_IntRADIUSLIGHT
 V3d_NOTHING = V3d_TypeOfPickLight.V3d_NOTHING
 
-class V3d:
+class v3d:
 	@staticmethod
 	def ArrowOfRadius(self, garrow: Graphic3d_Group, X0: float, Y0: float, Z0: float, DX: float, DY: float, DZ: float, Alpha: float, Lng: float) -> None: ...
 	@staticmethod

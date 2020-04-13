@@ -11,7 +11,7 @@ from OCC.Core.TDF import *
 from OCC.Core.BinObjMgt import *
 
 
-class BinTObjDrivers:
+class bintobjdrivers:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: BinMDF_ADriverTable, aMsgDrv: Message_Messenger) -> None: ...
 	@staticmethod

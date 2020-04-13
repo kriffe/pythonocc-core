@@ -9,7 +9,7 @@ from OCC.Core.TDocStd import *
 from OCC.Core.BinDrivers import *
 
 
-class BinXCAFDrivers:
+class binxcafdrivers:
 	@staticmethod
 	def AttributeDrivers(self, MsgDrv: Message_Messenger) -> BinMDF_ADriverTable: ...
 	@staticmethod

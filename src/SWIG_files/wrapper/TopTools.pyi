@@ -111,7 +111,7 @@ class TopTools_Array1OfShape:
     def next(self) -> TopoDS_Shape: ...
     __next__ = next
 
-class TopTools:
+class toptools:
 	@staticmethod
 	def Dummy(self, I: int) -> None: ...
 

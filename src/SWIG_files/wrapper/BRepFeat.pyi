@@ -93,7 +93,7 @@ BRepFeat_SelectionU = BRepFeat_PerfSelection.BRepFeat_SelectionU
 BRepFeat_SelectionSh = BRepFeat_PerfSelection.BRepFeat_SelectionSh
 BRepFeat_SelectionShU = BRepFeat_PerfSelection.BRepFeat_SelectionShU
 
-class BRepFeat:
+class brepfeat:
 	@staticmethod
 	def Barycenter(self, S: TopoDS_Shape, Pt: gp_Pnt) -> None: ...
 	@staticmethod

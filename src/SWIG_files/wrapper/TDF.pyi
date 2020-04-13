@@ -86,7 +86,7 @@ class TDF_AttributeArray1:
     def next(self) -> False: ...
     __next__ = next
 
-class TDF:
+class tdf:
 	@staticmethod
 	def AddLinkGUIDToProgID(self, ID: Standard_GUID, ProgID: TCollection_ExtendedString) -> None: ...
 	@staticmethod

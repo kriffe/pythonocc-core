@@ -8,7 +8,7 @@ from OCC.Core.Message import *
 from OCC.Core.Poly import *
 
 
-class RWStl:
+class rwstl:
 	@staticmethod
 	def ReadAscii(self, thePath: OSD_Path, theProgInd: Optional[Message_ProgressIndicator]) -> Poly_Triangulation: ...
 	@staticmethod

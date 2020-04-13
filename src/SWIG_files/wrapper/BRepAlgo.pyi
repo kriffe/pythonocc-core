@@ -20,7 +20,7 @@ class BRepAlgo_CheckStatus(IntEnum):
 BRepAlgo_OK = BRepAlgo_CheckStatus.BRepAlgo_OK
 BRepAlgo_NOK = BRepAlgo_CheckStatus.BRepAlgo_NOK
 
-class BRepAlgo:
+class brepalgo:
 	@staticmethod
 	def ConcatenateWire(self, Wire: TopoDS_Wire, Option: GeomAbs_Shape, AngularTolerance: Optional[float]) -> TopoDS_Wire: ...
 	@staticmethod

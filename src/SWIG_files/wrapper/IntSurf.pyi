@@ -40,7 +40,7 @@ IntSurf_Out = IntSurf_TypeTrans.IntSurf_Out
 IntSurf_Touch = IntSurf_TypeTrans.IntSurf_Touch
 IntSurf_Undecided = IntSurf_TypeTrans.IntSurf_Undecided
 
-class IntSurf:
+class intsurf:
 	@staticmethod
 	def MakeTransition(self, TgFirst: gp_Vec, TgSecond: gp_Vec, Normal: gp_Dir, TFirst: IntSurf_Transition, TSecond: IntSurf_Transition) -> None: ...
 	@staticmethod

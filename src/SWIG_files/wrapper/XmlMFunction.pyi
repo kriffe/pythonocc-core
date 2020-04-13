@@ -9,7 +9,7 @@ from OCC.Core.TDF import *
 from OCC.Core.XmlObjMgt import *
 
 
-class XmlMFunction:
+class xmlmfunction:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: XmlMDF_ADriverTable, theMessageDriver: Message_Messenger) -> None: ...
 

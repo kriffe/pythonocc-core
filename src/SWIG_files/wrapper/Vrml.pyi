@@ -122,7 +122,7 @@ Vrml_NONE = Vrml_FontStyleStyle.Vrml_NONE
 Vrml_BOLD = Vrml_FontStyleStyle.Vrml_BOLD
 Vrml_ITALIC = Vrml_FontStyleStyle.Vrml_ITALIC
 
-class Vrml:
+class vrml:
 	pass
 
 class Vrml_AsciiText(Standard_Transient):

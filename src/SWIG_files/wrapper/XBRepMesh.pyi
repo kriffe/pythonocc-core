@@ -7,7 +7,7 @@ from OCC.Core.TopoDS import *
 from OCC.Core.BRepMesh import *
 
 
-class XBRepMesh:
+class xbrepmesh:
 	@staticmethod
 	def Discret(self, theShape: TopoDS_Shape, theDeflection: float, theAngle: float, theAlgo: BRepMesh_DiscretRoot) -> int: ...
 

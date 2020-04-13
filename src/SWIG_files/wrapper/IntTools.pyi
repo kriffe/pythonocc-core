@@ -84,7 +84,7 @@ class IntTools_Array1OfRoots:
     def next(self) -> IntTools_Root: ...
     __next__ = next
 
-class IntTools:
+class inttools:
 	@staticmethod
 	def FindRootStates(self, aSeq: IntTools_SequenceOfRoots, anEpsNull: float) -> None: ...
 	@staticmethod

@@ -8,7 +8,7 @@ from OCC.Core.GeomAbs import *
 from OCC.Core.gp import *
 
 
-class BRepLProp:
+class breplprop:
 	@overload
 	@staticmethod
 	def Continuity(self, C1: BRepAdaptor_Curve, C2: BRepAdaptor_Curve, u1: float, u2: float, tl: float, ta: float) -> GeomAbs_Shape: ...

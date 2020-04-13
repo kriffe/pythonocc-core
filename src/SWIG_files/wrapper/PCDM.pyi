@@ -87,7 +87,7 @@ PCDM_RS_WrongResource = PCDM_ReaderStatus.PCDM_RS_WrongResource
 PCDM_RS_ReaderException = PCDM_ReaderStatus.PCDM_RS_ReaderException
 PCDM_RS_NoModel = PCDM_ReaderStatus.PCDM_RS_NoModel
 
-class PCDM:
+class pcdm:
 	@overload
 	@staticmethod
 	def FileDriverType(self, aFileName: TCollection_AsciiString, aBaseDriver: PCDM_BaseDriverPointer) -> PCDM_TypeOfFileDriver: ...

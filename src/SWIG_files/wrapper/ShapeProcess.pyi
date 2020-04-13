@@ -15,7 +15,7 @@ from OCC.Core.TopAbs import *
 from OCC.Core.ShapeBuild import *
 
 
-class ShapeProcess:
+class shapeprocess:
 	@staticmethod
 	def FindOperator(self, name: str, op: ShapeProcess_Operator) -> bool: ...
 	@staticmethod

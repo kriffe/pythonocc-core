@@ -17,7 +17,7 @@ XmlMDF_MapOfDriver = NewType('XmlMDF_MapOfDriver', Any)
 #the following typedef cannot be wrapped as is
 XmlMDF_TypeADriverMap = NewType('XmlMDF_TypeADriverMap', Any)
 
-class XmlMDF:
+class xmlmdf:
 	@staticmethod
 	def AddDrivers(self, aDriverTable: XmlMDF_ADriverTable, theMessageDriver: Message_Messenger) -> None: ...
 	@overload

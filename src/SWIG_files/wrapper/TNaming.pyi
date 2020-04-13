@@ -89,7 +89,7 @@ TNaming_ORIENTATION = TNaming_NameType.TNaming_ORIENTATION
 TNaming_WIREIN = TNaming_NameType.TNaming_WIREIN
 TNaming_SHELLIN = TNaming_NameType.TNaming_SHELLIN
 
-class TNaming:
+class tnaming:
 	@staticmethod
 	def ChangeShapes(self, label: TDF_Label, M: TopTools_DataMapOfShapeShape) -> None: ...
 	@staticmethod

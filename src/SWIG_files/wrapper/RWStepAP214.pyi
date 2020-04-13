@@ -10,7 +10,7 @@ from OCC.Core.StepAP214 import *
 from OCC.Core.TColStd import *
 
 
-class RWStepAP214:
+class rwstepap214:
 	@staticmethod
 	def Init(self) -> None: ...
 

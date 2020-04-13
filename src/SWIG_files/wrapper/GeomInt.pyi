@@ -25,7 +25,7 @@ GeomInt_SequenceOfParameterAndOrientation = NewType('GeomInt_SequenceOfParameter
 #the following typedef cannot be wrapped as is
 GeomInt_VectorOfReal = NewType('GeomInt_VectorOfReal', Any)
 
-class GeomInt:
+class geomint:
 	@staticmethod
 	def AdjustPeriodic(self, thePar: float, theParMin: float, theParMax: float, thePeriod: float, theEps: Optional[float]) -> Tuple[bool, float, float]: ...
 

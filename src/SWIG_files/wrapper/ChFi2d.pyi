@@ -36,7 +36,7 @@ ChFi2d_LastEdgeDegenerated = ChFi2d_ConstructionError.ChFi2d_LastEdgeDegenerated
 ChFi2d_BothEdgesDegenerated = ChFi2d_ConstructionError.ChFi2d_BothEdgesDegenerated
 ChFi2d_NotAuthorized = ChFi2d_ConstructionError.ChFi2d_NotAuthorized
 
-class ChFi2d:
+class chfi2d:
 	pass
 
 class ChFi2d_AnaFilletAlgo:

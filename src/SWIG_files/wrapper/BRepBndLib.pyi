@@ -7,7 +7,7 @@ from OCC.Core.TopoDS import *
 from OCC.Core.Bnd import *
 
 
-class BRepBndLib:
+class brepbndlib:
 	@staticmethod
 	def Add(self, S: TopoDS_Shape, B: Bnd_Box, useTriangulation: Optional[bool]) -> None: ...
 	@staticmethod

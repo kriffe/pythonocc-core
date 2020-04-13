@@ -45,7 +45,7 @@ CSLib_D1uD1vRatioIsNull = CSLib_DerivativeStatus.CSLib_D1uD1vRatioIsNull
 CSLib_D1vD1uRatioIsNull = CSLib_DerivativeStatus.CSLib_D1vD1uRatioIsNull
 CSLib_D1uIsParallelD1v = CSLib_DerivativeStatus.CSLib_D1uIsParallelD1v
 
-class CSLib:
+class cslib:
 	@overload
 	@staticmethod
 	def DNNUV(self, Nu: int, Nv: int, DerSurf: TColgp_Array2OfVec) -> gp_Vec: ...

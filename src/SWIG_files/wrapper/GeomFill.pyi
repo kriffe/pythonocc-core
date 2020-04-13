@@ -92,7 +92,7 @@ GeomFill_PipeNotOk = GeomFill_PipeError.GeomFill_PipeNotOk
 GeomFill_PlaneNotIntersectGuide = GeomFill_PipeError.GeomFill_PlaneNotIntersectGuide
 GeomFill_ImpossibleContact = GeomFill_PipeError.GeomFill_ImpossibleContact
 
-class GeomFill:
+class geomfill:
 	@overload
 	@staticmethod
 	def GetCircle(self, TConv: Convert_ParameterisationType, ns1: gp_Vec, ns2: gp_Vec, nplan: gp_Vec, pt1: gp_Pnt, pt2: gp_Pnt, Rayon: float, Center: gp_Pnt, Poles: TColgp_Array1OfPnt, Weigths: TColStd_Array1OfReal) -> None: ...

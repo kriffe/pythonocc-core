@@ -18,7 +18,7 @@ VrmlAPI_ShadedRepresentation = VrmlAPI_RepresentationOfShape.VrmlAPI_ShadedRepre
 VrmlAPI_WireFrameRepresentation = VrmlAPI_RepresentationOfShape.VrmlAPI_WireFrameRepresentation
 VrmlAPI_BothRepresentation = VrmlAPI_RepresentationOfShape.VrmlAPI_BothRepresentation
 
-class VrmlAPI:
+class vrmlapi:
 	@staticmethod
 	def Write(self, aShape: TopoDS_Shape, aFileName: str, aVersion: Optional[int]) -> bool: ...
 

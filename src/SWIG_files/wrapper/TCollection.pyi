@@ -13,7 +13,7 @@ class TCollection_Side(IntEnum):
 TCollection_Left = TCollection_Side.TCollection_Left
 TCollection_Right = TCollection_Side.TCollection_Right
 
-class TCollection:
+class tcollection:
 	@staticmethod
 	def NextPrimeForMap(self, I: int) -> int: ...
 
