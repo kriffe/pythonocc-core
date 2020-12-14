@@ -68,6 +68,8 @@ class Display3d {
     %feature("autodoc", "1");
     void Test();
     %feature("autodoc", "1");
+    void GlInfo();
+    %feature("autodoc", "1");
     bool InitOffscreen(int size_x, int size_y);
     %feature("autodoc", "1");
     bool SetSize(int size_x, int size_y);
@@ -76,12 +78,12 @@ class Display3d {
 };
 
 %extend Display3d {
-    PyObject* GetImageData(int bufType = 0) {
+    PyObject* GetImageData(int width, int height, int bufType = 0) {
         const char * data;
         size_t size = 0;
         Graphic3d_BufferType theBufferType = (Graphic3d_BufferType)bufType;
 
-        if ($self->GetImageData(data, size, theBufferType)) {
+        if ($self->GetImageData(width, height, data, size, theBufferType)) {
             return PyBytes_FromStringAndSize(data, (Py_ssize_t)size);
         }
         Py_RETURN_NONE;

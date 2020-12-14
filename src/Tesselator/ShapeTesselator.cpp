@@ -52,7 +52,9 @@ ShapeTesselator::ShapeTesselator(TopoDS_Shape aShape):
 
 void ShapeTesselator::Compute(bool compute_edges, float mesh_quality, bool parallel)
 {
-    Tesselate(compute_edges, mesh_quality, parallel);
+    if (!computed) {
+      Tesselate(compute_edges, mesh_quality, parallel);
+    }
     computed=true;
 }
 
@@ -223,11 +225,15 @@ void ShapeTesselator::ComputeEdges()
   TopExp::MapShapesAndAncestors(myShape, TopAbs_EDGE, TopAbs_FACE, edgeMap);
 
   for (int iEdge = 1 ; iEdge <= edgeMap.Extent (); iEdge++) {
-    // reject free edges
-    //const TopTools_ListOfShape& faceList = edgeMap.FindFromIndex (iEdge);
-    //if (faceList.Extent() == 0) {
-    //  continue;
-    //}
+
+    // skip free edges, might be the case if the shape passed to
+    // the tesselator is a Compound
+    const TopTools_ListOfShape& faceList = edgeMap.FindFromIndex(iEdge);
+
+    if (faceList.Extent() == 0) {
+      printf("Skipped free edge during shape tesselation/edges computation.\n");
+      continue;
+    }
 
     // take one of the shared edges and get edge triangulation
     //const TopoDS_Face& aFace  = TopoDS::Face (faceList.First ());
@@ -370,7 +376,7 @@ std::vector<float> ShapeTesselator::GetNormalsAsTuple()
   return normals;
 }
 
-std::string ShapeTesselator::ExportShapeToX3DIndexedFaceSet()
+std::string ShapeTesselator::ExportShapeToX3DTriangleSet()
 {
   EnsureMeshIsComputed();
   std::stringstream str_ifs, str_vertices, str_normals;
@@ -439,7 +445,7 @@ void ShapeTesselator::ExportShapeToX3D(char * filename, int diffR, int diffG, in
     X3Dfile << "<Scene><Transform scale='1 1 1'><Shape><Appearance><Material DEF='Shape_Mat' diffuseColor='0.65 0.65 0.7' ";
     X3Dfile << "specularColor='0.2 0.2 0.2'></Material></Appearance>";
     // write tesselation
-    X3Dfile << ExportShapeToX3DIndexedFaceSet();
+    X3Dfile << ExportShapeToX3DTriangleSet();
     X3Dfile << "</Shape></Transform></Scene></X3D>\n";
     X3Dfile.close();
 
